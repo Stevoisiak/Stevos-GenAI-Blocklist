@@ -1,0 +1,337 @@
+! Primary goal: Block website features that use Generative AI
+! Secondary goal: Block website-specific content that was AI-generated
+! Not covered:
+! * Human-created content about Generative AI
+! * Options menus for configuring Generative AI features.
+!   (Users sometimes need these to disable Gen AI features)
+! * Removing sites that post Generative AI content from search engines.
+!   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
+! * Blocking social media accounts that post AI-generated content.
+!   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
+
+! ==========
+! == Bing ==
+! ==========
+! -- Homepage (https://www.bing.com/)
+! Homepage > Header > Copilot
+www.bing.com###codex
+! Homepage > Search > Copilot button
+www.bing.com##.cdxCopilotIconBg
+! Homepage > Image/Video Creator
+www.bing.com###aitools
+
+! -- Search results (https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F&)
+! Top Navbar > AI Search
+www.bing.com###b-scopeListItem-copilotsearch
+! Top Navbar > "Copilot"
+www.bing.com###b-scopeListItem-conv
+! Copilot Answer box at top of search
+www.bing.com/search##.b_ans:has(#copans_container)
+! "Ask a follow-up" at bottom of page
+www.bing.com/search###b_copilot_search_container
+
+! ==============
+! == Danbooru ==
+! ==============
+! Previews for images with AI tags
+danbooru.donmai.us##article.post-preview[data-tags*="ai-generated"]
+danbooru.donmai.us##article.post-preview[data-tags*="ai-assisted"]
+
+! ================
+! == DeviantArt ==
+! ================
+! Header > "DreamUp"
+www.deviantart.com##a.reset-link.Sd_t0H
+! Bottom ad banner - Sometimes has a DreamUp ad
+www.deviantart.com##div.VS2KXS.KQfkEY
+! Right side bar - DreamUp ad
+www.deviantart.com##a.reset-link.Qnm9x2
+! Left side bar - DreamUp
+www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.deviantart.com/dreamup"])
+! Homepage - AI Art tag
+www.deviantart.com##a.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
+! AI tag - Create Art
+www.deviantart.com##button.reset-button.qIPKrg.LbvcV4._ugNKJ.oex1lz
+! Daily challenge > "Create Art" > "Create with DreamUp"
+www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
+! Draw - Prompt box
+www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(textarea#positivePrompt)
+
+! ================
+! == DuckDuckGo ==
+! ================
+! -- Homepage (https://duckduckgo.com/)
+! Search box - AI mode toggle
+duckduckgo.com##.ai-searchbox_modeSelectorWrapper__yKK7S
+! Header > "Duck.ai"
+duckduckgo.com##.header_aiChatButton__e_9yJ
+! Left sidebar > "Duck.ai"
+duckduckgo.com##.sideMenu_sectionLink__2zUPb[href="https://duck.ai/?origin=funnel_home_website"]
+! Search autocomplete > "Ask Duck.ai"
+! Note: This element mentions that pressing Alt+Enter searches with Duck.ai. I am unsure if this behavior can be
+!       blocked, so users may get redirected if they unknowingly press the key combo.
+duckduckgo.com##.search-input_duckAiSubmitWrapper__yHJMl
+
+! -- Search page (https://duckduckgo.com/?q=what+is+a+snow+emergency)
+! Navbar > "Duck.ai" button
+duckduckgo.com##a.Pd_jmhkZzftl0UtTaw0u[href*="&ia=chat"]
+! Navbar > "Search Assist" button
+duckduckgo.com##a.d3n3IVqx1558EtMlZV_g[href*="&assist="]
+! Top of page > "Search Assist" summary
+duckduckgo.com##[data-react-module-id="wikinlp"]
+! Right sidebar > "Search Assist" summary
+! Note: Sometimes the search assist can appear on the side instead of on top.
+!       For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
+duckduckgo.com##[data-layout="wikinlp"]
+
+! ==============
+! == Gelbooru ==
+! ==============
+! Previews for images with AI tags
+gelbooru.com##article.thumbnail-preview:has(img[title*="ai-generated"])
+gelbooru.com##article.thumbnail-preview:has(img[title*="ai-assisted"])
+! Banner
+gelbooru.com##a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"]:upward(div)
+
+! ============
+! == GitHub ==
+! ============
+! -- Homepage (While logged in) (https://github.com/)
+! Header > "Chat with Copilot" button
+github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(svg.octicon-copilot)
+! Left sidebar > Copilot
+github.com##a[data-testid="side-nav-menu-item-COPILOT"]
+! "Ask Anything" prompt box
+github.com##div.copilotPreview__container
+
+! ======================
+! == Google (general) ==
+! ======================
+! -- These filters apply to multiple Google sites across domains
+! Header > App Selector > Gemini (Calendar, Classroom, Contacts, Docs, Drive, Gmail, Maps, Meet, News, Search, Wallet, etc.)
+google.com##li.j1ei8c:has(span[data-text="Gemini"])
+! Header > "Try Gemini" button (Docs, Drive, Gmail)
+google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
+
+! ======================
+! == Google Analytics ==
+! ======================
+! Insights button
+analytics.google.com/analytics/web##ga-toolbar-icon-button-component.ga-intelligence-button
+
+! ====================================
+! == Google Developer Documentation ==
+! ====================================
+! -- Documentation page (https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema) 
+! "Page Summary"
+developers.google.com##devsite-key-takeaways-panel
+! Left sidebar > "Chat"
+! IE: Ask About this Page
+developers.google.com##.devsite-concierge-ai-panel--menu-item
+! TODO: Remove AI results from searchbar in header
+
+! -- Search results (https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure)
+! "AI Powered" results
+developers.google.com##devsite-search-summary
+
+! ===================
+! == Google Search ==
+! ===================
+! -- Homepage (https://www.google.com/)
+! Homepage > AI Mode > Button
+www.google.com##button[jsname="B6rgad"]
+
+! -- Search results (https://www.google.com/search?q=Why+is+this)
+! "AI Mode" tab
+www.google.com##div[role="listitem"]:has-text("AI Mode")
+! "AI Overview"
+! Modified from https://inwiring.com/google-ai-overviews/
+www.google.com/search##div.bzXtMb.M8OgIe.dRpWwb:has(div[data-subtree="mfc"])
+
+! ====================
+! == Google Support ==
+! ====================
+! Google Support - AI "Help guide" chatbox
+support.google.com##div.helpPanelContainerRoot
+
+! ===========
+! == Gmail ==
+! ===========
+! Summarize this email, sometimes appears at top of messages
+mail.google.com##div.eJPjde
+
+! ==========
+! == Grok ==
+! ==========
+! Question prompt field
+grok.com##div.flex.flex-col-reverse.items-center.justify-between.flex-1.w-full.\@sm\:flex-col.relative.p-2.\@sm\:p-0.gap-0.\@sm\:gap-3
+! Prompt suggestion cards (DeepSearch, Create Image, Pick Personas, Voice Call)
+grok.com##div.flex.flex-row.flex-wrap.w-full.gap-2.\@sm\:gap-2.justify-center.items-center
+
+! ======================
+! == Insight Software ==
+! ======================
+! -- Main page (logged in) (https://central.insightsoftware.com/)
+! Virtual Assistant
+central.insightsoftware.com##iframe#forethought-chat
+
+! ===============
+! == Instagram ==
+! ===============
+! -- Homepage (logged in) (https://www.instagram.com)
+! Left sidebar > Create > AI
+www.instagram.com##.xt8cgyo.x13fuv20.x5ur3kl.xn3w4p2.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.x1y1aw1k.xwib8y2.xf7dkkf.xv54qhq.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
+! Footer > "Meta AI" link
+www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.xod5an3.x13fj5qh.x1xegmmw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1:has(a.x1fhwpqd.xz5fbns.x1hl2dhg.xb5lr1p.x6mezaz.x1roi4f4[href="https://www.meta.ai/?utm_source=foa_web_footer"])
+
+! ==========
+! == Kagi ==
+! ==========
+! -- Homepage (https://kagi.com/)
+! Menubar > Apps
+kagi.com##a.nav-item-link[href*="/assistant"]
+kagi.com##a.nav-item-link[href*="/summarizer"]
+kagi.com##a.nav-item-link[href*="/fastgpt"]
+
+! -- Search results (https://kagi.com/search?q=test)
+! "Quick Answer"
+kagi.com/search##button.quick-answer-trigger-link
+! Action Menu > AI options + Separator
+kagi.com/search##div.k_ui_dropdown_data_list > div.list_items > hr
+kagi.com/search##a._0_summarize_page
+kagi.com/search##a._0_discuss_document
+
+! ==================
+! == M365 Copilot ==
+! ==================
+! There are a few components exist that we don't want to block. (Search, Settings, etc)
+
+! -- All pages (https://m365.cloud.microsoft/)
+! Sidebar
+m365.cloud.microsoft##div[data-testid="core-modules-section"] > button:has-text("New chat")
+m365.cloud.microsoft##div[data-testid="core-modules-section"] > button:has-text("Create")
+m365.cloud.microsoft##div[aria-label="Agents"]:upward(div)
+m365.cloud.microsoft##div[aria-label="Chats"]:upward(div)
+! TODO: Block AI Chat windows that appear after an item is selected
+
+! -- Search (https://m365.cloud.microsoft/search/)
+! Copilot suggestions about files
+m365.cloud.microsoft/search##div.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
+
+! ===============
+! == Microsoft ==
+! ===============
+! -- Homepage (https://www.microsoft.com/en-us)
+! Header > Copilot buttons (desktop & mobile)
+www.microsoft.com##a#shellmenu_2:has-text("Copilot")
+www.microsoft.com##a#shellmenu_2-mo:has-text("Copilot")
+! Promotional banner for Copilot at top of page 
+www.microsoft.com##div[aria-label="Promotional Banner"]
+! Shopping Assistant chat box
+www.microsoft.com##div#storeassistantroot
+! Ask question prompt
+www.microsoft.com##div.chatonpage 
+
+! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
+! "Ask Microsoft" chat window in bottom right
+www.microsoft.com##.uca-assistant-drawer-button
+! "Ask Microsoft" in middle of page
+www.microsoft.com##.chatgpt-banner
+! "Try Copilot Chat" in primary & secondary headers
+www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
+www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
+
+! =======================
+! == Microsoft Copilot ==
+! =======================
+! Homepage > Prompt input + Suggestions
+www.copilot.com##div.relative.flex.w-full.flex-col-reverse.items-center.px-3.sm\:flex-col
+! Homepage > Sidebar, Various AI modes
+www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-events-auto.dark\:bg-sidebar-dark.bg-sidebar-light
+
+! ===============
+! == Safebooru ==
+! ===============
+! Previews for images with AI tags
+safebooru.org##span.thumb:has(img[alt*="ai_generated"])
+
+! ===================================
+! == Stack Overflow/Stack Exchange ==
+! ===================================
+! Homepage > AI Assist
+stackoverflow.com##div#hide-this-if-you-want > div > div > div.d-flex.fd-column.as-start
+stackoverflow.com##div.wmx7.w100.bg-white.mb24
+
+! Left sidebar > AI Assist
+askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##a#nav-askstack
+
+! ===============
+! == X/Twitter ==
+! ===============
+! -- Homepage (x.com)
+! Sidebar - Grok
+x.com##nav[role="navigation"] > a[href="/i/grok"]
+! Compose post - Grok
+x.com##button[data-testid="grokImgGen"]
+! Tweet - Explain this post
+x.com##button[aria-label="Grok actions"]
+! Floating Grok chat button
+x.com##div[data-testid="GrokDrawer"]
+! Tweet - Actions menu - Edit image
+x.com##a[role="menuitem"][href*="grok.com/imagine"]
+
+! ===========
+! == Yahoo ==
+! ===========
+! Search bar > "Ask Yahoo Scout" + Separator
+search.yahoo.com##div.sbb-divider
+search.yahoo.com##div.sb-scout-wrap
+! Header > "Yahoo Scout"
+search.yahoo.com##div.scoutNav
+
+! =============
+! == YouTube ==
+! =============
+! -- Homepage (https://www.youtube.com/)
+! "Your custom feed" category for video suggestions
+www.youtube.com##yt-chip-cloud-chip-renderer:has-text("Your custom feed")
+! "Ask for videos any way you like"
+www.youtube.com##ytd-talk-to-recs-flow-renderer
+
+! -- Video page (https://www.youtube.com/watch?v=Hlh_wxrPpkI)
+! Description > "Ask Questions"
+www.youtube.com/watch##yt-video-description-youchat-section-view-model
+! "Ask" button
+www.youtube.com/watch##yt-button-view-model:has(button[aria-label="Ask"])
+
+! -- Livestream
+! Chat summary
+www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summary-renderer)
+
+! ====================
+! == YouTube Studio ==
+! ====================
+! -- All pages (https://studio.youtube.com/)
+! Menu bar > Ask Studio
+studio.youtube.com##ytcp-creator-chat-trigger
+! Note: There's an "Chat with creator support" button that uses AI, but you can get a real person
+!       by asking to "Talk with a human", so the rule is commented out below.
+! studio.youtube.com##.ytcpSamChatHost
+
+! -- Content
+! Inspiration tab
+studio.youtube.com##tp-yt-paper-tab#inspiration-tab
+
+! -- Analytics
+! Brainsorm video ideas
+studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
+! Overview > Suggested AI Question 
+studio.youtube.com##div.suggestion-chips-container:has(ytcp-creator-chat-entrypoint-chips)
+! Trends > "AI tools have moved" banner
+studio.youtube.com##div.screen-banners-container.yta-screen:has(button[aria-label="Go to Inspiration"])
+! Trends > Search > "Brainstorm video ideas" button
+studio.youtube.com##ytcp-button.brainstorm-ideas-button
+
+! -- Community
+! -- Comment action menu > Brainstorm button
+studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
