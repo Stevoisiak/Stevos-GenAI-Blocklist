@@ -110,6 +110,10 @@ github.com##a[data-testid="side-nav-menu-item-COPILOT"]
 ! "Ask Anything" prompt box
 github.com##div.copilotPreview__container
 
+! -- File view (https://github.com/Stevoisiak/GenAI-Blocklist-for-uBlock/blob/main/GenAI-Blocklist-for-uBlock.txt)
+#" "Ask about this file" button
+github.com###blob-view-header-copilot-icon
+
 ! ======================
 ! == Google (general) ==
 ! ======================
