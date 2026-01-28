@@ -142,8 +142,14 @@ github.com##a[data-testid="side-nav-menu-item-COPILOT"]
 github.com##div.copilotPreview__container
 
 ! -- File view (https://github.com/Stevoisiak/GenAI-Blocklist-for-uBlock/blob/main/GenAI-Blocklist-for-uBlock.txt)
-#" "Ask about this file" button
+! "Ask about this file" button
 github.com###blob-view-header-copilot-icon
+
+! -- File View > Commit Changes
+! "Regenerate commit message" button
+! Note: This doesn't block GitHub from using Copilot (AI) to generate the initial commit message.
+!       To prevent this, users would need to change their GitHub account settings.
+github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
 ! ======================
 ! == Google (general) ==
@@ -169,7 +175,6 @@ developers.google.com##devsite-key-takeaways-panel
 ! Left sidebar > "Chat"
 ! IE: Ask About this Page
 developers.google.com##.devsite-concierge-ai-panel--menu-item
-! TODO: Remove AI results from searchbar in header
 
 ! -- Search results (https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure)
 ! "AI Powered" results
