@@ -55,22 +55,29 @@ gelbooru.com##a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423
 ! ================
 ! == DeviantArt ==
 ! ================
+! -- Homepage (https://www.deviantart.com/)
 ! Header > "DreamUp"
 www.deviantart.com##a.reset-link.Sd_t0H
+! AI Art tag
+www.deviantart.com##a.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
+! Left side bar - DreamUp
+www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.deviantart.com/dreamup"])
+
+! -- Daily Challenge (https://www.deviantart.com/tag/puzzle)
+! "Create Art" > "Create with DreamUp"
+www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
+! "Create Art" > "Create with Draw" > Prompt box
+www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(textarea#positivePrompt)
+
+! -- Tag page (https://www.deviantart.com/tag/background)
+! "Create Art" > "Create with DreamUp"
+www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
+
+! -- Deviation page (https://www.deviantart.com/lxenn/art/Celeste-Comm-1-1245630682)
 ! Bottom ad banner - Sometimes has a DreamUp ad
 www.deviantart.com##div.VS2KXS.KQfkEY
 ! Right side bar - DreamUp ad
 www.deviantart.com##a.reset-link.Qnm9x2
-! Left side bar - DreamUp
-www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.deviantart.com/dreamup"])
-! Homepage - AI Art tag
-www.deviantart.com##a.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
-! AI tag - Create Art
-www.deviantart.com##button.reset-button.qIPKrg.LbvcV4._ugNKJ.oex1lz
-! Daily challenge > "Create Art" > "Create with DreamUp"
-www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
-! Draw - Prompt box
-www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(textarea#positivePrompt)
 
 ! ================
 ! == DuckDuckGo ==
