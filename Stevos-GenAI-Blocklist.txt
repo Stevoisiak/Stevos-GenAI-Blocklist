@@ -1,3 +1,7 @@
+! Title: Stevo's GenAI Blocklist
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
+
 ! Primary goal: Block website features that use Generative AI
 ! Secondary goal: Block website-specific content that was AI-generated
 ! Not covered:
