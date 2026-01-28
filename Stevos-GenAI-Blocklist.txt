@@ -302,6 +302,10 @@ www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-event
 ! "Create a custom website with AI" promo
 www.shopify.com/website/builder##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
 
+! -- Magic AI promo (https://www.shopify.com/magic)
+! Block everything except header, free trial, and footer
+www.shopify.com/magic##section.grid-cols-full:not(section#conversion-section)
+
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
 ! ===================================
