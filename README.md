@@ -1,4 +1,4 @@
-# GenAI Blocklist for uBlock Origin
+# Stevo's GenAI Blocklist
 
 Set of uBlock Origin filters intended to block generative AI features on various websites.
 
