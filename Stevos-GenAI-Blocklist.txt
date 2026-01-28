@@ -41,8 +41,11 @@ www.bing.com/search###b_copilot_search_container
 ! == Bold BI ==
 ! =============
 ! -- Homepage (https://www.boldbi.com/)
-! Header banner - "AI-Powered Analytics"
+! Top sticky banner - "AI-Powered Analytics"
 www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
+! Header > Products > AI Analytics
+www.boldbi.com##.ekit-stylish-list-content-wrapper:has([href="/ai-analytics/"])
+
 ! Animated AI demo image
 www.boldbi.com##.elementor-element-6d83d9b2
 ! "Get Instant Visuals with AI-Powered Analytics" section
