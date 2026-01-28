@@ -2,10 +2,13 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
 
-! Primary goal: Block website features that use Generative AI
-! Secondary goal: Block website-specific content that was AI-generated
+! Primary goal:
+! * Block website features that use Generative AI
+! Secondary goals:
+! * Block website-specific content that was AI-generated
+! * Block website-specific content promoting AI features.
 ! Not covered:
-! * Human-created content about Generative AI
+! * Human-created content about Generative AI (ie: News)
 ! * Options menus for configuring Generative AI features.
 !   (Users sometimes need these to disable Gen AI features)
 ! * Removing sites that post Generative AI content from search engines.
