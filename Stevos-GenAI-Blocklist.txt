@@ -34,6 +34,13 @@ www.bing.com/search##.b_ans:has(#copans_container)
 ! "Ask a follow-up" at bottom of page
 www.bing.com/search###b_copilot_search_container
 
+! =============
+! == Bold BI ==
+! =============
+# AI chat assistant
+www.boldbi.com###boldchat-host
+# "Ask AI for a summary of Bold BI" at bottom of pageFooterLinkList
+www.boldbi.com##.e-child.e-con.e-flex.e-con-full.elementor-element-6e4054b5.elementor-element
 
 ! ============
 ! == Boorus ==
