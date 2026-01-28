@@ -268,15 +268,13 @@ kagi.com/search##a._0_discuss_document
 ! ==================
 ! == M365 Copilot ==
 ! ==================
-! There are a few components exist that we don't want to block. (Search, Settings, etc)
-
-! -- All pages
-! Sidebar
-m365.cloud.microsoft##div[data-testid="core-modules-section"] > button:has-text("New chat")
-m365.cloud.microsoft##div[data-testid="core-modules-section"] > button:has-text("Create")
-m365.cloud.microsoft##div[aria-label="Agents"]:upward(div)
-m365.cloud.microsoft##div[aria-label="Chats"]:upward(div)
-! TODO: Block AI Chat windows that appear after an item is selected
+! There are a few non-AI items that we don't want to block. (Search, Settings, etc)
+! -- Sidebar
+! New Chat & Create buttons
+m365.cloud.microsoft##button[value="d870f6cd-4aa5-4d42-9626-ab690c041429"]
+m365.cloud.microsoft##button[value="83d3f491-b586-4266-8738-89776471bf21"]
+! Agents & Chats sections
+m365.cloud.microsoft##.___wvxaoh0.f22iagw.f1vx9l62.fnknrz3.f5yzyt
 
 ! -- Chat (https://m365.cloud.microsoft)
 ! Chat box + prompt suggestions
@@ -285,7 +283,9 @@ m365.cloud.microsoft##.f1bgymy2.f88m0xt.f1vm38ou.f1oathrd.f1pc0a42.f1fi8va.f1mk3
 
 ! -- Search (https://m365.cloud.microsoft/search/)
 ! Copilot suggestions about files
-m365.cloud.microsoft/search##div.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
+m365.cloud.microsoft/search##.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
+! "Open expanded view" sparkle icon. Appears next to some files.
+m365.cloud.microsoft/search##.EdgeworthItemControl-module__title-icon-button__UewmV
 
 ! ===============
 ! == Microsoft ==
