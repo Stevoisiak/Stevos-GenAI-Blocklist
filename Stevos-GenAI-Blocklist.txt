@@ -318,6 +318,28 @@ www.copilot.com##div.relative.flex.w-full.flex-col-reverse.items-center.px-3.sm\
 ! Homepage > Sidebar, Various AI modes
 www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-events-auto.dark\:bg-sidebar-dark.bg-sidebar-light
 
+! =====================
+! == Microsoft Teams ==
+! =====================
+! Sidebar - Copilot button
+teams.microsoft.com/v2###b5abf2ae-c16b-4310-8f8a-d3bcdb52f162
+! Chat - Copilot button
+teams.microsoft.com/v2##[data-testid="list-item-metaos-copilot"]
+
+! -- Apps
+! Sidebar - Featured - Agents
+teams.microsoft.com/v2##[data-tid="store-provider-app:co:copilotplugins"]
+! Sidebar - Featured - Boost productivity with agents
+teams.microsoft.com/v2##[data-tid="store-provider-app:co:abc1"]
+! Sidebar - Featured - AI-powered apps
+teams.microsoft.com/v2##[data-tid="store-provider-app:co:aiapps"]
+! Main page - "Agents we love" section
+teams.microsoft.com/v2##[data-tid="store-collection-app:co:featuredapps"]
+! Main page - "Boost productivity with agents" section
+teams.microsoft.com/v2##[data-tid="store-collection-app:co:abc1"]
+! Sparkle icon indicating an app has AI features
+teams.microsoft.com/v2##svg[aria-label="Includes an agent and uses AI"]
+
 ! =============
 ! == Shopify ==
 ! =============
