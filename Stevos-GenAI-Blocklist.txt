@@ -316,13 +316,26 @@ www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-event
 ! =============
 ! == Shopify ==
 ! =============
+! -- Store Homepage (logged in) (https://admin.shopify.com/)
+! Header - AI Chat button & placeholder box when page is loading
+admin.shopify.com##._ButtonWrapper_1zyxe_4
+admin.shopify.com##.Polaris-Box > .Polaris-InlineStack > ._Avatar_iv0hk_7
+! AI Chatbot in right sidebar
+admin.shopify.com##._Sidebar_xdtqe_5
+! Left sidebar > Online Store > Themes - "Design your store in seconds" prompt
+! Item is in an iframe with a different domain 
+online-store-web.shopifyapps.com/themes##.Polaris-Layout__Section:has(._generationsContainer_8uqbi_1)
+
 ! -- Website builder promo (https://www.shopify.com/website/builder)
 ! "Create a custom website with AI" promo
 www.shopify.com/website/builder##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
 
 ! -- Magic AI promo (https://www.shopify.com/magic)
 ! Block everything except header, free trial, and footer
-www.shopify.com/magic##section.grid-cols-full:not(section#conversion-section)
+www.shopify.com/magic##section.grid-cols-full:not(#conversion-section)
+
+! -- AI business name generator (https://www.shopify.com/tools/business-name-generator)
+www.shopify.com/tools/business-name-generator##div.container:has-text("AI Business Name Generator")
 
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
