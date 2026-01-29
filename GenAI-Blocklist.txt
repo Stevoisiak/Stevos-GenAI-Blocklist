@@ -288,6 +288,13 @@ kagi.com/search##div.k_ui_dropdown_data_list > div.list_items > hr
 kagi.com/search##a._0_summarize_page
 kagi.com/search##a._0_discuss_document
 
+! ==============
+! == LinkedIn ==
+! ==============
+! -- Feed (logged in) (https://www.linkedin.com/feed/)
+! Start a post > "Rewrite with AI" button
+www.linkedin.com##.share-creation-state__writing-assistant-container--premium
+
 ! ==================
 ! == M365 Copilot ==
 ! ==================
