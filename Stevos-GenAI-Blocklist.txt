@@ -454,6 +454,11 @@ www.youtube.com##ytd-talk-to-recs-flow-renderer
 www.youtube.com/watch##yt-video-description-youchat-section-view-model
 ! "Ask" button
 www.youtube.com/watch##yt-button-view-model:has(button[aria-label="Ask"])
+! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
+! Settings > Audio Track
+www.youtube.com/watch##.ytp-menuitem-section-header
+www.youtube.com/watch##.ytp-menuitem-section-header ~ .ytp-menuitem
+! TODO: If there is only one non-ai dubbed language and it's the currently selected language, hide language options.
 
 ! -- Livestream
 ! Chat summary
