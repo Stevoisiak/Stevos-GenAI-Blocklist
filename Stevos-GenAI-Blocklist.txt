@@ -290,6 +290,9 @@ m365.cloud.microsoft/search##.EdgeworthItemControl-module__title-icon-button__Ue
 ! ===============
 ! == Microsoft ==
 ! ===============
+! App Launcher - Copilot
+cloud.microsoft,microsoft.com,make.powerautomate.com,officeapps.live.com,sharepoint.com###O365_AppTile_Microsoft365Tile:upward(1)
+
 ! -- Homepage (https://www.microsoft.com/en-us)
 ! Header > Copilot buttons (desktop & mobile)
 www.microsoft.com##a#shellmenu_2:has-text("Copilot")
@@ -317,6 +320,43 @@ www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
 www.copilot.com##div.relative.flex.w-full.flex-col-reverse.items-center.px-3.sm\:flex-col
 ! Homepage > Sidebar, Various AI modes
 www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-events-auto.dark\:bg-sidebar-dark.bg-sidebar-light
+
+! ==============================
+! == Microsoft Power Automate ==
+! ==============================
+! Homepage - GenAI Prompt
+make.powerautomate.com##[data-automation-id="copilotBanner"]:upward(2)
+! Sidebar - AI Hub & Prompts
+make.powerautomate.com##[data-test-id="aiHub"]
+make.powerautomate.com##[data-test-id="aiPrompts"]
+! Sidebar - More - Pin/Unpin AI Hub & Prompts
+make.powerautomate.com##button[aria-label="Unpin AI hub"]:upward(1)
+make.powerautomate.com##button[aria-label="Pin AI hub"]:upward(1)
+make.powerautomate.com##button[aria-label$="Unpin Prompts"]:upward(1)
+make.powerautomate.com##button[aria-label$="Pin Prompts"]:upward(1)
+! Sidebar - Power Platform - Copilot Studio
+make.powerautomate.com##.wrapper-178[href="https://copilotstudio.microsoft.com"]
+
+! ==============================
+! == Microsoft Power Platform ==
+! ==============================
+# Sidebar - Copilot
+admin.powerplatform.microsoft.com##button[value="/copilot/overview"]
+
+! ==============================
+! == Microsoft Sharepoint/365 ==
+! ==============================
+! -- Sharepoint site creator
+! Right sidebar - Design ideas
+# TODO: Remove one of the two neighboring section separators
+sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
+
+! -- Microsoft Office
+! Navbar buttons (Home tab) for Copilot
+usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
+usc-excel.officeapps.live.com###Copilot-group:upward(2)
+# TODO: Copilot button briefly appears when PowerPoint is loading
+usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
 ! =====================
 ! == Microsoft Teams ==
