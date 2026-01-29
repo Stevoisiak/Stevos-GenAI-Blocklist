@@ -4,7 +4,7 @@ Set of uBlock Origin filters intended to block generative AI features on various
 
 ## Installation
 
-First install the [uBlock Origin extension](https://ublockorigin.com/). Afterwards, click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/Stevos-GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist) and press "Subscribe" to import the filter list. 
+First install the [uBlock Origin extension](https://ublockorigin.com/). Afterwards, click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist) and press "Subscribe" to import the filter list. 
 
 ## What does it cover?
 
