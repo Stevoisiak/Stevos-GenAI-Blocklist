@@ -151,7 +151,28 @@ www.facebook.com##div[aria-label="Generate images using AI"]
 ! ============
 ! == GitHub ==
 ! ============
-! -- Homepage (While logged in) (https://github.com/)
+! -- Homepage (logged out) (https://github.com/)
+! TODO: Adjust spacing on sibling NavGroups/NavLinks in header to avoid excess blank space on sides
+! Header - Platform >  "AI Code Creation" section
+github.com##.NavGroup-module__group--T925n:has([href="https://github.com/features/copilot"])
+! Header - Resources > Explore by Topic > "AI" link
+github.com##.NavLink-module__link--n48VB[href="https://github.com/resources/articles?topic=ai"]
+! Header - Enterprise > "Enterprise Solutions" section
+github.com##.NavGroup-module__group--T925n:has([href="https://github.com/enterprise"])
+! Header - Enterprise > Available Add-Ons > "Copilot for Business" link
+github.com##.NavLink-module__link--n48VB[href="https://github.com/features/copilot/copilot-business"]
+! "Try GitHub Copilot free" button
+github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
+! "Your AI Partner everywhere" section
+github.com##[data-testid="Grid-_R_12b_"]
+! "Accelerate your entire workflow" section
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > .lp-SectionIntro
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > .lp-SectionHero
+! Footer - AI links
+github.com##.Link--secondary[href="/features/copilot"]
+github.com##.Link--secondary[href="/features/ai"]
+
+! -- Homepage (logged in) (https://github.com/)
 ! Header > "Chat with Copilot" button
 github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(svg.octicon-copilot)
 ! Left sidebar > Copilot
@@ -181,6 +202,8 @@ google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 ! ======================
 ! == Google Analytics ==
 ! ======================
+! Header > "Ask Analytics Advisor" button
+analytics.google.com##gmp-chat-entry-point
 ! Insights button
 analytics.google.com/analytics/web##ga-toolbar-icon-button-component.ga-intelligence-button
 
