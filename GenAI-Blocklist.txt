@@ -143,14 +143,15 @@ duckduckgo.com##[data-layout="wikinlp"]
 www.facebook.com##.pageFooterLinkList > li:has(a[href^="https://www.meta.ai/"])
 
 ! -- Homepage (logged in) (https://www.facebook.com/)
-! FIXME: Left sidebar and top navbar filters are delayed. They don't dissapear until user hovers over them
+! FIXME: Filters that use partial matches (^-) are delayed. The elements won't dissapear until user hovers over them.
 ! Top navbar > Menu > More from Meta
 www.facebook.com##div[role="listitem"] > div > div > a[href^="https://www.meta.ai/"]
 www.facebook.com##div[role="listitem"] > div > div > a[href^="https://aistudio.facebook.com/"]
 ! Left sidebar > "Meta AI" button
-www.facebook.com##.html-li > div > div > div > a[href^="https://www.meta.ai/"]
+! Note: The match for target="_blank" is a sanity check. It's only present in a few sidebar elements.
+www.facebook.com##div[aria-label="Shortcuts"] > div > div > div > div > div[data-visualcompletion="ignore-dynamic"] > div > div > ul > li.html-li:nth-of-type(2) > div > div > div > a[target="_blank"]
 ! Left sidebar > "Chat with AIs" button
-www.facebook.com##.html-li > div > div > div > a[href^="https://aistudio.facebook.com/"]
+www.facebook.com##div[aria-label="Shortcuts"] > div > div > div > div > div[data-visualcompletion="ignore-dynamic"] > div > div > ul > li.html-li:nth-of-type(13) > div > div > div > a
 ! Right Sidebar > Contacts > Meta AI
 www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > div > a[role="link"]
 ! Compose post > Generate images button
