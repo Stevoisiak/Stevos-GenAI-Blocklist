@@ -108,6 +108,8 @@ www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
 www.deviantart.com##div.VS2KXS.KQfkEY
 ! Right side bar - DreamUp ad
 www.deviantart.com##a.reset-link.Qnm9x2
+! Hide image if "Created using AI tools" notice exists (does not apply to example URL)
+deviantart.com##.usPswk:upward(3) > .ymztWQ
 
 ! ================
 ! == DuckDuckGo ==
