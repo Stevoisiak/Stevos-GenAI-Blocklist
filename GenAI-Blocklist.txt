@@ -69,17 +69,18 @@ danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-generated"]
 danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-assisted"]
 gelbooru.com##.thumbnail-preview:has(img[title*="ai-generated"])
 gelbooru.com##.thumbnail-preview:has(img[title*="ai-assisted"])
-hypnohub.net,realbooru.com,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai-generated"])
-hypnohub.net,realbooru.com,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_art"])
-hypnohub.net,realbooru.com,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_assisted"])
-hypnohub.net,realbooru.com,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_generated"])
-hypnohub.net,realbooru.com,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_voice_acted"])
+hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai-generated"])
+hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_art"])
+hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_assisted"])
+hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_generated"])
+hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_voice_acted"])
 rule34.us##.thumbail-container > div:has(img[title*="ai assisted"])
 rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
 rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
-! Banner
+! "AI Jerk off" Banner
 gelbooru.com##a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"]:upward(div)
+rule34video.com##.button_fav.ai
 
 ! ================
 ! == DeviantArt ==
