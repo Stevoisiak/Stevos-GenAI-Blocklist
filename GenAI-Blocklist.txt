@@ -647,6 +647,14 @@ stackoverflow.com##div.wmx7.w100.bg-white.mb24
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##a#nav-askstack
 
+! =========
+! == UPS ==
+! =========
+! -- Track a package (https://www.ups.com/track)
+!  Bottom right - "Ask UPS" chat button & chat window
+ups.com###digital-assistant-launcher
+ups.com###WACContainer
+
 ! ===============
 ! == X/Twitter ==
 ! ===============
