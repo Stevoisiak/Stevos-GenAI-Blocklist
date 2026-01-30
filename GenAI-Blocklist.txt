@@ -190,6 +190,21 @@ github.com###blob-view-header-copilot-icon
 !       To prevent this, users would need to change their GitHub account settings.
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
+! ============
+! == GitLab ==
+! ============
+! -- About page (about.gitlab.com)
+! GitLab Duo promo
+about.gitlab.com##li.card.card-1.gitlab-duo
+! Footer > AI features
+about.gitlab.com##[data-ga-name="ai-assisted development"]
+about.gitlab.com##[data-ga-name="ai for coding"]
+about.gitlab.com##[data-ga-name="agentic ai"]
+
+! -- Homepage (logged in) (https://gitlab.com/)
+! Right Sidebar > Whats New > "Featured Updates" (advertising GitLab Duo)
+gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
+
 ! ======================
 ! == Google (general) ==
 ! ======================
