@@ -109,7 +109,7 @@ www.deviantart.com##div.VS2KXS.KQfkEY
 ! Right side bar - DreamUp ad
 www.deviantart.com##a.reset-link.Qnm9x2
 ! Hide image if "Created using AI tools" notice exists (does not apply to example URL)
-deviantart.com##.usPswk:upward(3) > .ymztWQ
+deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
 
 ! ================
 ! == DuckDuckGo ==
