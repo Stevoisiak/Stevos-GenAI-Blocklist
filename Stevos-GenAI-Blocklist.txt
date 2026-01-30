@@ -1,0 +1,2 @@
+! Redirect: https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt
+! Old filename that was briefly used after repository was made public
