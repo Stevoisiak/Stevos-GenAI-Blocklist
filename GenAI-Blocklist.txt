@@ -143,8 +143,16 @@ duckduckgo.com##[data-layout="wikinlp"]
 www.facebook.com##.pageFooterLinkList > li:has(a[href^="https://www.meta.ai/"])
 
 ! -- Homepage (logged in) (https://www.facebook.com/)
+! FIXME: Left sidebar and top navbar filters are delayed. They don't dissapear until user hovers over them
+! Top navbar > Menu > More from Meta
+www.facebook.com##div[role="listitem"] > div > div > a[href^="https://www.meta.ai/"]
+www.facebook.com##div[role="listitem"] > div > div > a[href^="https://aistudio.facebook.com/"]
 ! Left sidebar > "Meta AI" button
-www.facebook.com##li.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-li:nth-of-type(2) > .x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6 > .x2lwn1j.x1iyjqo2.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > .xf159sx.xmzvs34.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x1ja2u2z.x1n2onr6.x9f619 > .x1lliihq.x1a2a7pz.x1lku1pv.x87ps6o.x1q0g3np.xo1y3bh.x140muxe.xu25z0z.x1fmog5m.x1t137rt.x1ja2u2z.xggy1nq.x1hl2dhg.x16tdsg8.x1n2onr6.x1c1uobl.x18d9i69.xyri2b.xexx8yu.xeuugli.x2lwn1j.x1lziwak.xat24cr.x14z9mp.xdj266r.x3ct3a4.x2lah0s.xdl72j9.x1ypdohk.x9f619.x14e42zd.x1qhh985.x10w94by.x972fbf.x1t7ytsu.x1q0q8m5.x18b5jzi.x13fuv20.x1phubyo.xqeqjp1.xc5r6h4.xjqpnuy.xjbqb8w.x1qjc9v5.x1i10hfl > .x1r8uycs.x1gtkyd9.x12pbpz1.x3su7b9.x1tr5nd9.xbktkl8.x1ws5yxj.xw01apr.x4cne27.xifccgj.xeuugli.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5.html-div
+www.facebook.com##.html-li > div > div > div > a[href^="https://www.meta.ai/"]
+! Left sidebar > "Chat with AIs" button
+www.facebook.com##.html-li > div > div > div > a[href^="https://aistudio.facebook.com/"]
+! Right Sidebar > Contacts > Meta AI
+www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > div > a[role="link"]
 ! Compose post > Generate images button
 www.facebook.com##div[aria-label="Generate images using AI"]
 
