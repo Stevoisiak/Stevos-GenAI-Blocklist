@@ -777,7 +777,7 @@ www.youtube.com##yt-video-description-youchat-section-view-model
 ! Description > AI Summary
 www.youtube.com###video-summary
 ! Below video > "Ask" button
-www.youtube.com##yt-button-view-model:has(button[aria-label="Ask"])
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:has(button[aria-label="Ask"])
 ! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
 ! Settings > Audio Track
 www.youtube.com##.ytp-menuitem-section-header
