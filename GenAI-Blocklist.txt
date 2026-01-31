@@ -773,15 +773,15 @@ www.youtube.com##ytd-talk-to-recs-flow-renderer
 
 ! -- Video page (https://www.youtube.com/watch?v=Hlh_wxrPpkI)
 ! Description > "Ask Questions"
-www.youtube.com/watch##yt-video-description-youchat-section-view-model
+www.youtube.com##yt-video-description-youchat-section-view-model
 ! Description > AI Summary
-www.youtube.com/watch###video-summary
+www.youtube.com###video-summary
 ! Below video > "Ask" button
-www.youtube.com/watch##yt-button-view-model:has(button[aria-label="Ask"])
+www.youtube.com##yt-button-view-model:has(button[aria-label="Ask"])
 ! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
 ! Settings > Audio Track
-www.youtube.com/watch##.ytp-menuitem-section-header
-www.youtube.com/watch##.ytp-menuitem-section-header ~ .ytp-menuitem
+www.youtube.com##.ytp-menuitem-section-header
+www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 ! TODO: If there is only one non-ai dubbed language and it's the currently selected language, hide language options.
 
 ! -- Livestream
