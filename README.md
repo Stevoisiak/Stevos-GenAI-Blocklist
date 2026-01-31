@@ -9,8 +9,8 @@ Set of uBlock Origin filters intended to block generative AI features on various
 - Press "Subscribe" to import the filter list. 
 
 ### For Google Chrome
-- Download and save the [filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click, Save As)
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
+- Download and save the [filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click, Save As)
 - Click the uBlock icon in your browser and hit the options button
 - Go to "Custom Filters"
 - At the bottom, click "Import/Export", then "Import and append..."
