@@ -79,7 +79,7 @@ rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
 rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
 ! "AI Jerk off" Banner
-gelbooru.com##a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"]:upward(div)
+gelbooru.com##div.mainBodyPadding > div:has(a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
 rule34video.com##.button_fav.ai
 
 ! ================
