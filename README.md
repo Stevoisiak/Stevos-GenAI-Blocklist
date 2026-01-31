@@ -29,10 +29,10 @@ This filter's intent will be to block any features on sites that use Generative 
 ## Image comparison
 
 Before:
-![GitHub without filter](https://i.imgur.com/dXGEy5s.png)
+<img width="794" height="457" alt="image" src="https://github.com/user-attachments/assets/65f65ca9-7022-4455-99f2-4d1a44051a1d" />
 
 After:
-![GitHub with GenAI filter](https://i.imgur.com/gyIbo8g.png)
+<img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
 
 ## Covered sites
 
