@@ -142,7 +142,7 @@ chatgpt.com##main.min-h-0.flex-1[id="main"] > div.group\/thread[id="thread"] > d
 chatgpt.com##aside.pt-\(--sidebar-section-first-margin-top\)
 chatgpt.com##div.pb-\[calc\(var\(--sidebar-section-margin-top\)-var\(--sidebar-section-first-margin-top\)\)\]
 chatgpt.com##div.group\/sidebar-expando-section
-! Left side - collapsed (minus account settings)
+! Left sidebar - collapsed (minus account settings)
 chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
 
 ! ================
@@ -153,7 +153,7 @@ chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
 www.deviantart.com##a.reset-link.Sd_t0H
 ! AI Art tag
 www.deviantart.com##a.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
-! Left side bar - DreamUp
+! Left sidebar - DreamUp
 www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.deviantart.com/dreamup"])
 
 ! -- Daily Challenge (https://www.deviantart.com/tag/puzzle)
@@ -169,7 +169,7 @@ www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
 ! -- Deviation page (https://www.deviantart.com/lxenn/art/Celeste-Comm-1-1245630682)
 ! Bottom ad banner - Sometimes has a DreamUp ad
 www.deviantart.com##div.VS2KXS.KQfkEY
-! Right side bar - DreamUp ad
+! Right sidebar - DreamUp ad
 www.deviantart.com##a.reset-link.Qnm9x2
 ! Hide image if "Created using AI tools" notice exists (does not apply to example URL)
 www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
