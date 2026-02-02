@@ -13,8 +13,6 @@
 !   (Users sometimes need these to disable Gen AI features)
 ! * Removing sites that post Generative AI content from search engines.
 !   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
-! * Blocking social media accounts that post AI-generated content.
-!   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 
 ! ============
 ! == Amazon ==
