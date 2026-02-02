@@ -800,6 +800,13 @@ x.com##a[role="menuitem"][href*="grok.com/imagine"]
 ! "Edit Image" when hovering over bottom right of image
 x.com##a[aria-label="Edit image"]
 
+! =============
+! == XVideos ==
+! =============
+! -- Homepage
+! Navbar - Categories - AI
+www.xvideos.com##ul#main-cats-sub-list > li.dyntop-cat > a[href="/c/AI-239"]
+
 ! ===========
 ! == Yahoo ==
 ! ===========
