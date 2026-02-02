@@ -815,7 +815,6 @@ search.yahoo.com##div.scoutNav
 ! -- Search results (https://yandex.com/search/?text=test)
 ! Navbar - yandex ai
 yandex.com##a.HeaderNav-Tab[href$="&promo=force_neuro"]
-0_61cez00h
 ! AI Summary banner
 yandex.com##ul#search-result > li[data-fast-name="neuro_answer"]
 
