@@ -894,7 +894,7 @@ studio.youtube.com##ytcp-creator-chat-trigger
 studio.youtube.com##tp-yt-paper-tab#inspiration-tab
 
 ! -- Analytics
-! Brainsorm video ideas
+! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
 ! Overview > Suggested AI Question 
 studio.youtube.com##div.suggestion-chips-container:has(ytcp-creator-chat-entrypoint-chips)
