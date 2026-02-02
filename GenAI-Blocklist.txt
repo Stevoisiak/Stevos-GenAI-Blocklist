@@ -16,6 +16,23 @@
 ! * Blocking social media accounts that post AI-generated content.
 !   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 
+! ============
+! == Amazon ==
+! ============
+! Note: Rufus assistant elements only appear when logged in
+! -- Homepage (https://www.amazon.com/)
+! Navbar - Rufus button
+www.amazon.com##button.nav-rufus-disco[id="nav-rufus-disco"]
+
+! -- Product page (https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP)
+! Below product image - Ask Rufus
+www.amazon.com##div#nile-inline_feature_div
+! Above reviews - Ask Rufus ("ie: Looking for specific info?")
+! Only appears when logged in
+www.amazon.com##div#nile-inline-btf_feature_div
+! AI review summary (IE: "Customers say")
+www.amazon.com##div[data-csa-c-item-id="cr-product-insights-cards"]
+
 ! ===========
 ! == Baidu ==
 ! ===========
