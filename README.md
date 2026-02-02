@@ -48,3 +48,9 @@ Sites affected by the filter rules include:
 - X/Twitter
 - YouTube
 
+## Other AI blocking projects
+
+* [uBlockOrigin Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist) - Blocklist for search engines to remove AI generated images
+* [Soul Over AI](https://github.com/xoundbyte/soul-over-ai) - Index of AI-generated and AI-assisted music
+  
+
