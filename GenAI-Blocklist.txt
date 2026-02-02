@@ -132,6 +132,19 @@ search.brave.com##ul#primary-tabs > li.tab-item:has(a[href^="/ask"])
 ! AI Answer
 search.brave.com##div#llm-snippet
 
+! =============
+! == ChatGPT ==
+! =============
+! -- Main page (logged-in) (https://chatgpt.com/)
+! Chat window
+chatgpt.com##main.min-h-0.flex-1[id="main"] > div.group\/thread[id="thread"] > div[role="presentation"]
+! Left sidebar - expanded (minus account settings)
+chatgpt.com##aside.pt-\(--sidebar-section-first-margin-top\)
+chatgpt.com##div.pb-\[calc\(var\(--sidebar-section-margin-top\)-var\(--sidebar-section-first-margin-top\)\)\]
+chatgpt.com##div.group\/sidebar-expando-section
+! Left side - collapsed (minus account settings)
+chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
+
 ! ================
 ! == DeviantArt ==
 ! ================
