@@ -2,6 +2,16 @@
 
 Set of uBlock Origin filters intended to block generative AI features on various websites.
 
+## Image comparison
+
+Before:
+
+<img width="794" height="457" alt="image" src="https://github.com/user-attachments/assets/65f65ca9-7022-4455-99f2-4d1a44051a1d" />
+
+After:
+
+<img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
+
 ## Installation
 ### For Firefox, Edge, or Opera
 - Install [uBlock Origin](https://ublockorigin.com/)
@@ -25,16 +35,6 @@ This filter's intent will be to block any features on sites that use Generative 
 * The Inspiration tab on YouTube
 * AI Mode button on Google
 * Ask AI prompt on Stack Overflow
-
-## Image comparison
-
-Before:
-
-<img width="794" height="457" alt="image" src="https://github.com/user-attachments/assets/65f65ca9-7022-4455-99f2-4d1a44051a1d" />
-
-After:
-
-<img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
 
 ## Covered sites
 
