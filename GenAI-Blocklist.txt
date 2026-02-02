@@ -405,6 +405,17 @@ developers.google.com##.devsite-concierge-ai-panel--menu-item
 developers.google.com##devsite-search-summary
 
 ! ===================
+! == Google Gemini ==
+! ===================
+! -- Main page
+! Header bar - Upgrade to Google AI Plus
+gemini.google.com##button[data-test-id="bard-upsell-menu-button"]
+! Chat box (when initially loading page)
+gemini.google.com##div.initial-input-area-container
+! Chat window
+gemini.google.com##div.content-container > chat-window
+
+! ===================
 ! == Google Search ==
 ! ===================
 ! -- Homepage (https://www.google.com/)
