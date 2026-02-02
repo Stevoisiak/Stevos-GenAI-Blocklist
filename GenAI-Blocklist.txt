@@ -494,6 +494,9 @@ kagi.com/search##a._0_discuss_document
 ! -- Feed (logged in) (https://www.linkedin.com/feed/)
 ! Start a post > "Rewrite with AI" button
 www.linkedin.com##.share-creation-state__writing-assistant-container--premium
+! -- My Profile - Experience - Edit
+! "Enahnce with AI" button
+www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
 ! ==================
 ! == M365 Copilot ==
