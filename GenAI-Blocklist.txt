@@ -854,6 +854,10 @@ search.yahoo.com##div.scoutNav
 ! == Yahoo Japan ==
 ! =================
 ! -- Homepage
+! Header - AI suggested topic
+www.yahoo.co.jp##a.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt:has(svg[aria-label="AIアシスタント"])
+! AI Chat button
+www.yahoo.co.jp##button#aichat
 ! AI Assistant tab
 www.yahoo.co.jp##a.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
 
