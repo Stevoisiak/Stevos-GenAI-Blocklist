@@ -248,6 +248,20 @@ duckduckgo.com##[data-react-module-id="wikinlp"]
 !       For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
 
+! ============
+! == Ecosia ==
+! ============
+! Homepage (https://www.ecosia.org/)
+! Navbar - AI Search
+ecosia.org##div.ai-search-button
+! Search bar - AI Search
+ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
+
+! Search results (https://www.ecosia.org/search?q=test)
+# AI Search + Separator
+ecosia.org##nav.search-navigation > div[data-test-id="search-navigation-item-ai_search"]
+ecosia.org##nav.search-navigation > div.search-navigation__divider
+
 ! ==============
 ! == Facebook ==
 ! ==============
