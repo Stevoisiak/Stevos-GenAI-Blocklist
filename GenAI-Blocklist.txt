@@ -57,6 +57,8 @@ baidu.com##div#ai-accompanies-height-container
 ! -- Homepage (https://www.bing.com/)
 ! Homepage > Header > Copilot
 www.bing.com###codex
+! Homepage - Left of search bar - "Chat" button
+www.bing.com##a.cdxConv_slsboxl.cdxConvWithText
 ! Homepage > Search > Copilot button
 www.bing.com##.cdxCopilotIconBg
 ! Homepage > Image/Video Creator
