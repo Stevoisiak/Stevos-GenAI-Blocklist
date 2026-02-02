@@ -850,6 +850,21 @@ search.yahoo.com##div.sb-scout-wrap
 ! Header > "Yahoo Scout"
 search.yahoo.com##div.scoutNav
 
+! =================
+! == Yahoo Japan ==
+! =================
+! -- Homepage
+! AI Assistant tab
+www.yahoo.co.jp##a.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
+
+! -- Search (https://search.yahoo.co.jp/search?p=Why+are+we+here)
+! Header - AI Assistant button
+search.yahoo.co.jp##div.AiAssistant
+! Navbar - AI tab
+search.yahoo.co.jp##li.VerticalTab__aiAssistButton
+! Suggested searches - AI button
+search.yahoo.co.jp##a.AnswerAiNavigation__content
+
 ! ============
 ! == Yandex ==
 ! ============
