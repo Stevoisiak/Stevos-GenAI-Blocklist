@@ -145,7 +145,7 @@ www.deviantart.com##a.reset-link.Qnm9x2
 www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
 
 ! -- Shop (https://www.deviantart.com/shop)
-# "DreamUp and earn big with AI" section
+! "DreamUp and earn big with AI" section
 www.deviantart.com/shop##.ail3hi
 
 ! -- Image previews for users who post AI images.
@@ -258,7 +258,7 @@ ecosia.org##div.ai-search-button
 ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
 
 ! Search results (https://www.ecosia.org/search?q=test)
-# AI Search + Separator
+! AI Search + Separator
 ecosia.org##nav.search-navigation > div[data-test-id="search-navigation-item-ai_search"]
 ecosia.org##nav.search-navigation > div.search-navigation__divider
 
@@ -808,6 +808,16 @@ search.yahoo.com##div.sbb-divider
 search.yahoo.com##div.sb-scout-wrap
 ! Header > "Yahoo Scout"
 search.yahoo.com##div.scoutNav
+
+! ============
+! == Yandex ==
+! ============
+! -- Search results (https://yandex.com/search/?text=test)
+! Navbar - yandex ai
+yandex.com##a.HeaderNav-Tab[href$="&promo=force_neuro"]
+0_61cez00h
+! AI Summary banner
+yandex.com##ul#search-result > li[data-fast-name="neuro_answer"]
 
 ! =============
 ! == YouTube ==
