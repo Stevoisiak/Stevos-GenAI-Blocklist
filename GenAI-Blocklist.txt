@@ -456,6 +456,18 @@ www.google.com/search##div.bzXtMb.M8OgIe.dRpWwb:has(div[data-subtree="mfc"])
 ! Google Support - AI "Help guide" chatbox
 support.google.com##div.helpPanelContainerRoot
 
+! ======================
+! == Google Workspace ==
+! ======================
+! -- Main page (https://workspace.google.com/)
+! Navbar - AI
+workspace.google.com##div._headerNavGroup_evb2c_260:has(a[data-g-action="ai"])
+! "Premium AI built-in" section
+workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
+! Google Workspace includes: Gemini & NotebookLM icons
+workspace.google.com##gws-card-wrapper[href="/solutions/ai/"]
+workspace.google.com##gws-card-wrapper[href="/products/notebooklm"]
+
 ! ===========
 ! == Gmail ==
 ! ===========
