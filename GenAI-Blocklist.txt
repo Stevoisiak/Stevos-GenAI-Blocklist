@@ -465,6 +465,8 @@ gemini.google.com##div.content-container > chat-window
 www.google.com##button[jsname="B6rgad"]
 ! Footer - "Applying AI towards science and the environment"
 google.com##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
+! Mobile site - Search bar - AI button
+www.google.com##button.xOchs
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! "AI Mode" tab
