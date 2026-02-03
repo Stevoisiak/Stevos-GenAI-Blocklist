@@ -37,7 +37,7 @@ If the prior installation instructions don't work, possibly due to multiple adbl
 - Click the uBlock icon in your browser and hit the options button
 - Go to "Custom Filters"
 - At the bottom, click "Import/Export", then "Import and append..."
-- Select the saved filter list file
+- Select the filter list you downloaded in step 2.
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
