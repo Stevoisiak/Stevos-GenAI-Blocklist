@@ -691,7 +691,8 @@ pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/art
 www.reddit.com/answers##main#main-content > div#variant_2 > div > guides-search-input-base
 ! Question suggestions
 www.reddit.com/answers##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(div[aria-label="recommendations list"])
-
+! Reddit answers
+www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
 ! -- Main page (https://www.reddit.com/)
 ! Hide posts from AI subreddits on homepage
 ! Subreddit names taken from laylavish's AI blocklist (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt)
