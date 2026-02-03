@@ -329,6 +329,13 @@ www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > di
 www.facebook.com##div[aria-label="Generate images using AI"]
 
 ! ============
+! == Fandom ==
+! ============
+! -- Article page (https://avatar.fandom.com/wiki/Aang)
+! Quick Answers - appears below contents box
+fandom.com##section.trfc161
+
+! ============
 ! == GitHub ==
 ! ============
 ! -- Homepage (logged out) (https://github.com/)
