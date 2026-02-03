@@ -46,6 +46,8 @@ After:
 - Open "Import/Export", then press "Import and append..."
 - Open "Downloads" folder and select "GenAI-Blocklist"
 
+*Note that uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
+
 ## Examples of blocked content
 * Boorus: Images tagged as AI generated
 * Deviantart: DreamUp ads
