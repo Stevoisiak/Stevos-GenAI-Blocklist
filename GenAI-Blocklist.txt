@@ -449,6 +449,7 @@ www.google.com##div[role="listitem"]:has-text("AI Mode")
 ! "AI Overview"
 ! Modified from https://inwiring.com/google-ai-overviews/
 www.google.com/search##div#eKIzJc:has([data-aquarium])
+www.google.com/search##[data-aquarium]
 
 ! ====================
 ! == Google Support ==
