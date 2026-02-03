@@ -56,6 +56,12 @@ If the prior installation instructions don't work, possibly due to multiple adbl
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
+### For Opera
+
+Unfortunately, this filter list does not currently work in Opera.
+
+Importing the filters had no effect when testing with both uBlock Origin and Opera's built in ad blocking. ([May be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
+
 ## Examples of blocked content
 * Boorus: Images tagged as AI generated
 * Deviantart: DreamUp ads
