@@ -967,6 +967,8 @@ yandex.com##ul#search-result > li[data-fast-name="neuro_answer"]
 ! =============
 ! == YouTube ==
 ! =============
+! Note: 'www.' is excluded from some filters for mobile site compatability. (m.youtube.com)
+
 ! -- Homepage (https://www.youtube.com/)
 ! "Your custom feed" category for video suggestions
 www.youtube.com##yt-chip-cloud-chip-renderer:has-text("Your custom feed")
@@ -975,11 +977,18 @@ www.youtube.com##ytd-talk-to-recs-flow-renderer
 
 ! -- Video page (https://www.youtube.com/watch?v=Hlh_wxrPpkI)
 ! Description > "Ask Questions"
-www.youtube.com##yt-video-description-youchat-section-view-model
+youtube.com##yt-video-description-youchat-section-view-model
 ! Description > AI Summary
-www.youtube.com###video-summary
+youtube.com###video-summary
+
 ! Below video > "Ask" button
-www.youtube.com##yt-button-view-model.ytd-menu-renderer:has(button[aria-label="Ask"])
+! Desktop
+youtube.com##yt-button-view-model.ytd-menu-renderer:has(button[aria-label="Ask"])
+! Mobile
+youtube.com##button-view-model.ytSpecButtonViewModelHost.slim_video_action_bar_renderer_button:has(button.yt-spec-button-shape-next[aria-label="Ask"])
+! Backup
+youtube.com##button.yt-spec-button-shape-next[aria-label="Ask"]
+
 ! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
 ! Settings > Audio Track
 www.youtube.com##.ytp-menuitem-section-header
