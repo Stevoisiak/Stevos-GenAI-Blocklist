@@ -31,7 +31,7 @@ After:
 - At the bottom, click "Import/Export", then "Import and append..."
 - Select the saved filter list file
 
-*Note that uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
+*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Safari (iOS)
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
@@ -46,7 +46,7 @@ After:
 - Open "Import/Export", then press "Import and append..."
 - Open "Downloads" folder and select "GenAI-Blocklist"
 
-*Note that uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
+*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ## Examples of blocked content
 * Boorus: Images tagged as AI generated
