@@ -423,6 +423,25 @@ developers.google.com##.devsite-concierge-ai-panel--menu-item
 ! "AI Powered" results
 developers.google.com##devsite-search-summary
 
+! =================
+! == Google Docs ==
+! =================
+! -- Google Vids - New document page (https://docs.google.com/videos/u/0/create)
+! "Let's start creating" intro popup - AI features 
+docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.avatars
+docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.videogen
+! Convert Slides > Select Presentation > disable "Include AI" checkbox
+docs.google.com/videos##div.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
+
+! -- Google Vids - Editing a video
+! Left sidebar > AI buttons (Generate, Avatar, Voiceover)
+docs.google.com/videos##div#content-library-rail-image-synthesis-element
+docs.google.com/videos##div#content-library-rail-avatars-element
+docs.google.com/videos##div#content-library-rail-voiceovers-element
+! Bottom timeline - Generate audio button
+! Appears when selecting an audio track on the timeline
+docs.google.com/videos##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
+
 ! ===================
 ! == Google Gemini ==
 ! ===================
