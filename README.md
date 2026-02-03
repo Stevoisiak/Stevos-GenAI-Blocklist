@@ -14,8 +14,8 @@ After:
 
 ## Installation
 ### For Firefox or Edge
-- Install [uBlock Origin](https://ublockorigin.com/)
-- Click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist)
+- Install [uBlock Origin](https://ublockorigin.com/).
+- Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Press "Subscribe" to import the filter list. 
 
 ### For Brave
