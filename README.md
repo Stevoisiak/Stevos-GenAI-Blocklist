@@ -33,17 +33,17 @@ If the prior installation instructions don't work, possibly due to multiple adbl
 
 ### For Google Chrome
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
-- Download and save the [filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click, Save As)
+- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click > Save link as...)
 - Click the uBlock icon in your browser and hit the options button
 - Go to "Custom Filters"
 - At the bottom, click "Import/Export", then "Import and append..."
-- Select the filter list you downloaded in step 2.
+- Select the filter list file (`GenAI-Blocklist.txt`) you downloaded in step 2.
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Safari (iOS)
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
-- Download and save the [filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press link, Download Linked File)
+- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press link, Download Linked File)
 - Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
 - Enable "Allow Extension"
   - (Optional) Enable "Allow in Private Browsing"
@@ -52,7 +52,7 @@ If the prior installation instructions don't work, possibly due to multiple adbl
 - Select "Settings"
 - Open the "Custom filters" tab
 - Open "Import/Export", then press "Import and append..."
-- Open "Downloads" folder and select "GenAI-Blocklist"
+- Open "Downloads" folder and select `GenAI-Blocklist.txt`
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
