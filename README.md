@@ -72,6 +72,10 @@ Importing the filters had no effect when testing with both uBlock Origin and Ope
 * YouTube Studio: Inspiration tab
 * X: Grok buttons
 
+## Contributing guidelines
+
+If you want to file an issue or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
+
 ## Other AI blocking projects
 
 * [uBlockOrigin Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist) - Blocklist for search engines to remove AI generated images
