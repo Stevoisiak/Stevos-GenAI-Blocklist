@@ -878,6 +878,8 @@ x.com##div[data-testid="GrokDrawer"]
 x.com##a[role="menuitem"][href*="grok.com/imagine"]
 ! "Edit Image" when hovering over bottom right of image
 x.com##a[aria-label="Edit image"]
+! -- Posts by Grok
+x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
 
 ! =============
 ! == XVideos ==
