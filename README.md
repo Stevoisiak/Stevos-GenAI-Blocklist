@@ -33,6 +33,19 @@ After:
 
 *Note that uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
+### For Safari (iOS)
+- Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
+- Download and save the [filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press link, Download Linked File)
+- Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
+- Enable "Allow Extension"
+  - (Optional) Enable "Allow in Private Browsing"
+- Under "Permissions", click "All Websites" and select "Allow"
+- Press the back arrow in the top left
+- Select "Settings"
+- Open the "Custom filters" tab
+- Open "Import/Export", then press "Import and append..."
+- Open "Downloads" folder and select "GenAI-Blocklist"
+
 ## Examples of blocked content
 * Boorus: Images tagged as AI generated
 * Deviantart: DreamUp ads
