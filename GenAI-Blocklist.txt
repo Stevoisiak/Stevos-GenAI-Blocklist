@@ -471,6 +471,8 @@ www.google.com##button.xOchs
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! "AI Mode" tab
 www.google.com/search##a.XVMlrc.C6AK7c[data-mstk-u]
+! Mobile - AI Mode tab (placeholder while page is loading)
+www.google.com/search##div.YkNJDb > div[jsname="xBNgKe"][role="listitem"]
 
 ! "AI Overview"
 ! Modified from https://inwiring.com/google-ai-overviews/
