@@ -644,6 +644,13 @@ teams.microsoft.com/v2##[data-tid="store-collection-app:co:abc1"]
 ! Sparkle icon indicating an app has AI features
 teams.microsoft.com/v2##svg[aria-label="Includes an agent and uses AI"]
 
+! ===========
+! == Pixiv ==
+! ===========
+! -- Image page (https://www.pixiv.net/en/artworks/140381030)
+! Hide image if AI-generated tag is present
+pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
+
 ! ============
 ! == Reddit ==
 ! ============
