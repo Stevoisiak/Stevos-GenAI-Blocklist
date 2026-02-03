@@ -427,9 +427,13 @@ developers.google.com##devsite-search-summary
 ! == Google Docs ==
 ! =================
 ! -- Google Vids - New document page (https://docs.google.com/videos/u/0/create)
-! "Let's start creating" intro popup - AI features 
-docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.avatars
+! "Let's start creating" intro popup - AI features (Storyboard, Veo, AI Avatar)
+docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton[aria-controls="getting-started-dialog-docgen-view"]
 docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.videogen
+docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.avatars
+! Bottom promo bar to buy Google AI
+! Element is removed instead of hidden to avoid empty space
+docs.google.com/videos##div#getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
 ! Convert Slides > Select Presentation > disable "Include AI" checkbox
 docs.google.com/videos##div.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
 
