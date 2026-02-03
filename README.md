@@ -28,25 +28,15 @@ After:
 
 *Note that uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
-## What does it cover?
-
-This filter's intent will be to block any features on sites that use Generative AI to create content. Examples include:
-
-* The Inspiration tab on YouTube
-* AI Mode button on Google
-* Ask AI prompt on Stack Overflow
-
-## Covered sites
-
-Sites affected by the filter rules include:
-- Amazon
-- Bing
-- DeviantArt
-- GitHub
-- Google
-- Stack Overflow
-- X/Twitter
-- YouTube
+## Examples of blocked content
+* Boorus: Images tagged as AI generated
+* Deviantart: DreamUp ads
+* Facebook: AI chat
+* GitHub: Copilot buttons
+* Google: AI Summaries
+* YouTube: Ask button & live chat summaries
+* YouTube Studio: Inspiration tab
+* X: Grok buttons
 
 ## Other AI blocking projects
 
