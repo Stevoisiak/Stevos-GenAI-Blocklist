@@ -132,6 +132,18 @@ search.brave.com##ul#primary-tabs > li.tab-item:has(a[href^="/ask"])
 ! AI Answer
 search.brave.com##div#llm-snippet
 
+! ===========
+! == Canva ==
+! ===========
+! "Enahnce with AI" button
+! -- Templates (https://www.canva.com/templates)
+! Above searchbar - AI button
+www.canva.com##div.GLyNIw.zAWjSA:nth-of-type(3) > .LuBWVA.EC2pjw.BMOCzQ > .vFBXLA.YnfReg.a1ZYkQ.LuBWVA.FQ64gg._6Mu4Ow.EC2pjw.aysH_g._4tv94w.BMOCzQ.wbdPFQ.PuABGQ
+! Loading placeholder for the above AI button
+www.canva.com##div.BmXaTA > div.ryP89A:nth-of-type(3)
+! Left sidebar - Canva AI
+www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(div#assistant)
+
 ! =============
 ! == ChatGPT ==
 ! =============
