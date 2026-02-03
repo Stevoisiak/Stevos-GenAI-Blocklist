@@ -445,7 +445,7 @@ google.com##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpf
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! "AI Mode" tab
-www.google.com##div[role="listitem"]:has-text("AI Mode")
+www.google.com/search##a.XVMlrc.C6AK7c[data-mstk-u]
 
 ! "AI Overview"
 ! Modified from https://inwiring.com/google-ai-overviews/
