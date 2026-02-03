@@ -12,13 +12,14 @@ youtube_filter_list =[
     'www.youtube.com##ytd-item-section-renderer > div#contents > yt-lockup-view-model:has(span.yt-core-attributed-string:has-text("{username}"))'
 ]
 
+# Get usernames
 with open('Username-Lists\\deviantart.txt', 'r') as file:
     deviantart_user_list = file.read().splitlines()
 
 with open('Username-Lists\\youtube.txt', 'r') as file:
     youtube_user_list = file.read().splitlines()
 
-
+# Write filter list
 with open('Username-Lists\\username-filters.txt', 'w') as file:
     file.write("! Deviantart\n")
     for user in deviantart_user_list:
