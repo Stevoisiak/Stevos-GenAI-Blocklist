@@ -686,6 +686,13 @@ pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/art
 ! ============
 ! == Reddit ==
 ! ============
+! -- Reddit Answers (https://www.reddit.com/answers/)
+! Chatbox
+www.reddit.com/answers##main#main-content > div#variant_2 > div > guides-search-input-base
+! Question suggestions
+www.reddit.com/answers##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(div[aria-label="recommendations list"])
+
+! -- Main page (https://www.reddit.com/)
 ! Hide posts from AI subreddits on homepage
 ! Subreddit names taken from laylavish's AI blocklist (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt)
 www.reddit.com##shreddit-post[subreddit-name="3amAI"]
