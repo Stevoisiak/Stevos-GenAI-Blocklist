@@ -43,7 +43,7 @@ If the prior installation instructions don't work, possibly due to multiple adbl
 
 ### For Safari (iOS)
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
-- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press link, Download Linked File)
+- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press > Download Linked File)
 - Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
 - Enable "Allow Extension"
   - (Optional) Enable "Allow in Private Browsing"
