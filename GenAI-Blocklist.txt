@@ -97,9 +97,9 @@ www.boldbi.com##.e-child.e-con.e-flex.e-con-full.elementor-element-6e4054b5.elem
 ! AI chat assistant
 www.boldbi.com###boldchat-host
 
-! ============
-! == Boorus ==
-! ============
+! ===================
+! == Boorus (NSFW) ==
+! ===================
 ! Imageboards categorized by tag. Filters can be somewhat generalized.
 ! Images with AI tags
 danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-generated"]
@@ -982,6 +982,17 @@ stackoverflow.com##div.wmx7.w100.bg-white.mb24
 
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##a#nav-askstack
+
+! =======================
+! == TubeGalore (NSFW) ==
+! =======================
+! -- Homepage
+! Navbar > AI chat
+www.tubegalore.com##div[class="dropdown"]:has-text("AI chat")
+! Popular categories
+www.tubegalore.com##.popular-list > .category-group > li > div > a[href="/c/ai-generated"]
+www.tubegalore.com##.popular-list > .category-group > li > div > a[href="/c/ai-generated-compilation"]
+www.tubegalore.com##.popular-list > .category-group > li > div > a[href="/c/ai-generated-mom"]
 
 ! =========
 ! == UPS ==
