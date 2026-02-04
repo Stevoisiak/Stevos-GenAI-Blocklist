@@ -613,7 +613,11 @@ www.microsoft.com##div[aria-label="Promotional Banner"]
 ! Shopping Assistant chat box
 www.microsoft.com##div#storeassistantroot
 ! Ask question prompt
-www.microsoft.com##div.chatonpage 
+www.microsoft.com##div.chatonpage
+! "Get to know AI and Copilot" section
+www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
+! Carousel - "Protecting biodiversity with AI" card
+www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
 ! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Ask Microsoft" chat window in bottom right
