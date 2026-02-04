@@ -264,6 +264,39 @@ www.deviantart.com##div.V_S0t_[data-testid="content_row"] > div:not(.m_4A2n):has
 www.deviantart.com##div.V_S0t_[data-testid="content_row"] > div:not(.m_4A2n):has(a[href^="https://www.deviantart.com/ziggydreamborn"])
 www.deviantart.com##div.V_S0t_[data-testid="content_row"] > div:not(.m_4A2n):has(a[href^="https://www.deviantart.com/zorg-lub"])
 
+! =============
+! == Dropbox ==
+! =============
+! -- Main page - logged out (https://www.dropbox.com/)
+! Header - "Meet Dropbox Dash" sticky promo
+! We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
+www.dropbox.com##div._banner_1ozs8_1:has(a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
+www.dropbox.com##div._banner_1ozs8_1:has(a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
+
+! Header nav - AI links
+www.dropbox.com##.dwg-dropdown-list-item__container:has([role="menuitem"][data-trackingid="unav_product_Reclaim.ai"])
+www.dropbox.com##.dwg-dropdown-list-item__container:has([role="menuitem"][data-trackingid="unav_product_dash"])
+
+! "AI is coming to dropbox" promo
+www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__content-area > .dwg-box > .dwg-box > .dwg-stack > p
+! Promo video showing "Ask Dash"
+www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-flex-grid__cell.dwg-box
+! "Dash" promo section
+www.dropbox.com##._plankFrame_mrwa9_13:has(.dwg-button2[href="https://dash.dropbox.com/"])
+
+! Footer - AI links
+
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(.dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__dash--14"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(.dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__reclaimai--15"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(.dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
+
+! -- Home - Logged in (https://www.dropbox.com/home)
+! TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
+! Left sidebar > More > AI features
+! TODO: Unclear if Dash's AI file search should be blocked. May not count as genAI? Will need investigation)
+! www.dropbox.com##.oa-pulsar-effect-WAFFLE_DASH
+www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
+
 ! ================
 ! == DuckDuckGo ==
 ! ================
