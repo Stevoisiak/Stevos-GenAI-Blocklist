@@ -296,7 +296,7 @@ duckduckgo.com##[data-layout="wikinlp"]
 ! ============
 ! Homepage (https://www.ecosia.org/)
 ! Navbar - AI Search
-ecosia.org##div.ai-search-button
+ecosia.org##[data-test-id="ai-search-button"]
 ! Search bar - AI Search
 ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
 
