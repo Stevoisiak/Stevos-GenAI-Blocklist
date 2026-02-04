@@ -115,6 +115,11 @@ rule34.us##.thumbail-container > div:has(img[title*="ai assisted"])
 rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
 rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
+! Galleries with "AI Generated" in title
+e-hentai.org,exhentai.org##div.gl1t:has(img[title*="aigenerated" i])
+e-hentai.org,exhentai.org##div.gl1t:has(img[title*="ai generated" i])
+e-hentai.org,exhentai.org##div.gl1t:has(img[title*="ai-generated" i])
+
 ! "AI Jerk off" Banner
 gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
 nhentai.net##ul.menu.left > li.desktop > a[href="//tsyndicate.com/api/v1/direct/68bb4f28f3e9495c8af8a2b6909365b4"]
