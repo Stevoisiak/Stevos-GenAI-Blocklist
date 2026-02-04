@@ -463,17 +463,17 @@ gemini.google.com##div.content-container > chat-window
 ! ===================
 ! -- Homepage (https://www.google.com/)
 ! Homepage > AI Mode > Button
-www.google.com##button[jsname="B6rgad"]
+www.google.com,www.google.co.jp,www.google.com.hk##button[jsname="B6rgad"]
 ! Footer - "Applying AI towards science and the environment"
-google.com##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
+www.google.com,www.google.co.jp,www.google.com.hk##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 ! Mobile site - Search bar - AI button
-www.google.com##button.xOchs
+www.google.com,www.google.co.jp,www.google.com.hk##button.xOchs
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! "AI Mode" tab
-www.google.com/search##a.XVMlrc.C6AK7c[data-mstk-u]
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##a.XVMlrc.C6AK7c[data-mstk-u]
 ! Mobile - AI Mode tab (placeholder while page is loading)
-www.google.com/search##div.YkNJDb > div[jsname="xBNgKe"][role="listitem"]
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YkNJDb > div[jsname="xBNgKe"][role="listitem"]
 
 ! "AI Overview"
 ! Modified from https://inwiring.com/google-ai-overviews/
@@ -481,15 +481,15 @@ www.google.com/search##div.YkNJDb > div[jsname="xBNgKe"][role="listitem"]
 ! - AI overview (https://www.google.com/search?q=Why+are+we+here)
 ! - AI overview with sources on side (https://www.google.com/search?q=Celeste+release+date)
 ! - AI overview with info-box below (https://www.google.com/search?q=mario+64+release+date)
-www.google.com/search##div#eKIzJc:has([data-aquarium])
-www.google.com/search##div.YNk70c.EjQTId:has([data-subtree="mfc"])
-www.google.com/search##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div#eKIzJc:has([data-aquarium])
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YNk70c.EjQTId:has([data-subtree="mfc"])
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
 ! Backup filters
-www.google.com/search##[data-aquarium]
-www.google.com/search##[data-subtree="mfc"]
-www.google.com/search##[data-subtree="mfc,mfl"]
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-aquarium]
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-subtree="mfc"]
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-subtree="mfc,mfl"]
 ! Blank space above AI overview
-www.google.com/search##div.ZpdpPe[id="oFNiHe"]
+www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.ZpdpPe[id="oFNiHe"]
 
 ! ====================
 ! == Google Support ==
