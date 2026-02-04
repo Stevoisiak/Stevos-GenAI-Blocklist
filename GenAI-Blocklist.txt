@@ -490,6 +490,8 @@ www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-su
 www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-subtree="mfc,mfl"]
 ! Blank space above AI overview
 www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.ZpdpPe[id="oFNiHe"]
+! TODO: Block AI overview placeholder that appears during page load of search results on www.google.co.jp/search
+!       Possibly use attribute [data-aqid] for selection?
 
 ! ====================
 ! == Google Support ==
