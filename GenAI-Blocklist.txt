@@ -378,6 +378,10 @@ github.com###blob-view-header-copilot-icon
 !       To prevent this, users would need to change their GitHub account settings.
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
+! -- New issue page
+! Write with Copilot - Located below issue description
+github.com##.Footer-module__footerButtonWrapper__RL1TZUq
+
 ! ============
 ! == GitLab ==
 ! ============
@@ -647,7 +651,7 @@ make.powerautomate.com##.wrapper-178[href="https://copilotstudio.microsoft.com"]
 ! ==============================
 ! == Microsoft Power Platform ==
 ! ==============================
-# Sidebar - Copilot
+! Sidebar - Copilot
 admin.powerplatform.microsoft.com##button[value="/copilot/overview"]
 
 ! ==============================
@@ -655,14 +659,14 @@ admin.powerplatform.microsoft.com##button[value="/copilot/overview"]
 ! ==============================
 ! -- Sharepoint site creator
 ! Right sidebar - Design ideas
-# TODO: Remove one of the two neighboring section separators
+! TODO: Remove one of the two neighboring section separators
 sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
 
 ! -- Microsoft Office
 ! Navbar buttons (Home tab) for Copilot
 usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
 usc-excel.officeapps.live.com###Copilot-group:upward(2)
-# TODO: Copilot button briefly appears when PowerPoint is loading
+! TODO: Copilot button briefly appears when PowerPoint is loading
 usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
 ! =====================
