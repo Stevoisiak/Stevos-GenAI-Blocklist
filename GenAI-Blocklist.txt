@@ -931,6 +931,24 @@ askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.c
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
 
+! ==============
+! == WhatsApp ==
+! ==============
+! -- Main page (logged in) https://web.whatsapp.com/
+! Right panel - Ask Meta AI
+web.whatsapp.com##button.x2b8uid.xyi3aci.xwf5gio.x1p453bz.x1suzm8a.xtnn1bt.x9v5kkp.xmw7ebm.xrdum7p.x-default-marker:has(img[src="https://static.whatsapp.net/rsrc.php/yE/r/f-9DtrWWz5Y.webp"])
+! Left sidebar - Meta AI + Separator
+web.whatsapp.com##button[aria-label="Meta AI"]
+web.whatsapp.com##hr.xh8yej3.xjm9jq1.x178xt8z.x13fuv20.xx42vgk.x18oe1m7.x1sy0etr.xstzfhl
+! Search - Question Suggestions
+! Appears when search box is focused
+web.whatsapp.com##div.x1a8lsjc:has(div.x1q0q8m5.xso031l.xx42vgk.xbogo7e.x120ee7l.x1vb5itz.x1a8lsjc)
+! Search - Question Suggestions
+! Appears after making a search
+! TODO: Block "Ask Meta AI" header
+! TODO: Blank gap between search bar and messages
+web.whatsapp.com##div.x78zum5.xh8yej3.x1iyjqo2.x1n2onr6.x9f619.xkh2ocl
+
 ! ===============
 ! == X/Twitter ==
 ! ===============
