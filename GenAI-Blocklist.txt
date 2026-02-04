@@ -614,6 +614,9 @@ www.microsoft.com##div[aria-label="Promotional Banner"]
 www.microsoft.com##div#storeassistantroot
 ! Ask question prompt
 www.microsoft.com##div.chatonpage
+! "For business" section
+www.microsoft.com##reimagine-layout-column:has(reimagine-text-block[data-en-title="Microsoft 365 Copilot"])
+www.microsoft.com##reimagine-layout-column:has(reimagine-text-block[data-en-title="Join the era of AI"])
 ! "Get to know AI and Copilot" section
 www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
 ! Carousel - "Protecting biodiversity with AI" card
