@@ -465,10 +465,14 @@ gemini.google.com##div.content-container > chat-window
 www.google.com##button[jsname="B6rgad"]
 ! Footer - "Applying AI towards science and the environment"
 google.com##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
+! Mobile site - Search bar - AI button
+www.google.com##button.xOchs
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! "AI Mode" tab
 www.google.com/search##a.XVMlrc.C6AK7c[data-mstk-u]
+! Mobile - AI Mode tab (placeholder while page is loading)
+www.google.com/search##div.YkNJDb > div[jsname="xBNgKe"][role="listitem"]
 
 ! "AI Overview"
 ! Modified from https://inwiring.com/google-ai-overviews/
@@ -686,6 +690,11 @@ pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/art
 ! ============
 ! == Reddit ==
 ! ============
+! -- Main page (https://www.reddit.com/)
+! Top search bar - Ask button
+reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
+reddit.com##div.label-container > hr.trailing-divider
+
 ! -- Reddit Answers (https://www.reddit.com/answers/)
 ! Chatbox
 www.reddit.com/answers##main#main-content > div#variant_2 > div > guides-search-input-base
@@ -696,8 +705,7 @@ www.reddit.com/answers##main#main-content > div#variant_2 > div > div.flex.flex-
 ! Answers section
 www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
 
-! -- Main page (https://www.reddit.com/)
-! Hide posts from AI subreddits on homepage
+! -- Hide posts from AI subreddits
 ! Subreddit names taken from laylavish's AI blocklist (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt)
 www.reddit.com##shreddit-post[subreddit-name="3amAI"]
 www.reddit.com##shreddit-post[subreddit-name="ADULT_ART_AI"]
