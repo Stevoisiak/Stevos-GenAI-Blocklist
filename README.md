@@ -26,6 +26,8 @@ If the prior installation instructions don't work, possibly due to multiple adbl
 - Open the *Import...* section and paste `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
 - Click "Apply Changes"
 
+If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Custom_".
+
 ### For Brave
 - Open *Settings > Shields > Content filtering*.
 - Under "Add custom filter lists", enter `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
