@@ -701,6 +701,10 @@ www.reddit.com/answers##main#main-content > div#variant_2 > div > guides-search-
 ! Question suggestions
 www.reddit.com/answers##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(div[aria-label="recommendations list"])
 
+! -- Search results
+! Answers section
+www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
+
 ! -- Hide posts from AI subreddits
 ! Subreddit names taken from laylavish's AI blocklist (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt)
 www.reddit.com##shreddit-post[subreddit-name="3amAI"]
