@@ -549,6 +549,13 @@ www.instagram.com##div.xq9evs9 > div > span:has-text("Meta AI")
 ! Footer > "Meta AI" link
 www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.xod5an3.x13fj5qh.x1xegmmw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1:has(a.x1fhwpqd.xz5fbns.x1hl2dhg.xb5lr1p.x6mezaz.x1roi4f4[href="https://www.meta.ai/?utm_source=foa_web_footer"])
 
+! ===========
+! == Jimdo ==
+! ===========
+! -- Main page (https://www.jimdo.com/)
+! "Companion AI" promo section
+www.jimdo.com###companion
+
 ! ==========
 ! == Kagi ==
 ! ==========
