@@ -618,6 +618,14 @@ www.microsoft.com##div.chatonpage
 www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
+! Footer
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Copilot for organizations What's new"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Copilot for personal use What's new"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="AI in Windows What's new"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="AI for education Education"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Microsoft AI Business"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Microsoft 365 Copilot Business"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Support for AI marketplace apps Developer & IT"])
 
 ! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Ask Microsoft" chat window in bottom right
