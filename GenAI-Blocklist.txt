@@ -117,6 +117,7 @@ rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
 ! "AI Jerk off" Banner
 gelbooru.com##div.mainBodyPadding > div:has(a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
+nhentai.net##ul.menu.left > li.desktop > a[href="//tsyndicate.com/api/v1/direct/68bb4f28f3e9495c8af8a2b6909365b4"]
 rule34video.com##.button_fav.ai
 
 ! ==================
