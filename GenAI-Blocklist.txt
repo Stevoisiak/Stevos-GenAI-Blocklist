@@ -116,7 +116,7 @@ rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
 rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
 ! "AI Jerk off" Banner
-gelbooru.com##div.mainBodyPadding > div:has(a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
+gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
 nhentai.net##ul.menu.left > li.desktop > a[href="//tsyndicate.com/api/v1/direct/68bb4f28f3e9495c8af8a2b6909365b4"]
 rule34video.com##.button_fav.ai
 
@@ -482,8 +482,12 @@ www.google.com/search##div.YkNJDb > div[jsname="xBNgKe"][role="listitem"]
 ! - AI overview with sources on side (https://www.google.com/search?q=Celeste+release+date)
 ! - AI overview with info-box below (https://www.google.com/search?q=mario+64+release+date)
 www.google.com/search##div#eKIzJc:has([data-aquarium])
-! Backup filter
+www.google.com/search##div.YNk70c.EjQTId:has([data-subtree="mfc"])
+www.google.com/search##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
+! Backup filters
 www.google.com/search##[data-aquarium]
+www.google.com/search##[data-subtree="mfc"]
+www.google.com/search##[data-subtree="mfc,mfl"]
 ! Blank space above AI overview
 www.google.com/search##div.ZpdpPe[id="oFNiHe"]
 
