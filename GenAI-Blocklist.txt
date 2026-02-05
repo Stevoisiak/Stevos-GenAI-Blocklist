@@ -440,6 +440,8 @@ gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
 ! ======================
 ! -- These filters apply to multiple Google sites across domains
 ! Header > App Selector > Gemini (Calendar, Classroom, Contacts, Docs, Drive, Gmail, Maps, Meet, News, Search, Wallet, etc.)
+! Note: Rearranging apps by dragging the icons around is a bit glitchy when we hide the Gemini button, with phantom blank spaces.
+!       Oddly, it seems to do this even if we don't hide the button, but it's more noticable after hiding the Gemini button.
 google.com##li.j1ei8c:has(span[data-text="Gemini"])
 ! Header > "Try Gemini" button (Docs, Drive, Gmail)
 google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
