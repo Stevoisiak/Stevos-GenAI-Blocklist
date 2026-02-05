@@ -13,13 +13,14 @@ After:
 <img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
 
 ## Installation
-### For Firefox or Edge (auto-import)
+### For Firefox or Edge
+#### Automatic import
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Press "Subscribe" to import the filter list.
 
-### For Firefox or Edge (manual import)
-If the prior installation instructions don't work, possibly due to multiple adblockers being installed, try the following:
+#### Manual import
+If the automatic import didn't work, (possibly due to multiple adblockers being installed), try the following:
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
 - Select the *Filter lists* tab
