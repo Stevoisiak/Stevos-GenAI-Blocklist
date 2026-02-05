@@ -953,6 +953,18 @@ www.reddit.com##shreddit-post[subreddit-name="WorldbuildingWithAI"]
 ! =============
 ! == Shopify ==
 ! =============
+! Homepage (logged out) (https://www.shopify.com/)
+! Header navbar > Why Shopify > Sidekick
+www.shopify.com##div.\[grid-area\:aside\] > ul > li:has(> a[href="/sidekick"])
+! Header navbar > Products (Sidekick, AI Chats)
+www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a[href="/magic"]
+www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a[href="/chatgpt"]
+! Body > "AI designed for commerce" section
+! Note: Ideally we'd block at the div.shadow-card level to avoid removing the "Shopify Editions" promo box. However,
+!       hiding the "magic" shadowcard breaks the text positioning on the "editions" box. This is probably fixable, but figuring
+!       that out seems like a lot of effort to preserve promotional materials, so I hid the whole section instead.  ¯\_(ツ)_/¯
+www.shopify.com##div.container:has(> div.flex > div.shadow-card > div > div > p.richtext > a[data-component-name="cta-magic"][href="/magic"])
+
 ! -- Store Homepage (logged in) (https://admin.shopify.com/)
 ! Header - AI Chat button & placeholder box when page is loading
 admin.shopify.com##._ButtonWrapper_1zyxe_4
