@@ -70,9 +70,9 @@ www.bing.com###b-scopeListItem-copilotsearch
 ! Top Navbar > "Copilot"
 www.bing.com###b-scopeListItem-conv
 ! Copilot Answer box at top of search
-www.bing.com/search##.b_ans:has(> #copans_container)
+www.bing.com##.b_ans:has(> #copans_container)
 ! "Ask a follow-up" at bottom of page
-www.bing.com/search###b_copilot_search_container
+www.bing.com###b_copilot_search_container
 
 ! =============
 ! == Bold BI ==
@@ -194,7 +194,7 @@ www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymzt
 
 ! -- Shop (https://www.deviantart.com/shop)
 ! "DreamUp and earn big with AI" section
-www.deviantart.com/shop##.ail3hi
+www.deviantart.com##div.ds-surface-primary.GEIDXs > section.ail3hi
 
 ! -- Image previews for users who post AI images.
 ! * Curated based on users posting to the AI tag or who have the AI tools notice on deviations.
@@ -450,7 +450,7 @@ google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 ! Header > "Ask Analytics Advisor" button
 analytics.google.com##gmp-chat-entry-point
 ! Insights button
-analytics.google.com/analytics/web##ga-toolbar-icon-button-component.ga-intelligence-button
+analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 
 ! ====================================
 ! == Google Developer Documentation ==
@@ -469,25 +469,26 @@ developers.google.com##devsite-search-summary
 ! =================
 ! == Google Docs ==
 ! =================
-! -- Google Vids - New document page (https://docs.google.com/videos/u/0/create)
+! -- Google Vids 
+! - "Start a new video" page (https://docs.google.com/videos/u/0/create)
 ! "Let's start creating" intro popup - AI features (Storyboard, Veo, AI Avatar)
-docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton[aria-controls="getting-started-dialog-docgen-view"]
-docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.videogen
-docs.google.com/videos##button.appsDocsGettingStartedEntryPointSelectionViewButton.avatars
+docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton[aria-controls="getting-started-dialog-docgen-view"]
+docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton.videogen
+docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton.avatars
 ! Bottom promo bar to buy Google AI
 ! Element is removed instead of hidden to avoid empty space
-docs.google.com/videos##div#getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
+docs.google.com##div#getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
 ! Convert Slides > Select Presentation > disable "Include AI" checkbox
-docs.google.com/videos##div.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
+docs.google.com##div.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
 
-! -- Google Vids - Editing a video
+! - Editing a blank video
 ! Left sidebar > AI buttons (Generate, Avatar, Voiceover)
-docs.google.com/videos##div#content-library-rail-image-synthesis-element
-docs.google.com/videos##div#content-library-rail-avatars-element
-docs.google.com/videos##div#content-library-rail-voiceovers-element
+docs.google.com##div#content-library-rail-image-synthesis-element
+docs.google.com##div#content-library-rail-avatars-element
+docs.google.com##div#content-library-rail-voiceovers-element
 ! Bottom timeline - Generate audio button
 ! Appears when selecting an audio track on the timeline
-docs.google.com/videos##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
+docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
 
 ! ===================
 ! == Google Gemini ==
@@ -604,11 +605,11 @@ kagi.com##a.nav-item-link[href*="/fastgpt"]
 
 ! -- Search results (https://kagi.com/search?q=test)
 ! "Quick Answer"
-kagi.com/search##button.quick-answer-trigger-link
+kagi.com##button.quick-answer-trigger-link
 ! Action Menu > AI options + Separator
-kagi.com/search##div.k_ui_dropdown_data_list > div.list_items > hr
-kagi.com/search##a._0_summarize_page
-kagi.com/search##a._0_discuss_document
+kagi.com##button.app_nav_dropdown > div.k_ui_dropdown_data_list > div.list_items > hr
+kagi.com##button.app_nav_dropdown > div.k_ui_dropdown_data_list > div.list_items > a._0_summarize_page
+kagi.com##button.app_nav_dropdown > div.k_ui_dropdown_data_list > div.list_items > a._0_discuss_document
 
 ! ==============
 ! == LinkedIn ==
@@ -638,9 +639,9 @@ m365.cloud.microsoft##.f1bgymy2.f88m0xt.f1vm38ou.f1oathrd.f1pc0a42.f1fi8va.f1mk3
 
 ! -- Search (https://m365.cloud.microsoft/search/)
 ! Copilot suggestions about files
-m365.cloud.microsoft/search##.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
+m365.cloud.microsoft##.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
 ! "Open expanded view" sparkle icon. Appears next to some files.
-m365.cloud.microsoft/search##.EdgeworthItemControl-module__title-icon-button__UewmV
+m365.cloud.microsoft##.EdgeworthItemControl-module__title-icon-button__UewmV
 
 ! ===============
 ! == Microsoft ==
@@ -731,24 +732,25 @@ usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 ! =====================
 ! == Microsoft Teams ==
 ! =====================
+! -- Main page (logged in) (https://teams.microsoft.com/v2/)
 ! Sidebar - Copilot button
-teams.microsoft.com/v2###b5abf2ae-c16b-4310-8f8a-d3bcdb52f162
+teams.microsoft.com###b5abf2ae-c16b-4310-8f8a-d3bcdb52f162
 ! Chat - Copilot button
-teams.microsoft.com/v2##[data-testid="list-item-metaos-copilot"]
+teams.microsoft.com##[data-testid="list-item-metaos-copilot"]
 
 ! -- Apps
 ! Sidebar - Featured - Agents
-teams.microsoft.com/v2##[data-tid="store-provider-app:co:copilotplugins"]
+teams.microsoft.com##[data-tid="store-provider-app:co:copilotplugins"]
 ! Sidebar - Featured - Boost productivity with agents
-teams.microsoft.com/v2##[data-tid="store-provider-app:co:abc1"]
+teams.microsoft.com##[data-tid="store-provider-app:co:abc1"]
 ! Sidebar - Featured - AI-powered apps
-teams.microsoft.com/v2##[data-tid="store-provider-app:co:aiapps"]
-! Main page - "Agents we love" section
-teams.microsoft.com/v2##[data-tid="store-collection-app:co:featuredapps"]
-! Main page - "Boost productivity with agents" section
-teams.microsoft.com/v2##[data-tid="store-collection-app:co:abc1"]
+teams.microsoft.com##[data-tid="store-provider-app:co:aiapps"]
+! Default apps page - "Agents we love" section
+teams.microsoft.com##[data-tid="store-collection-app:co:featuredapps"]
+! Default apps page - "Boost productivity with agents" section
+teams.microsoft.com##[data-tid="store-collection-app:co:abc1"]
 ! Sparkle icon indicating an app has AI features
-teams.microsoft.com/v2##svg[aria-label="Includes an agent and uses AI"]
+teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
 ! ===========
 ! == Pixiv ==
@@ -762,14 +764,14 @@ pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/art
 ! ============
 ! -- Main page (https://www.reddit.com/)
 ! Top search bar - Ask button
-reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
-reddit.com##div.label-container > hr.trailing-divider
+www.reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
+www.reddit.com##div.label-container > hr.trailing-divider
 
 ! -- Reddit Answers (https://www.reddit.com/answers/)
 ! Chatbox
-www.reddit.com/answers##main#main-content > div#variant_2 > div > guides-search-input-base
+www.reddit.com##main#main-content > div#variant_2 > div > guides-search-input-base
 ! Question suggestions
-www.reddit.com/answers##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(div[aria-label="recommendations list"])
+www.reddit.com##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
 
 ! -- Search results
 ! Answers section
@@ -958,19 +960,25 @@ admin.shopify.com##.Polaris-Box > .Polaris-InlineStack > ._Avatar_iv0hk_7
 ! AI Chatbot in right sidebar
 admin.shopify.com##._Sidebar_xdtqe_5
 ! Left sidebar > Online Store > Themes - "Design your store in seconds" prompt
-! Item is in an iframe with a different domain 
+! Item is in an iframe with a different domain
+! TODO: Filter is not compatible with uBlock Lite due to pathname in URL.
+!       Removing /themes would make it compatible, but I can't test without signing up for another Shopify free trial.
 online-store-web.shopifyapps.com/themes##.Polaris-Layout__Section:has(._generationsContainer_8uqbi_1)
 
 ! -- Website builder promo (https://www.shopify.com/website/builder)
 ! "Create a custom website with AI" promo
-www.shopify.com/website/builder##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
+www.shopify.com##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
 
 ! -- Magic AI promo (https://www.shopify.com/magic)
-! Block everything except header, free trial, and footer
-www.shopify.com/magic##section.grid-cols-full:not(#conversion-section)
+! Block all sections except free trial
+www.shopify.com##main#main > section.grid-cols-full#magic-hero
+www.shopify.com##main#main > section.grid-cols-full#sidekick
+www.shopify.com##main#main > section.grid-cols-full#interactive-features
+www.shopify.com##main#main > section.grid-cols-full#testimonials-section
+www.shopify.com##main#main > section.grid-cols-full#faq-section
 
 ! -- AI business name generator (https://www.shopify.com/tools/business-name-generator)
-www.shopify.com/tools/business-name-generator##div.container:has-text("AI Business Name Generator")
+www.shopify.com##main#main > div > div.container:has-text("AI Business Name Generator"):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
 
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
