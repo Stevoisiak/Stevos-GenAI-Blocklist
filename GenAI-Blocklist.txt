@@ -46,7 +46,7 @@ baidu.com##.panel-list_8jHmm
 ! Navbar - AI Mode tab
 baidu.com###s_tab_inner > .s-tab-csaitab
 ! AI summary + Question suggestions
-baidu.com##div.cosc-card-content-border >  div.cosc-card-content:has(div.cosd-search-header-brand-ai)
+baidu.com##div.cosc-card-content-border >  div.cosc-card-content:has(> div[data-module="header"] > div.cosd-search-header-primary > div.cosd-search-header-brand-area > div.cosd-search-header-brand-ai)
 baidu.com##div.dqa-aiAsk-wrap_5W1GG
 ! Right sidebar - AI Assistant
 baidu.com##div#ai-accompanies-height-container
@@ -70,7 +70,7 @@ www.bing.com###b-scopeListItem-copilotsearch
 ! Top Navbar > "Copilot"
 www.bing.com###b-scopeListItem-conv
 ! Copilot Answer box at top of search
-www.bing.com/search##.b_ans:has(#copans_container)
+www.bing.com/search##.b_ans:has(> #copans_container)
 ! "Ask a follow-up" at bottom of page
 www.bing.com/search###b_copilot_search_container
 
@@ -80,7 +80,7 @@ www.bing.com/search###b_copilot_search_container
 ! -- Homepage (https://www.boldbi.com/)
 ! Top sticky banner - "AI-Powered Analytics"
 www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
-! Header > Products > AI Analytics
+! Header navbar > Products > AI Analytics
 www.boldbi.com##.ekit-stylish-list-content-wrapper:has([href="/ai-analytics/"])
 
 ! Animated AI demo image
@@ -400,7 +400,7 @@ github.com##.Link--secondary[href="/features/ai"]
 
 ! -- Homepage (logged in) (https://github.com/)
 ! Header > "Chat with Copilot" button
-github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(svg.octicon-copilot)
+github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
 ! Left sidebar > Copilot
 github.com##a[data-testid="side-nav-menu-item-COPILOT"]
 ! "Ask Anything" prompt box
@@ -666,13 +666,13 @@ www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 ! Footer
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Copilot for organizations What's new"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Copilot for personal use What's new"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="AI in Windows What's new"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="AI for education Education"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Microsoft AI Business"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Microsoft 365 Copilot Business"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(a[aria-label="Support for AI marketplace apps Developer & IT"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for organizations What's new"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for personal use What's new"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI in Windows What's new"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI for education Education"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft AI Business"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft 365 Copilot Business"])
+www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Support for AI marketplace apps Developer & IT"])
 
 ! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Ask Microsoft" chat window in bottom right
