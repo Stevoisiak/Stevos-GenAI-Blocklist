@@ -34,6 +34,8 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 - Click *Add*.
 
 ### For Google Chrome
+*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
+
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 - Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click > Save link as...)
 - Click the uBlock icon in your browser and hit the options button
@@ -41,9 +43,11 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 - At the bottom, click "Import/Export", then "Import and append..."
 - Select the filter list file (`GenAI-Blocklist.txt`) you downloaded in step 2.
 
-*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
-
 ### For Safari (iOS)
+*Note 1: For unknown reasons, the custom filter rules don't always work after importing. Your results may vary.*
+
+*Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
+
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
 - Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press > Download Linked File)
 - Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
@@ -55,8 +59,6 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 - Open the "Custom filters" tab
 - Open "Import/Export", then press "Import and append..."
 - Open "Downloads" folder and select `GenAI-Blocklist.txt`
-
-*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Opera
 

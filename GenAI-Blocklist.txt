@@ -524,7 +524,6 @@ www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YkNJ
 ! - AI overview with sources on side (https://www.google.com/search?q=Celeste+release+date)
 ! - AI overview with info-box below (https://www.google.com/search?q=mario+64+release+date)
 www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div#eKIzJc:has([data-aquarium])
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YNk70c.EjQTId:has([data-subtree="mfc"])
 www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
 ! Backup filters
 www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-aquarium]
