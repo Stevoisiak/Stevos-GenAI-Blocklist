@@ -126,7 +126,7 @@ e-hentai.org,exhentai.org##.itg > div.gl1t:has(img[title*="ai-generated" i])
 e-hentai.org,exhentai.org##.itg > div.gl1t:has(img[title*="aigenerated" i])
 
 ! "AI Jerk off" Banner
-gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
+gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
 nhentai.net##ul.menu.left > li.desktop > a[href="//tsyndicate.com/api/v1/direct/68bb4f28f3e9495c8af8a2b6909365b4"]
 rule34video.com##.button_fav.ai
 
@@ -139,7 +139,7 @@ search.brave.com##button#submit-llm-button
 
 ! -- Search (https://search.brave.com/search?q=Why+are+we+here)
 ! Navbar - AI tab
-search.brave.com##ul#primary-tabs > li.tab-item:has(a[href^="/ask"])
+search.brave.com##ul#primary-tabs > li.tab-item:has(> a[href^="/ask"])
 ! AI Answer
 search.brave.com##div#llm-snippet
 
@@ -183,7 +183,7 @@ www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.
 ! "Create Art" > "Create with DreamUp"
 www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
 ! "Create Art" > "Create with Draw" > Prompt box
-www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(textarea#positivePrompt)
+www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
 
 ! -- Tag page (https://www.deviantart.com/tag/background)
 ! "Create Art" > "Create with DreamUp"
@@ -280,12 +280,12 @@ www.deviantart.com##div.V_S0t_[data-testid="content_row"] > div:not(.m_4A2n):has
 ! -- Main page - logged out (https://www.dropbox.com/)
 ! Header - "Meet Dropbox Dash" sticky promo
 ! We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
-www.dropbox.com##div._banner_1ozs8_1:has(a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
-www.dropbox.com##div._banner_1ozs8_1:has(a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
+www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
+www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
 
-! Header nav - AI links
-www.dropbox.com##.dwg-dropdown-list-item__container:has([role="menuitem"][data-trackingid="unav_product_Reclaim.ai"])
-www.dropbox.com##.dwg-dropdown-list-item__container:has([role="menuitem"][data-trackingid="unav_product_dash"])
+! Header nav > Products > AI links
+www.dropbox.com##.dwg-dropdown-list-item__container:has(> [role="menuitem"][data-trackingid="unav_product_Reclaim.ai"])
+www.dropbox.com##.dwg-dropdown-list-item__container:has(> [role="menuitem"][data-trackingid="unav_product_dash"])
 
 ! "AI is coming to dropbox" promo
 www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__content-area > .dwg-box > .dwg-box > .dwg-stack > p
@@ -296,9 +296,9 @@ www.dropbox.com##._plankFrame_mrwa9_13:has(.dwg-button2[href="https://dash.dropb
 
 ! Footer - AI links
 
-www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(.dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__dash--14"])
-www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(.dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__reclaimai--15"])
-www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(.dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__dash--14"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__reclaimai--15"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
 
 ! -- Home - Logged in (https://www.dropbox.com/home)
 ! TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
@@ -557,7 +557,7 @@ support.google.com##div.helpPanelContainerRoot
 ! ======================
 ! -- Main page (https://workspace.google.com/)
 ! Navbar - AI
-workspace.google.com##div._headerNavGroup_evb2c_260:has(a[data-g-action="ai"])
+workspace.google.com##div._headerNavGroup_evb2c_260:has(> a[data-g-action="ai"])
 ! "Premium AI built-in" section
 workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
 ! Google Workspace includes: Gemini & NotebookLM icons
@@ -596,7 +596,7 @@ www.instagram.com##.xmzvs34.xwib8y2.xf159sx.x1y1aw1k > div > .x1qrby5j.x7ja8zs.x
 ! Left sidebar > Also from meta > Meta AI
 www.instagram.com##div.xq9evs9 > div > span:has-text("Meta AI")
 ! Footer > "Meta AI" link
-www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.xod5an3.x13fj5qh.x1xegmmw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1:has(a.x1fhwpqd.xz5fbns.x1hl2dhg.xb5lr1p.x6mezaz.x1roi4f4[href="https://www.meta.ai/?utm_source=foa_web_footer"])
+www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.xod5an3.x13fj5qh.x1xegmmw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1:has(> a.x1fhwpqd.xz5fbns.x1hl2dhg.xb5lr1p.x6mezaz.x1roi4f4[href="https://www.meta.ai/?utm_source=foa_web_footer"])
 
 ! ===========
 ! == Jimdo ==
@@ -1043,7 +1043,7 @@ web.whatsapp.com##button[aria-label="Meta AI"]
 web.whatsapp.com##hr.xh8yej3.xjm9jq1.x178xt8z.x13fuv20.xx42vgk.x18oe1m7.x1sy0etr.xstzfhl
 ! Search - Question Suggestions
 ! Appears when search box is focused
-web.whatsapp.com##div.x1a8lsjc:has(div.x1q0q8m5.xso031l.xx42vgk.xbogo7e.x120ee7l.x1vb5itz.x1a8lsjc)
+web.whatsapp.com##div.x1a8lsjc:has(> div.x1q0q8m5.xso031l.xx42vgk.xbogo7e.x120ee7l.x1vb5itz.x1a8lsjc)
 ! Search - Question Suggestions
 ! Appears after making a search
 ! TODO: Block "Ask Meta AI" header
@@ -1175,7 +1175,7 @@ studio.youtube.com##tp-yt-paper-tab#inspiration-tab
 ! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
 ! Overview > Suggested AI Question 
-studio.youtube.com##div.suggestion-chips-container:has(ytcp-creator-chat-entrypoint-chips)
+studio.youtube.com##div.suggestion-chips-container:has(> ytcp-creator-chat-entrypoint-chips)
 ! Trends > "AI tools have moved" banner
 studio.youtube.com##div.screen-banners-container.yta-screen:has(button[aria-label="Go to Inspiration"])
 ! Trends > Search > "Brainstorm video ideas" button
