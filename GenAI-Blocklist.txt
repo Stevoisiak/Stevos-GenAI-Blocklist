@@ -475,34 +475,47 @@ www.google.com,www.google.co.jp,www.google.com.hk##div[role="listitem"][jsname] 
 www.google.com,www.google.co.jp,www.google.com.hk##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 
 ! - AI Overview
-! These filters are somewhat hacky and speculative due to Google having multiple formats for AI overviews.
+! These filters are somewhat speculative due to Google having multiple formats for AI overviews.
 ! Element names may change based on the search terms used, switching to mobile or desktop, logging in or out of Google, using an international site (google.com.hk), etc.
 ! Test cases
 ! - AI: (https://www.google.com/search?q=Why+are+we+here)
 ! - AI with sources on side: (https://www.google.com/search?q=Celeste+release+date)
 ! - AI with non-AI info-box below: (https://www.google.com/search?q=mario+64+release+date)
-! - AI with "thinking" preloader: (https://www.google.com/search?q=unity+compute+Dispatch+editor)
+! - AI with "thinking" preloader: (https://www.google.com/search?q=unity+compute+dispatch+editor)
 ! - AI with "thinking" preloader that sometimes appears in middle of search results (https://www.google.com/search?q=ublock+ai+results+not+showing+results)
 ! - AI on Hong Kong site: (https://www.google.com.hk/search?q=mario+64+release+date)
 ! - AI on Japan site: (https://www.google.co.jp/search?q=Why+am+i+here)
 ! - Calculator with no AI: (https://www.google.com/search?q=calculator)
+! - Non-ai infobox: (https://www.google.com/search?q=Halo+release+date)
+! - AI infobox (check on mobile): (https://www.google.com/search?q=ghola+dune)
 
-! Main AI Overview filters
-www.google.com,www.google.co.jp,www.google.com.hk##div#eKIzJc:has([data-aquarium])
-www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
-! (https://www.google.com/search?q=ublock+ai+results+not+showing+results)
-! TODO: Block AI "thinking" placeholder that appears during page load. Possibly use [data-aqid] for selection?
-! TODO: There's still a small blank space where AI Overview was
-www.google.com,www.google.co.jp,www.google.com.hk##div[data-attnms="tc"][jsname="dEwkXc"] > div[data-hveid] > div.yf[data-lhcontainer="1"]
+! AI Overview
+www.google.com,www.google.co.jp,www.google.com.hk##[data-attnms]
 
-! Backup filters (via https://inwiring.com/google-ai-overviews/)
+! Container for AI Overview when located on top of search results
+! alt: www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has([data-attnms])
+www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has(> div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
+
+! Blank padding above AI Overview when located at top of search results
+! alt: www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De)
+www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
+
+! Pregenerated AI Infobox (Mobile only)
+! When testing these rules, use a mobile device or mobile device emulation in browser dev tools
+! Example URLs
+! - https://www.google.com/search?q=ghola+dune
+! - https://www.google.com/search?q=Mario+%28franchise%29
+! Note: These filters have a slight delay before they take effect.
+www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
+www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
+
+! Backup AI Overview filters
 ! These leave a large blank space, but are a good catch-all
+! Credit to https://inwiring.com/google-ai-overviews/ for [data-aquarium] and [data-subtree="mfc"] filters
 www.google.com,www.google.co.jp,www.google.com.hk##[data-aquarium]
 www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc"]
 www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc,mfl"]
-
-! Blank space above AI overview
-www.google.com,www.google.co.jp,www.google.com.hk##div.ZpdpPe[id="oFNiHe"]
+www.google.com,www.google.co.jp,www.google.com.hk##[data-attnms]
 
 ! ======================
 ! == Google Analytics ==
