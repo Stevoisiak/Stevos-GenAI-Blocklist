@@ -81,7 +81,7 @@ www.bing.com###b_copilot_search_container
 ! Top sticky banner - "AI-Powered Analytics"
 www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
 ! Header navbar > Products > AI Analytics
-www.boldbi.com##.ekit-stylish-list-content-wrapper:has([href="/ai-analytics/"])
+www.boldbi.com##.ekit-stylish-list-content-wrapper:has(> [href="/ai-analytics/"])
 
 ! Animated AI demo image
 www.boldbi.com##.elementor-element-6d83d9b2
@@ -91,7 +91,7 @@ www.boldbi.com##.elementor-element-3d31878
 www.boldbi.com##.elementor-element-59cecfb8
 
 ! Products - "AI Analytics" by footer
-www.boldbi.com##.elementor-icon-list-item:has([href="/ai-analytics"])
+www.boldbi.com##.elementor-icon-list-item:has(> [href="/ai-analytics/"])
 ! "Ask AI for a summary of Bold BI" at bottom of page
 www.boldbi.com##.e-child.e-con.e-flex.e-con-full.elementor-element-6e4054b5.elementor-element
 ! AI chat assistant
