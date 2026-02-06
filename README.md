@@ -35,13 +35,6 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 - Click *Add*.
 
 ### For Google Chrome
-
-Due to limitations from Google, [uBlock Origin is not available for Chrome](https://adguard.com/en/blog/ublock-origin-disabled-chrome.html). You can use this blocklist with uBlock Origin Lite, but it comes with several limitations.
-- **Not all AI filters are compatible**
-- Filters need to be manually imported
-- Updating filters requrires clearing existing filters and re-importing
-
-#### Instructions
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 - Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click > Save link as...)
 - Click the uBlock icon in your browser and hit the options button
@@ -49,16 +42,10 @@ Due to limitations from Google, [uBlock Origin is not available for Chrome](http
 - At the bottom, click "Import/Export", then "Import and append..."
 - Select the filter list file (`GenAI-Blocklist.txt`) you downloaded in step 2.
 
+*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
+
 ### For Safari (iOS)
 
-Due to limitations from Apple, uBlock Origin is not available for iOS. You can use this blocklist with uBlock Origin Lite, but it comes with several limitations.
-- **Not all AI filters are compatible**
-- Filter rules don't always work after importing. (May have something to do with [needing time to convert rulesets](https://github.com/user-attachments/assets/7d6419cd-a465-42c4-85db-803aeb8ab8f5)?)
-- Filters need to be manually imported
-- Updating filters requrires clearing existing filters and re-importing
-
-
-#### Instructions
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
 - Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press > Download Linked File)
 - Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
@@ -70,6 +57,10 @@ Due to limitations from Apple, uBlock Origin is not available for iOS. You can u
 - Open the "Custom filters" tab
 - Open "Import/Export", then press "Import and append..."
 - Open "Downloads" folder and select `GenAI-Blocklist.txt`
+
+*Note 1: You may need to wait a few minutes before filter rules take effect. (Possibly related to [rule conversion](https://github.com/user-attachments/assets/7d6419cd-a465-42c4-85db-803aeb8ab8f5))*
+
+*Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Opera
 
