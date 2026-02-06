@@ -528,22 +528,35 @@ www.google.com,www.google.co.jp,www.google.com.hk##div[role="listitem"][jsname] 
 ! Adapted from https://old.reddit.com/r/techsupport/comments/1kt8dds/how_to_remove_ai_mode_on_google_search_selection/njltdug/
 www.google.com,www.google.co.jp,www.google.com.hk##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 
-! "AI Overview"
-! Modified from https://inwiring.com/google-ai-overviews/
+! - AI Overview
+! These filters are somewhat hacky and speculative due to Google having multiple formats for AI overviews.
+! Element names may change based on the search terms used, switching to mobile or desktop, logging in or out of Google, using an international site (google.com.hk), etc.
 ! Test cases
-! - AI overview (https://www.google.com/search?q=Why+are+we+here)
-! - AI overview with sources on side (https://www.google.com/search?q=Celeste+release+date)
-! - AI overview with info-box below (https://www.google.com/search?q=mario+64+release+date)
+! - AI: (https://www.google.com/search?q=Why+are+we+here)
+! - AI with sources on side: (https://www.google.com/search?q=Celeste+release+date)
+! - AI with non-AI info-box below: (https://www.google.com/search?q=mario+64+release+date)
+! - AI with "thinking" preloader: (https://www.google.com/search?q=unity+compute+Dispatch+editor)
+! - AI with "thinking" preloader that sometimes appears in middle of search results (https://www.google.com/search?q=ublock+ai+results+not+showing+results)
+! - AI on Hong Kong site: (https://www.google.com.hk/search?q=mario+64+release+date)
+! - AI on Japan site: (https://www.google.co.jp/search?q=Why+am+i+here)
+! - Calculator with no AI: (https://www.google.com/search?q=calculator)
+
+! Main AI Overview filters
 www.google.com,www.google.co.jp,www.google.com.hk##div#eKIzJc:has([data-aquarium])
 www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
-! Backup filters
+! (https://www.google.com/search?q=ublock+ai+results+not+showing+results)
+! TODO: Block AI "thinking" placeholder that appears during page load. Possibly use [data-aqid] for selection?
+! TODO: There's still a small blank space where AI Overview was
+www.google.com,www.google.co.jp,www.google.com.hk##div[data-attnms="tc"][jsname="dEwkXc"] > div[data-hveid] > div.yf[data-lhcontainer="1"]
+
+! Backup filters (via https://inwiring.com/google-ai-overviews/)
+! These leave a large blank space, but are a good catch-all
 www.google.com,www.google.co.jp,www.google.com.hk##[data-aquarium]
 www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc"]
 www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc,mfl"]
+
 ! Blank space above AI overview
 www.google.com,www.google.co.jp,www.google.com.hk##div.ZpdpPe[id="oFNiHe"]
-! TODO: Block AI overview placeholder that appears during page load of search results on https://www.google.com/search?q=ublock+ai+results+not+showing+results&
-!       Possibly use attribute [data-aqid] for selection?
 
 ! ====================
 ! == Google Support ==
