@@ -985,7 +985,7 @@ admin.shopify.com##._Sidebar_xdtqe_5
 ! Item is in an iframe with a different domain
 ! TODO: Filter is not compatible with uBlock Lite due to pathname in URL.
 !       Removing /themes would make it compatible, but I can't test without signing up for another Shopify free trial.
-online-store-web.shopifyapps.com/themes##.Polaris-Layout__Section:has(._generationsContainer_8uqbi_1)
+online-store-web.shopifyapps.com##.Polaris-Layout__Section:has(._generationsContainer_8uqbi_1)
 
 ! -- Website builder promo (https://www.shopify.com/website/builder)
 ! "Create a custom website with AI" promo
