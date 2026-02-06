@@ -534,15 +534,15 @@ www.google.com,www.google.co.jp,www.google.com.hk##[role="navigation"] [role="li
 ! - AI overview (https://www.google.com/search?q=Why+are+we+here)
 ! - AI overview with sources on side (https://www.google.com/search?q=Celeste+release+date)
 ! - AI overview with info-box below (https://www.google.com/search?q=mario+64+release+date)
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div#eKIzJc:has([data-aquarium])
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
+www.google.com,www.google.co.jp,www.google.com.hk##div#eKIzJc:has([data-aquarium])
+www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has([data-subtree="mfc,mfl"])
 ! Backup filters
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-aquarium]
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-subtree="mfc"]
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##[data-subtree="mfc,mfl"]
+www.google.com,www.google.co.jp,www.google.com.hk##[data-aquarium]
+www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc"]
+www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc,mfl"]
 ! Blank space above AI overview
-www.google.com/search,www.google.co.jp/search,www.google.com.hk/search##div.ZpdpPe[id="oFNiHe"]
-! TODO: Block AI overview placeholder that appears during page load of search results on www.google.co.jp/search
+www.google.com,www.google.co.jp,www.google.com.hk##div.ZpdpPe[id="oFNiHe"]
+! TODO: Block AI overview placeholder that appears during page load of search results on https://www.google.com/search?q=ublock+ai+results+not+showing+results&
 !       Possibly use attribute [data-aqid] for selection?
 
 ! ====================
