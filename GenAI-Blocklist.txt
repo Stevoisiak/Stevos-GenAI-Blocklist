@@ -295,7 +295,6 @@ www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-f
 www.dropbox.com##._plankFrame_mrwa9_13:has(.dwg-button2[href="https://dash.dropbox.com/"])
 
 ! Footer - AI links
-
 www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__dash--14"])
 www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__reclaimai--15"])
 www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
