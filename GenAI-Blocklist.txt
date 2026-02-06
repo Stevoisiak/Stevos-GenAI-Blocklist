@@ -973,10 +973,21 @@ www.reddit.com##shreddit-post[subreddit-name="Wombodream"]
 www.reddit.com##shreddit-post[subreddit-name="wonderAI"]
 www.reddit.com##shreddit-post[subreddit-name="WorldbuildingWithAI"]
 
+! ===========================
+! == Sankaku Complex (NSFW) ==
+! ===========================
+! Can't block AI art from search because only a few image tags are present in the metadata.
+! There are so many AI features on the site, these filters are a drop in the bucket ¯\_(ツ)_/¯
+
+! -- Homepage (after welcome prompt, logged out) (https://www.sankakucomplex.com/)
+! Left sidebar (Companions & AI Creator)
+www.sankakucomplex.com##.MuiButtonBase-root-375[data-test="ai_companion"]
+www.sankakucomplex.com##.MuiButtonBase-root-375[data-test="ai_art"]
+
 ! =============
 ! == Shopify ==
 ! =============
-! Homepage (logged out) (https://www.shopify.com/)
+! -- Homepage (logged out) (https://www.shopify.com/)
 ! Header navbar > Why Shopify > Sidekick
 www.shopify.com##div.\[grid-area\:aside\] > ul > li:has(> a[href="/sidekick"])
 ! Header navbar > Products (Sidekick, AI Chats)
