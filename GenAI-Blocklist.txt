@@ -116,6 +116,9 @@ rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
 rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
 ! - Galleries with "AI Generated" in title
+nhentai.net###content > .container.index-container > .gallery:has-text(/ai generated/i)
+nhentai.net###content > .container.index-container > .gallery:has-text(/ai-generated/i)
+nhentai.net###content > .container.index-container > .gallery:has-text(/aigenerated/i)
 ! Minimal/Minimal+/Compact/Extended view
 e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img[title*="ai generated" i]))
 e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img[title*="ai-generated" i]))
