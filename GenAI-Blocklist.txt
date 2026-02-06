@@ -1101,9 +1101,19 @@ x.com##a[aria-label="Edit image"]
 ! -- Posts by Grok
 x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
 
-! =============
-! == XVideos ==
-! =============
+! =====================
+! == XNXX.com (NSFW) ==
+! =====================
+! -- Homepage
+! Left sidebar - Categories
+www.xnxx.com###side-cat-list > li > a[href="/search/ai"]
+
+! -- Tags (https://www.xnxx.com/tags)
+www.xnxx.com###content > #content-thumbs > #tags > li:has(> a[href^="/search/ai-"])
+
+! ====================
+! == XVideos (NSFW) ==
+! ====================
 ! -- Homepage
 ! Navbar - Categories - AI
 www.xvideos.com##ul#main-cats-sub-list > li.dyntop-cat > a[href="/c/AI-239"]
