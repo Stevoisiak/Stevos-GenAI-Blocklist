@@ -115,6 +115,10 @@ rule34.us##.thumbail-container > div:has(img[title*="ai assisted"])
 rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
 rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
 
+! -- My Account > My Favorites
+rule34.xxx###content > .image-list > span:has( > span.thumb > a > img[title*=ai_generated])
+rule34.xxx###content > .image-list > span:has( > span.thumb > a > img[title*=ai_assisted])
+
 ! - Galleries with "AI Generated" in title
 nhentai.net###content > .container.index-container > .gallery:has-text(/ai generated/i)
 nhentai.net###content > .container.index-container > .gallery:has-text(/ai-generated/i)
