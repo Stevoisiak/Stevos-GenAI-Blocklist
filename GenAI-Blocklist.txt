@@ -418,8 +418,10 @@ github.com##a[data-testid="side-nav-menu-item-COPILOT"]
 github.com##div.copilotPreview__container
 
 ! -- File view (https://github.com/Stevoisiak/GenAI-Blocklist-for-uBlock/blob/main/GenAI-Blocklist-for-uBlock.txt)
-! "Ask about this file" button
+! "Ask about this file" button - Copilot logo in header bar above file contents
 github.com###blob-view-header-copilot-icon
+! Copilot button to explain highlighted line (Appears after clicking line number)
+github.com###copilot-button-container
 
 ! -- File View > Commit Changes
 ! "Regenerate commit message" button
