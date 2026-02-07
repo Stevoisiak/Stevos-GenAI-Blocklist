@@ -1210,6 +1210,11 @@ www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 ! Chat summary
 www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summary-renderer)
 
+! -- Search results
+! Video summary infocard (https://www.youtube.com/results?search_query=New+Frame+Plus+The+best+game+animation+of+2020)
+! Make sure not to block the chapter-list infocards
+www.youtube.com##div#expandable-metadata > ytd-expandable-metadata-renderer[has-video-summary]
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================
