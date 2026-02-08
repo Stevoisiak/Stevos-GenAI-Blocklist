@@ -848,10 +848,11 @@ askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.c
 ! -- Homepage
 ! Navbar > AI chat
 www.tubegalore.com##div[class="dropdown"]:has-text("AI chat")
-! Popular categories
-www.tubegalore.com##.popular-list > .category-group > li > div > a[href="/c/ai-generated"]
-www.tubegalore.com##.popular-list > .category-group > li > div > a[href="/c/ai-generated-compilation"]
-www.tubegalore.com##.popular-list > .category-group > li > div > a[href="/c/ai-generated-mom"]
+! Popular Categoires (below "Most Popular Categories" section)
+www.tubegalore.com##.popular-list > .category-group > li > div > a[title^="AI Generated"]
+
+! -- Categories (https://www.tubegalore.com/az#) 
+www.tubegalore.com###content > .category-group-container >  .category-group >  ul.w-full >  .category[data-title^="AI Generated"]
 
 ! =========
 ! == UPS ==
