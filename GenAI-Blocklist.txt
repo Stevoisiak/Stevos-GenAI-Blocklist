@@ -729,7 +729,10 @@ teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 ! =========
 ! -- Homepage (https://www.msn.com/)
 ! - Search bar - Copilot button
+! Only applies to the "New MSN Homepage", which can be toggled in settings.
 www.msn.com##fluent-button#codex-bing-button
+! - App slider menu - Microsoft 365
+www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Microsoft 365"])
 
 ! ===========
 ! == Pixiv ==
