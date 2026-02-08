@@ -2,6 +2,18 @@
 
 Set of uBlock Origin filters intended to block generative AI features on various websites.
 
+## Examples of blocked content
+* Google's AI summaries
+* YouTube's Ask button, AI summaries, & "Inspiration" tab
+* GitHub's Copilot buttons
+* X/Twitter's Grok buttons
+* Microsoft 365's Copilot buttons
+* Amazon Rufus's product and review summaries
+* DeviantArt's DreamUp ads
+* Facebook's AI chat
+* Reddit Answers
+* Booru images tagged as AI generated
+
 ## Image comparison
 
 Before:
@@ -67,16 +79,6 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 Unfortunately, this filter list does not currently work in Opera.
 
 Importing the filters had no effect when testing with both uBlock Origin and Opera's built in ad blocking. ([May be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
-
-## Examples of blocked content
-* Boorus: Images tagged as AI generated
-* Deviantart: DreamUp ads
-* Facebook: AI chat
-* GitHub: Copilot buttons
-* Google: AI Summaries
-* YouTube: Ask button & live chat summaries
-* YouTube Studio: Inspiration tab
-* X: Grok buttons
 
 ## Optional account blocklist
 There is an additional optional filterlist [`GenAI-Account-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Account-Blocklist.txt) that blocks accounts and subreddits that post AI generated content. This list is much less thorough and is still a work in progress.
