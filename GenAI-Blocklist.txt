@@ -571,10 +571,8 @@ www.jimdo.com###companion
 ! == Kagi ==
 ! ==========
 ! -- Homepage (https://kagi.com/)
-! Menubar > Apps
-kagi.com##a.nav-item-link[href*="/assistant"]
-kagi.com##a.nav-item-link[href*="/summarizer"]
-kagi.com##a.nav-item-link[href*="/fastgpt"]
+! Menubar > Apps (Assistant, Summarize, FastGPT)
+kagi.com##.nav-item-link:is([href="/assistant"], [href="/summarizer"], [href="/fastgpt"])
 
 ! -- Search results (https://kagi.com/search?q=test)
 ! "Quick Answer"
@@ -631,17 +629,10 @@ www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/15602550
 cloud.microsoft,microsoft.com,make.powerautomate.com,officeapps.live.com,sharepoint.com###O365_AppTile_Microsoft365Tile:upward(1)
 
 ! Header > Copilot buttons (desktop & mobile)
-www.microsoft.com,cloud.microsoft###shellmenu_2[href="https://copilot.microsoft.com/"]
-www.microsoft.com,cloud.microsoft###shellmenu_2-mo[href="https://copilot.microsoft.com/"]
+www.microsoft.com,cloud.microsoft##:is(#shellmenu_2, #shellmenu_2-mo)[href="https://copilot.microsoft.com/"]
 
 ! Footer
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for organizations What's new"])
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for personal use What's new"])
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI in Windows What's new"])
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI for education Education"])
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft AI Business"])
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft 365 Copilot Business"])
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Support for AI marketplace apps Developer & IT"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a:is([aria-label="Copilot for organizations What's new"], [aria-label="Copilot for personal use What's new"], [aria-label="AI in Windows What's new"], [aria-label="AI for education Education"], [aria-label="Microsoft AI Business"], [aria-label="Microsoft 365 Copilot Business"], a[aria-label="Support for AI marketplace apps Developer & IT"]))
 
 ! -- Homepage (https://www.microsoft.com/en-us)
 ! Promotional banner for Copilot at top of page 
@@ -685,7 +676,8 @@ www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-event
 ! ==============================
 ! == Microsoft Power Automate ==
 ! ==============================
-! Homepage - GenAI Prompt
+! -- Homepage (https://make.powerautomate.com/)
+! "Create your automation with Copilot" prompt
 make.powerautomate.com##[data-automation-id="copilotBanner"]:upward(2)
 ! Sidebar - AI Hub & Prompts
 make.powerautomate.com##[data-test-id="aiHub"]
@@ -728,17 +720,11 @@ teams.microsoft.com###b5abf2ae-c16b-4310-8f8a-d3bcdb52f162
 ! Chat - Copilot button
 teams.microsoft.com##[data-testid="list-item-metaos-copilot"]
 
-! -- Apps
-! Sidebar - Featured - Agents
-teams.microsoft.com##[data-tid="store-provider-app:co:copilotplugins"]
-! Sidebar - Featured - Boost productivity with agents
-teams.microsoft.com##[data-tid="store-provider-app:co:abc1"]
-! Sidebar - Featured - AI-powered apps
-teams.microsoft.com##[data-tid="store-provider-app:co:aiapps"]
-! Default apps page - "Agents we love" section
-teams.microsoft.com##[data-tid="store-collection-app:co:featuredapps"]
-! Default apps page - "Boost productivity with agents" section
-teams.microsoft.com##[data-tid="store-collection-app:co:abc1"]
+! -- Sidebar > Apps
+! Apps Sidebar > "Featured" categories ("Agents", "Boost productivity with agents", "AI-powered apps")
+teams.microsoft.com##[data-tid="store-provider-app:co:copilotplugins"], [data-tid="store-provider-app:co:abc1"], [data-tid="store-provider-app:co:aiapps"]
+! Main apps section > Category sections ("Agents we love", "Boost productivity with agents")
+teams.microsoft.com##[data-tid="store-collection-app:co:featuredapps"], [data-tid="store-collection-app:co:abc1"]
 ! Sparkle icon indicating an app has AI features
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
@@ -794,8 +780,7 @@ www.sankakucomplex.com##[class^="MuiButtonBase-root-"]:is([data-test="ai_compani
 ! Header navbar > Why Shopify > Sidekick
 www.shopify.com##div.\[grid-area\:aside\] > ul > li:has(> a[href="/sidekick"])
 ! Header navbar > Products (Sidekick, AI Chats)
-www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a[href="/magic"]
-www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a[href="/chatgpt"]
+www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a:is([href="/magic"], [href="/chatgpt"])
 ! Body > "AI designed for commerce" section
 ! Note: Ideally we'd block at the div.shadow-card level to avoid removing the "Shopify Editions" promo box. However,
 !       hiding the "magic" shadowcard breaks the text positioning on the "editions" box. This is probably fixable, but figuring
