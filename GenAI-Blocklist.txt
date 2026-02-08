@@ -403,9 +403,6 @@ www.google.com,www.google.co.jp,www.google.com.hk##button.xOchs
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! Navbar > "AI Mode" tab
-! Desktop
-www.google.com,www.google.co.jp,www.google.com.hk##div[role="listitem"][jsname] > div.olrp5b
-! Mobile
 www.google.com,www.google.co.jp,www.google.com.hk##div[role="listitem"][jsname] > div > div.olrp5b
 ! Backup filter
 ! Adapted from https://old.reddit.com/r/techsupport/comments/1kt8dds/how_to_remove_ai_mode_on_google_search_selection/njltdug/
