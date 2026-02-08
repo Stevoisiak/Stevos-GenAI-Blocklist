@@ -334,8 +334,7 @@ github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/p
 ! "Your AI Partner everywhere" section
 github.com##[data-testid="Grid-_R_12b_"]
 ! "Accelerate your entire workflow" section
-github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > .lp-SectionIntro
-github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > .lp-SectionHero
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
 ! Footer - AI links
 github.com##.Link--secondary[href="/features/copilot"]
 github.com##.Link--secondary[href="/features/ai"]
@@ -370,10 +369,8 @@ github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 ! -- About page (about.gitlab.com)
 ! GitLab Duo promo
 about.gitlab.com##li.card.card-1.gitlab-duo
-! Footer > AI features
-about.gitlab.com##[data-ga-name="ai-assisted development"]
-about.gitlab.com##[data-ga-name="ai for coding"]
-about.gitlab.com##[data-ga-name="agentic ai"]
+! Footer - AI features
+about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai for coding"], [data-ga-name="agentic ai"]
 
 ! -- Homepage (logged in) (https://gitlab.com/)
 ! Right Sidebar > Whats New > "Featured Updates" (advertising GitLab Duo)
@@ -446,10 +443,7 @@ www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjY
 ! Backup AI Overview filters
 ! These leave a large blank space, but are a good catch-all
 ! Credit to https://inwiring.com/google-ai-overviews/ for [data-aquarium] and [data-subtree="mfc"] filters
-www.google.com,www.google.co.jp,www.google.com.hk##[data-aquarium]
-www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc"]
-www.google.com,www.google.co.jp,www.google.com.hk##[data-subtree="mfc,mfl"]
-www.google.com,www.google.co.jp,www.google.com.hk##[data-attnms]
+www.google.com,www.google.co.jp,www.google.com.hk##[data-aquarium], [data-subtree="mfc"], [data-subtree="mfc,mfl"], [data-attnms]
 
 ! ======================
 ! == Google Analytics ==
@@ -478,21 +472,17 @@ developers.google.com##devsite-search-summary
 ! =================
 ! -- Google Vids 
 ! - "Start a new video" page (https://docs.google.com/videos/u/0/create)
-! "Let's start creating" intro popup - AI features (Storyboard, Veo, AI Avatar)
-docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton[aria-controls="getting-started-dialog-docgen-view"]
-docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton.videogen
-docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton.avatars
+! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
+docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
 ! Bottom promo bar to buy Google AI
 ! Element is removed instead of hidden to avoid empty space
 docs.google.com##div#getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
 ! Convert Slides > Select Presentation > disable "Include AI" checkbox
 docs.google.com##div.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
 
-! - Editing a blank video
-! Left sidebar > AI buttons (Generate, Avatar, Voiceover)
-docs.google.com##div#content-library-rail-image-synthesis-element
-docs.google.com##div#content-library-rail-avatars-element
-docs.google.com##div#content-library-rail-voiceovers-element
+! - Editing a blank video (https://docs.google.com/videos/u/0/create)
+! Right sidebar > "Generate", "Avatar", & "Voiceover" buttons
+docs.google.com###content-library-rail-image-synthesis-element, #content-library-rail-avatars-element, #content-library-rail-voiceovers-element
 ! Bottom timeline - Generate audio button
 ! Appears when selecting an audio track on the timeline
 docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
@@ -517,14 +507,14 @@ support.google.com##div.helpPanelContainerRoot
 ! ======================
 ! == Google Workspace ==
 ! ======================
-! -- Main page (https://workspace.google.com/)
+! -- Promo page (https://workspace.google.com/)
 ! Navbar - AI
 workspace.google.com##div._headerNavGroup_evb2c_260:has(> a[data-g-action="ai"])
 ! "Premium AI built-in" section
 workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
-! Google Workspace includes: Gemini & NotebookLM icons
-workspace.google.com##gws-card-wrapper[href="/solutions/ai/"]
-workspace.google.com##gws-card-wrapper[href="/products/notebooklm"]
+! "Google Workspace includes" section with list of apps ("Gemini" & "NotebookLM")
+! Also blocks other cards advertising AI features
+workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/products/notebooklm"])
 
 ! ===========
 ! == Gmail ==
@@ -682,16 +672,14 @@ www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-event
 ! == Microsoft Power Automate ==
 ! ==============================
 ! -- Homepage (https://make.powerautomate.com/)
-! "Create your automation with Copilot" prompt
+! - "Create your automation with Copilot" prompt
 make.powerautomate.com##[data-automation-id="copilotBanner"]:upward(2)
-! Sidebar - AI Hub & Prompts
-make.powerautomate.com##[data-test-id="aiHub"]
-make.powerautomate.com##[data-test-id="aiPrompts"]
-! Sidebar - More - Pin/Unpin AI Hub & Prompts
-make.powerautomate.com##button[aria-label="Unpin AI hub"]:upward(1)
-make.powerautomate.com##button[aria-label="Pin AI hub"]:upward(1)
-make.powerautomate.com##button[aria-label$="Unpin Prompts"]:upward(1)
-make.powerautomate.com##button[aria-label$="Pin Prompts"]:upward(1)
+! - Sidebar > "AI Hub" & "Prompts"
+! Only applies to pinned items
+make.powerautomate.com##[data-test-id="aiHub"], [data-test-id="aiPrompts"]
+! - Sidebar > More > Pin/Unpin "AI Hub" & "Prompts"
+make.powerautomate.com##.ms-FocusZone > .ms-Stack:has(> button:is([aria-label="Pin AI hub"], [aria-label="Unpin AI hub"], [aria-label="Pin Prompts"], [aria-label="Unpin Prompts"]))
+
 ! Sidebar - Power Platform - Copilot Studio
 make.powerautomate.com##.wrapper-178[href="https://copilotstudio.microsoft.com"]
 
