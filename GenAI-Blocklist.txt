@@ -616,6 +616,13 @@ m365.cloud.microsoft##.EdgeworthItemControl-module__document-column__copilot-pro
 m365.cloud.microsoft##.EdgeworthItemControl-module__title-icon-button__UewmV
 
 ! ===============
+! == Messenger ==
+! ===============
+! -- Main page (logged in) (https://www.messenger.com/)
+! - Chats - Meta AI
+www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/156025504001094/"]
+
+! ===============
 ! == Microsoft ==
 ! ===============
 ! App Launcher - Copilot
