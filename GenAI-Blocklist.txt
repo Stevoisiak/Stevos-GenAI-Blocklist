@@ -598,6 +598,8 @@ www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-i
 ! ==================
 ! There are a few non-AI items that we don't want to block. (Search, Settings, etc)
 ! -- Sidebar
+! Chat button - (Tested on an account not subscribed to copilot chat)
+m365.cloud.microsoft##.fui-InlineDrawer[role="navigation"] > div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > button#chat
 ! New Chat & Create buttons
 m365.cloud.microsoft##button[value="d870f6cd-4aa5-4d42-9626-ab690c041429"]
 m365.cloud.microsoft##button[value="83d3f491-b586-4266-8738-89776471bf21"]
