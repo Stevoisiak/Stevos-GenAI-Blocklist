@@ -579,10 +579,8 @@ kagi.com##a.nav-item-link[href*="/fastgpt"]
 ! -- Search results (https://kagi.com/search?q=test)
 ! "Quick Answer"
 kagi.com##button.quick-answer-trigger-link
-! Action Menu > AI options + Separator
-kagi.com##button.app_nav_dropdown > div.k_ui_dropdown_data_list > div.list_items > hr
-kagi.com##button.app_nav_dropdown > div.k_ui_dropdown_data_list > div.list_items > a._0_summarize_page
-kagi.com##button.app_nav_dropdown > div.k_ui_dropdown_data_list > div.list_items > a._0_discuss_document
+! Search Result > Action Menu > Separator + "Quick Summary" + "Contine in Assistant"
+kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > :is(hr, ._0_summarize_page, ._0_discuss_document)
 
 ! ==============
 ! == LinkedIn ==
