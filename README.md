@@ -78,6 +78,11 @@ Importing the filters had no effect when testing with both uBlock Origin and Ope
 * YouTube Studio: Inspiration tab
 * X: Grok buttons
 
+## Optional account blocklist
+There is an additional optional filterlist [`GenAI-Account-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Account-Blocklist.txt) that blocks accounts and subreddits that post AI generated content. This list is much less thorough and is still a work in progress.
+
+These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
+
 ## Contributing guidelines
 
 If you want to file an issue or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
