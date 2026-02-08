@@ -908,6 +908,17 @@ x.com##a[role="menuitem"][href*="grok.com/imagine"]
 x.com##a[aria-label="Edit image"]
 
 ! =====================
+! == xHamster (NSFW) ==
+! =====================
+! -- Categories (https://xhamster.com/categories)
+! Tags by letter
+xhamster.com##.letter-block > .items > .item > [data-role="tag-link"][href="https://xhamster.com/categories/ai"]
+xhamster.com##.letter-block > .items > .item > [data-role="tag-link"][href^="https://xhamster.com/tags/ai-"]
+! Tag search
+xhamster.com##.search-result-block > .items[data-role="search-results-container"] > .item > [data-role="tag-link"][href="https://xhamster.com/categories/ai"]
+xhamster.com##.search-result-block > .items[data-role="search-results-container"] > .item > [data-role="tag-link"][href^="https://xhamster.com/tags/ai-"]
+
+! =====================
 ! == XNXX.com (NSFW) ==
 ! =====================
 ! -- Homepage
