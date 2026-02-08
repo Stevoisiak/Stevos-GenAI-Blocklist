@@ -864,7 +864,7 @@ web.whatsapp.com##div.x1a8lsjc:has(> div.x1q0q8m5.xso031l.xx42vgk.xbogo7e.x120ee
 ! Appears after making a search
 ! TODO: Block "Ask Meta AI" header
 ! TODO: Blank gap between search bar and messages
-web.whatsapp.com##div.x78zum5.xh8yej3.x1iyjqo2.x1n2onr6.x9f619.xkh2ocl
+web.whatsapp.com##div.x10l6tqk.xh8yej3.x1g42fcv:has(> div.xcldk2z.x1phvje8.xa0aww2.x1gxa6cn > div.x78zum5.xh8yej3.x1iyjqo2.x1n2onr6.x9f619.xkh2ocl[role=button])
 
 ! ===============
 ! == Wordpress ==
