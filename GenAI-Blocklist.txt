@@ -590,29 +590,33 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
-! ==================
-! == M365 Copilot ==
-! ==================
+! ================================
+! == M365 Copilot/Microsoft 365 ==
+! ================================
 ! There are a few non-AI items that we don't want to block. (Search, Settings, etc)
-! -- Sidebar
-! Chat button - (Tested on an account not subscribed to copilot chat)
-m365.cloud.microsoft##.fui-InlineDrawer[role="navigation"] > div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > button#chat
-! New Chat & Create buttons
-m365.cloud.microsoft##button[value="d870f6cd-4aa5-4d42-9626-ab690c041429"]
-m365.cloud.microsoft##button[value="83d3f491-b586-4266-8738-89776471bf21"]
-! Agents & Chats sections
-m365.cloud.microsoft##.___wvxaoh0.f22iagw.f1vx9l62.fnknrz3.f5yzyt
+! Unless stated otherwise, settings were tested on a Microsoft account with a corporate 365 subscription
 
-! -- Chat (https://m365.cloud.microsoft)
+! -- Main chat page (https://m365.cloud.microsoft/)
 ! Chat box + prompt suggestions
 m365.cloud.microsoft###chat-input-wrapper
-m365.cloud.microsoft##.f1bgymy2.f88m0xt.f1vm38ou.f1oathrd.f1pc0a42.f1fi8va.f1mk3p5n.ft8wq5s.fnql0xq.fecw7jd.f1p9ek3k.fqroea1.f11i5nza.fug4da7.fush58u.f13lr3k6.f9k86me.f1gq6lo3.fri9z09.fybzwco.f1le25da.fv71qf3.f1t37f4h.f65ixeh.f51sv5o.f1pztt34.f1neuvcm.f1asdtw4.fp67ikv.fifp7yv.fuq56rw.fl27ibc.f1vx9l62.fqerorx.fly5x3f.f22iagw.___xtcqig0
+m365.cloud.microsoft##.___g910dn0 > .___xtcqig0
+
+! Sidebar > "New Chat" & "Create" buttons
+m365.cloud.microsoft##.fui-NavDrawerBody > [data-testid="core-modules-section"] > button:is([value="d870f6cd-4aa5-4d42-9626-ab690c041429"], [value="83d3f491-b586-4266-8738-89776471bf21"])
+
+! Sidebar > "Agents" & "Chats" sections
+m365.cloud.microsoft##.fui-NavDrawerBody > .___wvxaoh0.f22iagw.f1vx9l62.fnknrz3.f5yzyt
 
 ! -- Search (https://m365.cloud.microsoft/search/)
 ! Copilot suggestions about files
 m365.cloud.microsoft##.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
 ! "Open expanded view" sparkle icon. Appears next to some files.
 m365.cloud.microsoft##.EdgeworthItemControl-module__title-icon-button__UewmV
+
+! -- Main page (regular account, no 365 subscription) (https://m365.cloud.microsoft/)
+! Sidebar - "Chat" & "Create" buttons
+m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > #chat
+m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > .___1vgvawp > div > div > button[aria-roledescription="Menu item"][aria-label="Create"]
 
 ! ===============
 ! == Messenger ==
