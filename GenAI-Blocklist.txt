@@ -835,9 +835,10 @@ www.shopify.com##main#main > div > div.container:has-text("AI Business Name Gene
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
 ! ===================================
-! Homepage > AI Assist
-stackoverflow.com##div#hide-this-if-you-want > div > div > div.d-flex.fd-column.as-start
-stackoverflow.com##div.wmx7.w100.bg-white.mb24
+! -- Homepage (https://stackoverflow.com/)
+! AI Assist (Header + chatbox)
+stackoverflow.com###hide-this-if-you-want > div > div > div.d-flex.fd-column.as-start
+stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack-initial-question)
 
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##a#nav-askstack
