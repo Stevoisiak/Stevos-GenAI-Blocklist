@@ -625,40 +625,50 @@ www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/15602550
 ! ===============
 ! == Microsoft ==
 ! ===============
+! -- General
 ! App Launcher - Copilot
 cloud.microsoft,microsoft.com,make.powerautomate.com,officeapps.live.com,sharepoint.com###O365_AppTile_Microsoft365Tile:upward(1)
 
-! -- Homepage (https://www.microsoft.com/en-us)
 ! Header > Copilot buttons (desktop & mobile)
-www.microsoft.com##a#shellmenu_2:has-text("Copilot")
-www.microsoft.com##a#shellmenu_2-mo:has-text("Copilot")
+www.microsoft.com,cloud.microsoft###shellmenu_2[href="https://copilot.microsoft.com/"]
+www.microsoft.com,cloud.microsoft###shellmenu_2-mo[href="https://copilot.microsoft.com/"]
+
+! Footer
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for organizations What's new"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for personal use What's new"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI in Windows What's new"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI for education Education"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft AI Business"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft 365 Copilot Business"])
+www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Support for AI marketplace apps Developer & IT"])
+
+! -- Homepage (https://www.microsoft.com/en-us)
 ! Promotional banner for Copilot at top of page 
-www.microsoft.com##div[aria-label="Promotional Banner"]
+www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> div[aria-label="Promotional Banner"] > div > .c-paragraph > img[alt="Copilot logo"])
+
 ! Shopping Assistant chat box
 www.microsoft.com##div#storeassistantroot
+
 ! Ask question prompt
 www.microsoft.com##div.chatonpage
+
 ! "For business" section
 www.microsoft.com##reimagine-layout-column:has(reimagine-text-block[data-en-title="Microsoft 365 Copilot"])
 www.microsoft.com##reimagine-layout-column:has(reimagine-text-block[data-en-title="Join the era of AI"])
+
 ! "Get to know AI and Copilot" section
 www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
+
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
-! Footer
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for organizations What's new"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Copilot for personal use What's new"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI in Windows What's new"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="AI for education Education"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft AI Business"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Microsoft 365 Copilot Business"])
-www.microsoft.com##.c-uhff-nav-group > .c-list > li:has(> a[aria-label="Support for AI marketplace apps Developer & IT"])
 
 ! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Ask Microsoft" chat window in bottom right
 www.microsoft.com##.uca-assistant-drawer-button
+
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
+
 ! "Try Copilot Chat" in primary & secondary headers
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
