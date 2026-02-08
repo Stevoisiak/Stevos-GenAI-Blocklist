@@ -102,35 +102,20 @@ www.boldbi.com###boldchat-host
 ! ===================
 ! Imageboards categorized by tag. Filters can be somewhat generalized.
 ! Images with AI tags
-danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-generated"]
-danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-assisted"]
-gelbooru.com##.thumbnail-preview:has(img[title*="ai-generated"])
-gelbooru.com##.thumbnail-preview:has(img[title*="ai-assisted"])
-hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai-generated"])
-hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_art"])
-hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_assisted"])
-hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_generated"])
-hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img[alt*="ai_voice_acted"])
-rule34.us##.thumbail-container > div:has(img[title*="ai assisted"])
-rule34.us##.thumbail-container > div:has(img[title*="ai generated"])
-rule34.us##.thumbail-container > div:has(img[title*="ai voice acted"])
+danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-assisted"], [data-tags*="ai-generated"]
+gelbooru.com##.thumbnail-preview:has(img:is([title*="ai-assisted"], [title*="ai-generated"]))
+hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img:is([alt*="ai-generated"], [alt*="ai_art"], [alt*="ai_assisted"], [alt*="ai_generated"], [alt*="ai_voice_acted"]))
+rule34.us##.thumbail-container > div:has(img:is([title*="ai generated"], [title*="ai voice acted"]))
 
 ! -- My Account > My Favorites
-rule34.xxx###content > .image-list > span:has( > span.thumb > a > img[title*=ai_generated])
-rule34.xxx###content > .image-list > span:has( > span.thumb > a > img[title*=ai_assisted])
+rule34.xxx###content > .image-list > span:has( > span.thumb > a > img:is([title*=ai_assisted], [title*=ai_generated]))
 
 ! - Galleries with "AI Generated" in title
-nhentai.net###content > .container.index-container > .gallery:has-text(/ai generated/i)
-nhentai.net###content > .container.index-container > .gallery:has-text(/ai-generated/i)
-nhentai.net###content > .container.index-container > .gallery:has-text(/aigenerated/i)
+nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
 ! Minimal/Minimal+/Compact/Extended view
-e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img[title*="ai generated" i]))
-e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img[title*="ai-generated" i]))
-e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img[title*="aigenerated" i]))
+e-hentai.org,exhentai.org##.itg > tbody > tr:has(td:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i])))
 ! Thumbnail view
-e-hentai.org,exhentai.org##.itg > div.gl1t:has(img[title*="ai generated" i])
-e-hentai.org,exhentai.org##.itg > div.gl1t:has(img[title*="ai-generated" i])
-e-hentai.org,exhentai.org##.itg > div.gl1t:has(img[title*="aigenerated" i])
+e-hentai.org,exhentai.org##.itg > div.gl1t:has(img:is([title*="ai generated" i], [title*="ai-generated" i], [title*="aigenerated" i]))
 
 ! "AI Jerk off" Banner
 gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
