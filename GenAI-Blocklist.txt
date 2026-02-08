@@ -852,8 +852,8 @@ ups.com###WACContainer
 ! == WhatsApp ==
 ! ==============
 ! -- Main page (logged in) https://web.whatsapp.com/
-! Right panel - Ask Meta AI
-web.whatsapp.com##button.x2b8uid.xyi3aci.xwf5gio.x1p453bz.x1suzm8a.xtnn1bt.x9v5kkp.xmw7ebm.xrdum7p.x-default-marker:has(img[src="https://static.whatsapp.net/rsrc.php/yE/r/f-9DtrWWz5Y.webp"])
+! Right window - "Ask Meta AI" panel (below "download WhatsApp for Windows") 
+web.whatsapp.com##section.x6egj2d.xh8yej3.x5yr21d.x2b8uid.x6s0dn4.xl56j7k.x78zum5.xdt5ytf > div.x78zum5 > button.x2b8uid.xyi3aci.xwf5gio.x1p453bz.x1suzm8a.xtnn1bt.x9v5kkp.xmw7ebm.xrdum7p.x-default-marker:has(> div > img._ao3e)
 ! Left sidebar - Meta AI + Separator
 web.whatsapp.com##button[aria-label="Meta AI"]
 web.whatsapp.com##hr.xh8yej3.xjm9jq1.x178xt8z.x13fuv20.xx42vgk.x18oe1m7.x1sy0etr.xstzfhl
