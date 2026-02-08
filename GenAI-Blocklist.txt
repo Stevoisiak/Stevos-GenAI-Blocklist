@@ -787,8 +787,7 @@ www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.searc
 
 ! -- Homepage (after welcome prompt, logged out) (https://www.sankakucomplex.com/)
 ! Left sidebar (Companions & AI Creator)
-www.sankakucomplex.com##.MuiButtonBase-root-375[data-test="ai_companion"]
-www.sankakucomplex.com##.MuiButtonBase-root-375[data-test="ai_art"]
+www.sankakucomplex.com##[class^="MuiButtonBase-root-"]:is([data-test="ai_companion"], [data-test="ai_art"])
 
 ! =============
 ! == Shopify ==
