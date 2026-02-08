@@ -797,6 +797,13 @@ teams.microsoft.com##[data-tid="store-collection-app:co:abc1"]
 ! Sparkle icon indicating an app has AI features
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! =========
+! == MSN ==
+! =========
+! -- Homepage (https://www.msn.com/)
+! - Search bar - Copilot button
+www.msn.com##fluent-button#codex-bing-button
+
 ! ===========
 ! == Pixiv ==
 ! ===========
