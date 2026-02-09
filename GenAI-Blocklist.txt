@@ -439,7 +439,9 @@ www.google.com,www.google.co.jp,www.google.com.hk##[data-aquarium], [data-subtre
 ! ======================
 ! Header > "Ask Analytics Advisor" button
 analytics.google.com##gmp-chat-entry-point
-! Insights button
+! Top Search Bar - Search autocomplete suggestions - "Ask Analytics Advisor"
+analytics.google.com##gmp-suggestion-dropdown > .ng-star-inserted:has(.suggestion-block > .suggestion-block-row-container > #ask-chatbotundefined)
+! Insights button in report header
 analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 
 ! ====================================
