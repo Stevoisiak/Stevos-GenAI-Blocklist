@@ -870,6 +870,13 @@ x.com##a[role="menuitem"][href*="grok.com/imagine"]
 ! "Edit Image" when hovering over bottom right of image
 x.com##a[aria-label="Edit image"]
 
+! - Promos
+! Main feed (Top) - "Create epic videos in cinematic quality" promo + separator
+x.com##[data-testid="cellInnerDiv"] > .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > .css-175oi2r.r-kemksi:has(> [data-testid="inlinePrompt"] > [data-testid="inlinePrompt-primaryAction"] > a[href="https://grok.com/imagine"])
+x.com##[data-testid="cellInnerDiv"]:has(> .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > .css-175oi2r.r-kemksi > [data-testid="inlinePrompt"] > [data-testid="inlinePrompt-primaryAction"] > a[href="https://grok.com/imagine"]) + [data-testid="cellInnerDiv"]:has(> .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r.r-l00any.r-109y4c4.r-gu4em3)
+! Right sidebar - "Make videos in seconds" promo
+x.com##.css-175oi2r:has(> .r-kemksi.r-1ifxtd0 > aside[role="complementary"] > a[href="https://grok.com/imagine?referring_page=home_sidebar_grok_promo"])
+
 ! =====================
 ! == xHamster (NSFW) ==
 ! =====================
