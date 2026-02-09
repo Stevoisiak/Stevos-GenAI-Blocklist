@@ -81,7 +81,7 @@ Unfortunately, this filter list does not currently work in Opera.
 Importing the filters had no effect when testing with both uBlock Origin and Opera's built in ad blocking. ([May be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ## Optional account blocklist
-There is an additional optional filterlist [`GenAI-Account-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Account-Blocklist.txt) that blocks accounts and subreddits that post AI generated content. This list is much less thorough and is still a work in progress.
+There is an additional optional filterlist [`GenAI-Account-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Account-Blocklist.txt) that blocks accounts and subreddits that post AI generated content. This list is much less thorough and is still a work in progress.
 
 These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
 
