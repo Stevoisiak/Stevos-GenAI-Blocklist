@@ -286,6 +286,11 @@ www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > di
 ! Compose post > Generate images button
 www.facebook.com##div[aria-label="Generate images using AI"]
 
+! -- Menu (mobile) (https://www.facebook.com/bookmarks/)
+! "Also From Meta" > "Meta AI" button
+! TODO: Leaves a blank space, requires editing height of parent container
+www.facebook.com##.bg-s4 > .bg-s4:has(> .nb > [role="button"][aria-label="Meta AI"])
+
 ! -- Post - logged out (https://www.facebook.com/groups/derbyposting/posts/1415634490032194/)
 ! - AI post summary
 www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.x1n2onr6 > .html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3)
