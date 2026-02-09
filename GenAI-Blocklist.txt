@@ -279,11 +279,8 @@ www.facebook.com##.pageFooterLinkList > li:has(a[href^="https://www.meta.ai/"])
 www.facebook.com##div[role="listitem"] > div > div > a:is([href*="www.meta.ai"], [href^="https://aistudio.facebook.com/"])
 ! Top navbar > Messenger > Meta AI
 www.facebook.com##div.html-div[role="gridcell"] > div > div > div > a[href="/messages/t/156025504001094/"]
-! Left sidebar > "Meta AI" button
-! Note: The match for target="_blank" is a sanity check. It's only present in a few sidebar elements.
-www.facebook.com##div[aria-label="Shortcuts"] > div > div > div > div > div[data-visualcompletion="ignore-dynamic"] > div > div > ul > li.html-li:nth-of-type(2) > div > div > div > a[target="_blank"]
-! Left sidebar > "Chat with AIs" button
-www.facebook.com##div[aria-label="Shortcuts"] > div > div > div > div > div[data-visualcompletion="ignore-dynamic"] > div > div > ul > li.html-li:nth-of-type(13) > div > div > div > a
+! Left sidebar > "Meta AI" & "Chat with AIs" buttons
+www.facebook.com##div[aria-label="Shortcuts"][role="navigation"] > div > div > div > div > div > div.x1iyjqo2 > div > ul > li > div > div > div > a:is([href*="www.meta.ai"], [href^="https://aistudio.facebook.com/"])
 ! Right Sidebar > Contacts > Meta AI
 www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > div > a[role="link"]
 ! Compose post > Generate images button
