@@ -282,7 +282,7 @@ www.facebook.com##div.html-div[role="gridcell"] > div > div > div > a[href="/mes
 ! Left sidebar > "Meta AI" & "Chat with AIs" buttons
 www.facebook.com##div[aria-label="Shortcuts"][role="navigation"] > div > div > div > div > div > div.x1iyjqo2 > div > ul > li > div > div > div > a:is([href*="www.meta.ai"], [href^="https://aistudio.facebook.com/"])
 ! Right Sidebar > Contacts > Meta AI
-www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > div > a[role="link"]
+www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > div > a[role="link"][href="/messages/t/36327,2227039302/"]
 ! Compose post > Generate images button
 www.facebook.com##div[aria-label="Generate images using AI"]
 
