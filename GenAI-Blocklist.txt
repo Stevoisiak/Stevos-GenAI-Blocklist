@@ -338,6 +338,9 @@ github.com##div.copilotPreview__container
 github.com###blob-view-header-copilot-icon
 ! Copilot button to explain highlighted line (Appears after clicking line number)
 github.com###copilot-button-container
+! Action Menu (...) > "Copilot" section + Separator
+github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"])
+github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]) + .prc-ActionList-Divider-taVfb
 
 ! -- File View > Commit Changes
 ! "Regenerate commit message" button
