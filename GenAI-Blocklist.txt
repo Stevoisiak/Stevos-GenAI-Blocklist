@@ -354,6 +354,12 @@ github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Butt
 ! Write with Copilot - Located below issue description
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 
+! =================
+! == Github Blog ==
+! =================
+! Header - "Try Copilot" button
+github.blog##.Button[href="https://github.com/features/copilot"]
+
 ! ================
 ! == GitHub Dev ==
 ! ================
