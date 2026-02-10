@@ -70,7 +70,8 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 - Open "Import/Export", then press "Import and append..."
 - Open "Downloads" folder and select `GenAI-Blocklist.txt`
 
-*Note 1: You may need to wait a few minutes before filter rules take effect. (Possibly related to [rule conversion](https://github.com/user-attachments/assets/7d6419cd-a465-42c4-85db-803aeb8ab8f5))*
+*Note 1: You may need to wait a few minutes before filter rules take effect. (Possibly related to [rule conversion](https://github.com/user-attachments/assets/af249ccb-fa8e-441c-b518-acc9bd1875df))*
+
 
 *Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
