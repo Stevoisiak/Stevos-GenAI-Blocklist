@@ -100,15 +100,9 @@ www.boldbi.com###boldchat-host
 ! ===================
 ! == Boorus (NSFW) ==
 ! ===================
-! Imageboards categorized by tag.
+! Imageboards categorized by tag. Filters can be generalized.
 ! Images with AI tags
-danbooru.donmai.us##[data-tags~="ai-assisted"], [data-tags~="ai-generated"]
-gelbooru.com##.thumbnail-preview:has(img:is([title~="ai-assisted"], [title~="ai-generated"]))
-hypnohub.net##.thumb:has(img:is([title~="ai_art"], [title~="ai_voice"]))
-rule34.paheal.net##[data-tags~="ai-generated"]
-rule34.xxx##.thumb:has(img:is([title~="ai"], [title~="ai_assisted"], [title~="ai_generated"]))
-safebooru.org##.thumb:has(img:is([title~="ai-assisted"], [title~="ai-generated"]))
-xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_assisted"], [title~="ai_generated"]))
+danbooru.donmai.us,gelbooru.com,hypnohub.net,rule34.paheal.net,rule34.xxx,safebooru.org,xbooru.com##:is(.post-preview, .thumb, .thumbnail-preview):has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 
 ! -- My Account > My Favorites
 rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai"], [title~="ai_assisted"], [title~="ai_generated"]))
