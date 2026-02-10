@@ -102,13 +102,16 @@ www.boldbi.com###boldchat-host
 ! ===================
 ! Imageboards categorized by tag. Filters can be somewhat generalized.
 ! Images with AI tags
-danbooru.donmai.us,rule34.paheal.net##[data-tags*="ai-assisted"], [data-tags*="ai-generated"]
-gelbooru.com##.thumbnail-preview:has(img:is([title*="ai-assisted"], [title*="ai-generated"]))
-hypnohub.net,rule34.xxx,safebooru.org,xbooru.com##.thumb:has(img:is([alt*="ai-generated"], [alt*="ai_art"], [alt*="ai_assisted"], [alt*="ai_generated"], [alt*="ai_voice_acted"]))
-rule34.us##.thumbail-container > div:has(img:is([title*="ai generated"], [title*="ai voice acted"]))
+danbooru.donmai.us##[data-tags~="ai-assisted"], [data-tags~="ai-generated"]
+gelbooru.com##.thumbnail-preview:has(img:is([title~="ai-assisted"], [title~="ai-generated"]))
+hypnohub.net##.thumb:has(img:is([title~="ai_art"], [title~="ai_voice"]))
+rule34.paheal.net##[data-tags~="ai-generated"]
+rule34.xxx##.thumb:has(img:is([title~="ai"], [title~="ai_assisted"], [title~="ai_generated"]))
+safebooru.org##.thumb:has(img:is([title~="ai-assisted"], [title~="ai-generated"]))
+xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_assisted"], [title~="ai_generated"]))
 
 ! -- My Account > My Favorites
-rule34.xxx###content > .image-list > span:has( > span.thumb > a > img:is([title*=ai_assisted], [title*=ai_generated]))
+rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai"], [title~="ai_assisted"], [title~="ai_generated"]))
 
 ! - Galleries with "AI Generated" in title
 nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
