@@ -100,7 +100,7 @@ www.boldbi.com###boldchat-host
 ! ===================
 ! == Boorus (NSFW) ==
 ! ===================
-! Imageboards categorized by tag. Filters can be somewhat generalized.
+! Imageboards categorized by tag.
 ! Images with AI tags
 danbooru.donmai.us##[data-tags~="ai-assisted"], [data-tags~="ai-generated"]
 gelbooru.com##.thumbnail-preview:has(img:is([title~="ai-assisted"], [title~="ai-generated"]))
