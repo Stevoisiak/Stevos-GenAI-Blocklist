@@ -82,7 +82,7 @@ Unfortunately, this filter list does not currently work in Opera.
 Importing the filters had no effect when testing with both uBlock Origin and Opera's built in ad blocking. ([May be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ## Optional extra blocklist
-There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Account-Extra.txt) with additional blocks. These are more subjective blocks and may be more prone to accidentally blocking some non-AI content. These include:
+There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective blocks and may be more prone to accidentally blocking some non-AI content. These include:
 * DeviantArt: Images from accounts that have posted AI images
 * Reddit: Posts from AI-focused subreddits 
 * X: Any post from Grok account
