@@ -351,6 +351,14 @@ github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Butt
 ! Write with Copilot - Located below issue description
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 
+! == GitHub Dev ==
+! Web version of VS Code used for editing files on GitHub
+! TODO: Many more AI elements to block
+
+! - Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
+! Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
+github.dev##.action-label.codicon.codicon-sparkle[role="button"]
+
 ! ============
 ! == GitLab ==
 ! ============
