@@ -1,4 +1,4 @@
-! Title: Stevo's GenAI Blocklist
+! Title: Stevo's GenAI Blocklist (Extra)
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
 
