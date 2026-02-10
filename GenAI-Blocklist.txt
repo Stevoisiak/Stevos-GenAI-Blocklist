@@ -404,6 +404,8 @@ www.google.com,www.google.co.jp,www.google.com.hk##button[jsname="B6rgad"]
 www.google.com,www.google.co.jp,www.google.com.hk##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 ! Mobile site - Search bar - AI button (magnifying glass icon)
 www.google.com,www.google.co.jp,www.google.com.hk##button.xOchs
+! Remove AI hyperlinks from Google Logo. (Added during Olympics)
+www.google.com,www.google.co.jp,www.google.com.hk###LS8OJ > .k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
 
 ! -- Search results (https://www.google.com/search?q=Why+is+this)
 ! Navbar > "AI Mode" tab
