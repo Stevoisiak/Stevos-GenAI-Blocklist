@@ -343,10 +343,6 @@ github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 github.com##.NavGroup-module__group--T925n:has([href="https://github.com/features/copilot"])
 ! Header - Resources > Explore by Topic > "AI" link
 github.com##.NavLink-module__link--n48VB[href="https://github.com/resources/articles?topic=ai"]
-! Header - Enterprise > "Enterprise Solutions" section
-github.com##.NavGroup-module__group--T925n:has([href="https://github.com/enterprise"])
-! Header - Enterprise > Available Add-Ons > "Copilot for Business" link
-github.com##.NavLink-module__link--n48VB[href="https://github.com/features/copilot/copilot-business"]
 ! "Try GitHub Copilot free" button
 github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
 ! "Your AI Partner everywhere" section
