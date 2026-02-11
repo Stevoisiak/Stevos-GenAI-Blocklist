@@ -288,7 +288,7 @@ www.facebook.com##div[aria-label="Generate images using AI"]
 ! -- Menu (mobile) (https://www.facebook.com/bookmarks/)
 ! "Also From Meta" > "Meta AI" button
 ! TODO: Leaves a blank space, requires editing height of parent container
-www.facebook.com##.bg-s4 > .bg-s4:has(> .nb > [role="button"][aria-label="Meta AI"])
+www.facebook.com##[data-type="container"]:has(> .nb > [role="button"][aria-label="Meta AI"])
 
 ! -- Post - logged out (https://www.facebook.com/groups/derbyposting/posts/1415634490032194/)
 ! - AI post summary
