@@ -862,6 +862,20 @@ www.tubegalore.com###content > .category-group-container >  .category-group >  u
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
 
+! ===========
+! == Vimeo ==
+! ===========
+! -- Homepage - promo materials (https://vimeo.com/)
+! Navbar - Features > Platform > Vimeo AI
+vimeo.com##li[role="listitem"][aria-label="Vimeo AI"]
+
+! "AI that takes your videos to the next level" promo
+vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f3da9dfc39a7"]
+
+! Footer - Vimeo AI & AI Translation 
+vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
+vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
+
 ! ==============
 ! == WhatsApp ==
 ! ==============
