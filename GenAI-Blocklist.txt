@@ -338,11 +338,13 @@ github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Butt
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 
 ! -- Homepage (logged out) (https://github.com/home)
-! TODO: Adjust spacing on sibling NavGroups/NavLinks in header to avoid excess blank space on sides
 ! Header - Platform >  "AI Code Creation" section
-github.com##.NavGroup-module__group--T925n:has([href="https://github.com/features/copilot"])
+! Note: This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
+github.com##li:has(> div[class^="NavGroup-module__group"] a[href="https://github.com/features/copilot"])
+
 ! Header - Resources > Explore by Topic > "AI" link
-github.com##.NavLink-module__link--n48VB[href="https://github.com/resources/articles?topic=ai"]
+github.com##li:has(> a[class^="NavLink-module__link"][href="https://github.com/resources/articles?topic=ai"])
+
 ! "Try GitHub Copilot free" button
 github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
 ! "Your AI Partner everywhere" section
