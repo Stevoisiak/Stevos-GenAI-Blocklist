@@ -14,13 +14,6 @@
 deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-username="/^(achooandchaos|adnkhan|akiraruki|amibahama|anitoonmaster|antoraassets|arianaboss|astrify|azuredrops-ai|bhoff666|bleedingbeauty2002|cafferequiem|character-alex|cyberwaifu69|dante-127|darkeracolyte|dissunder|dontgiveup123|dreampixelia|entropy-ai|ergunata|exclusiveadoptables|feylunia|forgotteddy|furfactoryai|genaibooru|ghostalleycat|greatobserverph|gwynbleiddarts|hentaipresident|kaolumbia|kaoriai0w0|kimberlyai|leiconsy|luvus-7|miraandroid|missgrowth|mollyoconner|mstorm1285|muyumichan|myuxx|neonthedevi|nomore0f|onizukasaiart|pixel-yo|poetatojizz|rainbowfoxyai|realitynoir|ringobataazu|sharinel|simpleelaand|solacewinter|solasistem|the-elven-gamer|thedreadmerchant|themysteryk|tiddydreamsai|toreqi|twisteddarknet|verdetto|yangol44|yellowbeeart|ziggydreamborn|zorg-lub)$/i"))
 
 ! ============
-! == GitHub ==
-! ============
-! -- Homepage (logged in)
-! - Left Sidebar - Changelog (posts containing "Copilot")
-github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
-
-! ============
 ! == Reddit ==
 ! ============
 ! AI subreddit names based on laylavish's AI blocklist (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt)
