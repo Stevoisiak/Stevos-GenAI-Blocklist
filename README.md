@@ -75,6 +75,8 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 
 *Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
+*Note 3: The filter list was primarilly designed for the base uBlock Origin and may not always work on the Lite version. For example, AI elements may appear on a site, only to dissapear after refreshing*
+
 ### For Opera
 
 Unfortunately, this filter list does not currently work in Opera.
