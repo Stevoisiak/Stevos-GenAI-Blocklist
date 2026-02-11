@@ -304,30 +304,6 @@ fandom.com##section.trfc161
 ! ============
 ! == GitHub ==
 ! ============
-! -- Homepage (logged out) (https://github.com/)
-! TODO: Adjust spacing on sibling NavGroups/NavLinks in header to avoid excess blank space on sides
-! Header - Platform >  "AI Code Creation" section
-github.com##.NavGroup-module__group--T925n:has([href="https://github.com/features/copilot"])
-! Header - Resources > Explore by Topic > "AI" link
-github.com##.NavLink-module__link--n48VB[href="https://github.com/resources/articles?topic=ai"]
-! Header - Enterprise > "Enterprise Solutions" section
-github.com##.NavGroup-module__group--T925n:has([href="https://github.com/enterprise"])
-! Header - Enterprise > Available Add-Ons > "Copilot for Business" link
-github.com##.NavLink-module__link--n48VB[href="https://github.com/features/copilot/copilot-business"]
-! "Try GitHub Copilot free" button
-github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
-! "Your AI Partner everywhere" section
-github.com##[data-testid="Grid-_R_12b_"]
-! "Accelerate your entire workflow" section
-github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
-! Footer - AI links
-github.com##.Link--secondary[href="/features/copilot"]
-github.com##.Link--secondary[href="/features/ai"]
-
-! -- (https://github.com/features/ai)
-! Block all but header and footer
-github.com##react-app[app-name="landing-pages"][initial-path="/features/ai"]
-
 ! -- Homepage (logged in) (https://github.com/)
 ! Header > "Chat with Copilot" button
 github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
@@ -360,6 +336,30 @@ github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Butt
 ! -- New issue page
 ! Write with Copilot - Located below issue description
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
+
+! -- Homepage (logged out) (https://github.com/home)
+! TODO: Adjust spacing on sibling NavGroups/NavLinks in header to avoid excess blank space on sides
+! Header - Platform >  "AI Code Creation" section
+github.com##.NavGroup-module__group--T925n:has([href="https://github.com/features/copilot"])
+! Header - Resources > Explore by Topic > "AI" link
+github.com##.NavLink-module__link--n48VB[href="https://github.com/resources/articles?topic=ai"]
+! Header - Enterprise > "Enterprise Solutions" section
+github.com##.NavGroup-module__group--T925n:has([href="https://github.com/enterprise"])
+! Header - Enterprise > Available Add-Ons > "Copilot for Business" link
+github.com##.NavLink-module__link--n48VB[href="https://github.com/features/copilot/copilot-business"]
+! "Try GitHub Copilot free" button
+github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
+! "Your AI Partner everywhere" section
+github.com##[data-testid="Grid-_R_12b_"]
+! "Accelerate your entire workflow" section
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
+! Footer - AI links
+github.com##.Link--secondary[href="/features/copilot"]
+github.com##.Link--secondary[href="/features/ai"]
+
+! -- (https://github.com/features/ai)
+! Block all but header and footer
+github.com##react-app[app-name="landing-pages"][initial-path="/features/ai"]
 
 ! =================
 ! == Github Blog ==
