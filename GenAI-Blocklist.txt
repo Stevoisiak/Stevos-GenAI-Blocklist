@@ -324,6 +324,10 @@ github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBl
 github.com##.Link--secondary[href="/features/copilot"]
 github.com##.Link--secondary[href="/features/ai"]
 
+! -- (https://github.com/features/ai)
+! Block all but header and footer
+github.com##react-app[app-name="landing-pages"][initial-path="/features/ai"]
+
 ! -- Homepage (logged in) (https://github.com/)
 ! Header > "Chat with Copilot" button
 github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
