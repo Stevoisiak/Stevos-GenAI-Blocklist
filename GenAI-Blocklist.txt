@@ -928,6 +928,10 @@ x.com##a[role="menuitem"][href*="grok.com/imagine"]
 ! "Edit Image" when hovering over bottom right of image
 x.com##a[aria-label="Edit image"]
 
+! -- (https://x.com/grok/status/2021675529582039415)
+! "Ask Grok" button - below posts from Grok
+x.com##.css-175oi2r.r-1mmae3n:has(> [data-testid="grok_post_atgrok_button"])
+
 ! - Promos
 ! Main feed (Top) - "Create epic videos in cinematic quality" promo + separator
 x.com##[data-testid="cellInnerDiv"] > .css-175oi2r.r-1adg3ll.r-1ny4l3l > .css-175oi2r > .css-175oi2r.r-kemksi:has(> [data-testid="inlinePrompt"] > [data-testid="inlinePrompt-primaryAction"] > a[href="https://grok.com/imagine"])
