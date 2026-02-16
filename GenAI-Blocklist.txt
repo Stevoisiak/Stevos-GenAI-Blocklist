@@ -312,7 +312,7 @@ fandom.com##section.trfc161
 github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
 ! Left sidebar > Copilot
 github.com##a[data-testid="side-nav-menu-item-COPILOT"]
-! "Ask Anything" prompt box
+! "Ask Copilot" prompt box in "Home" feed
 github.com##div.copilotPreview__container
 ! Search Bar - "Copilot" section + Separator
 github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
