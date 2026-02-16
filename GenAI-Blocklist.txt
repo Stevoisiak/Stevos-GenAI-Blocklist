@@ -246,6 +246,8 @@ duckduckgo.com##a.Pd_jmhkZzftl0UtTaw0u[href*="&ia=chat"]
 duckduckgo.com##a.d3n3IVqx1558EtMlZV_g[href*="&assist="]
 ! Top of page > "Search Assist" summary
 duckduckgo.com##[data-react-module-id="wikinlp"]
+! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
+duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 ! Right sidebar > "Search Assist" summary
 ! Note: Sometimes the search assist can appear on the side instead of on top.
 !       For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
