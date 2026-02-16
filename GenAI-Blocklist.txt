@@ -1001,7 +1001,7 @@ search.yahoo.co.jp##a.AnswerAiNavigation__content
 ! Navbar - yandex ai
 yandex.com##a.HeaderNav-Tab[href$="&promo=force_neuro"]
 ! AI Summary banner
-yandex.com##ul#search-result > li[data-fast-name="neuro_answer"]
+yandex.com##li[data-fast-name="neuro_answer"]
 
 ! =============
 ! == YouTube ==
