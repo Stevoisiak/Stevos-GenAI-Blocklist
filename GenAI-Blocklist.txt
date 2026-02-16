@@ -308,17 +308,16 @@ fandom.com##section.trfc161
 ! == GitHub ==
 ! ============
 ! -- Homepage (logged in) (https://github.com/)
-! Header > "Chat with Copilot" button
+! "Chat with Copilot" icon in header next to search bar
 github.com##div.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > a[type="button"][href="/copilot"])
-! Left sidebar > Copilot
+! "Copilot" button in left hamburger menu (≡)
 github.com##a[data-testid="side-nav-menu-item-COPILOT"]
 ! "Ask Copilot" prompt box in "Home" feed
 github.com##div.copilotPreview__container
-! Search Bar - "Copilot" section + Separator
+! "Copilot" section & separator in search bar auto-complete suggestions
 github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
-
-! - Left Sidebar - Changelog (posts containing "Copilot")
+! Changelog posts containing "Copilot" in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 
 ! -- File view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
@@ -326,12 +325,12 @@ github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 github.com###blob-view-header-copilot-icon
 ! "Ask Copilot about this snippet" button that appears after selecting lines in file view
 github.com###copilot-button-container
-! Navbar > Action Menu (...) > "Copilot" section + Separator
+! "Copilot" section & separator in navbar action Menu (...)
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"])
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]) + .prc-ActionList-Divider-taVfb
-
-! -- File View > Commit Changes
-! "Regenerate commit message" button
+! "Agents" tab in repository navbar (while logged in)
+github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> a[href*="/agents?"])
+! "Regenerate commit message" refresh icon when committing changes
 ! Note: This doesn't block GitHub from using Copilot (AI) to generate the initial commit message.
 !       To prevent this, users would need to change their GitHub account settings.
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
