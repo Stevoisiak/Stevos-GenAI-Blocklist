@@ -190,7 +190,7 @@ www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymzt
 
 ! -- Shop (https://www.deviantart.com/shop)
 ! "DreamUp and earn big with AI" section
-www.deviantart.com##div.ds-surface-primary.GEIDXs > section.ail3hi
+www.deviantart.com##section.ail3hi
 
 ! =============
 ! == Dropbox ==
