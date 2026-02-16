@@ -48,30 +48,32 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 
 ### For Google Chrome
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
-- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click > Save link as...)
-- Click the uBlock icon in your browser and hit the options button
-- Go to "Custom Filters"
-- At the bottom, click "Import/Export", then "Import and append..."
-- Select the filter list file (`GenAI-Blocklist.txt`) you downloaded in step 2.
+- Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Click the "Copy raw file" button (⮺). ([screenshot](https://github.com/user-attachments/assets/e8e8c75a-2718-431e-b48b-1bb8b1ba418e))
+- Click the uBlock icon in Chrome and click the gear icon ([screenshot](https://github.com/user-attachments/assets/6d8a4ee7-e986-417a-a164-07e66a14f31e))
+- Go to "Custom filters"
+- At the bottom, click "Import/Export" to open the filter box ([screenshot](https://github.com/user-attachments/assets/fad4141f-1008-44ac-919f-1a5c58f322c2))
+- Right click the filter box and hit "Paste"
+- Click the "Add" button
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Safari (iOS)
 
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
-- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press > Download Linked File)
-- Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
-- Enable "Allow Extension"
+- Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Press the action menu button (⋯) and select "Copy" 
+- From your homescreen, open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
+- Enable "Allow Extension" ([screenshot](https://github.com/user-attachments/assets/942b6e12-f6ca-4eb3-8557-44c75590c7d6))
   - (Optional) Enable "Allow in Private Browsing"
 - Under "Permissions", click "All Websites" and select "Allow"
-- Press the back arrow in the top left
-- Select "Settings"
+- Press the back arrow in the top left, then select "Settings"
 - Open the "Custom filters" tab
-- Open "Import/Export", then press "Import and append..."
-- Open "Downloads" folder and select `GenAI-Blocklist.txt`
+- Scroll to the bottom and tap "Import/Export"
+- Tap the filter box twice and select "Paste"
+- Tap the "Add" button
 
 *Note 1: You may need to wait a few minutes before filter rules take effect. (Possibly related to [rule conversion](https://github.com/user-attachments/assets/af249ccb-fa8e-441c-b518-acc9bd1875df))*
-
 
 *Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
