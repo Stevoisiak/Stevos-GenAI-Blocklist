@@ -257,15 +257,15 @@ duckduckgo.com##[data-layout="wikinlp"]
 ! == Ecosia ==
 ! ============
 ! Homepage (https://www.ecosia.org/)
-! Navbar - AI Search
-ecosia.org##[data-test-id="ai-search-button"]
+! Top Navbar - AI Search
+www.ecosia.org##[data-test-id="ai-search-button"]
 ! Search bar - AI Search
-ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
+www.ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
 
 ! Search results (https://www.ecosia.org/search?q=test)
 ! AI Search + Separator
-ecosia.org##nav.search-navigation > div[data-test-id="search-navigation-item-ai_search"]
-ecosia.org##nav.search-navigation > div.search-navigation__divider
+www.ecosia.org##nav.search-navigation > div[data-test-id="search-navigation-item-ai_search"]
+www.ecosia.org##nav.search-navigation > div.search-navigation__divider
 
 ! ==============
 ! == Facebook ==
