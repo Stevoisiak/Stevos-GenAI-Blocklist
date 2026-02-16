@@ -774,7 +774,7 @@ pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/art
 ! == Reddit ==
 ! ============
 ! -- Main page (https://www.reddit.com/)
-! - Top search bar > Ask button
+! - "Ask" button in top search bar
 www.reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
 www.reddit.com##div.label-container > hr.trailing-divider
 
@@ -924,7 +924,7 @@ x.com##nav[role="navigation"] > a[href="/i/grok"]
 x.com##button[data-testid="grokImgGen"]
 ! Tweet - Explain this post
 x.com##button[aria-label="Grok actions"]
-! Floating Grok chat button
+! Floating Grok chat button in bottom right
 x.com##div[data-testid="GrokDrawer"]
 ! Tweet - Actions menu - Edit image
 x.com##a[role="menuitem"][href*="grok.com/imagine"]
@@ -981,15 +981,15 @@ search.yahoo.com##div.scoutNav
 ! -- Homepage
 ! Header - AI suggested topic
 www.yahoo.co.jp##a.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt:has(svg[aria-label="AIアシスタント"])
-! AI Chat button
+! AI Chat button to the right of search bar
 www.yahoo.co.jp##button#aichat
-! AI Assistant tab
+! AI Assistant tab above search bar
 www.yahoo.co.jp##a.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
 
 ! -- Search (https://search.yahoo.co.jp/search?p=Why+are+we+here)
-! Header - AI Assistant button
+! AI Assistant button in header to the right of search bar
 search.yahoo.co.jp##div.AiAssistant
-! Navbar - AI tab
+! AI tab in navbar
 search.yahoo.co.jp##li.VerticalTab__aiAssistButton
 ! Suggested searches - AI button
 search.yahoo.co.jp##a.AnswerAiNavigation__content
@@ -1047,7 +1047,7 @@ www.youtube.com##div#expandable-metadata > ytd-expandable-metadata-renderer[has-
 ! == YouTube Studio ==
 ! ====================
 ! -- All pages (https://studio.youtube.com/)
-! Menu bar > Ask Studio
+! "Ask Studio" sparkle button in top bar
 studio.youtube.com##ytcp-creator-chat-trigger
 ! Note: There's an "Chat with creator support" button that uses AI, but you can get a real person
 !       by asking to "Talk with a human", so the rule is commented out below.
@@ -1060,13 +1060,13 @@ studio.youtube.com##tp-yt-paper-tab#inspiration-tab
 ! -- Analytics
 ! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
-! Overview > Suggested AI Question 
+! Suggested questions for channel analytcs in "Analytics" > "Overview" 
 studio.youtube.com##div.suggestion-chips-container:has(> ytcp-creator-chat-entrypoint-chips)
-! Trends > "AI tools have moved" banner
+! "AI tools for brainstorming video ideas have moved" banner under "Analytics" > "Trends"
 studio.youtube.com##div.screen-banners-container.yta-screen:has(button[aria-label="Go to Inspiration"])
-! Trends > Search > "Brainstorm video ideas" button
+! "Brainstorm video ideas" button that appears under "Analytics" > "Trends" after using search bar
 studio.youtube.com##ytcp-button.brainstorm-ideas-button
 
 ! -- Community
-! -- Comment action menu > Brainstorm button
+! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
 studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
