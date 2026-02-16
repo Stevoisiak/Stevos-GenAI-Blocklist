@@ -8,7 +8,7 @@
 ! * Block website-specific content that was AI-generated
 ! * Block website-specific content promoting AI features.
 ! Not covered:
-! * Human-created content about Generative AI (ie: News)
+! * Human-written news articles about Generative AI
 ! * Options menus for configuring Generative AI features.
 !   (Users sometimes need these to disable Gen AI features)
 ! * Removing sites that post Generative AI content from search engines.
