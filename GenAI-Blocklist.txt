@@ -322,11 +322,11 @@ github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role=
 github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 
 ! -- File view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
-! "Ask about this file" button - Copilot logo in header bar above file contents
+! "Ask Copilot about this file" button - Copilot logo in header bar above file contents
 github.com###blob-view-header-copilot-icon
-! Copilot button to explain highlighted line (Appears after clicking line number)
+! "Ask Copilot about this snippet" button that appears after selecting lines in file view
 github.com###copilot-button-container
-! Action Menu (...) > "Copilot" section + Separator
+! Navbar > Action Menu (...) > "Copilot" section + Separator
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"])
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]) + .prc-ActionList-Divider-taVfb
 
