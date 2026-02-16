@@ -65,7 +65,7 @@ www.bing.com##.cdxCopilotIconBg
 www.bing.com###aitools
 
 ! -- Search results (https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F&)
-! Top Navbar > AI Search
+! Top Navbar > AI "Search" tab
 www.bing.com###b-scopeListItem-copilotsearch
 ! Top Navbar > "Copilot"
 www.bing.com###b-scopeListItem-conv
