@@ -852,6 +852,13 @@ stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##a#nav-askstack
 
+! =========================
+! == Stack Overflow Blog ==
+! =========================
+-- https://stackoverflow.blog/
+! "AI/ML" category on left sidebar
+stackoverflow.blog##.my4:has(> a[href="/ai/"])
+
 ! =======================
 ! == TubeGalore (NSFW) ==
 ! =======================
