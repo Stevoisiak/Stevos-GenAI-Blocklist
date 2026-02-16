@@ -36,20 +36,20 @@ www.amazon.com##div[data-csa-c-item-id="cr-product-insights-cards"]
 ! ===========
 ! -- Homepage (https://www.baidu.com/)
 ! Navbar - AI tab
-baidu.com##a#csaitab
+www.baidu.com##a#csaitab
 ! Search bar - AI Assistant button
-baidu.com##div.aisearch-btn_1yI-K
+www.baidu.com##div.aisearch-btn_1yI-K
 ! AI tools below search bar
-baidu.com##.panel-list_8jHmm
+www.baidu.com##.panel-list_8jHmm
 
 ! -- Search results (https://www.baidu.com/s?wd=Test)
 ! Navbar - AI Mode tab
-baidu.com###s_tab_inner > .s-tab-csaitab
+www.baidu.com###s_tab_inner > .s-tab-csaitab
 ! AI summary + Question suggestions
-baidu.com##div.cosc-card-content-border >  div.cosc-card-content:has(> div[data-module="header"] > div.cosd-search-header-primary > div.cosd-search-header-brand-area > div.cosd-search-header-brand-ai)
-baidu.com##div.dqa-aiAsk-wrap_5W1GG
+www.baidu.com##div.cosc-card-content-border >  div.cosc-card-content:has(> div[data-module="header"] > div.cosd-search-header-primary > div.cosd-search-header-brand-area > div.cosd-search-header-brand-ai)
+www.baidu.com##div.dqa-aiAsk-wrap_5W1GG
 ! Right sidebar - AI Assistant
-baidu.com##div#ai-accompanies-height-container
+www.baidu.com##div#ai-accompanies-height-container
 
 ! ==========
 ! == Bing ==
