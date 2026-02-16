@@ -29,32 +29,32 @@ After:
 #### Automatic import
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
-- Press "Subscribe" to import the filter list.
+- Press "_Subscribe_" to import the filter list.
 
 #### Manual import
 If the automatic import didn't work, (possibly due to multiple adblockers being installed), try the following:
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
-- Select the *Filter lists* tab
-- Open the *Import...* section and paste `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
-- Click "Apply Changes"
+- Select the "_Filter lists_" tab
+- Open the "_Import..._" section and paste `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
+- Click "_Apply Changes_"
 
-If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Custom_".
+If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "**_Custom_**".
 
 ### For Brave
-- Open *Settings > Shields > Content filtering*.
-- Under "Add custom filter lists", enter `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
-- Click *Add*.
+- Open _Settings > Shields > Content filtering_.
+- Under "_Add custom filter lists_", enter `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
+- Click _Add_.
 
 ### For Google Chrome
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 - Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
 - Click the "Copy raw file" button (⮺). ([screenshot](https://github.com/user-attachments/assets/e8e8c75a-2718-431e-b48b-1bb8b1ba418e))
 - Click the uBlock icon in Chrome and click the gear icon ([screenshot](https://github.com/user-attachments/assets/6d8a4ee7-e986-417a-a164-07e66a14f31e))
-- Go to "Custom filters"
-- At the bottom, click "Import/Export" to open the filter box ([screenshot](https://github.com/user-attachments/assets/fad4141f-1008-44ac-919f-1a5c58f322c2))
-- Right click the filter box and hit "Paste"
-- Click the "Add" button
+- Go to "_Custom filters_"
+- At the bottom, click "_Import/Export_" to open the filter box ([screenshot](https://github.com/user-attachments/assets/fad4141f-1008-44ac-919f-1a5c58f322c2))
+- Right click the filter box and hit "_Paste_"
+- Click the "_Add_" button
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
@@ -62,16 +62,16 @@ If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Cus
 
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
 - Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
-- Press the action menu button (⋯) and select "Copy" 
-- From your homescreen, open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
-- Enable "Allow Extension" ([screenshot](https://github.com/user-attachments/assets/942b6e12-f6ca-4eb3-8557-44c75590c7d6))
-  - (Optional) Enable "Allow in Private Browsing"
-- Under "Permissions", click "All Websites" and select "Allow"
-- Press the back arrow in the top left, then select "Settings"
-- Open the "Custom filters" tab
-- Scroll to the bottom and tap "Import/Export"
-- Tap the filter box twice and select "Paste"
-- Tap the "Add" button
+- Press the action menu button (⋯) and select "_Copy_" 
+- From your homescreen, open _Settings > Apps > Safari > Extensions > uBlock Origin Lite_
+- Enable "_Allow Extension_" ([screenshot](https://github.com/user-attachments/assets/942b6e12-f6ca-4eb3-8557-44c75590c7d6))
+  - (Optional) Enable "_Allow in Private Browsing_"
+- Under "_Permissions_", click "_All Websites_" and select "_Allow_"
+- Press the back arrow in the top left, then select "_Settings_"
+- Open the "_Custom filters_" tab
+- Scroll to the bottom and tap "_Import/Export_"
+- Tap the filter box twice and select "_Paste_"
+- Tap the "_Add_" button
 
 *Note 1: You may need to wait a few minutes before filter rules take effect. (Possibly related to [rule conversion](https://github.com/user-attachments/assets/af249ccb-fa8e-441c-b518-acc9bd1875df))*
 
