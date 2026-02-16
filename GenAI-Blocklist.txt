@@ -321,7 +321,7 @@ github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role=
 ! - Left Sidebar - Changelog (posts containing "Copilot")
 github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 
-! -- File view (https://github.com/Stevoisiak/GenAI-Blocklist-for-uBlock/blob/main/GenAI-Blocklist-for-uBlock.txt)
+! -- File view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
 ! "Ask about this file" button - Copilot logo in header bar above file contents
 github.com###blob-view-header-copilot-icon
 ! Copilot button to explain highlighted line (Appears after clicking line number)
