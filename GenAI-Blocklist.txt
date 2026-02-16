@@ -232,7 +232,7 @@ www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 duckduckgo.com##.ai-searchbox_modeSelectorWrapper__yKK7S
 ! Header > "Duck.ai"
 duckduckgo.com##.header_aiChatButton__e_9yJ
-! Left sidebar > "Duck.ai"
+! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
 duckduckgo.com##.sideMenu_sectionLink__2zUPb[href="https://duck.ai/?origin=funnel_home_website"]
 ! Search autocomplete > "Ask Duck.ai"
 ! Note: This element mentions that pressing Alt+Enter searches with Duck.ai. I am unsure if this behavior can be
