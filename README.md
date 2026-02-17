@@ -29,49 +29,51 @@ After:
 #### Automatic import
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
-- Press "Subscribe" to import the filter list.
+- Press "_Subscribe_" to import the filter list.
 
 #### Manual import
 If the automatic import didn't work, (possibly due to multiple adblockers being installed), try the following:
 - Install [uBlock Origin](https://ublockorigin.com/).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
-- Select the *Filter lists* tab
-- Open the *Import...* section and paste `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
-- Click "Apply Changes"
+- Select the "_Filter lists_" tab
+- Open the "_Import..._" section and paste `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
+- Click "_Apply Changes_"
 
-If done correctly, you should see "_Stevo's GenAI Blocklist_" listed under "_Custom_".
+If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "**_Custom_**".
 
 ### For Brave
-- Open *Settings > Shields > Content filtering*.
-- Under "Add custom filter lists", enter `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
-- Click *Add*.
+- Open _Settings > Shields > Content filtering_.
+- Under "_Add custom filter lists_", enter `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`
+- Click _Add_.
 
 ### For Google Chrome
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
-- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Right Click > Save link as...)
-- Click the uBlock icon in your browser and hit the options button
-- Go to "Custom Filters"
-- At the bottom, click "Import/Export", then "Import and append..."
-- Select the filter list file (`GenAI-Blocklist.txt`) you downloaded in step 2.
+- Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Click the "Copy raw file" button (⮺). ([screenshot](https://github.com/user-attachments/assets/e8e8c75a-2718-431e-b48b-1bb8b1ba418e))
+- Click the uBlock icon in Chrome and click the gear icon ([screenshot](https://github.com/user-attachments/assets/6d8a4ee7-e986-417a-a164-07e66a14f31e))
+- Go to "_Custom filters_"
+- At the bottom, click "_Import/Export_" to open the filter box ([screenshot](https://github.com/user-attachments/assets/fad4141f-1008-44ac-919f-1a5c58f322c2))
+- Right click the filter box and hit "_Paste_"
+- Click the "_Add_" button
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Safari (iOS)
 
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
-- Download and save [`GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt) (Long press > Download Linked File)
-- Open *Settings > Apps > Safari > Extensions > uBlock Origin Lite*
-- Enable "Allow Extension"
-  - (Optional) Enable "Allow in Private Browsing"
-- Under "Permissions", click "All Websites" and select "Allow"
-- Press the back arrow in the top left
-- Select "Settings"
-- Open the "Custom filters" tab
-- Open "Import/Export", then press "Import and append..."
-- Open "Downloads" folder and select `GenAI-Blocklist.txt`
+- Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
+- Press the action menu button (⋯) and select "_Copy_" 
+- From your homescreen, open _Settings > Apps > Safari > Extensions > uBlock Origin Lite_
+- Enable "_Allow Extension_" ([screenshot](https://github.com/user-attachments/assets/942b6e12-f6ca-4eb3-8557-44c75590c7d6))
+  - (Optional) Enable "_Allow in Private Browsing_"
+- Under "_Permissions_", click "_All Websites_" and select "_Allow_"
+- Press the back arrow in the top left, then select "_Settings_"
+- Open the "_Custom filters_" tab
+- Scroll to the bottom and tap "_Import/Export_"
+- Tap the filter box twice and select "_Paste_"
+- Tap the "_Add_" button
 
 *Note 1: You may need to wait a few minutes before filter rules take effect. (Possibly related to [rule conversion](https://github.com/user-attachments/assets/af249ccb-fa8e-441c-b518-acc9bd1875df))*
-
 
 *Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
@@ -103,3 +105,9 @@ If you want to file an issue or submit a pull request for an item that isn't bei
 * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/) - Blocklist of AI music channels on YouTube for the Blocktube extension.
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker) - Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker) - Userscript to block AI artists on Spotify
+
+## Feedback
+
+If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
+
+If you have any feedback about this project, I can be reached on Bluesky at [@stevoisiak.bsky.social](https://bsky.app/profile/stevoisiak.bsky.social).
