@@ -61,21 +61,21 @@ www.baidu.com##.se-main-tab-item[data-pd="csaitab"]
 ! == Bing ==
 ! ==========
 ! -- Homepage (https://www.bing.com/)
-! Homepage > Header > Copilot
+! "Copilot" tab in header on the left
 www.bing.com###codex
-! Homepage - Left of search bar - "Chat" button
+! "Chat" button to the left of search bar (Possibly removed?)
 www.bing.com##a.cdxConv_slsboxl.cdxConvWithText
-! Homepage > Search > Copilot button
+! "M365" button to the right of search bar
 www.bing.com##.cdxCopilotIconBg
-! Homepage > Image/Video Creator
+! "Image creator" and "Video creator" buttons below search bar
 www.bing.com###aitools
 
 ! -- Search results (https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F&)
-! Top Navbar > AI "Search" tab
+! Copilot "Search" tab in navbar below search bar
 www.bing.com###b-scopeListItem-copilotsearch
-! Top Navbar > "Copilot"
+! "Copilot" tab in navbar below search bar
 www.bing.com###b-scopeListItem-conv
-! Copilot Answer box at top of search
+! "Copilot Search" summary box at top of search
 www.bing.com##.b_ans:has(> #copans_container)
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
@@ -84,9 +84,9 @@ www.bing.com###b_copilot_search_container
 ! == Bold BI ==
 ! =============
 ! -- Homepage (https://www.boldbi.com/)
-! Top sticky banner - "AI-Powered Analytics"
+! "AI-Powered Analytics" sticky banner at top of page
 www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
-! Header navbar > Products > AI Analytics
+! Products > "AI-Powered Analytics" in navbar menu 
 www.boldbi.com##.ekit-stylish-list-content-wrapper:has(> [href="/ai-analytics/"])
 
 ! Animated AI demo image
