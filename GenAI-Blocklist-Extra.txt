@@ -73,8 +73,8 @@ stackoverflow.com##.s-sidebarwidget:has(> #overflow-blog-items)
 ! * Post filtering based on the "pencil" icon.
 ! * We filter first because it's fast, then we remove to avoid an extra yellow outline where the blog used to be
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--header:has-text("The Overflow Blog")
-askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--header:has-text("The Overflow Blog"):remove()
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm):remove()
 
 ! ===============
