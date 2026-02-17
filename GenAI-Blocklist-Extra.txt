@@ -74,3 +74,13 @@ stackoverflow.com###overflow-blog-items > .ai-center
 ! ===============
 ! -- Posts by Grok
 x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
+
+! =============
+! == YouTube ==
+! =============
+! -- Search results (https://www.youtube.com/results?search_query=neurosama)
+! - Channels with AI content 
+! Channel
+www.youtube.com###content-section:has(#main-link[href="/@Neurosama"])
+! Videos
+www.youtube.com##ytd-video-renderer:has(#channel-thumbnail[href="/@Neurosama"])
