@@ -1086,3 +1086,6 @@ studio.youtube.com##ytcp-button.brainstorm-ideas-button
 ! -- Community
 ! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
 studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
+! Comment reply suggestions under "Community" > "Comments" 
+! https://support.google.com/youtube/answer/10357396
+studio.youtube.com###comment-smart-replies
