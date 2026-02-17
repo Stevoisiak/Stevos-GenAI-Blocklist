@@ -64,10 +64,18 @@ old.reddit.com##body.subreddits-page > .content > #siteTable > .thing.subreddit:
 ! == Stack Overflow ==
 ! ====================
 ! -- Homepage (logged in) (https://stackoverflow.com/)
-! Blog posts about AI
-! TODO: Block entire blog section if there are no non-ai posts
-! TODO: Verify that this rule doesn't block non-ai blog posts. (All featured posts were about AI when this rule was written)
-stackoverflow.com###overflow-blog-items > .ai-center
+! - "The Overflow Blog"
+! Not every post is AI-related, but the majority are.
+
+! Logged in on SO homepage
+stackoverflow.com##.s-sidebarwidget:has(> #overflow-blog-items)
+! Logged out, different site, or different page
+! * Post filtering based on the "pencil" icon.
+! * We filter first because it's fast, then we remove to avoid an extra yellow outline where the blog used to be
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--header:has-text("The Overflow Blog")
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm)
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--header:has-text("The Overflow Blog"):remove()
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm):remove()
 
 ! ===============
 ! == X/Twitter ==
