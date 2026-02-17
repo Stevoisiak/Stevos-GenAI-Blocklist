@@ -402,6 +402,14 @@ github.blog##.Button[href="https://github.com/features/copilot"]
 ! Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
 github.dev##.action-label.codicon.codicon-sparkle[role="button"]
 
+! =================
+! == GitHub Docs ==
+! =================
+! -- (https://docs.github.com/)
+! "Ask Copilot" autocomplete suggestions in search bar + divider
+docs.github.com##.prc-ActionList-Divider-rsZFG
+docs.github.com##[data-testid="ai-autocomplete-suggestions"]
+
 ! ============
 ! == GitLab ==
 ! ============
