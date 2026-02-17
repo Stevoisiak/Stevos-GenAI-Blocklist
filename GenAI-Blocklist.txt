@@ -41,7 +41,7 @@ www.baidu.com###csaitab
 www.baidu.com##.aisearch-btn_1yI-K
 ! "Wenxin Assistant" promo below below search bar
 www.baidu.com##.panel-list_8jHmm
-! AI hyperlink in Baidu logo (Added during Chinese New Year 2026)
+! AI hyperlink in logo (Added during Chinese New Year 2026)
 www.baidu.com##area[href^="//chat.baidu.com/"]:remove()
 
 ! -- Search results (https://www.baidu.com/s?wd=Test)
