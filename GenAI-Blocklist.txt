@@ -349,6 +349,8 @@ github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Butt
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 
 ! -- Copilot features in account settings (https://github.com/settings/copilot/features)
+! Promo banner for GitHub Copilot (Doesn't appear for all users)
+github.com##.start-copilot-banner
 ! "Getting started" checklist section
 github.com##[data-testid="copilot-free-user-checklist"]
 
