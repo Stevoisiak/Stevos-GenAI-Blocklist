@@ -348,10 +348,10 @@ github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Butt
 ! Write with Copilot - Located below issue description
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
 
-! -- Account settings > Copilot > Features (https://github.com/settings/copilot/features)
+! -- Copilot features in account settings (https://github.com/settings/copilot/features)
 ! Promo banner for GitHub Copilot (Doesn't appear for all users)
 github.com##.start-copilot-banner
-! "Getting started" checklist section for Copilot
+! "Getting started" checklist section
 github.com##[data-testid="copilot-free-user-checklist"]
 
 ! -- Pull request (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13)
