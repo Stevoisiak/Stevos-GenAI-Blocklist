@@ -180,12 +180,13 @@ www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
 ! "Create Art" > "Create with DreamUp"
 www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
 
-! -- Deviation page (https://www.deviantart.com/lxenn/art/Celeste-Comm-1-1245630682)
-! Bottom ad banner - Sometimes has a DreamUp ad
+! -- Deviation page (example is AI image) (https://www.deviantart.com/megalevance/art/Untitled-959302716)
+! Bottom promo banner, sometimes has a DreamUp ad
+! TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
-! Right sidebar - DreamUp ad
+! DreamUp promo in right sidebar
 www.deviantart.com##a.reset-link.Qnm9x2
-! Hide image if "Created using AI tools" notice exists (does not apply to example URL)
+! Hide image if "Created using AI tools" notice exists
 www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
 
 ! -- Shop (https://www.deviantart.com/shop)
