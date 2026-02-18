@@ -313,6 +313,12 @@ www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.
 ! Quick Answers - appears below contents box
 fandom.com##section.trfc161
 
+! ====================
+! == Fapnado (NSFW) ==
+! ====================
+! "AI Jerk Off" in navbar
+www.fapnado.xxx##.gngames[href="https://tsyndicate.com/api/v1/direct/9456ec3abb18461b91f4de5e492b0979?"]
+
 ! ============
 ! == GitHub ==
 ! ============
