@@ -903,11 +903,14 @@ stackoverflow.blog##.my4:has(> a[href="/ai/"])
 ! -- Homepage
 ! Navbar > AI chat
 www.tubegalore.com##div[class="dropdown"]:has-text("AI chat")
-! Popular Categoires (below "Most Popular Categories" section)
-www.tubegalore.com##.popular-list > .category-group > li > div > a[title^="AI Generated"]
+! "AI Generated" category in "Most Popular Categories" section
+! Use partial match (*=) to account for alternate-language URLs
+www.tubegalore.com##.card:has([href*="/c/ai-generated"])
+! "AI Generated" category in "Popular Categoires" section
+www.tubegalore.com##.items-baseline[href*="/c/ai-generated"]
 
 ! -- Categories (https://www.tubegalore.com/az#) 
-www.tubegalore.com###content > .category-group-container >  .category-group >  ul.w-full >  .category[data-title^="AI Generated"]
+www.tubegalore.com##.category[href*="/c/ai-generated"]
 
 ! =========
 ! == UPS ==
