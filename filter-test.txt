@@ -1,0 +1,4 @@
+! Title: Test for trusted filter list
+! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/tree/trusted-filter-test
+
+docs.github.com##+js(trusted-set-attr, input[aria-controls="search-suggestions-list"], placeholder, Search)
