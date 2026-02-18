@@ -583,6 +583,12 @@ grok.com##div.flex.flex-col-reverse.items-center.justify-between.flex-1.w-full.\
 ! Prompt suggestion cards (DeepSearch, Create Image, Pick Personas, Voice Call)
 grok.com##div.flex.flex-row.flex-wrap.w-full.gap-2.\@sm\:gap-2.justify-center.items-center
 
+! =========================
+! == Hentai Haven (NSFW) ==
+! =========================
+! "AI Porn" link in header
+hentaihaven.xxx###menu-item-96519
+
 ! ======================
 ! == Insight Software ==
 ! ======================
