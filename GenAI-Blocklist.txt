@@ -786,6 +786,17 @@ usc-excel.officeapps.live.com###Copilot-group:upward(2)
 ! TODO: Copilot button briefly appears when PowerPoint is loading
 usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
+! =======================
+! == Microsoft Support ==
+! =======================
+! -- Support page (https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
+! "Try Copilot Chat" button in top navbar
+! This button is initially labeled "Buy Microsoft 365", but can change after page load to "Try Copilot Chat".
+! The classes in the selector ensure we only match the Copilot version of the button.
+support.microsoft.com###buyInstallButton.sc-TBWPX.jvfpSe
+
+
+
 ! =====================
 ! == Microsoft Teams ==
 ! =====================
