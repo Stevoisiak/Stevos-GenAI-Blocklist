@@ -714,6 +714,10 @@ www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
+! -- Search page (https://www.microsoft.com/en-us/search/explore?q=How+do+I+update+windows)
+! "AI Overview"
+www.microsoft.com###ai-overview-container
+
 ! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Ask Microsoft" chat window in bottom right
 www.microsoft.com##.uca-assistant-drawer-button
