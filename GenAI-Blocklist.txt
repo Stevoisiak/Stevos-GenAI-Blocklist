@@ -414,9 +414,17 @@ github.dev##.action-label.codicon.codicon-sparkle[role="button"]
 ! == GitHub Docs ==
 ! =================
 ! -- (https://docs.github.com/)
-! "Ask Copilot" autocomplete suggestions in search bar + divider
+! - "Ask Copilot" autocomplete suggestions in search bar + divider
 docs.github.com##.prc-ActionList-Divider-rsZFG
 docs.github.com##[data-testid="ai-autocomplete-suggestions"]
+
+! -- (https://docs.github.com/?search-overlay-open=true)
+! - Search bar placeholder text "Search or ask Copilot"
+! If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
+! and the search bar text is in English, change the placeholder text to "Search"
+docs.github.com##+js(trusted-set-attr, input[placeholder="Search or ask Copilot"], placeholder, Search)
+! Otherwise, remove the placeholder text
+docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Copilot"]:remove-attr(placeholder)
 
 ! ============
 ! == GitLab ==
