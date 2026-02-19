@@ -335,6 +335,10 @@ github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role=
 ! Changelog posts containing "Copilot" in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 
+! -- Homepage with "new dashboard experience" enabled via "Feature preview"
+! "Open in Copilot chat" icon that appears when hovering over pull requests and issues.
+github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
+
 ! -- File view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
 ! "Ask Copilot about this file" button - Copilot logo in header bar above file contents
 github.com###blob-view-header-copilot-icon
