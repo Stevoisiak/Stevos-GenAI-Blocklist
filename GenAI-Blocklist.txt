@@ -364,8 +364,10 @@ github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> a[href*="/agents?"])
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
 ! -- New issue page (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new)
-! Write with Copilot - Located below issue description
-github.com##.Footer-module__footerButtonWrapper__RL1TZUq
+! - "Write with Copilot" below issue description
+! Doesn't always appear. May be limited to issues from repository owner?
+! The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
+github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footerButtonWrapper__eCAAR
 
 ! -- Copilot features in account settings (https://github.com/settings/copilot/features)
 ! Promo banner for GitHub Copilot (Doesn't appear for all users)
