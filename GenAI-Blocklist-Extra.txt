@@ -92,3 +92,11 @@ x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcp
 www.youtube.com###content-section:has(#main-link[href="/@Neurosama"])
 ! Videos
 www.youtube.com##ytd-video-renderer:has(#channel-thumbnail[href="/@Neurosama"])
+
+! ====================
+! == YouTube Studio ==
+! ====================
+! - "Chat with Creator Support" icon.
+! Separated into extra filters, as you are able to get support from a real human
+! by asking to contact a real person.
+studio.youtube.com##ytcp-sam-chat
