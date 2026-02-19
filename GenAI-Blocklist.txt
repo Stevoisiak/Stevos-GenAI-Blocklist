@@ -725,10 +725,10 @@ www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a:is([
 ! -- Homepage (https://www.microsoft.com/en-us)
 ! Promotional banner for Copilot at top of page 
 www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> div[aria-label="Promotional Banner"] > div > .c-paragraph > img[alt="Copilot logo"])
-! Carousel window promos
+! Carousel that contains an AI promo. 
 ! * data-oc='ocf19c': "The apps you know go further with Copilot"
-! * data-oc='ocaeae' = "Meet the computer you can talk to"
-www.microsoft.com##reimagine-layout-column[slot="carousel__window"]:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
+! * data-oc='ocaeae': "Meet the computer you can talk to"
+www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
 ! "Store Assistant" chat box
 www.microsoft.com##div#storeassistantroot
 ! Ask question prompt
