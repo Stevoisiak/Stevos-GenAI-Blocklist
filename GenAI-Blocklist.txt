@@ -729,10 +729,10 @@ www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> div[aria-
 ! * data-oc='ocf19c': "The apps you know go further with Copilot"
 ! * data-oc='ocaeae': "Meet the computer you can talk to"
 www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
-! "Store Assistant" chat box
-www.microsoft.com##div#storeassistantroot
-! Ask question prompt
-www.microsoft.com##div.chatonpage
+! "Store Assistant" chat box pinned to bottom right
+www.microsoft.com###storeassistantroot
+! "How can we help" question prompt on top of page
+www.microsoft.com##.chatonpage
 
 ! - "For business" section > Promo cards
 ! Use ':has-text()' because the Visual Studio card incorrectly had `data-en-title="Join the era of AI"`
