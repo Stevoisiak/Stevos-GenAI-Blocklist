@@ -723,9 +723,9 @@ www.microsoft.com,cloud.microsoft##:is(#shellmenu_2, #shellmenu_2-mo)[href="http
 www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a:is([aria-label="Copilot for organizations What's new"], [aria-label="Copilot for personal use What's new"], [aria-label="AI in Windows What's new"], [aria-label="AI for education Education"], [aria-label="Microsoft AI Business"], [aria-label="Microsoft 365 Copilot Business"], a[aria-label="Support for AI marketplace apps Developer & IT"]))
 
 ! -- Homepage (https://www.microsoft.com/en-us)
-! Promotional banner for Copilot at top of page 
-www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> div[aria-label="Promotional Banner"] > div > .c-paragraph > img[alt="Copilot logo"])
-! Carousel that contains an AI promo. 
+! Promotional banner for Copilot at top of page
+www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> .c-uhfh-alert > div > .c-paragraph > img[alt="Copilot logo"])
+! Carousel that contains an AI promo.
 ! * data-oc='ocf19c': "The apps you know go further with Copilot"
 ! * data-oc='ocaeae': "Meet the computer you can talk to"
 www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
@@ -733,15 +733,12 @@ www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is
 www.microsoft.com###storeassistantroot
 ! "How can we help" question prompt on top of page
 www.microsoft.com##.chatonpage
-
 ! - "For business" section > Promo cards
 ! Use ':has-text()' because the Visual Studio card incorrectly had `data-en-title="Join the era of AI"`
 www.microsoft.com##reimagine-layout-column:has(reimagine-text-block#text-block-oc2bd8 > h3[slot="text-block__heading"]:has-text("Microsoft 365 Copilot"))
 www.microsoft.com##reimagine-layout-column:has(reimagine-text-block#text-block-oc2bd8 > h3[slot="text-block__heading"]:has-text("Join the era of AI"))
-
 ! "Get to know AI and Copilot" section
 www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
-
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
@@ -752,10 +749,8 @@ www.microsoft.com###ai-overview-container
 ! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Ask Microsoft" chat window in bottom right
 www.microsoft.com##.uca-assistant-drawer-button
-
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
-
 ! "Try Copilot Chat" in primary & secondary headers
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
