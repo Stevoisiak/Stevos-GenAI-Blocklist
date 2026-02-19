@@ -760,6 +760,17 @@ www.microsoft.com##.chatgpt-banner
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
 
+! =====================
+! == Microsoft Cloud ==
+! =====================
+! Use for web office apps, not including sharepoint and M365 Copilot.
+! -- https://excel.cloud.microsoft/
+! "Copilot in Excel" recomended template
+excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
+! -- https://word.cloud.microsoft/
+! "Copilot prompts for Word" recomended template
+word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
+
 ! =======================
 ! == Microsoft Copilot ==
 ! =======================
