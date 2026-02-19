@@ -133,14 +133,14 @@ rule34video.com##.button_fav.ai
 ! == Brave Search ==
 ! ==================
 ! -- Homepage (https://search.brave.com/)
-! Search bar - Ask button
-search.brave.com##button#submit-llm-button
+! Purple "Ask" button in search bar
+search.brave.com###submit-llm-button
 
 ! -- Search (https://search.brave.com/search?q=Why+are+we+here)
-! Navbar - AI tab
-search.brave.com##ul#primary-tabs > li.tab-item:has(> a[href^="/ask"])
+! "Ask" tab in navbar
+search.brave.com###primary-tabs > li.tab-item:has(> a[href^="/ask"])
 ! AI Answer
-search.brave.com##div#llm-snippet
+search.brave.com###llm-snippet
 
 ! ===========
 ! == Canva ==
