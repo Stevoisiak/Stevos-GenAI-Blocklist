@@ -717,20 +717,20 @@ www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/15602550
 ! -- General
 ! App Launcher - Copilot
 cloud.microsoft,microsoft.com,make.powerautomate.com,officeapps.live.com,sharepoint.com###O365_AppTile_Microsoft365Tile:upward(1)
-
 ! Header > Copilot buttons (desktop & mobile)
 www.microsoft.com,cloud.microsoft##:is(#shellmenu_2, #shellmenu_2-mo)[href="https://copilot.microsoft.com/"]
-
 ! Footer
 www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a:is([aria-label="Copilot for organizations What's new"], [aria-label="Copilot for personal use What's new"], [aria-label="AI in Windows What's new"], [aria-label="AI for education Education"], [aria-label="Microsoft AI Business"], [aria-label="Microsoft 365 Copilot Business"], a[aria-label="Support for AI marketplace apps Developer & IT"]))
 
 ! -- Homepage (https://www.microsoft.com/en-us)
 ! Promotional banner for Copilot at top of page 
 www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> div[aria-label="Promotional Banner"] > div > .c-paragraph > img[alt="Copilot logo"])
-
-! Shopping Assistant chat box
+! Carousel window promos
+! * data-oc='ocf19c': "The apps you know go further with Copilot"
+! * data-oc='ocaeae' = "Meet the computer you can talk to"
+www.microsoft.com##reimagine-layout-column[slot="carousel__window"]:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
+! "Store Assistant" chat box
 www.microsoft.com##div#storeassistantroot
-
 ! Ask question prompt
 www.microsoft.com##div.chatonpage
 
