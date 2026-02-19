@@ -167,6 +167,14 @@ chatgpt.com##div.group\/sidebar-expando-section
 ! Left sidebar - collapsed (minus account settings)
 chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
 
+! ====================
+! == Computer World ==
+! ====================
+! - Header promo for AI powered hybrid search
+! The :has(.reset-button) is an attempt to avoid blocking non-ai announcements by checking for the "Try it!" button. We don't use :has-text(), as it introduces a delay.
+! The header announcement gets added by a script with id='enqueued-script-consent-manager-js-after', which also handles items like the cookie consent banner.
+www.computerworld.com##.section-block--announcementbar:has(.reset-button)
+
 ! ================
 ! == DeviantArt ==
 ! ================
