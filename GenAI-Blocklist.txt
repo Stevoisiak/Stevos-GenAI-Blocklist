@@ -440,6 +440,8 @@ github.dev##.action-label.codicon.codicon-sparkle[role="button"]
 ! - "Ask Copilot" autocomplete suggestions in search bar + divider
 docs.github.com##.prc-ActionList-Divider-rsZFG
 docs.github.com##[data-testid="ai-autocomplete-suggestions"]
+! "GitHub Copilot" section in footer
+docs.github.com##section[data-testid="product"] .flex-column:has(.flex-items-center .octicon-copilot)
 
 ! -- (https://docs.github.com/?search-overlay-open=true)
 ! - Search bar placeholder text "Search or ask Copilot"
