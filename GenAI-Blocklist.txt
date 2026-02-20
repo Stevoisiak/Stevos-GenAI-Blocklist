@@ -19,17 +19,17 @@
 ! ============
 ! Note: Rufus assistant elements only appear when logged in
 ! -- Homepage (https://www.amazon.com/)
-! Navbar - Rufus button
-www.amazon.com##button.nav-rufus-disco[id="nav-rufus-disco"]
+! "Rufus" button in top navbar
+www.amazon.com###nav-rufus-disco
 
 ! -- Product page (https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP)
-! Below product image - Ask Rufus
-www.amazon.com##div#nile-inline_feature_div
-! Above reviews - Ask Rufus ("ie: Looking for specific info?")
+! "Ask Rufus" suggestions below product image
+www.amazon.com###nile-inline_feature_div
+! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
 ! Only appears when logged in
-www.amazon.com##div#nile-inline-btf_feature_div
+www.amazon.com###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
-www.amazon.com##div[data-csa-c-item-id="cr-product-insights-cards"]
+www.amazon.com##[data-csa-c-item-id="cr-product-insights-cards"]
 
 ! ===========
 ! == Baidu ==
@@ -563,12 +563,12 @@ developers.google.com##devsite-search-summary
 ! -- Google Vids 
 ! - "Start a new video" page (https://docs.google.com/videos/u/0/create)
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
-docs.google.com##button.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
+docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
 ! Bottom promo bar to buy Google AI
 ! Element is removed instead of hidden to avoid empty space
-docs.google.com##div#getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
+docs.google.com###getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
 ! Convert Slides > Select Presentation > disable "Include AI" checkbox
-docs.google.com##div.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
+docs.google.com##.punch-importslides-ai-toggle-label > div.punch-importslides-ai-toggle > div.apps-ui-material-slide-toggle-container:watch-attr(apps-ui-material-slide-toggle-container):remove-class(apps-ui-material-slide-toggle-container-checked)
 
 ! - Editing a blank video (https://docs.google.com/videos/u/0/create)
 ! Right sidebar > "Generate", "Avatar", & "Voiceover" buttons
