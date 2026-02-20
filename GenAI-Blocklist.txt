@@ -560,9 +560,10 @@ analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 ! -- (logged in) (https://console.cloud.google.com/welcome)
 ! "Gemini Cloud Assist chat" button in header bar
 console.cloud.google.com###pcc-duet-chat-container
+! - "Cloud Assist" sidebar
+! The panel can still be opened via Alt+G shortcut, but the AI chat inside it will be blocked. 
 ! "Gemini" suggestions after focusing search bar
 console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(search-gemini-prompt-list)
-! TODO: Pressing Alt+G opens AI sidebar
 
 ! ====================================
 ! == Google Developer Documentation ==
