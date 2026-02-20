@@ -5,9 +5,8 @@ Set of uBlock Origin filters intended to block generative AI features on various
 ## Examples of blocked content
 * Google's AI summaries
 * YouTube's Ask button, AI summaries, & "Inspiration" tab
-* GitHub's Copilot buttons
+* Copilot buttons in Azure Portal, GitHub and Microsoft 365
 * X/Twitter's Grok buttons
-* Microsoft 365's Copilot buttons
 * Amazon Rufus's product and review summaries
 * DeviantArt's DreamUp ads
 * Facebook's AI chat
