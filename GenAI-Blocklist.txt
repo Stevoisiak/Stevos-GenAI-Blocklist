@@ -31,6 +31,21 @@ www.amazon.com###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
 www.amazon.com##[data-csa-c-item-id="cr-product-insights-cards"]
 
+! ==================
+! == Azure Portal ==
+! ==================
+! -- https://portal.azure.com/#home
+! Copilot button next to search
+portal.azure.com##a[aria-label="Copilot"]
+
+! -- https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/
+! Promo banner for AI-generated search results in marketplace
+portal.azure.com##div.ext-gallery-solutionFinder-smallBanner
+
+! -- https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2
+! Copilot suggestions on blades for all resources, resource groups, subscriptions, etc.
+portal.azure.com##div[aria-label="Chat suggestions from Copilot"]
+
 ! ===========
 ! == Baidu ==
 ! ===========
