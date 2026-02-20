@@ -1067,6 +1067,12 @@ wordpress.com##.x-nav--ai-website-builder-header
 ! Top navbar > Footer > AI Website Builder
 wordpress.com##.x-nav-footer--ai-website-builder-footer
 
+! -- (logged in) (https://wordpress.com/sites)
+! "Add new site" > "Create with AI"
+wordpress.com##.dashboard-add-new-site__menu-item[href="https://wordpress.com/setup/ai-site-builder?source=sites-dashboard&ref=new-site-popover"]
+! Sites - "Build with AI"
+wordpress.com##.icon-list-item:has(.components-button[href="https://wordpress.com/setup/ai-site-builder?source=dashboard-sites&ref=dashboard-sites-empty-state"])
+
 ! ===============
 ! == X/Twitter ==
 ! ===============
