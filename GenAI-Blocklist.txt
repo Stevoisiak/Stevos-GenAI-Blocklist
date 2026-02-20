@@ -658,9 +658,19 @@ hentaihaven.xxx###menu-item-96519
 ! =============
 ! == ImgFlip ==
 ! =============
-! -- (logged out) https://imgflip.com/
+! -- https://imgflip.com/
 ! "AI Meme Generator" button
 imgflip.com##.home-create-btn[href="/ai-meme"]
+
+! -- https://imgflip.com/memegenerator
+! Credit to gittaca for pointing some of these out (https://codeberg.org/gittaca/gitludd-blocklist/src/commit/0ba96a400350599e325a6c6c4399f1c51b1b2e76/txt)
+! "AI" template
+imgflip.com##.ai
+! "AI" button below text fields
+imgflip.com##.mm-toggle-ai
+! FAQ section about AI
+imgflip.com###gen-qa > .gen-q:has-text("Do you have a wacky AI that can write memes for me?")
+imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
 
 ! ======================
 ! == Insight Software ==
