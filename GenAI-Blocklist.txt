@@ -442,6 +442,8 @@ docs.github.com##.prc-ActionList-Divider-rsZFG
 docs.github.com##[data-testid="ai-autocomplete-suggestions"]
 ! "GitHub Copilot" section in footer
 docs.github.com##section[data-testid="product"] .flex-column:has(.flex-items-center .octicon-copilot)
+! "Getting code suggestions in your IDE with GitHub Copilot" in popular articles
+docs.github.com##.ArticleList_linkItem__9__Qg:has( > [href$="/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions"])
 
 ! -- (https://docs.github.com/?search-overlay-open=true)
 ! - Search bar placeholder text "Search or ask Copilot"
