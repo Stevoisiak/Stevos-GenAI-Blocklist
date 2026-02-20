@@ -990,6 +990,36 @@ www.shopify.com##main#main > section.grid-cols-full#faq-section
 ! -- AI business name generator (https://www.shopify.com/tools/business-name-generator)
 www.shopify.com##main#main > div > div.container:has-text("AI Business Name Generator"):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
 
+! ============
+! == Square ==
+! ============
+! -- (logged in) (https://app.squareup.com/dashboard/)
+! "Square AI" icon at bottom of left sidebar
+app.squareup.com##eh-market-tooltip:has(eh-market-button[data-testid="spotlight-mfe-button"])
+! "Square AI" chat window
+! Appears after clicking a "Square AI" button
+app.squareup.com##[data-testid="ai-chat-draggable-area"]
+! Question prompt box
+app.squareup.com##[data-testid="square-ai-module"]
+
+! -- Search bar focused
+! "Try asking Square AI"
+app.squareup.com##.suggestions-container
+! "By continuing, you consent to Square's AI Terms and Conditions" footer
+app.squareup.com##.consent-container:has(> [data-testid="ai-consent-link"])
+! "Square AI" button
+app.squareup.com##[data-testid="filter-AI"]
+! "Ask Square AI" button on search with no results
+app.squareup.com##[data-testid="ask-square-ai-button"]
+
+! -- Create item (logged in) (https://app.squareup.com/dashboard/items/library/react/new)
+! "Generate" button for customer-facing description
+app.squareup.com##._autoWriteCTA_6eccb5d
+
+! -- Create service (logged in) (https://app.squareup.com/dashboard/items/services/new)
+! "Generate" button for description
+app.squareup.com##.item-library-edit__auto-write-button-wrapper
+
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
 ! ===================================
