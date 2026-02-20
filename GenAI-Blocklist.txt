@@ -739,9 +739,12 @@ www.microsoft.com###storeassistantroot
 ! "How can we help" question prompt on top of page
 www.microsoft.com##.chatonpage
 ! - "For business" section > Promo cards
-! Use ':has-text()' because the Visual Studio card incorrectly had `data-en-title="Join the era of AI"`
-www.microsoft.com##reimagine-layout-column:has(reimagine-text-block#text-block-oc2bd8 > h3[slot="text-block__heading"]:has-text("Microsoft 365 Copilot"))
-www.microsoft.com##reimagine-layout-column:has(reimagine-text-block#text-block-oc2bd8 > h3[slot="text-block__heading"]:has-text("Join the era of AI"))
+! Only applies to US English site
+www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Learn more about Microsoft 365 Copilot"])
+www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Explore AI solutions"])
+! Non-US languages (https://www.microsoft.com/zh-hk/)
+www.microsoft.com##.col:has(> [data-bi-assetid^="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Copilot-COMMR-0625"])
+www.microsoft.com##.col:has(> [data-bi-assetid^="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Azure-AI-Bloom"])
 ! "Get to know AI and Copilot" section
 www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
 ! Carousel - "Protecting biodiversity with AI" card
