@@ -97,6 +97,8 @@ These filters were previously part of the main blocklist, but it was split off a
 
 If you want to file an issue or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
 
+If you want to incorporate any of these filters in your own filter list, please feel free to do so.
+
 ## Other AI blocking projects
 
 * [uBlockOrigin Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist) - Blocklist for search engines to remove AI generated images
@@ -110,4 +112,4 @@ If you want to file an issue or submit a pull request for an item that isn't bei
 
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
 
-If you have any feedback about this project, I can be reached on Bluesky at [@stevoisiak.bsky.social](https://bsky.app/profile/stevoisiak.bsky.social) or at Stevoisiak(at)gmail.com.
+If you have any feedback about this project, I can be reached on Bluesky at [@stevoisiak.bsky.social](https://bsky.app/profile/stevoisiak.bsky.social) or via email at Stevoisiak(at)gmail.com.
