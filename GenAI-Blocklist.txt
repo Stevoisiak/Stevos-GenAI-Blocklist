@@ -554,6 +554,16 @@ analytics.google.com##gmp-suggestion-dropdown > .ng-star-inserted:has(> .suggest
 ! Insights button in report header
 analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 
+! ==================
+! == Google Cloud ==
+! ==================
+! -- (logged in) (https://console.cloud.google.com/welcome)
+! "Gemini Cloud Assist chat" button in header bar
+console.cloud.google.com###pcc-duet-chat-container
+! "Gemini" suggestions after focusing search bar
+console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(search-gemini-prompt-list)
+! TODO: Pressing Alt+G opens AI sidebar
+
 ! ====================================
 ! == Google Developer Documentation ==
 ! ====================================
