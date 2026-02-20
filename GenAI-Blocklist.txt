@@ -754,11 +754,13 @@ www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiver
 ! "AI Overview"
 www.microsoft.com###ai-overview-container
 
-! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
+! -- https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
 ! "Ask Microsoft" chat window in bottom right
-www.microsoft.com##.uca-assistant-drawer-button
+www.microsoft.com##.uca-assistant-drawer-button, .uca-assistant-drawer-panel
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
+
+! -- About Copilot (https://www.microsoft.com/en-us/microsoft-copilot/organizations/)
 ! "Try Copilot Chat" in primary & secondary headers
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
