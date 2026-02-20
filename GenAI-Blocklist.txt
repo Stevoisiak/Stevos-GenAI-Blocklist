@@ -985,13 +985,24 @@ www.shopify.com##main#main > div > div.container:has-text("AI Business Name Gene
 ! ===================================
 ! == Stack Overflow/Stack Exchange ==
 ! ===================================
-! -- Homepage (https://stackoverflow.com/)
+! -- Homepage (logged in) (https://stackoverflow.com/)
 ! AI Assist (Header + chatbox)
 stackoverflow.com###hide-this-if-you-want > div > div > div.d-flex.fd-column.as-start
 stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack-initial-question)
-
 ! Left sidebar > AI Assist
-askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##a#nav-askstack
+askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###nav-askstack
+! "The Overflow Blog" in right sidebar
+! While not every post is AI-related, the vast majority are
+stackoverflow.com##.s-sidebarwidget:has(> #overflow-blog-items)
+
+! -- Questions page (https://stackoverflow.com/questions))
+! "The Overflow Blog" in right sidebar
+! * Blog posts identified based on the pencil icon.
+! * We filter first because it's fast, then :remove() to avoid an extra yellow outline where the blog used to be
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--header:has-text("The Overflow Blog")
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--header:has-text("The Overflow Blog"):remove()
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm)
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.s-sidebarwidget--item:has(svg.iconPencilSm):remove()
 
 ! =========================
 ! == Stack Overflow Blog ==
