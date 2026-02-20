@@ -644,6 +644,13 @@ grok.com##div.flex.flex-row.flex-wrap.w-full.gap-2.\@sm\:gap-2.justify-center.it
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
 
+! =============
+! == ImgFlip ==
+! =============
+! -- (logged out) https://imgflip.com/
+! "AI Meme Generator" button
+imgflip.com##.home-create-btn[href="/ai-meme"]
+
 ! ======================
 ! == Insight Software ==
 ! ======================
