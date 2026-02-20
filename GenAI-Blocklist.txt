@@ -720,7 +720,12 @@ cloud.microsoft,microsoft.com,make.powerautomate.com,officeapps.live.com,sharepo
 ! Header > Copilot buttons (desktop & mobile)
 www.microsoft.com,cloud.microsoft##:is(#shellmenu_2, #shellmenu_2-mo)[href="https://copilot.microsoft.com/"]
 ! Footer
-www.microsoft.com,cloud.microsoft##.c-uhff-nav-group > .c-list > li:has(> a:is([aria-label="Copilot for organizations What's new"], [aria-label="Copilot for personal use What's new"], [aria-label="AI in Windows What's new"], [aria-label="AI for education Education"], [aria-label="Microsoft AI Business"], [aria-label="Microsoft 365 Copilot Business"], a[aria-label="Support for AI marketplace apps Developer & IT"]))
+www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href*="/microsoft-copilot/"])
+www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot"])
+www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/windows/ai-features?icid=DSM_Footer_WhatsNew_AIinWindows"])
+www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/ai?icid=DSM_Footer_AI"])
+www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
+www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/education/ai-in-education"])
 
 ! -- Homepage (https://www.microsoft.com/en-us)
 ! Promotional banner for Copilot at top of page
