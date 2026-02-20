@@ -418,7 +418,7 @@ github.com##.Link--secondary[href="/features/ai"]
 github.com##react-app[app-name="landing-pages"][initial-path="/features/ai"]
 
 ! =================
-! == Github Blog ==
+! == GitHub Blog ==
 ! =================
 ! Header - "Try Copilot" button
 github.blog##.Button[href="https://github.com/features/copilot"]
@@ -457,13 +457,20 @@ docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Co
 ! == GitLab ==
 ! ============
 ! -- About page (about.gitlab.com)
-! GitLab Duo promo
-about.gitlab.com##li.card.card-1.gitlab-duo
+! Sticky promo banner for "See how agentic AI transforms software delivery: Watch GitLab Transcend now"
+about.gitlab.com##.banner:has([data-ga-name="transcend event"])
+! Promo card for "GitLab Duo Agent Platform"
+about.gitlab.com##.stacking-cards__card:has([data-ga-name="gitlab-duo"])
+! GitLab Duo promo (no longer used?)
+about.gitlab.com##.card.card-1.gitlab-duo
 ! Footer - AI features
 about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai for coding"], [data-ga-name="agentic ai"]
 
 ! -- Homepage (logged in) (https://gitlab.com/)
-! Right Sidebar > Whats New > "Featured Updates" (advertising GitLab Duo)
+! "GitLab Duo Agent Platform" in left sidebar
+! Blocks both the button to open Duo panel and the panel itself 
+gitlab.com##.ai-panels
+! Left Sidebar > "What's New" > Left Sidebar > "Featured Updates" advertising GitLab Duo (no longer used?)
 gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
 
 ! ======================
