@@ -387,6 +387,14 @@ github.com##[data-testid="copilot-free-user-checklist"]
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
 
+! -- Pull request file view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files)
+! "Ask Copilot" button next to "Review" button
+github.com##[partial-name="copilot-code-chat"]
+! "Ask Copilot about this file diff" icon that appears when hovering over diff
+github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid="more-copilot-button"])
+! "Ask Copilot about this diff" in action menu (...)
+github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
+
 ! -- Viewing commit (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4)
 ! "Copilot" section in menu that appears when hitting ▾ in code diff. (ie: "Ask about this diff")
 ! Use :remove() to fix arrow key navigation.
