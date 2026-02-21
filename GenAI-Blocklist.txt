@@ -31,6 +31,10 @@ www.adobe.com##.-F_-FA92
 ! "Generative AI" action category
 www.adobe.com##[data-key="category-genai"]
 
+! -- https://www.adobe.com/apps/all/all-platforms
+! "Advanced AI Tools" promo for Acrobat
+www.adobe.com##.undefined.section-card:has(img[src="https://odin.adobe.com/content/dam/ccsurfaces/AppsSkeleton/en_US/assets/custom-cards/Acrobat_Pro_Ai.png"])
+
 ! -- https://www.adobe.com/create/featured
 ! "Generative AI" category button
 www.adobe.com##.tab-default-button-group[aria-label="Generative AI"]
