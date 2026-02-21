@@ -5,6 +5,15 @@
 ! Blocks user accounts and subreddits that post AI generated content.
 ! This is intended as an optional complimentary list to the primary GenAI Blocklist.
 
+! ===========
+! == Adobe ==
+! ============
+! -- Adobe Home (logged in) (https://www.adobe.com/home)
+! "Chat with us" icon to open "Adobe Virtual Assistant"
+www.adobe.com###adbmsgCta
+! "Adobe Virtual Asssistant" chatbox
+www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://cdn.prod.assistant.adobe.com/production/static/"])
+
 ! ================
 ! == DeviantArt ==
 ! ================
