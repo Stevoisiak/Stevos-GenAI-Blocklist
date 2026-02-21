@@ -14,6 +14,26 @@
 ! * Removing sites that post Generative AI content from search engines.
 !   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 
+! ===========
+! == Adobe ==
+! ===========
+! -- https://www.adobe.com/
+! AI Chatbot "Find the right app to bring your ideas to life."
+www.adobe.com##.brand-concierge.hero.above-pods
+
+! -- https://new.express.adobe.com/?locale=en-US
+! AI Assistant toggle in header
+new.express.adobe.com##x-assistant-toggle
+! "Generate with AI" quickstart card
+new.express.adobe.com##x-get-started-dialog-quickstart-card[type="create-with-ai"]
+
+! -- https://photoshop.adobe.com/
+! "Generate an image" button under "Make a quick edit"
+photoshop.adobe.com##sp-action-button.quick-edit-button[label="Generate an image"]
+! "Create" button on left sidebar > "Tap into the power of generative AI" section
+photoshop.adobe.com##[data-testid="quick-actions-title-gen-ai"]
+photoshop.adobe.com##.genAICards
+
 ! ============
 ! == Amazon ==
 ! ============
