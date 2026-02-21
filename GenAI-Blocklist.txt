@@ -36,7 +36,7 @@ www.amazon.com##[data-csa-c-item-id="cr-product-insights-cards"]
 ! ==================
 ! -- https://portal.azure.com/#home
 ! Copilot button next to search
-portal.azure.com##.fxs-topbar-copilot
+entra.microsoft.com,intune.microsoft.com,portal.azure.com##.fxs-topbar-copilot
 
 ! -- https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/
 ! Promo banner for AI-generated search results in marketplace
