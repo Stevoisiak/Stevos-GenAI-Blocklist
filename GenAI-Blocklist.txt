@@ -1119,6 +1119,17 @@ askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com#
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
+! ====================
+! == Strato Webmail ==
+! ====================
+! -- https://webmail.strato.de/appsuite/
+! "AI-Chat" button in right sidebar
+webmail.strato.de##[aria-label="KI-Chat"]
+! "AI-Integration" buttons in mail viewing panel
+webmail.strato.de##[aria-label="KI-Integration"]
+! "AI-Chat" app link in app menu
+webmail.strato.de##[data-app-name="io.ox/ai-chat"]
+
 ! =======================
 ! == TubeGalore (NSFW) ==
 ! =======================
