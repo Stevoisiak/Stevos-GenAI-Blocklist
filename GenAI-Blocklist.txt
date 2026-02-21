@@ -1392,3 +1392,7 @@ studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video i
 ! Comment reply suggestions under "Community" > "Comments"
 ! https://support.google.com/youtube/answer/10357396
 studio.youtube.com###comment-smart-replies
+
+! -- Video Details
+! "Brainstorm video ideas" in action menu (⋮)
+studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
