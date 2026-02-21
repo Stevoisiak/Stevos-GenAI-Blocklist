@@ -887,6 +887,12 @@ make.powerautomate.com##.wrapper-178[href="https://copilotstudio.microsoft.com"]
 ! Sidebar - Copilot
 admin.powerplatform.microsoft.com##button[value="/copilot/overview"]
 
+! =======================
+! == Microsoft Purview ==
+! =======================
+! "Copilot" button in header
+purview.microsoft.com###scc_oneShell-purview-copilot-button_container
+
 ! ==============================
 ! == Microsoft Sharepoint/365 ==
 ! ==============================
