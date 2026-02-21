@@ -985,6 +985,12 @@ www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Mi
 ! Hide image if AI-generated tag is present
 pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
+! =============
+! == Rambler ==
+! =============
+! AI news overview
+www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
+
 ! ============
 ! == Reddit ==
 ! ============
