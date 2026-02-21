@@ -1150,6 +1150,29 @@ vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f
 vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
 vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 
+! =========
+! == Wix ==
+! =========
+! -- https://manage.wix.com/ai-assistant?flow=main-partner-studio
+! "Chat with AI" button.
+! Part of a setup screen where user needs to click to skip past AI
+manage.wix.com##button.wds_1_256_0_ButtonCore__root.Yfr0Ty[data-hook="get-started-primary"]
+
+! -- https://editor.wix.com/onboarding
+! Site name suggestions
+editor.wix.com##.SlXp2q
+
+! -- https://www.wix.com/my-account
+! "AI Agents" in left sidebar
+manage.wix.com##[data-hook="giza-sidebar-item-sub-menu-cluster-ai-assistants"]
+! "AI" button + separator in top right of header
+manage.wix.com##[data-hook="section-rightSide"] > .wds_1_223_0_Box__root
+manage.wix.com##[data-hook="section-rightSide"] > .FQqqIB:has(+.wds_1_223_0_Box__root)
+
+! -- Design Site
+! AI prompt
+editor.wix.com##[data-hook="start-screen-generation-container"]
+
 ! ==============
 ! == WhatsApp ==
 ! ==============
