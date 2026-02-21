@@ -31,6 +31,12 @@ www.adobe.com##.-F_-FA92
 ! "Generative AI" action category
 www.adobe.com##[data-key="category-genai"]
 
+! -- https://www.adobe.com/create/featured
+! "Generative AI" category button
+www.adobe.com##.tab-default-button-group[aria-label="Generative AI"]
+! "Experiment with new generative AI capabilities" section
+www.adobe.com##[route-id="featured-genai"]
+
 ! -- https://new.express.adobe.com/?locale=en-US
 ! AI Assistant toggle in header
 new.express.adobe.com##x-assistant-toggle
