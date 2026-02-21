@@ -693,8 +693,11 @@ mail.google.com##div.eJPjde
 ! - "Help me write" icon next to "Send" button
 ! Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
 mail.google.com##.bDl[command="sdt"]
-! TODO: Block "Press / for Help me write" prompt when writing email
-! The prompt itself can be matched with .k1rxSb.MR0L1e, but it still appears if the user presses '/'
+! "Help me write" (Disables keyboard shortcut '/')
+mail.google.com##.eLNZDd[command="sdt"]:remove()
+! "Help me write" prompt. Appears when focusing message box in a new email.
+! Note: Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
+mail.google.com##.jKzJCd
 
 ! ==========
 ! == Grok ==
