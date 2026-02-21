@@ -36,6 +36,9 @@ www.adobe.com##[data-key="category-genai"]
 new.express.adobe.com##x-assistant-toggle
 ! "Generate with AI" quickstart card
 new.express.adobe.com##x-get-started-dialog-quickstart-card[type="create-with-ai"]
+! "Ways to Create" - "Generative AI"
+! There's a small empty space to the side. Getting rid of the parent element fixes it, but it's split by a #shadow-root
+new.express.adobe.com##.nav-tile[aria-label="Generative AI"]
 
 ! -- https://photoshop.adobe.com/
 ! "Generate an image" button under "Make a quick edit"
