@@ -67,16 +67,16 @@ photoshop.adobe.com##.genAICards
 
 ! -- Homepage (https://www.amazon.com/)
 ! "Rufus" button in top navbar
-www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nav-rufus-disco
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nav-rufus-disco
 
 ! -- Product page (https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP)
 ! "Ask Rufus" suggestions below product image
-www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline_feature_div
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline_feature_div
 ! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
 ! Only appears when logged in
-www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline-btf_feature_div
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
-www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg##[data-csa-c-item-id="cr-product-insights-cards"]
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg##[data-csa-c-item-id="cr-product-insights-cards"]
 
 ! ===========
 ! == Baidu ==
