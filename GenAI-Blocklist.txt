@@ -131,7 +131,7 @@ www.bing.com###b_copilot_search_container
 ! -- Homepage (https://www.boldbi.com/)
 ! "AI-Powered Analytics" sticky banner at top of page
 www.boldbi.com##.new-feature-banner.elementor-element-61515ce1
-! Products > "AI-Powered Analytics" in navbar menu 
+! Products > "AI-Powered Analytics" in navbar menu
 www.boldbi.com##.ekit-stylish-list-content-wrapper:has(> [href="/ai-analytics/"])
 
 ! Animated AI demo image
@@ -519,7 +519,7 @@ about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai fo
 
 ! -- Homepage (logged in) (https://gitlab.com/)
 ! "GitLab Duo Agent Platform" in left sidebar
-! Blocks both the button to open Duo panel and the panel itself 
+! Blocks both the button to open Duo panel and the panel itself
 gitlab.com##.ai-panels
 ! Left Sidebar > "What's New" > Left Sidebar > "Featured Updates" advertising GitLab Duo (no longer used?)
 gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
@@ -612,14 +612,14 @@ analytics.google.com##ga-toolbar-icon-button-component.ga-intelligence-button
 ! "Gemini Cloud Assist chat" button in header bar
 console.cloud.google.com###pcc-duet-chat-container
 ! - "Cloud Assist" side panel
-! The panel can still be opened via Alt+G shortcut, but the AI chat inside it will be blocked. 
+! The panel can still be opened via Alt+G shortcut, but the AI chat inside it will be blocked.
 ! "Gemini" suggestions after focusing search bar
 console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(search-gemini-prompt-list)
 
 ! ====================================
 ! == Google Developer Documentation ==
 ! ====================================
-! -- Documentation page (https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema) 
+! -- Documentation page (https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema)
 ! "Page Summary"
 developers.google.com##devsite-key-takeaways-panel
 ! Left sidebar > "Chat"
@@ -633,7 +633,7 @@ developers.google.com##devsite-search-summary
 ! =================
 ! == Google Docs ==
 ! =================
-! -- Google Vids 
+! -- Google Vids
 ! - "Start a new video" page (https://docs.google.com/videos/u/0/create)
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
 docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
@@ -1119,6 +1119,17 @@ askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com#
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
+! ====================
+! == Strato Webmail ==
+! ====================
+! -- https://webmail.strato.de/appsuite/
+! "AI-Chat" button in right sidebar
+webmail.strato.de##[aria-label="KI-Chat"]
+! "AI-Integration" buttons in mail viewing panel
+webmail.strato.de##[aria-label="KI-Integration"]
+! "AI-Chat" app link in app menu
+webmail.strato.de##[data-app-name="io.ox/ai-chat"]
+
 ! =======================
 ! == TubeGalore (NSFW) ==
 ! =======================
@@ -1131,7 +1142,7 @@ www.tubegalore.com##.card:has([href*="/c/ai-generated"])
 ! "AI Generated" category in "Popular Categoires" section
 www.tubegalore.com##.items-baseline[href*="/c/ai-generated"]
 
-! -- Categories (https://www.tubegalore.com/az#) 
+! -- Categories (https://www.tubegalore.com/az#)
 www.tubegalore.com##.category[href*="/c/ai-generated"]
 
 ! =========
@@ -1152,7 +1163,7 @@ vimeo.com##li[role="listitem"][aria-label="Vimeo AI"]
 ! "AI that takes your videos to the next level" promo
 vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f3da9dfc39a7"]
 
-! Footer - Vimeo AI & AI Translation 
+! Footer - Vimeo AI & AI Translation
 vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
 vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 
@@ -1183,7 +1194,7 @@ editor.wix.com##[data-hook="start-screen-generation-container"]
 ! == WhatsApp ==
 ! ==============
 ! -- Main page (logged in) https://web.whatsapp.com/
-! Right window - "Ask Meta AI" panel (below "download WhatsApp for Windows") 
+! Right window - "Ask Meta AI" panel (below "download WhatsApp for Windows")
 web.whatsapp.com##section.x6egj2d.xh8yej3.x5yr21d.x2b8uid.x6s0dn4.xl56j7k.x78zum5.xdt5ytf > div.x78zum5 > button.x2b8uid.xyi3aci.xwf5gio.x1p453bz.x1suzm8a.xtnn1bt.x9v5kkp.xmw7ebm.xrdum7p.x-default-marker:has(> div > img._ao3e)
 
 ! Left sidebar - Meta AI + Separator
@@ -1198,7 +1209,7 @@ web.whatsapp.com##div.x1a8lsjc:has(> div.x1q0q8m5.xso031l.xx42vgk.xbogo7e.x120ee
 ! Appears after making a search
 ! TODO: Blank gap between search bar and messages
 web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh8yej3.x1g42fcv:nth-of-type(1) > div.x9f619.x4f6e3x.x9orja2.xyri2b.xohmsfg.xzm8p2n.x1s688f.xhslqc4
-web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh8yej3.x1g42fcv:has(> div.xcldk2z.x1phvje8.xa0aww2.x1gxa6cn > div.x78zum5.xh8yej3.x1iyjqo2.x1n2onr6.x9f619.xkh2ocl[role=button]) 
+web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh8yej3.x1g42fcv:has(> div.xcldk2z.x1phvje8.xa0aww2.x1gxa6cn > div.x78zum5.xh8yej3.x1iyjqo2.x1n2onr6.x9f619.xkh2ocl[role=button])
 
 ! ===============
 ! == Wordpress ==
@@ -1361,7 +1372,7 @@ studio.youtube.com##tp-yt-paper-tab#inspiration-tab
 ! -- Analytics
 ! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
-! Suggested questions for channel analytcs in "Analytics" > "Overview" 
+! Suggested questions for channel analytcs in "Analytics" > "Overview"
 studio.youtube.com##div.suggestion-chips-container:has(> ytcp-creator-chat-entrypoint-chips)
 ! "AI tools for brainstorming video ideas have moved" banner under "Analytics" > "Trends"
 studio.youtube.com##div.screen-banners-container.yta-screen:has(button[aria-label="Go to Inspiration"])
@@ -1371,6 +1382,6 @@ studio.youtube.com##ytcp-button.brainstorm-ideas-button
 ! -- Community
 ! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
 studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
-! Comment reply suggestions under "Community" > "Comments" 
+! Comment reply suggestions under "Community" > "Comments"
 ! https://support.google.com/youtube/answer/10357396
 studio.youtube.com###comment-smart-replies
