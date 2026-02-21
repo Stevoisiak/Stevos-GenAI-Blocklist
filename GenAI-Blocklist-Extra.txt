@@ -29,13 +29,6 @@ deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-userna
 ! New > More > Google AI Studio
 drive.google.com##.h-v:has([src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_ai_studio_x32.png"])
 
-! ======================
-! == Google Workspace ==
-! ======================
-! -- https://workspace.google.com/
-! "AI" tab in header
-workspace.google.com##._headerNavGroup_1p6wz_267:has(> [data-g-action="ai"])
-
 ! ============
 ! == Reddit ==
 ! ============
