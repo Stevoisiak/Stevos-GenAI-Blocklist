@@ -31,21 +31,6 @@ www.amazon.com###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
 www.amazon.com##[data-csa-c-item-id="cr-product-insights-cards"]
 
-! ==================
-! == Azure Portal ==
-! ==================
-! -- https://portal.azure.com/#home
-! Copilot button next to search
-entra.microsoft.com,intune.microsoft.com,portal.azure.com##.fxs-topbar-copilot
-
-! -- https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/
-! Promo banner for AI-generated search results in marketplace
-portal.azure.com##.ext-gallery-solutionFinder-smallBanner
-
-! -- https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2
-! Copilot suggestions on blades for all resources, resource groups, subscriptions, etc.
-portal.azure.com##.___koxvwx0_fue3jg0
-
 ! ===========
 ! == Baidu ==
 ! ===========
@@ -833,6 +818,21 @@ www.microsoft.com##.chatgpt-banner
 ! "Try Copilot Chat" in primary & secondary headers
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
+
+! ====================
+! == Micosoft Azure ==
+! ====================
+! -- https://portal.azure.com/#home
+! Copilot button next to search
+entra.microsoft.com,intune.microsoft.com,portal.azure.com##.fxs-topbar-copilot
+
+! -- https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/
+! Promo banner for AI-generated search results in marketplace
+portal.azure.com##.ext-gallery-solutionFinder-smallBanner
+
+! -- https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2
+! Copilot suggestions on blades for all resources, resource groups, subscriptions, etc.
+portal.azure.com##.___koxvwx0_fue3jg0
 
 ! =====================
 ! == Microsoft Cloud ==
