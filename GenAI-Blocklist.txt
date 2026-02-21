@@ -21,6 +21,16 @@
 ! AI Chatbot "Find the right app to bring your ideas to life."
 www.adobe.com##.brand-concierge.hero.above-pods
 
+! -- Adobe Home (logged in) (https://www.adobe.com/home)
+! Promo bar for Firefly
+www.adobe.com##.promobar:has-text("Adobe Firefly")
+! Image generation prompt
+www.adobe.com###promptbar-form
+! Loading placeholder for image generation prompt
+www.adobe.com##.-F_-FA92
+! "Generative AI" action category
+www.adobe.com##[data-key="category-genai"]
+
 ! -- https://new.express.adobe.com/?locale=en-US
 ! AI Assistant toggle in header
 new.express.adobe.com##x-assistant-toggle
