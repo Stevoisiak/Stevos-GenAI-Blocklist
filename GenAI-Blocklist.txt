@@ -1344,7 +1344,6 @@ youtube.com##button.yt-spec-button-shape-next[aria-label="Ask"]
 ! Settings > Audio Track
 www.youtube.com##.ytp-menuitem-section-header
 www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
-! TODO: If there is only one non-ai dubbed language and it's the currently selected language, hide language options.
 
 ! -- Livestream
 ! Chat summary
