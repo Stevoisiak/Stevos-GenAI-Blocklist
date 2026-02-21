@@ -60,19 +60,23 @@ photoshop.adobe.com##.genAICards
 ! ============
 ! == Amazon ==
 ! ============
-! Note: Rufus assistant elements only appear when logged in
+! Notes:
+! * Rufus assistant elements only appear when logged in
+! * Alternate country domains from https://gist.github.com/noraworld/0ee7af8b6b068d5d7b6d97caded18bab
+! * We define countries explicitly instead of using a wildcard (*) to support uBlock Origin Lite
+
 ! -- Homepage (https://www.amazon.com/)
 ! "Rufus" button in top navbar
-www.amazon.com###nav-rufus-disco
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nav-rufus-disco
 
 ! -- Product page (https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP)
 ! "Ask Rufus" suggestions below product image
-www.amazon.com###nile-inline_feature_div
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline_feature_div
 ! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
 ! Only appears when logged in
-www.amazon.com###nile-inline-btf_feature_div
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
-www.amazon.com##[data-csa-c-item-id="cr-product-insights-cards"]
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg##[data-csa-c-item-id="cr-product-insights-cards"]
 
 ! ===========
 ! == Baidu ==
