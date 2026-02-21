@@ -1374,17 +1374,17 @@ studio.youtube.com##ytcp-creator-chat-trigger
 
 ! -- Content
 ! Inspiration tab
-studio.youtube.com##tp-yt-paper-tab#inspiration-tab
+studio.youtube.com###inspiration-tab
 
 ! -- Analytics
 ! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
 ! Suggested questions for channel analytcs in "Analytics" > "Overview"
-studio.youtube.com##div.suggestion-chips-container:has(> ytcp-creator-chat-entrypoint-chips)
+studio.youtube.com##.suggestion-chips-container:has(> ytcp-creator-chat-entrypoint-chips)
 ! "AI tools for brainstorming video ideas have moved" banner under "Analytics" > "Trends"
-studio.youtube.com##div.screen-banners-container.yta-screen:has(button[aria-label="Go to Inspiration"])
+studio.youtube.com##.screen-banners-container.yta-screen:has(#anchor[href="https://support.google.com/youtube/answer/15575509"])
 ! "Brainstorm video ideas" button that appears under "Analytics" > "Trends" after using search bar
-studio.youtube.com##ytcp-button.brainstorm-ideas-button
+studio.youtube.com##.brainstorm-ideas-button
 
 ! -- Community
 ! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
