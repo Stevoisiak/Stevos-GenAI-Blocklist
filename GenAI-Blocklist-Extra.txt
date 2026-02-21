@@ -22,6 +22,13 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 !   Only confirmed users of AI image generation are allowed. No assuming based on art style.
 deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-username="/^(achooandchaos|adnkhan|akiraruki|amibahama|anitoonmaster|antoraassets|arianaboss|astrify|azuredrops-ai|bhoff666|bleedingbeauty2002|cafferequiem|character-alex|cyberwaifu69|dante-127|darkeracolyte|dissunder|dontgiveup123|dreampixelia|entropy-ai|ergunata|exclusiveadoptables|feylunia|forgotteddy|furfactoryai|genaibooru|ghostalleycat|greatobserverph|gwynbleiddarts|hentaipresident|kaolumbia|kaoriai0w0|kimberlyai|leiconsy|luvus-7|miraandroid|missgrowth|mollyoconner|mstorm1285|muyumichan|myuxx|neonthedevi|nomore0f|onizukasaiart|pixel-yo|poetatojizz|rainbowfoxyai|realitynoir|ringobataazu|sharinel|simpleelaand|solacewinter|solasistem|the-elven-gamer|thedreadmerchant|themysteryk|tiddydreamsai|toreqi|twisteddarknet|verdetto|yangol44|yellowbeeart|ziggydreamborn|zorg-lub)$/i"))
 
+! ==================
+! == Google Drive ==
+! ==================
+! -- (logged in) (https://drive.google.com/drive/home)
+! New > More > Google AI Studio
+drive.google.com##.h-v:has([src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_ai_studio_x32.png"])
+
 ! ============
 ! == Reddit ==
 ! ============
