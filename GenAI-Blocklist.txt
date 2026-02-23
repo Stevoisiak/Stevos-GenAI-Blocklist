@@ -452,6 +452,10 @@ github.com##[role="menuitem"]:has(.octicon-copilot):remove()
 github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]
 github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]:remove()
 
+! -- Failed workflow job (https://github.com/zloirock/core-js/actions/runs/22272347580/job/64429009933)
+! "Explain error" button
+github.com##[data-test-id="copilot-actions-chat-button"]
+
 ! -- Homepage (logged out) (https://github.com/home)
 ! Header - Platform >  "AI Code Creation" section
 ! Note: This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
