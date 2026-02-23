@@ -433,6 +433,8 @@ github.com##[data-testid="copilot-free-user-checklist"]
 ! -- Pull request (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13)
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
+! "Code with agent mode" under "Development" section in sidebar
+github.com##.DevelopmentSection-module__developmentSectionContainer__fplqG
 
 ! -- Pull request file view (https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files)
 ! "Ask Copilot" button next to "Review" button
