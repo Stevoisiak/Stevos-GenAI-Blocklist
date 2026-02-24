@@ -57,6 +57,17 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 
 *Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
+### For Firefox (Android)
+
+- Open Firefox
+- Tap the action menu (⋮) and select "_Extensions_"
+- Click the plus (+) next to _uBlock Origin_ and install it
+- Close and reopen the _Extensions_ menu
+- Tap _uBlock Origin_ and select _Settings_
+- Open the "_Filter lists_" tab
+- Scroll to the bottom and tap "_Import..._"
+- Paste in the link `https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt` then hit "_Apply Changes_"
+
 ### For Safari (iOS)
 
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
