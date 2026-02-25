@@ -712,6 +712,14 @@ gemini.google.com##div.initial-input-area-container
 ! Chat window
 gemini.google.com##div.content-container > chat-window
 
+! =================
+! == Google Meet ==
+! =================
+! -- https://meet.google.com/landing?hs=193&pli=1
+! "Express yourself with an AI-Generated background" promo
+! Seemingly only appears once per-user
+meet.google.com##div[jsshadow][jscontroller="dGzwdb"]:has-text("Express yourself with an AI-generated background")
+
 ! ===================
 ! == Google Sheets ==
 ! ===================
