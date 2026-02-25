@@ -692,6 +692,15 @@ drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y) + .h-Yo[role="separator"]
 ! "Summarize this file" when hovering over file icon
 drive.google.com##.oaTPh
 
+! ==================
+! == Google Forms ==
+! ==================
+! These filters may only apply to accounts with a Google AI Plus/Pro subscription
+
+! -- https://docs.google.com/forms/create
+! Gemini popup on new form creation
+docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
+
 ! ===================
 ! == Google Gemini ==
 ! ===================
@@ -763,7 +772,6 @@ docs.google.com###video-generation-promo
 ! -- Promo page (https://workspace.google.com/)
 ! Navbar - AI
 workspace.google.com##nav > div[class^="_headerNavGroup_"]:has(> [data-g-action="ai"])
-
 ! "Premium AI built-in" section
 workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
 ! "Google Workspace includes" section with list of apps ("Gemini" & "NotebookLM")
