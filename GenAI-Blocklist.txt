@@ -655,6 +655,26 @@ developers.google.com##.devsite-concierge-ai-panel--menu-item
 ! "AI Powered" results
 developers.google.com##devsite-search-summary
 
+! =================
+! == Google Docs ==
+! =================
+! The filters below may only apply to accounts with an Google AI Pro subscription
+
+! -- https://docs.google.com/create
+! "Listen to this tab" icon in header toolbar
+docs.google.com###textToSpeechToolbarButton
+! "Help me write" icon in floating menu
+docs.google.com##.superfab-aitextgeneratormenu-button
+! Header > Gemini button (Replaces "Try Gemini" if you have subscribed to Google AI)
+docs.google.com###docs-sidekick-button-container
+! "Insert" > "Audio buttons" in menubar
+! Two label checks to catch placeholder during page load and finalized button
+docs.google.com##.apps-menuitem:has([aria-label="Audio buttons f5"],[aria-label="Audio buttons New f5"])
+! "Tools" > "Audio" in menubar
+docs.google.com##.apps-menuitem:has([aria-label="Audio f6"], [aria-label="Audio New f6"])
+! "Tools" > "Gemini" in menubar
+docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
+
 ! ==================
 ! == Google Drive ==
 ! ==================
