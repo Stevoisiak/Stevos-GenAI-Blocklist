@@ -658,7 +658,7 @@ developers.google.com##devsite-search-summary
 ! =================
 ! == Google Docs ==
 ! =================
-! These filters only apply to accounts with a Google AI Plus/Pro subscription
+! These filters may only apply to accounts with a Google AI Plus/Pro subscription
 
 ! -- https://docs.google.com/create
 ! "Listen to this tab" icon in header toolbar
@@ -678,7 +678,7 @@ docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
 ! ==================
 ! == Google Drive ==
 ! ==================
-! These filters only apply to accounts with a Google AI Plus/Pro subscription
+! These filters may only apply to accounts with a Google AI Plus/Pro subscription
 
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
@@ -702,6 +702,33 @@ gemini.google.com##button[data-test-id="bard-upsell-menu-button"]
 gemini.google.com##div.initial-input-area-container
 ! Chat window
 gemini.google.com##div.content-container > chat-window
+
+! ===================
+! == Google Sheets ==
+! ===================
+! These filters may only apply to accounts with a Google AI Plus/Pro subscription
+! -- https://docs.google.com/spreadsheets/create
+! "Ask gemini to analyze spreadsheet data" popup promo that can appear when loading a document
+docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog:has-text("Gemini")
+! "Gemini" menu in menubar
+! TODO: Still selectable with keyboard using arrow key navigation
+docs.google.com###docs-gemini-menu
+! AI menu options in menubar
+docs.google.com##.ai-standard-menu-item
+! Separator next to "Data" > "Analyze Data"
+docs.google.com##.ai-standard-menu-item:has(.docs-icon-performance-auto-18x18) + .goog-menuseparator
+! "Summarize this data" button in formula bar
+docs.google.com##.FormulaBarContainerGeminiSummarizeButton
+! "Insert AI Column Right" icon that appears when hovering last column in a table
+docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableControlsOverlayColumnsmithIcon)
+
+! - Table options (Insert > Pre-built tables)
+! "Help me create a table" button
+docs.google.com##.building-blocks-sidekick-entrypoint-button
+! "AI enhanced tables" promo
+docs.google.com##.building-blocks-promo-container
+! Table categories with AI fields
+docs.google.com###feedback-sentiment-plus-classification-building-block, #expense-classification-building-block, #ad-generation-building-block, #email-generation-building-block, #call-summary-building-block
 
 ! ====================
 ! == Google Support ==
