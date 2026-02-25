@@ -534,6 +534,27 @@ gitlab.com##.ai-panels
 ! Left Sidebar > "What's New" > Left Sidebar > "Featured Updates" advertising GitLab Duo (no longer used?)
 gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
 
+! ===========
+! == Gmail ==
+! ===========
+! Summarize this email, sometimes appears at top of messages
+mail.google.com##div.eJPjde
+
+! -- Composing an email
+! - "Help me write" icon next to "Send" button
+! Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
+mail.google.com##.bDl[command="sdt"]
+! "Help me write" (Disables keyboard shortcut '/')
+mail.google.com##.eLNZDd[command="sdt"]:remove()
+! "Help me write" prompt. Appears when focusing message box in a new email.
+! Note: Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
+mail.google.com##.jKzJCd
+
+! -- Search (https://mail.google.com/mail/u/0/#search/test)
+! AI Overview for search
+! Only shown to accounts with a Google AI Plus/Pro subscription
+mail.google.com##.JLWipf
+
 ! ======================
 ! == Google (general) ==
 ! ======================
@@ -790,27 +811,6 @@ workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/produ
 ! "Gmail is entering the Gemini era" promo banner in header
 workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140)
 workspace.google.com##section[data-module="TemplateLocalizedModuleContainer"]:has(._gemini_1j2q4_140) + [data-module="TemplateSpacer"]
-
-! ===========
-! == Gmail ==
-! ===========
-! Summarize this email, sometimes appears at top of messages
-mail.google.com##div.eJPjde
-
-! -- Composing an email
-! - "Help me write" icon next to "Send" button
-! Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
-mail.google.com##.bDl[command="sdt"]
-! "Help me write" (Disables keyboard shortcut '/')
-mail.google.com##.eLNZDd[command="sdt"]:remove()
-! "Help me write" prompt. Appears when focusing message box in a new email.
-! Note: Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
-mail.google.com##.jKzJCd
-
-! -- Search (https://mail.google.com/mail/u/0/#search/test)
-! AI Overview for search
-! Only shown to accounts with a Google AI Plus/Pro subscription
-mail.google.com##.JLWipf
 
 ! ==========
 ! == Grok ==
