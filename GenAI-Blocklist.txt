@@ -692,6 +692,23 @@ drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y) + .h-Yo[role="separator"]
 ! "Summarize this file" when hovering over file icon
 drive.google.com##.oaTPh
 
+! ===================
+! == Google Gemini ==
+! ===================
+! -- Main page
+! Header bar - Upgrade to Google AI Plus
+gemini.google.com##button[data-test-id="bard-upsell-menu-button"]
+! Chat box (when initially loading page)
+gemini.google.com##div.initial-input-area-container
+! Chat window
+gemini.google.com##div.content-container > chat-window
+
+! ====================
+! == Google Support ==
+! ====================
+! Google Support - AI "Help guide" chatbox
+support.google.com##div.helpPanelContainerRoot
+
 ! =================
 ! == Google Vids ==
 ! =================
@@ -712,23 +729,6 @@ docs.google.com###content-library-rail-image-synthesis-element, #content-library
 docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
 ! Upgrade sticky banner
 docs.google.com###docs-banner-container:has-text("Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more")
-
-! ===================
-! == Google Gemini ==
-! ===================
-! -- Main page
-! Header bar - Upgrade to Google AI Plus
-gemini.google.com##button[data-test-id="bard-upsell-menu-button"]
-! Chat box (when initially loading page)
-gemini.google.com##div.initial-input-area-container
-! Chat window
-gemini.google.com##div.content-container > chat-window
-
-! ====================
-! == Google Support ==
-! ====================
-! Google Support - AI "Help guide" chatbox
-support.google.com##div.helpPanelContainerRoot
 
 ! ======================
 ! == Google Workspace ==
