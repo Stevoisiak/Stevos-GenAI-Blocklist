@@ -100,7 +100,7 @@ squareup.com###q-messenger-frame[title="Qualified Messenger"]
 ! ===============
 ! -- https://www.theverge.com/
 ! "AI" category in header
-www.theverge.com##._1wnt6o3v._1wnt6o3r._1wnt6o3l.urbcaf0:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
+www.theverge.com##._1wnt6o3v._1wnt6o3l.urbcaf0:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
 ! "AI" category in header menu (☰)
 www.theverge.com##._1sdloqz0:has(> [aria-label="Collapse 'AI' Section"])
 
