@@ -221,6 +221,15 @@ chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
 ! AI search summary
 developer.chrome.com,web.dev##devsite-search-summary
 
+! =================
+! == Claude Docs ==
+! =================
+! -- https://platform.claude.com/docs/en/home
+! Search bar - "Ask about" suggestions
+platform.claude.com###aiSearchResults__Item-__ask_ai__
+! Search bar - Toggle AI mode
+platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
+
 ! ====================
 ! == Computer World ==
 ! ====================
