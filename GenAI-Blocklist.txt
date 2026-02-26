@@ -219,7 +219,7 @@ chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
 ! ===========================
 ! -- https://developer.chrome.com/s/results?q=Test
 ! AI search summary
-developer.chrome.com##devsite-search-summary
+developer.chrome.com,web.dev##devsite-search-summary
 
 ! ====================
 ! == Computer World ==
