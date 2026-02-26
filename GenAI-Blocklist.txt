@@ -214,6 +214,13 @@ chatgpt.com##div.group\/sidebar-expando-section
 ! Left sidebar - collapsed (minus account settings)
 chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
 
+! ===========================
+! == Chrome for Developers ==
+! ===========================
+! -- https://developer.chrome.com/s/results?q=Test
+! AI search summary
+developer.chrome.com##devsite-search-summary
+
 ! ====================
 ! == Computer World ==
 ! ====================
