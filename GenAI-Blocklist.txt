@@ -838,6 +838,14 @@ grok.com##div.flex.flex-row.flex-wrap.w-full.gap-2.\@sm\:gap-2.justify-center.it
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
 
+! =====================================
+! == Hubspot Developer Documentation ==
+! =====================================
+! -- https://developers.hubspot.com/docs?search=test
+! "Ask AI assistant" in search suggestions
+developers.hubspot.com##.px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
+developers.hubspot.com##.last\:mb-2:has(> .flex.items-center.gap-2.px-2\.5.py-2.w-full.cursor-pointer.rounded-xl)
+
 ! =============
 ! == ImgFlip ==
 ! =============
