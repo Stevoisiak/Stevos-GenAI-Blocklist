@@ -1289,6 +1289,15 @@ beta.stackoverflow.com##.s-navigation > li:has(> [href="/ai-assist"])
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
+! ============
+! == Stripe ==
+! ============
+! -- https://docs.stripe.com/
+! "Ask AI" button in header next to search bar
+docs.stripe.com##[data-testid="StripeAssistant--Header-AskAI"]
+! AI search suggestions
+docs.stripe.com##[data-section-ask="true"]
+
 ! ====================
 ! == Strato Webmail ==
 ! ====================
