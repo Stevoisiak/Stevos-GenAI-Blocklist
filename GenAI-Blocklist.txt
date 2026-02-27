@@ -618,10 +618,10 @@ mail.google.com##.JLWipf
 ! These filters apply to multiple Google sites across domains
 
 ! -- https://www.google.com/
-! - "Gemini" icon in App Selector (⋮⋮⋮)
+! - "Gemini" & "NotebookLLM" App Selector (⋮⋮⋮)
 ! Applies to most Google apps (Calendar, Docs, Drive, Gmail, Maps, Search, Wallet, etc.)
 ! Avoid targeting "Your Favorites" section to avoid leaving a blank space in favorites that can't be removed
-google.com##.LVal7b:not(.nq7pOb) .j1ei8c:has(.tX9u1b[data-pid="658"])
+google.com##.LVal7b:not(.nq7pOb) .j1ei8c:has(.tX9u1b[data-pid="658"], [data-pid="666"])
 
 ! -- https://drive.google.com/drive/
 ! "Try Gemini" button in header
