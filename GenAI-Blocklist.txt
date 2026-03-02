@@ -526,10 +526,9 @@ github.blog##.Button[href="https://github.com/features/copilot"]
 ! == GitHub Dev ==
 ! ================
 ! Web version of VS Code used for editing files on GitHub
-! TODO: Many more AI elements to block
 
 ! Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
-! Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
+! * Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
 github.dev##.action-label.codicon.codicon-sparkle[role="button"]
 ! "Modify selected code" sparkle icon when selecting lines of code
 ! * Single line selected
@@ -541,6 +540,11 @@ github.dev##.codicon-preferences-ai-results
 ! Copilot on status bar below code window
 ! * Only filter if Copilot chat hasn't been setup yet. Otherwise, users may need button to toggle off AI features.
 github.dev###chat\.statusBarEntry[aria-label="Finish Setup"]
+! "Toggle Chat" icon in header next to search bar
+! Pre-page load
+github.dev##.codicon-chat-sparkle
+! Post-page load
+github.dev##.agent-status-container
 
 ! =================
 ! == GitHub Docs ==
