@@ -1105,6 +1105,10 @@ www.microsoft.com##.chatgpt-banner
 www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
 www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
 
+! -- https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
+! "Ask Microsoft" chat box that appears after a delay
+www.microsoft.com###uca-proactive-chat
+
 ! ====================
 ! == Micosoft Azure ==
 ! ====================
