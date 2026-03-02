@@ -683,12 +683,13 @@ www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has(> div.YNk70c.EjQT
 ! alt: www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De)
 www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 
-! Pregenerated AI Infobox (Mobile only)
-! When testing these rules, use a mobile device or mobile device emulation in browser dev tools
-! Example URLs
-! - https://www.google.com/search?q=ghola+dune
-! - https://www.google.com/search?q=Mario+%28franchise%29
-! Note: These filters have a slight delay before they take effect.
+! -- https://www.google.com/search?q=ghola+dune (Mobile only)
+! Pregenerated AI Infobox
+! * When testing these rules, use a mobile device or mobile device emulation in browser dev tools
+! * These filters have a slight delay before they take effect.
+! * Example URLs
+!  - https://www.google.com/search?q=ghola+dune
+!  - https://www.google.com/search?q=Mario+%28franchise%29
 www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
 www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
 
