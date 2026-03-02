@@ -735,6 +735,42 @@ drive.google.com##.De8rPe
 docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
 ! =================
+! == Google Labs ==
+! =================
+! -- https://labs.google.com/search
+! "Meet AI Mode" promo banner.
+! * Only applies if turned off
+labs.google.com##.aM0mz.JObZef:has(.IfuKke.ZkFQ1d[aria-label="Turn on AI Mode"])
+
+! Toggleable experiments that that use AI
+! * Web Guide and AI Mode can be toggled on and off, so only hide if feature isn't enabled. We know the feature is active if the "turn on" or "try" button is a link.
+labs.google.com##.Qcsw0d:has(.hXXdee.kPTQic[aria-label*="Web Guide"]:not([role="link"]))
+labs.google.com##.Qcsw0d:has(.hXXdee.kPTQic[aria-label*="AI Mode"]:not([role="link"]))
+
+! - Non-toggleable experiments that use Ai
+! Agentic capabilities
+labs.google.com##.Qcsw0d:has([poster="https://www.gstatic.com/search-labs/eba73261-a8a8-4534-9c44-a92ac6e1571d_poster.png"])
+! Tailor your feed
+labs.google.com##.Qcsw0d:has([poster="https://www.gstatic.com/discover/ai_feed/nlt_labs_dark_motion_251114_poster.png"])
+! Whisk
+labs.google.com##.Qcsw0d:has([src="https://www.gstatic.com/search-labs/2411FC1C-FD03-42B2-ACCE-3C1EF6AADA64.png"])
+! Flow
+labs.google.com##.Qcsw0d:has([poster="https://www.gstatic.com/search-labs/859bfb70-d77f-4f99-a1f4-a820f1413e42_poster.png"])
+! NotebookLM
+labs.google.com##.Qcsw0d:has([poster="https://www.gstatic.com/search-labs/139ebec5-ad24-4dbf-ad52-81040c65e951_poster.png"])
+! Viola the Bird
+labs.google.com##.Qcsw0d:has([src="https://www.gstatic.com/search-labs/db4f78ea-3bda-4c6b-971d-cfea7e9af409.png"])
+! Say What You See
+labs.google.com##.Qcsw0d:has([src="https://www.gstatic.com/search-labs/62d5fbde-d83f-4f86-8437-05a870c5e471.png"])
+
+! -- https://labs.google.com/search/manage
+! Options if disabled or not togglable
+labs.google.com##.SzpS3d:has([aria-label="AI Mode"][aria-checked="false"])
+labs.google.com##.SzpS3d:has([aria-label="Start searching with Agentic capabilities in AI Mode"])
+labs.google.com##.SzpS3d:has([aria-label="Web Guide"][aria-checked="false"])
+labs.google.com##.SzpS3d:has([aria-label="AI in Search"][aria-checked="false"])
+
+! =================
 ! == Google Meet ==
 ! =================
 ! -- https://meet.google.com/landing?hs=193&pli=1
