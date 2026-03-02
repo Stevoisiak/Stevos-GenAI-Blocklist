@@ -795,6 +795,9 @@ www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[d
 ! * Must be enabled in Search Labs
 www.google.com##.h7W2Pb.Ww4FFb.vt6azd
 
+! "People Also Ask" questions that have AI overviews
+www.google.com##.related-question-pair:has(.G3toM)
+
 ! -- https://www.google.com/search?q=ghola+dune (Mobile only)
 ! Pregenerated AI Infobox
 ! * When testing these rules, use a mobile device or mobile device emulation in browser dev tools
