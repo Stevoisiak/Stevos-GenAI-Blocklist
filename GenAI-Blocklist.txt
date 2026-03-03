@@ -1006,6 +1006,13 @@ www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.
 ! Search bar - "Find the answer with AI"
 developerdocs.instructure.com##[data-testid="search-ask-question"]
 
+! =================
+! == iShopChangi ==
+! =================
+! -- https://www.ishopchangi.com/en/home
+! Chatbot icon
+www.ishopchangi.com###chat-wrapper
+
 ! ===========
 ! == Jimdo ==
 ! ===========
