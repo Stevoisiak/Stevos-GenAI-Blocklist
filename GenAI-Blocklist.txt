@@ -1605,28 +1605,30 @@ search.yahoo.com##.scoutNav
 ! =================
 ! == Yahoo Japan ==
 ! =================
-! -- Homepage
+! -- https://www.yahoo.co.jp/ (Homepage)
 ! Header - AI suggested topic
-www.yahoo.co.jp##a.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt:has(svg[aria-label="AIアシスタント"])
+www.yahoo.co.jp##.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt:has(svg[aria-label="AIアシスタント"])
 ! AI Chat button to the right of search bar
-www.yahoo.co.jp##button#aichat
+www.yahoo.co.jp###aichat
 ! AI Assistant tab above search bar
-www.yahoo.co.jp##a.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
+www.yahoo.co.jp##.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
 
 ! -- https://search.yahoo.co.jp/search?p=Why+are+we+here (Search results)
 ! AI Assistant button in header to the right of search bar
-search.yahoo.co.jp##div.AiAssistant
+search.yahoo.co.jp##.AiAssistant
 ! AI tab in navbar
-search.yahoo.co.jp##li.VerticalTab__aiAssistButton
-! Suggested searches - AI button
-search.yahoo.co.jp##a.AnswerAiNavigation__content
+search.yahoo.co.jp##.VerticalTab__aiAssistButton
+! AI button below suggested searches
+search.yahoo.co.jp##.AnswerAiNavigation__content
 
 ! ============
 ! == Yandex ==
 ! ============
 ! -- https://yandex.com/search/?text=test (Search results)
 ! Navbar - yandex ai
-yandex.com##a.HeaderNav-Tab[href$="&promo=force_neuro"]
+yandex.com##.HeaderNav-Tab[href$="&promo=force_neuro"]
+
+! -- https://yandex.com/search?text=test&promo=force_neuro
 ! AI Summary banner
 yandex.com##li[data-fast-name="neuro_answer"]
 
@@ -1669,7 +1671,7 @@ www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summar
 ! -- Search results
 ! Video summary infocard (https://www.youtube.com/results?search_query=New+Frame+Plus+The+best+game+animation+of+2020)
 ! Make sure not to block the chapter-list infocards
-www.youtube.com##div#expandable-metadata > ytd-expandable-metadata-renderer[has-video-summary]
+www.youtube.com##ytd-expandable-metadata-renderer[has-video-summary]
 
 ! ====================
 ! == YouTube Studio ==
