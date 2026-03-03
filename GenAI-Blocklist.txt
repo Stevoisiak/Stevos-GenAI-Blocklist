@@ -1559,6 +1559,13 @@ www.xnxx.com###content > #content-thumbs > #tags > li:has(> a[href^="/search/ai-
 ! Navbar - Categories - AI
 www.xvideos.com##ul#main-cats-sub-list > li.dyntop-cat > a[href="/c/AI-239"]
 
+! ==========
+! == YaCy ==
+! ==========
+! -- https://yacy.net/
+! "Support GPT" in header
+yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy-support"])
+
 ! ===========
 ! == Yahoo ==
 ! ===========
