@@ -1283,6 +1283,13 @@ www.reddit.com##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-
 ! - Answers section
 www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
 
+! ============
+! == Rediff ==
+! ============
+! -- https://www.rediff.com/
+! AI-Website Builder
+www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
+
 ! ===========================
 ! == Sankaku Complex (NSFW) ==
 ! ===========================
