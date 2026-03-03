@@ -1243,6 +1243,15 @@ www.msn.com##fluent-button#codex-bing-button
 ! - App slider menu - Microsoft 365
 www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Microsoft 365"])
 
+! ==========
+! == Nate ==
+! ==========
+! -- https://www.nate.com/
+! AI Chat logo to the right of search bar
+www.nate.com##.link-ngpt
+! AI Chat tab below search bar
+www.nate.com##.chat1
+
 ! ===========
 ! == Pixiv ==
 ! ===========
