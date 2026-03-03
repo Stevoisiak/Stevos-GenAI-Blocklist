@@ -46,6 +46,9 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Click _Add_.
 
 ### For Google Chrome (Desktop)
+
+*Note: uBlock Origin Lite has several limitations compared to uBlock Origin. Some filters may not work, and custom filter lists cannot be auto-updated.*
+
 - Install [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 - Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
 - Click the "Copy raw file" button (⮺). ([screenshot](https://github.com/user-attachments/assets/e8e8c75a-2718-431e-b48b-1bb8b1ba418e))
@@ -54,8 +57,6 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - At the bottom, click "_Import/Export_" to open the filter box ([screenshot](https://github.com/user-attachments/assets/fad4141f-1008-44ac-919f-1a5c58f322c2))
 - Right click the filter box and hit "_Paste_"
 - Click the "_Add_" button
-
-*Note: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
 
 ### For Firefox (Android)
 
@@ -71,6 +72,8 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 
 ### For Safari (iOS)
 
+*Note: uBlock Origin Lite has several limitations compared to uBlock Origin. Some filters may not work, and custom filter lists cannot be auto-updated.*
+
 - Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
 - Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
 - Press the action menu button (⋯) and select "_Copy_" 
@@ -83,12 +86,6 @@ If done correctly, you should see "**_Stevo's GenAI Blocklist_**" listed under "
 - Scroll to the bottom and tap "_Import/Export_"
 - Tap the filter box twice and select "_Paste_"
 - Tap the "_Add_" button
-
-*Note 1: uBlock Origin Lite can be a bit inconsistent on iOS, so the filters may not always work.*
-
-*Note 2: uBlock Origin Lite does not support automatically updating custom filter lists. If you want to update, you will need to clear the prior rules and re-import.*
-
-*Note 3: These filters were primarilly designed for the base uBlock Origin and may not always work on the Lite version.*
 
 ### For Opera
 
