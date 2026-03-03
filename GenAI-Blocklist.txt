@@ -407,6 +407,13 @@ fandom.com##section.trfc161
 ! "AI Jerk Off" in navbar
 www.fapnado.xxx##.gngames[href="https://tsyndicate.com/api/v1/direct/9456ec3abb18461b91f4de5e492b0979?"]
 
+! ========
+! == G2 ==
+! ========
+! -- https://www.g2.com/
+! AI chatbot
+www.g2.com###g2-ai-chat-application
+
 ! ===========================
 ! == GitBook Documentation ==
 ! ===========================
