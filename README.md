@@ -103,9 +103,7 @@ These filters were previously part of the main blocklist, but it was split off a
 
 ## Contributing guidelines
 
-If you want to file an issue or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
-
-If you want to incorporate any of these filters in your own filter list, please feel free to do so.
+If you want to [report an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
 
 Commit messages use prefixes to indicate the type of change.
 * A: Added a new filter
