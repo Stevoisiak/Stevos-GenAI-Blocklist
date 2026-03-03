@@ -739,6 +739,13 @@ drive.google.com##.oaTPh
 ! "Insights from Gemini"
 drive.google.com##.De8rPe
 
+! ====================
+! == Google Flights ==
+! ====================
+! -- https://www.google.com/travel/flights
+! "Explore the best flight deals with AI"
+www.google.com##.kfgtbc:has(.lHmueb[viewBox="0 -960 960 960"]:not(.NMm5M))
+
 ! ==================
 ! == Google Forms ==
 ! ==================
