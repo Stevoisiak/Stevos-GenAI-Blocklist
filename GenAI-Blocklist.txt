@@ -1569,9 +1569,20 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 ! ===========
 ! == Yahoo ==
 ! ===========
-! Search bar > "Ask Yahoo Scout" + Separator
-search.yahoo.com##div.sbb-divider
-search.yahoo.com##div.sb-scout-wrap
+! -- https://www.yahoo.com/
+! Featured item from from Yahoo Scout near top of page 
+www.yahoo.com###conbar-content > .group:has(.stretched-box[href^="https://scout.yahoo.com"])
+
+! -- https://search.yahoo.com/
+! Yahoo Scout popup promo 
+search.yahoo.com##.scoutPromoPopup
+! "Ask Yahoo Scout" + Separator in search bar
+search.yahoo.com##.sbb-divider
+search.yahoo.com##.sb-scout-wrap
+! "Try the new Yahoo Scout" below search bar
+search.yahoo.com##.scoutPromo
+
+! -- https://search.yahoo.com/search?p=Test
 ! Header > "Yahoo Scout"
 search.yahoo.com##div.scoutNav
 
