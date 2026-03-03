@@ -627,7 +627,7 @@ mail.google.com##.JLWipf
 ! - "Gemini" & "NotebookLLM" App Selector (⋮⋮⋮)
 ! Applies to most Google apps (Calendar, Docs, Drive, Gmail, Maps, Search, Wallet, etc.)
 ! Avoid targeting "Your Favorites" section to avoid leaving a blank space in favorites that can't be removed
-google.com##.LVal7b:not(.nq7pOb) .j1ei8c:has(.tX9u1b[data-pid="658"], [data-pid="666"])
+google.com,google.ca,google.co.jp,google.com.hk##.LVal7b:not(.nq7pOb) .j1ei8c:has(.tX9u1b[data-pid="658"], [data-pid="666"])
 
 ! -- https://drive.google.com/drive/
 ! "Try Gemini" button in header
@@ -833,10 +833,10 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQT
 
 ! Web Guide
 ! * Must be enabled in Search Labs
-www.google.com##.h7W2Pb.Ww4FFb.vt6azd
+www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##.h7W2Pb.Ww4FFb.vt6azd
 
 ! "People Also Ask" questions that have AI overviews
-www.google.com##.related-question-pair:has(.G3toM)
+www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##.related-question-pair:has(.G3toM)
 
 ! -- https://www.google.com/search?q=ghola+dune (Mobile only)
 ! Pregenerated AI Infobox
@@ -845,8 +845,8 @@ www.google.com##.related-question-pair:has(.G3toM)
 ! * Example URLs
 !  - https://www.google.com/search?q=ghola+dune
 !  - https://www.google.com/search?q=Mario+%28franchise%29
-www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
-www.google.com###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
+www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
+www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
 
 ! ===================
 ! == Google Sheets ==
