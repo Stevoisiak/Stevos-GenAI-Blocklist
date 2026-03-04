@@ -1507,6 +1507,13 @@ vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f
 vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
 vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 
+! ===========
+! == WebMD ==
+! ===========
+! -- https://www.webmd.com/search?query=What+is+gout
+! AI Summary
+www.webmd.com##.ai-ovw-wrapper
+
 ! =========
 ! == Wix ==
 ! =========
