@@ -54,7 +54,7 @@ new.express.adobe.com##x-assistant-toggle
 ! "Generate with AI" quickstart card
 new.express.adobe.com##x-get-started-dialog-quickstart-card[type="create-with-ai"]
 ! "Ways to Create" - "Generative AI"
-! There's a small empty space to the side. Getting rid of the parent element fixes it, but it's split by a #shadow-root
+! * There's a small empty space to the side. Getting rid of the parent element fixes it, but it's split by a #shadow-root
 new.express.adobe.com##.nav-tile[aria-label="Generative AI"]
 
 ! -- https://photoshop.adobe.com/
@@ -82,7 +82,6 @@ www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.
 ! "Ask Rufus" suggestions below product image
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline_feature_div
 ! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
-! Only appears when logged in
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg##[data-csa-c-item-id="cr-product-insights-cards"]
@@ -249,9 +248,9 @@ platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
 ! ====================
 ! == Computer World ==
 ! ====================
-! - Header promo for AI powered hybrid search
-! The :has(.reset-button) is an attempt to avoid blocking non-ai announcements by checking for the "Try it!" button. We don't use :has-text(), as it introduces a delay.
-! The header announcement gets added by a script with id='enqueued-script-consent-manager-js-after', which also handles items like the cookie consent banner.
+! Header promo for AI powered hybrid search
+! * The :has(.reset-button) is an attempt to avoid blocking non-ai announcements by checking for the "Try it!" button. We don't use :has-text(), as it introduces a delay.
+! * The header announcement gets added by a script with id='enqueued-script-consent-manager-js-after', which also handles items like the cookie consent banner.
 www.computerworld.com##.section-block--announcementbar:has(.reset-button)
 
 ! ================
@@ -277,7 +276,7 @@ www.deviantart.com##a.reset-link[href^="https://www.deviantart.com/dreamup"]
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Bottom promo banner, sometimes has a DreamUp ad
-! TODO: Allow non-DreamUp promos
+! * TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
 ! DreamUp promo in right sidebar
 www.deviantart.com##a.reset-link.Qnm9x2
@@ -293,7 +292,7 @@ www.deviantart.com##section.ail3hi
 ! =============
 ! -- https://www.dropbox.com/ (Main page - logged out)
 ! Header - "Meet Dropbox Dash" sticky promo
-! We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
+! * We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
 www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
 www.dropbox.com##div._banner_1ozs8_1:has(> a.dwg-text[data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
 
@@ -314,9 +313,9 @@ www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text
 www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
 
 ! -- https://www.dropbox.com/home (Home - Logged in)
-! TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
+! * TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
 ! Left sidebar > More > AI features
-! TODO: Unclear if Dash's AI file search should be blocked. May not count as genAI? Will need investigation)
+! * TODO: Unclear if Dash's AI file search should be blocked. May not count as genAI? Will need investigation)
 ! www.dropbox.com##.oa-pulsar-effect-WAFFLE_DASH
 www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 
@@ -331,8 +330,8 @@ duckduckgo.com##.header_aiChatButton__e_9yJ
 ! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
 duckduckgo.com##.sideMenu_sectionLink__2zUPb[href="https://duck.ai/?origin=funnel_home_website"]
 ! Search autocomplete > "Ask Duck.ai"
-! Note: This element mentions that pressing Alt+Enter searches with Duck.ai. I am unsure if this behavior can be
-!       blocked, so users may get redirected if they unknowingly press the key combo.
+! * This element mentions that pressing Alt+Enter searches with Duck.ai. I am unsure if this behavior can be
+!   blocked, so users may get redirected if they unknowingly press the key combo.
 duckduckgo.com##.search-input_duckAiSubmitWrapper__yHJMl
 
 ! -- https://duckduckgo.com/?q=what+is+a+snow+emergency (Search results)
@@ -345,8 +344,8 @@ duckduckgo.com##[data-react-module-id="wikinlp"]
 ! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
 duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 ! Right sidebar > "Search Assist" summary
-! Note: Sometimes the search assist can appear on the side instead of on top.
-!       For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
+! * Sometimes the search assist can appear on the side instead of on top.
+!   For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
 
 ! ========
@@ -378,8 +377,8 @@ www.ecosia.org##.search-navigation__divider:has(+ .search-navigation__item[data-
 www.facebook.com##.pageFooterLinkList > li:has(a[href^="https://www.meta.ai/"])
 
 ! -- https://www.facebook.com/ (Main feed - logged in)
-! - Top navbar > Menu > More from Meta ("Meta AI" and "Chat with AIs")
-! Note: The "Meta AI" button changes href when hovered with mouse cursor, so we use `*=` instead of `^=`
+! Top navbar > Menu > More from Meta ("Meta AI" and "Chat with AIs")
+! * The "Meta AI" button changes href when hovered with mouse cursor, so we use `*=` instead of `^=`
 www.facebook.com##div[role="listitem"] > div > div > a:is([href*="www.meta.ai"], [href^="https://aistudio.facebook.com/"])
 ! Top navbar > Messenger > Meta AI
 www.facebook.com##div.html-div[role="gridcell"] > div > div > div > a[href="/messages/t/156025504001094/"]
@@ -393,11 +392,11 @@ www.facebook.com##div[aria-label="Generate images using AI"]
 
 ! -- https://www.facebook.com/bookmarks/ (Mobile menu)
 ! "Also From Meta" > "Meta AI" button
-! TODO: Leaves a blank space, requires editing height of parent container
+! * TODO: Leaves a blank space, requires editing height of parent container
 www.facebook.com##[data-type="container"]:has(> .nb > [role="button"][aria-label="Meta AI"])
 
 ! -- https://www.facebook.com/groups/derbyposting/posts/1415634490032194/ (Group post - logged out)
-! - AI post summary
+! AI post summary
 www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.x1n2onr6 > .html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3)
 
 ! ============
@@ -427,7 +426,7 @@ www.g2.com###g2-ai-chat-application
 ! "Ask" button next to search bar
 gitbook.com##[data-testid="ai-chat-button"]
 ! "Ask" button by documentation header
-! Use :remove() to fix rounded edges on button
+! * Use :remove() to fix rounded edges on button
 gitbook.com##button[aria-label="GitBook Assistant"]
 gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 
@@ -447,13 +446,13 @@ github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role=
 ! Changelog posts containing "Copilot" in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has-text("Copilot")
 
-! - With "New Dashboard Experience" is enabled via "Feature Preview"
 ! "Open in Copilot chat" icon that appears when hovering over pull requests and issues.
+! * Requires enabling "New Dashboard Experience" in "Feature Preview"
 github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
 
-! - With "Command Palette" enabled via "Feature Preview"
 ! Copilot menu option
-! Use :remove() to fix arrow key navigation.
+! * Requires enabling "Command Palette" in "Feature Preview"
+! * Use :remove() to fix arrow key navigation.
 github.com##command-palette-item[data-item-title="Copilot"]
 github.com##command-palette-item[data-item-title="Copilot"]:remove()
 
@@ -463,7 +462,7 @@ github.com###blob-view-header-copilot-icon
 ! "Ask Copilot about this snippet" button that appears after selecting lines in file view
 github.com###copilot-button-container
 ! "Copilot" section & separator in navbar action Menu (...)
-! Use :remove() to fix arrow key navigation
+! * Use :remove() to fix arrow key navigation
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"])
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]):remove()
 github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]) + .prc-ActionList-Divider-taVfb
@@ -471,14 +470,14 @@ github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionLi
 ! "Agents" tab in repository navbar (while logged in)
 github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> a[href*="/agents?"])
 ! "Regenerate commit message" refresh icon when committing changes
-! Note: This doesn't block GitHub from using Copilot (AI) to generate the initial commit message.
-!       To prevent this, users would need to change their GitHub account settings.
+! * This doesn't block GitHub from using Copilot (AI) to generate the initial commit message.
+!   To prevent this, users would need to change their GitHub account settings.
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
 ! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new (New issue page)
-! - "Write with Copilot" below issue description
-! Doesn't always appear. May be limited to issues from repository owner?
-! The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
+! "Write with Copilot" below issue description
+! * Doesn't always appear. May be limited to issues from repository owner?
+! * The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footerButtonWrapper__eCAAR
 
 ! -- https://github.com/settings/copilot/features (Copilot features in account settings)
@@ -503,7 +502,7 @@ github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
 
 ! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
 ! "Copilot" section in menu that appears when hitting ▾ in code diff. (ie: "Ask about this diff")
-! Use :remove() to fix arrow key navigation.
+! * Use :remove() to fix arrow key navigation.
 github.com##[role="menuitem"]:has(.octicon-copilot)
 github.com##[role="menuitem"]:has(.octicon-copilot):remove()
 github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]
@@ -515,7 +514,7 @@ github.com##[data-test-id="copilot-actions-chat-button"]
 
 ! -- https://github.com/home (Homepage - logged out)
 ! Header - Platform >  "AI Code Creation" section
-! Note: This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
+! * This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
 github.com##li:has(> div[class^="NavGroup-module__group"] a[href="https://github.com/features/copilot"])
 
 ! Header - Resources > Explore by Topic > "AI" link
@@ -583,11 +582,11 @@ docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > span:nth-of-type(2)
 
 ! -- https://docs.github.com/?search-overlay-open=true (Search page)
-! - Search bar placeholder text "Search or ask Copilot"
-! If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
-! and the search bar text is in English, change the placeholder text to "Search"
+! Search bar placeholder text "Search or ask Copilot"
+! * If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
+!   and the search bar text is in English, change the placeholder text to "Search"
 docs.github.com##+js(trusted-set-attr, input[placeholder="Search or ask Copilot"], placeholder, Search)
-! Otherwise, remove the placeholder text
+! * Otherwise, remove the placeholder text
 docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Copilot"]:remove-attr(placeholder)
 
 ! ============
@@ -605,7 +604,7 @@ about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai fo
 
 ! -- https://gitlab.com/ (Homepage - logged in)
 ! "GitLab Duo Agent Platform" in left sidebar
-! Blocks both the button to open Duo panel and the panel itself
+! * Blocks both the button to open Duo panel and the panel itself
 gitlab.com##.ai-panels
 ! Left Sidebar > "What's New" > Left Sidebar > "Featured Updates" advertising GitLab Duo (no longer used?)
 gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
@@ -624,18 +623,18 @@ mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg, viewBox, 0 0 24 2
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z")
 
 ! -- Composing an email
-! - "Help me write" icon next to "Send" button
-! Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
+! "Help me write" icon next to "Send" button
+! * Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
 mail.google.com##.bDl[command="sdt"]
 ! "Help me write" (Disables keyboard shortcut '/')
 mail.google.com##.eLNZDd[command="sdt"]:remove()
 ! "Help me write" prompt. Appears when focusing message box in a new email.
-! Note: Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
+! * Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
 mail.google.com##.jKzJCd
 
 ! -- https://mail.google.com/mail/u/0/#search/test (Search)
 ! AI Overview for search
-! Only shown to accounts with a Google AI Plus/Pro subscription
+! * Only shown to accounts with a Google AI Plus/Pro subscription
 mail.google.com##.JLWipf
 
 ! ======================
@@ -644,14 +643,14 @@ mail.google.com##.JLWipf
 ! These filters apply to multiple Google sites across domains
 
 ! -- https://www.google.com/
-! - "Gemini" & "NotebookLLM" App Selector (⋮⋮⋮)
-! Applies to most Google apps (Calendar, Docs, Drive, Gmail, Maps, Search, Wallet, etc.)
-! Avoid targeting "Your Favorites" section to avoid leaving a blank space in favorites that can't be removed
+! "Gemini" & "NotebookLLM" App Selector (⋮⋮⋮)
+! * Applies to most Google apps (Calendar, Docs, Drive, Gmail, Maps, Search, Wallet, etc.)
+! * Don't filter if app is in "Your Favorites" section to avoid leaving a blank space that can't be replaced with another app.
 google.com,google.ca,google.co.jp,google.com.hk##.LVal7b:not(.nq7pOb) .j1ei8c:has(> [data-pid="658"], > [data-pid="666"])
 
 ! -- https://drive.google.com/drive/
 ! "Try Gemini" button in header
-! Applies to Docs, Drive, & Gmail
+! * Applies to Docs, Drive, & Gmail
 google.com##[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 
 ! ======================
@@ -685,8 +684,6 @@ blog.google##uni-search-ai-summary
 ! -- https://console.cloud.google.com/welcome (Logged in)
 ! "Gemini Cloud Assist chat" button in header bar
 console.cloud.google.com###pcc-duet-chat-container
-! - "Cloud Assist" side panel
-! The panel can still be opened via Alt+G shortcut, but the AI chat inside it will be blocked.
 ! "Gemini" suggestions after focusing search bar
 console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(search-gemini-prompt-list)
 
@@ -696,8 +693,7 @@ console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(searc
 ! -- https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema (Documentation page)
 ! "Page Summary"
 developers.google.com##devsite-key-takeaways-panel
-! Left sidebar > "Chat"
-! IE: Ask About this Page
+! Left sidebar > "Chat" (IE: Ask About this Page)
 developers.google.com##.devsite-concierge-ai-panel--menu-item
 
 ! -- https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure (Search results)
@@ -717,7 +713,7 @@ docs.google.com##.superfab-aitextgeneratormenu-button
 ! Header > Gemini button (Replaces "Try Gemini" button)
 docs.google.com###docs-sidekick-button-container
 ! "Insert" > "Audio buttons" in menubar
-! Two label checks to catch placeholder during page load and finalized button
+! * Two label checks to catch placeholder during page load and finalized button
 docs.google.com##.apps-menuitem:has([aria-label="Audio buttons f5"],[aria-label="Audio buttons New f5"])
 ! "Tools" > "Audio" in menubar
 docs.google.com##.apps-menuitem:has([aria-label="Audio f6"], [aria-label="Audio New f6"])
@@ -735,7 +731,7 @@ drive.google.com###WWNEkf
 ! "Summarize this file" in selection bar above files after selecting a file (Also matches "Catch me up")
 drive.google.com##.SMHH7
 ! "Summarize this folder/file" in file "More actions" menu (⋮)
-! TODO: Fix arrow key navigation. (:remove() doesn't fix it)
+! * TODO: Fix arrow key navigation. (:remove() doesn't fix it)
 drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y)
 drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y) + .h-Yo[role="separator"]
 ! "Summarize this file" when hovering over file icon
@@ -766,7 +762,7 @@ docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 ! =================
 ! -- https://labs.google.com/search
 ! "Meet AI Mode" promo banner.
-! * Only applies if turned off
+! * Only filter if option is turned off so we don't stop users from disabling it.
 labs.google.com##.aM0mz.JObZef:has(.IfuKke.ZkFQ1d[aria-label="Turn on AI Mode"])
 
 ! Toggleable experiments that that use AI
@@ -802,7 +798,7 @@ labs.google.com##.SzpS3d:has([aria-label="AI in Search"][aria-checked="false"])
 ! =================
 ! -- https://meet.google.com/landing?hs=193&pli=1
 ! "Express yourself with an AI-Generated background" promo
-! Seemingly only appears once per-user
+! * Seemingly only appears once per-user
 meet.google.com##div[jsshadow][jscontroller="dGzwdb"]:has-text("Express yourself with an AI-generated background")
 
 ! ===================
@@ -824,24 +820,23 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##promo-middle-sl
 ! Navbar > "AI Mode" tab
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##div[role="listitem"][jsname] > div > div.olrp5b
 ! Backup filter
-! Adapted from https://old.reddit.com/r/techsupport/comments/1kt8dds/how_to_remove_ai_mode_on_google_search_selection/njltdug/
+! * Adapted from https://old.reddit.com/r/techsupport/comments/1kt8dds/how_to_remove_ai_mode_on_google_search_selection/njltdug/
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 
-! - AI Overview
-! These filters are somewhat speculative due to Google having multiple formats for AI overviews.
-! Element names may change based on the search terms used, switching to mobile or desktop, logging in or out of Google, using an international site (google.com.hk), etc.
-! Test cases
-! - AI: (https://www.google.com/search?q=Why+are+we+here)
-! - AI with sources on side: (https://www.google.com/search?q=Celeste+release+date)
-! - Both AI and non-AI infoboxes: (https://www.google.com/search?q=mario+64+release+date)
-! - AI with "thinking" preloader: (https://www.google.com/search?q=unity+compute+dispatch+editor)
-! - AI with "thinking" preloader that sometimes appears in middle of search results (https://www.google.com/search?q=ublock+ai+results+not+showing+results)
-! - AI on Hong Kong site: (https://www.google.com.hk/search?q=mario+64+release+date)
-! - AI on Japan site: (https://www.google.co.jp/search?q=Why+am+i+here)
-! - Calculator with no AI: (https://www.google.com/search?q=calculator)
-! - Non-ai infobox: (https://www.google.com/search?q=Halo+release+date)
-! - AI infobox (check on mobile): (https://www.google.com/search?q=ghola+dune)
-
+! AI Overview
+! * These filters are somewhat speculative due to Google having multiple formats for AI overviews.
+! * Element names may change based on the search terms used, switching to mobile or desktop, logging in or out of Google, using an international site (google.com.hk), etc.
+! * Test cases
+!   * AI: (https://www.google.com/search?q=Why+are+we+here)
+!   * AI with sources on side: (https://www.google.com/search?q=Celeste+release+date)
+!   * Both AI and non-AI infoboxes: (https://www.google.com/search?q=mario+64+release+date)
+!   * AI with "thinking" preloader: (https://www.google.com/search?q=unity+compute+dispatch+editor)
+!   * AI with "thinking" preloader that sometimes appears in middle of search results (https://www.google.com/search?q=ublock+ai+results+not+showing+results)
+!   * AI on Hong Kong site: (https://www.google.com.hk/search?q=mario+64+release+date)
+!   * AI on Japan site: (https://www.google.co.jp/search?q=Why+am+i+here)
+!   * Calculator with no AI: (https://www.google.com/search?q=calculator)
+!   * Non-ai infobox: (https://www.google.com/search?q=Halo+release+date)
+!   * AI infobox (check on mobile): (https://www.google.com/search?q=ghola+dune)
 ! * .Odp5De represents the infobox at the top of search results. This cannot be used as a reliable indicator on it's own.
 !   Sometimes there will be non-AI info in this box, while other times the AI info may appear in the middle of search results.
 
@@ -851,11 +846,11 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##[role="navigati
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##[data-aquarium], [data-attnms], [data-subtree="mfc"], [data-subtree="mfc,mfl"],
 
 ! Container for AI Overview when located on top of search results
-! alt: www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has([data-attnms])
+! * alt: www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has([data-attnms])
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###Odp5De:has(> div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 
 ! Blank padding above AI Overview when located at top of search results
-! alt: www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De)
+! * alt: www.google.com,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De)
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 
 ! Web Guide
@@ -870,8 +865,8 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##.related-questi
 ! * When testing these rules, use a mobile device or mobile device emulation in browser dev tools
 ! * These filters have a slight delay before they take effect.
 ! * Example URLs
-!  - https://www.google.com/search?q=ghola+dune
-!  - https://www.google.com/search?q=Mario+%28franchise%29
+!   * https://www.google.com/search?q=ghola+dune
+!   * https://www.google.com/search?q=Mario+%28franchise%29
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
 
@@ -883,7 +878,7 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > d
 ! "Ask gemini to analyze spreadsheet data" popup promo that can appear when loading a document
 docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog:has-text("Gemini")
 ! "Gemini" menu in menubar
-! TODO: Still selectable with keyboard using arrow key navigation
+! * TODO: Still selectable with keyboard using arrow key navigation
 docs.google.com###docs-gemini-menu
 ! AI menu options in menubar
 docs.google.com##.ai-standard-menu-item
@@ -915,14 +910,14 @@ support.google.com##div.helpPanelContainerRoot
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
 docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
 ! Bottom promo bar to buy Google AI
-! Element is removed instead of hidden to avoid empty space
+! * Element is removed instead of hidden to avoid empty space
 docs.google.com###getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
 
 ! -- https://docs.google.com/videos/u/0/create (Editing a blank video)
 ! Right sidebar > "Generate", "Avatar", "Voiceover", & "Veo" buttons
 docs.google.com###content-library-rail-image-synthesis-element, #content-library-rail-avatars-element, #content-library-rail-voiceovers-element, #content-library-rail-video-generation-element
 ! Bottom timeline - Generate audio button
-! Appears when selecting an audio track on the timeline
+! * Appears when selecting an audio track on the timeline
 docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
 ! Upgrade sticky banner
 docs.google.com###docs-banner-container:has-text("Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more")
@@ -938,7 +933,7 @@ workspace.google.com##nav > div[class^="_headerNavGroup_"]:has(> [data-g-action=
 ! "Premium AI built-in" section
 workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
 ! "Google Workspace includes" section with list of apps ("Gemini" & "NotebookLM")
-! Also blocks other cards advertising AI features
+! * Also blocks other cards advertising AI features
 workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/products/notebooklm"])
 
 ! -- https://workspace.google.com/intl/en-US/gmail/ (About Gmail)
@@ -976,7 +971,7 @@ developers.hubspot.com##.last\:mb-2:has(> .flex.items-center.gap-2.px-2\.5.py-2.
 imgflip.com##.home-create-btn[href="/ai-meme"]
 
 ! -- https://imgflip.com/memegenerator
-! Credit to gittaca for pointing some of these out (https://codeberg.org/gittaca/gitludd-blocklist/src/commit/0ba96a400350599e325a6c6c4399f1c51b1b2e76/txt)
+! * Credit to gittaca for pointing some of these out (https://codeberg.org/gittaca/gitludd-blocklist/src/commit/0ba96a400350599e325a6c6c4399f1c51b1b2e76/txt)
 ! "AI" template
 imgflip.com##.ai
 ! "AI" button below text fields
@@ -1112,8 +1107,8 @@ www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is
 www.microsoft.com###storeassistantroot
 ! "How can we help" question prompt on top of page
 www.microsoft.com##.chatonpage
-! - "For business" section > Promo cards
-! Only applies to US English site
+! "For business" section > Promo cards
+! * Only applies to US English site
 www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Learn more about Microsoft 365 Copilot"])
 www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Explore AI solutions"])
 ! Non-US languages (https://www.microsoft.com/zh-hk/)
@@ -1207,12 +1202,12 @@ learn.microsoft.com###search-answer
 ! == Microsoft Power Automate ==
 ! ==============================
 ! -- https://make.powerautomate.com/
-! - "Create your automation with Copilot" prompt
+! "Create your automation with Copilot" prompt
 make.powerautomate.com##[data-automation-id="copilotBanner"]:upward(2)
-! - Sidebar > "AI Hub" & "Prompts"
-! Only applies to pinned items
+! Sidebar > "AI Hub" & "Prompts"
+! * Only applies to pinned items
 make.powerautomate.com##[data-test-id="aiHub"], [data-test-id="aiPrompts"]
-! - Sidebar > More > Pin/Unpin "AI Hub" & "Prompts"
+! Sidebar > More > Pin/Unpin "AI Hub" & "Prompts"
 make.powerautomate.com##.ms-FocusZone > .ms-Stack:has(> button:is([aria-label="Pin AI hub"], [aria-label="Unpin AI hub"], [aria-label="Pin Prompts"], [aria-label="Unpin Prompts"]))
 
 ! Sidebar - Power Platform - Copilot Studio
@@ -1235,14 +1230,14 @@ purview.microsoft.com###scc_oneShell-purview-copilot-button_container
 ! ==============================
 ! -- Sharepoint site creator
 ! Right sidebar - Design ideas
-! TODO: Remove one of the two neighboring section separators
+! * TODO: Remove one of the two neighboring section separators
 sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
 
 ! -- Microsoft Office
 ! Navbar buttons (Home tab) for Copilot
 usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
 usc-excel.officeapps.live.com###Copilot-group:upward(2)
-! TODO: Copilot button briefly appears when PowerPoint is loading
+! * TODO: Copilot button briefly appears when PowerPoint is loading
 usc-powerpoint.officeapps.live.com###ChatPPT-group:upward(2)
 
 ! =====================
@@ -1275,10 +1270,10 @@ mylust.com##.item:has(> [data-id="307"])
 ! == MSN ==
 ! =========
 ! -- https://www.msn.com/
-! - Search bar - Copilot button
-! Only applies to the "New MSN Homepage", which can be toggled in settings.
+! Search bar - Copilot button
+! * Only applies to the "New MSN Homepage", which can be toggled in settings.
 www.msn.com##fluent-button#codex-bing-button
-! - App slider menu - Microsoft 365
+! App slider menu - Microsoft 365
 www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Microsoft 365"])
 
 ! ==========
@@ -1321,7 +1316,7 @@ www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
 ! == Reddit ==
 ! ============
 ! -- https://www.reddit.com/
-! - "Ask" button in top search bar
+! "Ask" button in top search bar
 www.reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
 www.reddit.com##div.label-container > hr.trailing-divider
 
@@ -1332,11 +1327,11 @@ www.reddit.com##main#main-content > div#variant_2 > div > guides-search-input-ba
 www.reddit.com##main#main-content > div#variant_2 > div > div.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
 
 ! -- https://www.reddit.com/search/?q=ai (Search results)
-! - Answers section
+! Answers section
 www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
 
 ! -- https://www.reddit.com/r/PasswordManagers/comments/1rksafr/psa_posts_to_1password_community_are_actively/
-! -- Reddit Answers logo in header (Mobile only)
+! Reddit Answers logo in header (Mobile only)
 www.reddit.com###answers-nav-button
 ! "Related Answers" (Mobile only)
 www.reddit.com###answers-suggested-queries-m3
@@ -1381,9 +1376,9 @@ www.shopify.com##div.\[grid-area\:aside\] > ul > li:has(> a[href="/sidekick"])
 ! Header navbar > Products (Sidekick, AI Chats)
 www.shopify.com##ul.\[grid-area\:items\] > li > ul.level3-container > li > a:is([href="/magic"], [href="/chatgpt"])
 ! Body > "AI designed for commerce" section
-! Note: Ideally we'd block at the div.shadow-card level to avoid removing the "Shopify Editions" promo box. However,
-!       hiding the "magic" shadowcard breaks the text positioning on the "editions" box. This is probably fixable, but figuring
-!       that out seems like a lot of effort to preserve promotional materials, so I hid the whole section instead.  ¯\_(ツ)_/¯
+! * Ideally we'd block at the div.shadow-card level to avoid removing the "Shopify Editions" promo box. However,
+!   hiding the "magic" shadowcard breaks the text positioning on the "editions" box. This is probably fixable, but figuring
+!   that out seems like a lot of effort to preserve promotional materials, so I hid the whole section instead.  ¯\_(ツ)_/¯
 www.shopify.com##div.container:has(> div.flex > div.shadow-card > div > div > p.richtext > a[data-component-name="cta-magic"][href="/magic"])
 
 ! -- https://admin.shopify.com/ (Store homepage - logged in)
@@ -1393,9 +1388,7 @@ admin.shopify.com##.Polaris-Box > .Polaris-InlineStack > ._Avatar_iv0hk_7
 ! AI Chatbot in right sidebar
 admin.shopify.com##._Sidebar_xdtqe_5
 ! Left sidebar > Online Store > Themes - "Design your store in seconds" prompt
-! Item is in an iframe with a different domain
-! TODO: Filter is not compatible with uBlock Lite due to pathname in URL.
-!       Removing /themes would make it compatible, but I can't test without signing up for another Shopify free trial.
+! * Item is in an iframe with a different domain
 online-store-web.shopifyapps.com##.Polaris-Layout__Section:has(._generationsContainer_8uqbi_1)
 
 ! -- https://www.shopify.com/website/builder (Website builder promo)
@@ -1427,7 +1420,7 @@ sogou.com##.searchnav > li:has(> #sogou_aimode)
 ! "Square AI" icon at bottom of left sidebar
 app.squareup.com##eh-market-tooltip:has(eh-market-button[data-testid="spotlight-mfe-button"])
 ! "Square AI" chat window
-! Appears after clicking a "Square AI" button
+! * Appears after clicking a "Square AI" button
 app.squareup.com##[data-testid="ai-chat-draggable-area"]
 ! Question prompt box
 app.squareup.com##[data-testid="square-ai-module"]
@@ -1581,8 +1574,8 @@ web.whatsapp.com##.x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.x78zum5.xozqiw3.x1oa3qoh.x1
 web.whatsapp.com##div.x1a8lsjc:has(> div.x1q0q8m5.xso031l.xx42vgk.xbogo7e.x120ee7l.x1vb5itz.x1a8lsjc)
 
 ! Search - Question Suggestions
-! Appears after making a search
-! TODO: Blank gap between search bar and messages
+! * Appears after making a search
+! * TODO: Blank gap between search bar and messages
 web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh8yej3.x1g42fcv:nth-of-type(1) > div.x9f619.x4f6e3x.x9orja2.xyri2b.xohmsfg.xzm8p2n.x1s688f.xhslqc4
 web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh8yej3.x1g42fcv:has(> div.xcldk2z.x1phvje8.xa0aww2.x1gxa6cn > div.x78zum5.xh8yej3.x1iyjqo2.x1n2onr6.x9f619.xkh2ocl[role=button])
 
@@ -1644,7 +1637,7 @@ xhamster.com##:is(.letter-block, .search-result-block) > .items > .item > [data-
 ! AI category with thumbnail
 www.xnxx.com##.thumb-block[data-id="239"]
 ! Left sidebar - Categories
-! DOM layout can have an extra `ul` element on search pages
+! * DOM layout can have an extra `ul` element on search pages
 www.xnxx.com###side-cat-list a[href="/search/ai"]
 www.xnxx.com###side-cat-list a[href^="/search/ai-"]
 
@@ -1747,7 +1740,7 @@ youtube.com###video-summary
 youtube.com##yt-button-view-model:has([aria-label="طرح سؤال"], [aria-label="Ask"], [aria-label="पूछें"], [aria-label="질문하기"], [aria-label="Perguntar"], [aria-label="Preguntar"])
 
 ! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
-! Settings > Audio Track
+! * Settings > Audio Track
 www.youtube.com##.ytp-menuitem-section-header
 www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 
@@ -1757,7 +1750,6 @@ www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summar
 
 ! -- Search results
 ! Video summary infocard (https://www.youtube.com/results?search_query=New+Frame+Plus+The+best+game+animation+of+2020)
-! Make sure not to block the chapter-list infocards
 www.youtube.com##ytd-expandable-metadata-renderer[has-video-summary]
 
 ! ====================
@@ -1766,8 +1758,8 @@ www.youtube.com##ytd-expandable-metadata-renderer[has-video-summary]
 ! -- https://studio.youtube.com/
 ! "Ask Studio" sparkle button in top bar
 studio.youtube.com##ytcp-creator-chat-trigger
-! Note: There's an "Chat with creator support" button that uses AI, but you can get a real person
-!       by asking to "Talk with a human", so the rule is commented out below.
+! * There's an "Chat with creator support" button that uses AI, but you can get a real person
+!   by asking to "Talk with a human", so the rule is commented out below.
 ! studio.youtube.com##.ytcpSamChatHost
 
 ! -- Content tab
