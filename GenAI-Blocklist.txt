@@ -569,9 +569,6 @@ github.dev##.agent-status-container
 ! == GitHub Docs ==
 ! =================
 ! -- https://docs.github.com/
-! - "Ask Copilot" autocomplete suggestions in search bar + divider
-docs.github.com##.prc-ActionList-Divider-rsZFG
-docs.github.com##[data-testid="ai-autocomplete-suggestions"]
 ! "GitHub Copilot" section in article lists
 docs.github.com##section[data-testid="product"] .flex-column:has(.flex-items-center .octicon-copilot)
 ! "Getting code suggestions in your IDE with GitHub Copilot" in popular articles
@@ -582,6 +579,8 @@ docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > span:nth-of-type(2)
 
 ! -- https://docs.github.com/?search-overlay-open=true (Search page)
+! "Ask Copilot" autocomplete suggestions in search bar
+docs.github.com##[data-testid="ai-autocomplete-suggestions"]
 ! Search bar placeholder text "Search or ask Copilot"
 ! * If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
 !   and the search bar text is in English, change the placeholder text to "Search"
