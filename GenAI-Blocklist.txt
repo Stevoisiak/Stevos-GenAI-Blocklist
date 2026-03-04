@@ -1290,6 +1290,13 @@ www.nate.com##.chat1
 ! Hide image if AI-generated tag is present
 pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
+! ===========
+! == Quora ==
+! ===========
+! -- https://www.quora.com/What-are-the-etymologies-for-the-words-lui-money-and-svai-sway-suai-mango
+! Answer from "Assistaant" AI Bot user
+www.quora.com##.q-box[class*="dom_annotate_question_answer_item_"]:has(.q-image[src="//qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.poe.multibot_app_icon_small.png-26-19d3ce9935f40287.png"])
+
 ! =============
 ! == Rambler ==
 ! =============
