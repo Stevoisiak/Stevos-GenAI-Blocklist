@@ -1436,13 +1436,6 @@ beta.stackoverflow.com##.wmx7.w100.mb24
 ! "AI Assist" button in left sidebar
 beta.stackoverflow.com##.s-navigation > li:has(> [href="/ai-assist"])
 
-! =========================
-! == Stack Overflow Blog ==
-! =========================
--- https://stackoverflow.blog/
-! "AI/ML" category on left sidebar
-stackoverflow.blog##.my4:has(> a[href="/ai/"])
-
 ! ============
 ! == Stripe ==
 ! ============

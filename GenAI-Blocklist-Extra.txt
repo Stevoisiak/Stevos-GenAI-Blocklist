@@ -95,6 +95,13 @@ old.reddit.com##body.subreddits-page > .content > #siteTable > .thing.subreddit:
 ! Allows booking an appointment, so may be needed to contact a human
 squareup.com###q-messenger-frame[title="Qualified Messenger"]
 
+! =========================
+! == Stack Overflow Blog ==
+! =========================
+-- https://stackoverflow.blog/
+! "AI/ML" category on left sidebar
+stackoverflow.blog##.my4:has(> a[href="/ai/"])
+
 ! ===============
 ! == The Verge ==
 ! ===============
