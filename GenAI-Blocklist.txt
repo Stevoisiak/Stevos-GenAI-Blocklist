@@ -579,8 +579,10 @@ docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or
 docs.github.com##.SearchBarButton_searchInputButton__nAE_3[aria-label="Search or ask Copilot"] > div > span > span > span:nth-of-type(2)
 
 ! -- https://docs.github.com/?search-overlay-open=true (Search page)
-! "Ask Copilot" autocomplete suggestions in search bar
+! "Ask Copilot" autocomplete suggestions in search bar + divider
+! * Divider appears after search terms have been entered
 docs.github.com##[data-testid="ai-autocomplete-suggestions"]
+docs.github.com##[data-component="ActionList.Divider"]:has(+[data-testid="ai-autocomplete-suggestions"])
 ! Search bar placeholder text "Search or ask Copilot"
 ! * If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
 !   and the search bar text is in English, change the placeholder text to "Search"
