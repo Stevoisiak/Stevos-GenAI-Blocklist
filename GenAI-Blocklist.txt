@@ -171,9 +171,6 @@ donmai.moe,donmai.us##.post-preview:has(img:is([title~="ai"], [title~="ai-assist
 gelbooru.com##.thumbnail-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 hypnohub.net,rule34.paheal.net,rule34.xxx,safebooru.org,tbib.org,xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 
-! -- My Account > My Favorites
-rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
-
 ! - Galleries with "AI Generated" in title
 nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
 ! Minimal/Minimal+/Compact/Extended view
@@ -1319,6 +1316,18 @@ www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.searc
 ! -- https://www.rediff.com/
 ! AI-Website Builder
 www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
+
+! ===========================
+! == Rule 34 (.xxx) (NSFW) ==
+! ===========================
+! -- https://rule34.xxx/index.php?page=post&s=list&tags=all
+! "Filter AI posts" option
+! * Only hide if option has already been enabled
+rule34.xxx###displayOptions:has(#chkFilterAI[checked])
+
+! -- My Account > My Favorites
+! AI tagged images
+rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 
 ! ============================
 ! == Sankaku Complex (NSFW) ==
