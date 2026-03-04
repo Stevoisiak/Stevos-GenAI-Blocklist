@@ -1289,6 +1289,13 @@ www.nate.com##.link-ngpt
 www.nate.com##.chat1
 
 ! =============
+! == Paychex ==
+! =============
+! -- https://www.paychex.com/
+! AI Chatbot
+www.paychex.com###q-messenger-frame
+
+! =============
 ! == Pictory ==
 ! =============
 ! -- https://pictory.ai/
