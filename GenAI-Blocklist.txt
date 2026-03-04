@@ -846,7 +846,7 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##[role="navigati
 ! Base AI overview filters
 ! * These can sometimes leave blank space, but are a good catch-all
 ! * Credit to https://inwiring.com/google-ai-overviews/ for [data-aquarium] and [data-subtree="mfc"] filters
-www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##[data-aquarium], [data-attnms], [data-subtree="mfc"], [data-subtree="mfc,mfl"],
+www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##[data-aquarium], [data-attnms], [data-subtree="mfc"], [data-subtree="mfc,mfl"]
 
 ! Container for AI Overview when located on top of search results
 ! * alt: www.google.com,www.google.co.jp,www.google.com.hk###Odp5De:has([data-attnms])
