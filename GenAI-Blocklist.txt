@@ -1080,9 +1080,13 @@ www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-
 ! Carousel - "Protecting biodiversity with AI" card
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
-! -- https://www.microsoft.com/en-us/search/explore?q=How+do+I+update+windows (Search results)
-! "AI Overview"
-www.microsoft.com###ai-overview-container
+! -- https://www.microsoft.com/en-us/edge/
+! "Coilot" tab in header nav
+www.microsoft.com##.common-nav__menu-item:has([data-bi-id="Link-Navigate-Navbar-Copilot"])
+
+! -- https://www.microsoft.com/en-us/edge/features/split-screen
+! "Learn with Copilot" button
+www.microsoft.com##[data-bi-id="Button-Cta-SplitScreen-LearnWithCopilot"]
 
 ! -- https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
 ! "Ask Microsoft" chat window in bottom right
@@ -1106,6 +1110,10 @@ www.microsoft.com###uca-proactive-chat
 ! -- https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-for-business
 ! "Discover Microsoft 365 Copilot" promo banner
 www.microsoft.com##.experiencefragment:has([data-component-id="01dbc0460ff412456ec49899ac06c10e"])
+
+! -- https://www.microsoft.com/en-us/search/explore?q=How+do+I+update+windows (Search results)
+! "AI Overview"
+www.microsoft.com###ai-overview-container
 
 ! ====================
 ! == Micosoft Azure ==
