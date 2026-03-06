@@ -166,19 +166,6 @@ www.theverge.com##._1wnt6o3v._1wnt6o3l.urbcaf0:has(> [href="https://www.theverge
 ! "AI" category in header menu (☰)
 www.theverge.com##._1sdloqz0:has(> [aria-label="Collapse 'AI' Section"])
 
-! =============
-! == Todoist ==
-! =============
-! -- https://www.todoist.com/
-! Ramble promo banner
-www.todoist.com##._bannerContainer_1mmc3_39:has(#ramble-banner)
-
-! -- https://app.todoist.com/app/upcoming
-! Ramble button
-app.todoist.com##._3930afa0._650176bf._7246d092.abd5766f[aria-label*="Ramble"]
-! Ramble button on "Add task" screen
-app.todoist.com##._3930afa0.aa19cb97._1e29d236.abd5766f[aria-label*="Ramble"]
-
 ! ===============
 ! == X/Twitter ==
 ! ===============
