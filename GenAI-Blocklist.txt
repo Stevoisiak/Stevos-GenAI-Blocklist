@@ -897,8 +897,13 @@ google.com,google.ca,google.co.jp,google.com.hk##.related-question-pair:has(.G3t
 ! * Example URLs
 !   * https://www.google.com/search?q=ghola+dune
 !   * https://www.google.com/search?q=Mario+%28franchise%29
-google.com,google.ca,google.co.jp,google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
-google.com,google.ca,google.co.jp,google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
+! * .DuQANe.MSJHRb is the "AI can make mistakes" disclaimer
+! * Be careful not to block non-ai infoboxes (https://www.google.com/search?q=2026+Winter+Paralympics#ebo=0)
+! * TODO: There is a delay on the AI Infobox filter, as ".DuQANe.MSJHRb" is added during page load.
+! AI infobox
+google.com,google.ca,google.co.jp,google.com.hk##.wPNfjb:has(.DuQANe.MSJHRb)
+! Header for AI infobox
+google.com##.MjjYud:has(> [jscontroller="CpKg1b"]):has(+ .MjjYud .DuQANe.MSJHRb)
 
 ! -- https://www.google.com/search?sa=X&q=test&nem=10 (Web tab, web guide enabled)
 ! Web Guide
