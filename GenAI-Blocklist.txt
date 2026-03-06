@@ -636,6 +636,7 @@ about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai fo
 ! * Blocks both the button to open Duo panel and the panel itself
 gitlab.com##.ai-panels
 ! Duo items in "What's new at GitLab" sidebar
+! * Accessed via "What's new" button in left sidebar
 gitlab.com##[data-testid="whats-new-article-toggle"]:has-text("GitLab Duo"):upward(1)
 
 ! ===========
