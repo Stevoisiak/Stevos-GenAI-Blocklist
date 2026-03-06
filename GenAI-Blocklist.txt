@@ -1770,7 +1770,7 @@ xhamster.com##:is(.letter-block, .search-result-block) > .items > .item > [data-
 www.xnxx.com##.thumb-block[data-id="239"]
 ! Left sidebar - Categories
 ! * DOM layout can have an extra `ul` element on search pages
-www.xnxx.com##.side-cat-list > li:hasa[href="/search/ai"])
+www.xnxx.com##.side-cat-list > li:has(a[href="/search/ai"])
 www.xnxx.com##.side-cat-list > li:has(a[href^="/search/ai-"])
 
 ! -- https://www.xnxx.com/tags (Tags)
