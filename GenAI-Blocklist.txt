@@ -1436,6 +1436,12 @@ rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai
 ! Left sidebar (Companions & AI Creator)
 www.sankakucomplex.com##[data-test="ai_companion"], [data-test="ai_art"]
 
+! ===================
+! == ScienceDirect ==
+! ===================
+! "LeapSpace" floating promo
+www.sciencedirect.com###pendo-base
+
 ! ====================================
 ! == Sentry Developer Documentation ==
 ! ====================================
