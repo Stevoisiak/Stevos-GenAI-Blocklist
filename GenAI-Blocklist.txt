@@ -661,6 +661,10 @@ mail.google.com##.eLNZDd[command="sdt"]:remove()
 ! * Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
 mail.google.com##.jKzJCd
 
+! -- Reading an email
+! Suggested reply
+mail.google.com##.mVCoBd
+
 ! -- https://mail.google.com/mail/u/0/#search/test (Search)
 ! AI Overview for search
 ! * Only shown to accounts with a Google AI Plus/Pro subscription
