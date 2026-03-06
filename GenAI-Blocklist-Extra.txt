@@ -166,6 +166,13 @@ www.theverge.com##._1wnt6o3v._1wnt6o3l.urbcaf0:has(> [href="https://www.theverge
 ! "AI" category in header menu (☰)
 www.theverge.com##._1sdloqz0:has(> [aria-label="Collapse 'AI' Section"])
 
+! ==========
+! == Time ==
+! ==========
+! -- https://time.com/
+! AI category in header
+time.com##li:has(div > [href="#id-ai-0"])
+
 ! ===============
 ! == X/Twitter ==
 ! ===============
