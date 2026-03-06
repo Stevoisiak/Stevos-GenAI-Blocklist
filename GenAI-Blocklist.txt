@@ -1290,13 +1290,6 @@ teams.cloud.microsoft,teams.microsoft.com##[data-tid="store-collection-app:co:fe
 ! Sparkle icon indicating an app has AI features
 teams.cloud.microsoft,teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
-! ====================
-! == My Lust (NSFW) ==
-! ====================
-! -- https://mylust.com/categories/
-! "AI Generated" category
-mylust.com##.item:has(> [data-id="307"])
-
 ! =========
 ! == MSN ==
 ! =========
@@ -1306,6 +1299,13 @@ mylust.com##.item:has(> [data-id="307"])
 www.msn.com##fluent-button#codex-bing-button
 ! App slider menu - Microsoft 365
 www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Microsoft 365"])
+
+! ====================
+! == My Lust (NSFW) ==
+! ====================
+! -- https://mylust.com/categories/
+! "AI Generated" category
+mylust.com##.item:has(> [data-id="307"])
 
 ! ==========
 ! == Nate ==
