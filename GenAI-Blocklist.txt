@@ -638,6 +638,9 @@ gitlab.com##.ai-panels
 ! Left Sidebar > "What's New" > Left Sidebar > "Featured Updates" advertising GitLab Duo (no longer used?)
 gitlab.com##div.gl-p-3.gl-pb-5.featured-carousel
 
+! Duo items in "What's new at GitLab" sidebar
+gitlab.com##button[data-testid="whats-new-article-toggle"]:has-text(/Duo/)
+
 ! ===========
 ! == Gmail ==
 ! ===========
