@@ -1051,7 +1051,7 @@ kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > :is(hr, ._
 ! =============
 ! -- https://docs.kits.ai/home
 ! "Ask AI" button
-docs.kits.ai###assistant-entry
+docs.kits.ai###assistant-entry, #assistant-entry-mobile
 ! "Ask AI assistant" search suggestions
 docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
 docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full ~ [role="option"]
