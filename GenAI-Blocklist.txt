@@ -1062,13 +1062,17 @@ www.jimdo.com###companion
 ! ==========
 ! -- https://kagi.com/
 ! Menubar > Apps (Assistant, Summarize, FastGPT)
-kagi.com##.nav-item-link:is([href="/assistant"], [href="/summarizer"], [href="/fastgpt"])
+kagi.com##.nav-item-link[href="/assistant"]
+kagi.com##.nav-item-link[href="/summarizer"]
+kagi.com##.nav-item-link[href="/fastgpt"]
 
 ! -- https://kagi.com/search?q=test (Search results)
 ! "Quick Answer"
 kagi.com##button.quick-answer-trigger-link
 ! Search Result > Action Menu > Separator + "Quick Summary" + "Contine in Assistant"
-kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > :is(hr, ._0_summarize_page, ._0_discuss_document)
+kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > hr
+kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > ._0_summarize_page
+kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > ._0_discuss_document
 
 ! ===================================
 ! == Kits AI/Hubspot Documentation ==
