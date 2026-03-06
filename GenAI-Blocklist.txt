@@ -1046,6 +1046,18 @@ kagi.com##button.quick-answer-trigger-link
 ! Search Result > Action Menu > Separator + "Quick Summary" + "Contine in Assistant"
 kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > :is(hr, ._0_summarize_page, ._0_discuss_document)
 
+! =============
+! == Kits AI ==
+! =============
+! -- https://docs.kits.ai/home
+! "Ask AI" button
+docs.kits.ai###assistant-entry
+! "Ask AI assistant" search suggestions
+docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
+docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full ~ [role="option"]
+! Floating chat box
+docs.kits.ai##.chat-assistant-floating-input
+
 ! ==============
 ! == LinkedIn ==
 ! ==============
@@ -1658,8 +1670,8 @@ xhamster.com##:is(.letter-block, .search-result-block) > .items > .item > [data-
 www.xnxx.com##.thumb-block[data-id="239"]
 ! Left sidebar - Categories
 ! * DOM layout can have an extra `ul` element on search pages
-www.xnxx.com##.side-cat-list a[href="/search/ai"]
-www.xnxx.com##.side-cat-list a[href^="/search/ai-"]
+www.xnxx.com##.side-cat-list > li:hasa[href="/search/ai"])
+www.xnxx.com##.side-cat-list > li:has(a[href^="/search/ai-"])
 
 ! -- https://www.xnxx.com/tags (Tags)
 www.xnxx.com###content > #content-thumbs > #tags > li:has(> a[href^="/search/ai-"])
