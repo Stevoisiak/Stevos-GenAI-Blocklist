@@ -903,6 +903,10 @@ www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##.related-questi
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb)
 www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk###center_col > div > div[data-hveid] > #rso > .MjjYud:has(+ .MjjYud:has(div > div.MBttkb > div > div > div > .DuQANe.MSJHRb))
 
+! -- https://www.google.com/search?sa=X&q=test&nem=10 (Web tab, web guide enabled)
+! Web Guide
+www.google.com,www.google.ca,www.google.co.jp,www.google.com.hk##.oGdvd
+
 ! ===================
 ! == Google Sheets ==
 ! ===================
