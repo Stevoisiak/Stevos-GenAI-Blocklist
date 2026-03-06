@@ -1539,6 +1539,13 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! ====================
+! == The Home Depot ==
+! ====================
+! -- https://www.homedepot.com/
+! "Magic Apron Assist" floating button
+www.homedepot.com###magic-apron-loader
+
 ! =======================
 ! == TubeGalore (NSFW) ==
 ! =======================
