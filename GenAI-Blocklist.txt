@@ -967,14 +967,6 @@ www.healio.com##.ai-link
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
 
-! =====================================
-! == Hubspot Developer Documentation ==
-! =====================================
-! -- https://developers.hubspot.com/docs?search=test
-! "Ask AI assistant" in search suggestions
-developers.hubspot.com##.px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
-developers.hubspot.com##.last\:mb-2:has(> .flex.items-center.gap-2.px-2\.5.py-2.w-full.cursor-pointer.rounded-xl)
-
 ! =============
 ! == ImgFlip ==
 ! =============
@@ -1046,15 +1038,17 @@ kagi.com##button.quick-answer-trigger-link
 ! Search Result > Action Menu > Separator + "Quick Summary" + "Contine in Assistant"
 kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > :is(hr, ._0_summarize_page, ._0_discuss_document)
 
-! =============
-! == Kits AI ==
-! =============
+! ===================================
+! == Kits AI/Hubspot Documentation ==
+! ===================================
 ! -- https://docs.kits.ai/home
+! -- https://developers.hubspot.com/docs
 ! "Ask AI" button
-docs.kits.ai###assistant-entry, #assistant-entry-mobile
+developers.hubspot.com,docs.kits.ai###assistant-entry, #assistant-entry-mobile
 ! "Ask AI assistant" search suggestions
-docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
-docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full ~ [role="option"]
+developers.hubspot.com,docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full
+developers.hubspot.com,docs.kits.ai##[role="listbox"] > .px-2\.5.py-2.text-gray-500.text-sm.truncate.w-full ~ [role="option"]
+
 ! Floating chat box
 docs.kits.ai##.chat-assistant-floating-input
 
