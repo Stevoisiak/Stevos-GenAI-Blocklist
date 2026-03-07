@@ -1463,6 +1463,14 @@ www.sankakucomplex.com##[data-test="ai_companion"], [data-test="ai_art"]
 ! "LeapSpace" floating promo
 www.sciencedirect.com###pendo-base
 
+! ===========
+! == Scoot ==
+! ===========
+! -- https://www.flyscoot.com/en
+! "Plan your next trip" button + separator
+www.flyscoot.com##.ai-trip-section
+www.flyscoot.com##.vertical-divider:has(+ .currency-section)
+
 ! ====================================
 ! == Sentry Developer Documentation ==
 ! ====================================
