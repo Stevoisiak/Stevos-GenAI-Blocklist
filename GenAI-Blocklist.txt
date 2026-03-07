@@ -402,6 +402,15 @@ www.ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
 www.ecosia.org##.search-navigation__item[data-test-id="search-navigation-item-ai_search"]
 www.ecosia.org##.search-navigation__divider:has(+ .search-navigation__item[data-test-id="search-navigation-item-ai_search"])
 
+! ================
+! == Emojipedia ==
+! ================
+! -- https://emojipedia.org/
+! "Create Emojis" button in navbar
+emojipedia.org##.Button_btn__p7Xgd[href="/ai-emoji-generator"]
+! "AI Emoji Generator Stickers" section
+emojipedia.org##.flex.flex-col.gap-4:has(> .items-center > .Button_btn__p7Xgd[href="/ai-emoji-generator"])
+
 ! ==============
 ! == Facebook ==
 ! ==============
