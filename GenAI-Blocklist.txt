@@ -1394,6 +1394,15 @@ pictory.ai###livex-chatbot-app
 ! Hide image if AI-generated tag is present
 pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
 
+! ================
+! == Posit Docs ==
+! ================
+! -- https://docs.posit.co/
+! "Ask AI" floating chat icon
+docs.posit.co###kapa-widget-container
+! "Ask AI" in navbar
+docs.posit.co##.nav-item:has(#custom-ask-ai-button)
+
 ! ===========
 ! == Quora ==
 ! ===========
