@@ -1520,6 +1520,19 @@ www.shopify.com##main#main > section.grid-cols-full#faq-section
 ! -- https://www.shopify.com/tools/business-name-generator (AI business name generator)
 www.shopify.com##main#main > div > div.container:has-text("AI Business Name Generator"):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
 
+! ========================
+! == Singapore Airlines ==
+! ========================
+! -- https://www.singaporeair.com/en_UK/us/home
+! Chat button in header + separator
+! * Changes class during page load, so we have 2 pairs of filters
+www.singaporeair.com##.dwc-pl--SiaHeader__ChatButton
+www.singaporeair.com##.dwc-pl--SiaHeader__ChatButton + .dwc-pl--SiaHeader__WhiteSeparator
+www.singaporeair.com##chat-bot-button
+www.singaporeair.com##chat-bot-button + .dwc--SiaHeader__WhiteSeparator
+
+! TODO: More AI buttons in search
+
 ! ===========
 ! == Sogou ==
 ! ===========
