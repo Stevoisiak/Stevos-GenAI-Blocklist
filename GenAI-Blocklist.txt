@@ -1373,6 +1373,15 @@ www.nate.com##.chat1
 ! Floating AI chat button
 www.nutraingredients.com##.ask-ia-widget
 
+! ===========
+! == OP.GG ==
+! ===========
+! -- https://op.gg/
+! "Agent" chatbot button
+op.gg##.button-bold.rounded.size-\[40px\]:has(> .transition-all > .bg-animated-radial.duration-300)
+! Suggested questions below search bar
+op.gg##.flex-col.items-center.-mt-\[60px\] > .w-full.pb-2.md\:hidden.md\:pb-0
+
 ! =============
 ! == Paychex ==
 ! =============
