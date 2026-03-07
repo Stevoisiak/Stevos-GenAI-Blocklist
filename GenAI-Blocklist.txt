@@ -1452,12 +1452,6 @@ www.rambler.ru##.rc__788yz.rc__U-mRx.r-vvrm5f4e
 www.reddit.com##.label-container > .trailing-divider
 www.reddit.com##.label-container > .trailing-content-container.has-trailing-content
 
-! -- https://www.reddit.com/answers/ (Reddit Answers)
-! Chatbox
-www.reddit.com##guides-search-input-base
-! Question suggestions
-www.reddit.com##.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
-
 ! -- https://www.reddit.com/search/?q=ai (Search results)
 ! Answers section
 www.reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
