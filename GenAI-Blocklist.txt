@@ -1480,16 +1480,16 @@ www.sciencedirect.com###pendo-base
 www.flyscoot.com##.ai-trip-section
 www.flyscoot.com##.vertical-divider:has(+ .currency-section)
 
-! ====================================
-! == Sentry Developer Documentation ==
-! ====================================
+! ==========================
+! == Sentry Documentation ==
+! ==========================
 ! -- https://develop.sentry.dev/getting-started/
 ! "or ASK AI" next to search bar
-develop.sentry.dev##.search_search-bar__XzLtg > span.text-\[var\(--desatPurple10\)\].hidden.md\:inline
-develop.sentry.dev##.search_search-bar__XzLtg > .kapa-ai-class
+develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > span.text-\[var\(--desatPurple10\)\].hidden.md\:inline
+develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > .kapa-ai-class
 ! "Ask sentry about" search autocomplete suggestion
-develop.sentry.dev##.search_sgs-ai__2z63Q
-
+develop.sentry.dev,docs.sentry.io##.search_sgs-ai__2z63Q
+`
 ! =============
 ! == Shopify ==
 ! =============
