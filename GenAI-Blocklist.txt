@@ -1559,6 +1559,20 @@ www.singaporeair.com##chat-bot-button + .dwc--SiaHeader__WhiteSeparator
 ! AI navbar tab
 sogou.com##.searchnav > li:has(> #sogou_aimode)
 
+! =============
+! == Spotify ==
+! =============
+! -- https://support.spotify.com/us/
+! AI Search
+! * AI question box
+support.spotify.com##.blCCAZ
+! * AI disclaimer
+support.spotify.com###ai-disclaimer
+! * "Search with AI" half of toggle box
+support.spotify.com##.LegacyChip__LegacyChipComponent-sc-tzfq94-0:has([data-encore-id="icon"])
+! * Make "Basic Search" fill the rest of the box
+support.spotify.com##.LegacyChip__LegacyChipComponent-sc-tzfq94-0:not(:has([data-encore-id="icon"])):style(flex-basis: 100% !important)
+
 ! ============
 ! == Square ==
 ! ============
