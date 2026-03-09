@@ -690,11 +690,11 @@ mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49
 ! "Help me write" icon next to "Send" button
 ! * Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
 mail.google.com##.bDl[command="sdt"]
-! "Help me write" (Disables keyboard shortcut '/')
-mail.google.com##.eLNZDd[command="sdt"]:remove()
-! "Help me write" prompt. Appears when focusing message box in a new email.
-! * Typing '/' as the first typed character is sometimes blocked by the AI shortcut.
+! "Help me write" prompt. (AI Plus/Pro subscribers ony)
+! * Appears after a few moments of inactivity when focusing message box in a new email.
+! * The "remove" filter blocks the keyboard hotkey when typing '/' as the first letter of an email if prompt has appeard. (Typing '/' will have no input, rather than opening the AI menu.)
 mail.google.com##.jKzJCd
+mail.google.com##.eLNZDd[command="sdt"]:remove()
 
 ! -- Reading an email
 ! "Summarize this email"/"AI Overview"
