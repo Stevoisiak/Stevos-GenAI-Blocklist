@@ -310,6 +310,8 @@ www.deviantart.com##div.IlpLyK.NtBF_m:has(a.reset-link.PxZapP[href="https://www.
 www.deviantart.com##a#_R_pel4qH1_-option-0[href*="https://www.deviantart.com/dreamup"]
 ! "Create Art" > "Create with Draw" > Prompt box
 www.deviantart.com##div.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
+! "Create Art" > "Create with Draw" > Background remover
+www.deviantart.com###backgroundIcon
 
 ! -- https://www.deviantart.com/tag/background (Tag)
 ! "Create Art" > "Create with DreamUp"
