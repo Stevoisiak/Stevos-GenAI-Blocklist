@@ -443,6 +443,15 @@ www.facebook.com##div[aria-label="Generate images using AI"]
 ! AI post summary
 www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.x1n2onr6 > .html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3)
 
+! -- https://www.facebook.com/help (Help center)
+! "How can I help" with AI logo
+www.facebook.com##.x9f619.x1n2onr6.x1ja2u2z.x78zum5.xdt5ytf.x2lah0s.x193iq5w.xyamay9.x1l90r2v:has(.x1yztbdb)
+! "Ask a question or describe your issue" chatbox
+www.facebook.com##.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3:has(> .x1n2onr6.x1ja2u2z.x1jx94hy.x9f619.xh8yej3.x6ikm8r.x10wlt62.x10h3on.xl9ryae.xu6o2t2.x1h1jueo.xukekf6.x17cgf6t.x1e56ztr)
+! Floating support assistant chatbox
+www.facebook.com##.x6nl9eh.x1a5l9x9.x7vuprf.x1mg3h75.xy58vm5.x1jkynmp.x180xd5n.xeer0ze.x1h4w1sf
+.xyamay9.x1l90r2v
+
 ! -- https://m.facebook.com/bookmarks/ (Mobile menu)
 ! "Also From Meta" > "Meta AI" button
 ! * TODO: Leaves a blank space, requires editing height of parent container
