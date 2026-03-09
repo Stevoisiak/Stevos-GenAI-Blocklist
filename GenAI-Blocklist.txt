@@ -679,9 +679,6 @@ gitlab.com##[data-testid="whats-new-article-toggle"]:has-text("GitLab Duo"):upwa
 ! ===========
 ! == Gmail ==
 ! ===========
-! Summarize this email, sometimes appears at top of messages
-mail.google.com##div.eJPjde
-
 ! -- https://mail.google.com/mail/ (Inbox)
 ! Ask Gemini button in top right
 mail.google.com##.Zmxtcf.e5IPTd
@@ -700,8 +697,12 @@ mail.google.com##.eLNZDd[command="sdt"]:remove()
 mail.google.com##.jKzJCd
 
 ! -- Reading an email
+! "Summarize this email"/"AI Overview"
+mail.google.com##.eJPjde
 ! Suggested reply
 mail.google.com##.mVCoBd
+! "Add to Calendar" button
+mail.google.com##.einvLd
 
 ! -- https://mail.google.com/mail/u/0/#search/test (Search)
 ! AI Overview for search
