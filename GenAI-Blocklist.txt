@@ -679,10 +679,11 @@ gitlab.com##[data-testid="whats-new-article-toggle"]:has-text("GitLab Duo"):upwa
 ! ===========
 ! == Gmail ==
 ! ===========
+! * Some AI elements only appear for Google AI Plus/Pro/Ultra subscribers
 ! -- https://mail.google.com/mail/ (Inbox)
 ! Ask Gemini button in top right
 mail.google.com##.Zmxtcf.e5IPTd
-! Remove sparkle from search icon (Requires trusted filter list)
+! Remove sparkle from search icon (AI Plus, requires trusted filter list)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg, viewBox, 0 0 24 24)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z")
 
@@ -690,7 +691,7 @@ mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49
 ! "Help me write" icon next to "Send" button
 ! * Hiding this causes the "insert signature" button to get moved to "More options" menu (⋮). Unsure why.
 mail.google.com##.bDl[command="sdt"]
-! "Help me write" prompt. (AI Plus/Pro subscribers ony)
+! "Help me write" prompt. (AI Plus)
 ! * Appears after a few moments of inactivity when focusing message box in a new email.
 ! * The "remove" filter blocks the keyboard hotkey when typing '/' as the first letter of an email if prompt has appeard. (Typing '/' will have no input, rather than opening the AI menu.)
 mail.google.com##.jKzJCd
@@ -705,8 +706,7 @@ mail.google.com##.mVCoBd
 mail.google.com##.einvLd
 
 ! -- https://mail.google.com/mail/u/0/#search/test (Search)
-! AI Overview for search
-! * Only shown to accounts with a Google AI Plus/Pro subscription
+! AI Overview for search (AI Plus)
 mail.google.com##.JLWipf
 
 ! ======================
@@ -775,7 +775,7 @@ developers.google.com##devsite-search-summary
 ! =================
 ! == Google Docs ==
 ! =================
-! These filters may only apply to accounts with a Google AI Plus/Pro subscription
+! These filters may only apply to accounts with a Google AI Plus/Pro/Ultra subscription
 
 ! -- https://docs.google.com/create
 ! "Listen to this tab" icon in header toolbar
@@ -795,7 +795,7 @@ docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
 ! ==================
 ! == Google Drive ==
 ! ==================
-! These filters may only apply to accounts with a Google AI Plus/Pro subscription
+! These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
 
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
@@ -823,7 +823,7 @@ www.google.com##.kfgtbc:has(.lHmueb[viewBox="0 -960 960 960"]:not(.NMm5M))
 ! ==================
 ! == Google Forms ==
 ! ==================
-! These filters may only apply to accounts with a Google AI Plus/Pro subscription
+! These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
 
 ! -- https://docs.google.com/forms/create
 ! Gemini popup on new form creation
@@ -934,7 +934,7 @@ google.com,google.ca,google.co.jp,google.com.hk##[data-crust-trigger] > div:has(
 ! ===================
 ! == Google Sheets ==
 ! ===================
-! These filters may only apply to accounts with a Google AI Plus/Pro subscription
+! These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
 ! -- https://docs.google.com/spreadsheets/create
 ! "Ask gemini to analyze spreadsheet data" popup promo that can appear when loading a document
 docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog:has-text("Gemini")
