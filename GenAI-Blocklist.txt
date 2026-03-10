@@ -1195,7 +1195,7 @@ www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> .c-uhfh-a
 ! * data-oc='ocaeae': "Meet the computer you can talk to"
 www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
 ! "Store Assistant" chat box pinned to bottom right
-www.microsoft.com###storeassistantroot
+www.microsoft.com,www.xbox.com##.copilot-container
 ! "How can we help" question prompt on top of page
 www.microsoft.com##.chatonpage
 www.microsoft.com##.msstore-chatonpage
@@ -1871,13 +1871,6 @@ x.com##.r-1phboty.r-2yi16.r-1qi8awa:has(path[d="M12.745 20.54l10.97-8.19c.539-.4
 x.com##.css-175oi2r.r-knv0ih
 ! "This story is a summary of posts on X"
 x.com##.css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-fdjqy7.r-n6v787.r-1cwl3u0.r-16dba41.r-1s2bzr4
-
-! ==========
-! == Xbox ==
-! ==========
-! -- https://www.xbox.com/en-US/
-! Floating chatbot
-www.xbox.com##.copilot-container
 
 ! =====================
 ! == xHamster (NSFW) ==
