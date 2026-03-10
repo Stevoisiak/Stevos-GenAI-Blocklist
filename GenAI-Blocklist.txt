@@ -86,6 +86,12 @@ www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.
 ! AI review summary (IE: "Customers say")
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg##[data-csa-c-item-id="cr-product-insights-cards"]
 
+! -- https://health.amazon.com/
+! "Health AI" button in navbar
+health.amazon.com###nav-health-ai
+! "Health AI" promo section
+health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-amazon.com/images/G/01/ahs/health_ai/opt-in/HealthAI_Background_CDF0E9.jpg');"]
+
 ! ===========
 ! == Baidu ==
 ! ===========
