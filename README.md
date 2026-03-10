@@ -98,6 +98,7 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 * DeviantArt: Images from accounts that have posted AI images
 * Reddit: Posts from AI-focused subreddits 
 * X: Any post from Grok account
+* AI category section on news sites (Just the category, not posts covering AI)
 
 These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
 
