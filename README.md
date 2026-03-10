@@ -1,8 +1,8 @@
 # Stevo's GenAI Blocklist
 
-Set of uBlock Origin filters intended to block generative AI features on various websites.
+Set of uBlock Origin filters intended to hide generative AI features on various websites.
 
-## Examples of blocked content
+## Examples of hidden content
 * Google's AI summaries
 * YouTube's Ask button, AI summaries, & "Inspiration" tab
 * Copilot buttons on GitHub, Microsoft 365, and Azure Portal
