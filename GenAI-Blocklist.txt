@@ -1171,6 +1171,14 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! =====================
+! == Merriam Webster ==
+! =====================
+! -- https://www.merriam-webster.com/
+! "Chatbot" button in sticky navbar
+! * Sticky navbar appears after scrolling down on hompeage
+www.merriam-webster.com##.chatbot-nav-item
+
 ! ===============
 ! == Messenger ==
 ! ===============
