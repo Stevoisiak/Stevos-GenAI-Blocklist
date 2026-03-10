@@ -128,11 +128,12 @@ Commit messages use prefixes to indicate the type of change.
 * [uBlockOrigin Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist): Blocklist for search engines to remove AI generated images
 * [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from deskop web browsers
 * [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows
+* [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filterlist aimed at AI widgets. Used as a reference for a few of the filters on this list.
 * [Soul Over AI](https://github.com/xoundbyte/soul-over-ai): Index of AI-generated and AI-assisted music
 * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): Blocklist of AI music channels on YouTube for the Blocktube extension.
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify
-* [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filterlist aimed at AI widgets. Used as a reference for a few of the filters on this list.
+
 
 ## Feedback
 
