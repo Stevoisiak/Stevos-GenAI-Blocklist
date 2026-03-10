@@ -816,7 +816,6 @@ drive.google.com##.De8rPe
 ! "Ask Gemini" button in top right
 drive.google.com###viewer-sidekick-button
 
-
 ! ====================
 ! == Google Flights ==
 ! ====================
@@ -876,6 +875,13 @@ labs.google.com##.SzpS3d:has([aria-label="AI in Search"][aria-checked="false"])
 ! "Express yourself with an AI-Generated background" promo
 ! * Seemingly only appears once per-user
 meet.google.com##div[jsshadow][jscontroller="dGzwdb"]:has-text("Express yourself with an AI-generated background")
+
+! ================
+! == Google One ==
+! ================
+! -- https://one.google.com/
+! "Google AI" in left sidebar
+one.google.com##.aTVMOe.RLyrIe.KGSMie
 
 ! ===================
 ! == Google Search ==
