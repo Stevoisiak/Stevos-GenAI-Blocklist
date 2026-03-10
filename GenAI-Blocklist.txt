@@ -156,7 +156,7 @@ www.boldbi.com##.elementor-element-59cecfb8
 ! Products - "AI Analytics" by footer
 www.boldbi.com##.elementor-icon-list-item:has(> [href="/ai-analytics/"])
 ! "Ask AI for a summary of Bold BI" at bottom of page
-www.boldbi.com##.e-child.e-con.e-flex.e-con-full.elementor-element-6e4054b5.elementor-element
+www.boldbi.com##.elementor-element-6e4054b5
 ! AI chat assistant
 www.boldbi.com###boldchat-host
 
