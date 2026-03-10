@@ -1198,6 +1198,7 @@ www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is
 www.microsoft.com###storeassistantroot
 ! "How can we help" question prompt on top of page
 www.microsoft.com##.chatonpage
+www.microsoft.com##.msstore-chatonpage
 ! "For business" section > Promo cards
 ! * Only applies to US English site
 www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Learn more about Microsoft 365 Copilot"])
