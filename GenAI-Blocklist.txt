@@ -812,6 +812,11 @@ drive.google.com##.oaTPh
 ! "Insights from Gemini"
 drive.google.com##.De8rPe
 
+! -- Viewing a file
+! "Ask Gemini" button in top right
+drive.google.com###viewer-sidekick-button
+
+
 ! ====================
 ! == Google Flights ==
 ! ====================
