@@ -898,48 +898,48 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 
 ! -- https://www.google.com/ (Homepage)
 ! Search bar > "AI Mode" button
-google.com,google.ca,google.co.jp,google.com.hk##.plR5qb
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics)
-google.com,google.ca,google.co.jp,google.com.hk##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
 ! Promo text below search bar mentioning AI
-google.com,google.ca,google.co.jp,google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
 ! Footer - "Applying AI towards science and the environment"
-google.com,google.ca,google.co.jp,google.com.hk##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 
 ! -- https://www.google.com/ (Mobile only)
 ! Search bar - AI button (magnifying glass icon)
-google.com,google.ca,google.co.jp,google.com.hk##.xOchs
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.xOchs
 
 ! -- https://www.google.com/search?q=test
 ! "AI Mode" tab in navbar
-google.com,google.ca,google.co.jp,google.com.hk##.olrp5b
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.olrp5b
 ! Main AI Overview
-google.com,google.ca,google.co.jp,google.com.hk##[data-attnms]
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-attnms]
 ! Web Guide
 ! * Only applies if Web Guide is enabled in Google Labs
-google.com,google.ca,google.co.jp,google.com.hk##.oGdvd
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.oGdvd
 
 ! -- https://www.google.com/search?q=Why+are+we+here
 ! Blank space for AI Overview at top of search results
-google.com,google.ca,google.co.jp,google.com.hk##.Kevs9.SLPe5b:has([data-attnms])
-google.com,google.ca,google.co.jp,google.com.hk##.YNk70c.EjQTId:has(+ div [data-attnms])
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.Kevs9.SLPe5b:has([data-attnms])
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.YNk70c.EjQTId:has(+ div [data-attnms])
 ! "People also ask" options with AI overviews
 ! * Filter is delayed. 
 ! * .DuQANe.MSJHRb.ZgCIV: "AI can make mistakes" disclaimer
-google.com,google.ca,google.co.jp,google.com.hk##[jsname="YrZdPb"]:has(.DuQANe.MSJHRb.ZgCIV)
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[jsname="YrZdPb"]:has(.DuQANe.MSJHRb.ZgCIV)
 
 ! -- https://www.google.com/search?q=Mario
 ! Expandable "Things to know" that have AI overviews
-google.com,google.ca,google.co.jp,google.com.hk##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
 
 ! -- https://www.google.com/search?q=Mario (mobile only)
 ! AI generated overview of topic
-google.com,google.ca,google.co.jp,google.com.hk##[data-attrid="VisualDigestGeneratedDescription"]
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-attrid="VisualDigestGeneratedDescription"]
 
 ! -- https://www.google.com/search?q=Halo&sca_esv=38a1cb84e2b2add3
 ! Expandable topics in "What people are saying" section
 ! * .k1U36b.OMMx3d: "Generative AI is experimental" disclaimer
-google.com,google.ca,google.co.jp,google.com.hk##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 
 ! ===================
 ! == Google Sheets ==
