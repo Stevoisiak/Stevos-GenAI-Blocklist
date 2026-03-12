@@ -237,6 +237,13 @@ www.canva.com##div.BmXaTA > div.ryP89A:nth-of-type(3)
 ! Left sidebar - Canva AI
 www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(div#assistant)
 
+! =============
+! == ChatGPT ==
+! =============
+! -- https://chatgpt.com/
+! Floating "Get Plus" promo on top of page
+chatgpt.com##.button-glimmer-cta:has-text("Get Plus")
+
 ! ===========================
 ! == Chrome for Developers ==
 ! ===========================
