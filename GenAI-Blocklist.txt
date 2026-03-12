@@ -2051,7 +2051,8 @@ www.youtube.com##ytd-talk-to-recs-flow-renderer
 ! "Ask Questions" in description
 youtube.com##yt-video-description-youchat-section-view-model
 ! AI Summary in description
-youtube.com###video-summary
+www.youtube.com###video-summary
+m.youtube.com##ytm-expandable-metadata-renderer:has(.expandableMetadataRendererCollapsedLeftSectionSummary)
 ! "Ask" button below video
 ! * Filters for Arabic, English, Hindi, Korean, Portuguese, & Spanish
 www.youtube.com##yt-button-view-model:has([aria-label="طرح سؤال"], [aria-label="Ask"], [aria-label="पूछें"], [aria-label="질문하기"], [aria-label="Perguntar"], [aria-label="Preguntar"])
