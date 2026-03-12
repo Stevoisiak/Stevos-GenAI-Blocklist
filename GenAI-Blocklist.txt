@@ -1552,6 +1552,13 @@ www.reddit.com###answers-suggested-queries-m3
 ! AI-Website Builder
 www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 
+! ============
+! == Replug ==
+! ============
+! -- https://replug.io/blog/cta-in-marketing
+! "Summarize via" box
+replug.io##.mantine-1fndqk8
+
 ! ===========================
 ! == Rule 34 (.xxx) (NSFW) ==
 ! ===========================
