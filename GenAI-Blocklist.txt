@@ -1214,6 +1214,13 @@ luscious.net##.site-banner:has([href*="genre_ids=63"])
 ! "AI Art" category under Manga/Hentai in navbar
 luscious.net##.desktop-module__submenu-item--njaEB:has([href$="/ai-art-63/"])
 
+! ===============
+! == Mailchimp ==
+! ===============
+! -- https://mailchimp.com/
+! Ask Mailchimp Assistant
+mailchimp.com##.genAIAssistChatbotModule
+
 ! =====================
 ! == Merriam Webster ==
 ! =====================
