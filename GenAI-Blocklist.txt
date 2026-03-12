@@ -242,7 +242,7 @@ www.canva.com##div.BMOCzQ.EC2pjw.LuBWVA:has(div#assistant)
 ! =============
 ! -- https://chatgpt.com/
 ! Floating "Get Plus" promo on top of page
-chatgpt.com##.button-glimmer-cta:has-text("Get Plus")
+chatgpt.com##.button-glimmer-cta:has-text("Get Plus"):upward(1)
 
 ! ===========================
 ! == Chrome for Developers ==
