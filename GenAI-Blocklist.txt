@@ -836,6 +836,9 @@ drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y)
 drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y) + .h-Yo[role="separator"]
 ! "Summarize this file" when hovering over file icon
 drive.google.com##.oaTPh
+! New > More > Google AI Studio
+! * Use 'remove()' to fix keyboard navigation
+drive.google.com##[role="menuitem"]:has(img[src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_ai_studio_x16.png"]):remove()
 
 ! -- Folder
 ! "Insights from Gemini"
