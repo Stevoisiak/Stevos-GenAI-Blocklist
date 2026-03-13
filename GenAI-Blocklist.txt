@@ -1456,6 +1456,13 @@ www.nate.com##.link-ngpt
 ! AI Chat tab below search bar
 www.nate.com##.chat1
 
+! ==========
+! == NDTV ==
+! ==========
+! -- https://www.ndtv.com/feature/amazon-announces-90-day-code-safety-reset-amid-ai-related-outages-know-details-11203576
+! "Quick Read" AI summary
+www.ndtv.com##.ASum_wr.ASum_Mnon
+
 ! ======================
 ! == NutraIngredients ==
 ! ======================
