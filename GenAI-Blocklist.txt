@@ -431,6 +431,13 @@ e-hentai.org,exhentai.org##.itg > tbody > tr:has(:is(.gt, gtl)[title="other:ai g
 ! Chatbot
 support-qa.eplus.jp##iframe[title="AI Chat Support"]
 
+! ==========
+! == eBay ==
+! ==========
+! -- https://www.ebay.com/sch/i.html?_nkw=hp+65+calculator
+! FAQs with eBay.ai
+www.ebay.com##.srp-river-answer--FAQ_KW_SRP_MODULE
+
 ! ============
 ! == Ecosia ==
 ! ============
