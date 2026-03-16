@@ -737,6 +737,10 @@ gitlab.com##.ai-panels
 ! * Accessed via "What's new" button in left sidebar
 gitlab.com##[data-testid="whats-new-article-toggle"]:has-text("GitLab Duo"):upward(1)
 
+! -- https://gitlab.com/ (Group/Project issue pages - logged in)
+! "View summarize" button
+gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
+
 ! ===========
 ! == Gmail ==
 ! ===========
