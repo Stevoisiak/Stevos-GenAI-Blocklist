@@ -969,7 +969,12 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 ! Search bar > "AI Mode" button
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics)
+! * Desktop
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+! * Mobile
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk###hplogoo a[href*="&udm=50"]:remove-attr(href)
+! * Mobile search results page
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk###mlogo[href*="&udm=50"]:remove-attr(href)
 ! Promo text below search bar mentioning AI
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
 ! Footer - "Applying AI towards science and the environment"
