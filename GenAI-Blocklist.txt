@@ -977,6 +977,7 @@ www.google.com,google.ca,www.google.co.jp,www.google.com.hk###hplogoo a[href*="&
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk###mlogo[href*="&udm=50"]:remove-attr(href)
 ! Promo text below search bar mentioning AI
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("/\bAI\b/")
+www.google.com,google.ca,www.google.co.jp,www.google.com.hk##promo-middle-slot:has-text("Gemini")
 ! Footer - "Applying AI towards science and the environment"
 www.google.com,google.ca,www.google.co.jp,www.google.com.hk##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 
