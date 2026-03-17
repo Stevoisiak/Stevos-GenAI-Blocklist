@@ -1059,6 +1059,8 @@ docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"]) + .goog-m
 docs.google.com##.goog-menuitem:has([aria-label^="Create a slide"])
 docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"])
 docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"]) + .goog-menuseparator
+! "Create slide image" icon on top ribbon bar
+docs.google.com###openSidekickForSlideGenerationButton
 
 ! ====================
 ! == Google Support ==
