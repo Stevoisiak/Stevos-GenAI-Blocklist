@@ -1051,6 +1051,14 @@ docs.google.com###feedback-sentiment-plus-classification-building-block, #expens
 ! -- https://docs.google.com/presentation/
 ! Floating "refine" button when selecting a text box
 docs.google.com##.appsSketchyPluginsFloatingToolbarFloatingToolbarComponentGenerativeAiButton
+! Menubar items
+! * Insert
+docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"])
+docs.google.com##.goog-menuitem:has([aria-label^="Help me visualize"]) + .goog-menuseparator
+! * Slide
+docs.google.com##.goog-menuitem:has([aria-label^="Create a slide"])
+docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"])
+docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"]) + .goog-menuseparator
 
 ! ====================
 ! == Google Support ==
