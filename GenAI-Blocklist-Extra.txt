@@ -61,14 +61,6 @@ gemini.google.com##.initial-input-area-container
 gemini.google.com##.content-container > chat-window
 
 ! ===================
-! == Google Search ==
-! ===================
-! "I'm Feeling Lucky" button
-! * Button only sometimes leads to AI. May vary depending on user.
-! * Ideally, we'd find some way to revert the button to it's original functionality rather than hiding it outright.
-www.google.com,google.ca,www.google.co.jp,www.google.com.hk###gbqfbb[data-aiml="1"]
-
-! ===================
 ! == Google Slides ==
 ! ===================
 ! "Convert to video" in "File" menubar and right sidebar 
