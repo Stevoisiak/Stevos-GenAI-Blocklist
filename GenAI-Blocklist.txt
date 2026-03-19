@@ -1062,6 +1062,9 @@ docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"])
 docs.google.com##.goog-menuitem:has([aria-label^="Beautify this slide"]) + .goog-menuseparator
 ! "Create slide image" icon on top ribbon bar
 docs.google.com###openSidekickForSlideGenerationButton
+! "Beautify this slide" notice below slide
+! * This leaves a blank space where the notice was. However, this remains even if the notice is manually closed by the user. Slide sizes are done dynamically via styles, so this may not be a solvable issue.
+docs.google.com##.appsSketchyGenerativeaiNudgesCanvasNudgeSurfaceAnchoredContainer
 
 ! ====================
 ! == Google Support ==
