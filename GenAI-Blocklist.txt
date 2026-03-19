@@ -364,6 +364,12 @@ www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymzt
 ! "DreamUp and earn big with AI" section
 www.deviantart.com##section.ail3hi
 
+! ===============
+! == Drinkmate ==
+! ===============
+! Floating chatbot icon in bottom right
+idrinkproducts.com###smart-bot-container
+
 ! =============
 ! == Dropbox ==
 ! =============
