@@ -544,7 +544,7 @@ www.g2.com###g2-ai-chat-application
 ! "Ask" button next to search bar
 gitbook.com##[data-testid="ai-chat-button"]
 ! "Ask" button by documentation header
-! * Use :remove() to fix rounded edges on button
+! * Use :remove() to fix non-rounded edges on button
 gitbook.com##button[aria-label="GitBook Assistant"]
 gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 
