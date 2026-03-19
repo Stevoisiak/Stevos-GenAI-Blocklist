@@ -1480,8 +1480,6 @@ teams.cloud.microsoft,teams.microsoft.com##[data-testid="list-item-metaos-copilo
 teams.cloud.microsoft,teams.microsoft.com##[data-tid="store-provider-app:co:copilotplugins"], [data-tid="store-provider-app:co:abc1"], [data-tid="store-provider-app:co:aiapps"]
 ! "Categories" in Apps sidebar ("Agents we love", "Boost productivity with agents")
 teams.cloud.microsoft,teams.microsoft.com##[data-tid="store-collection-app:co:featuredapps"], [data-tid="store-collection-app:co:abc1"]
-! Sparkle icon indicating an app has AI features
-teams.cloud.microsoft,teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
 ! ============
 ! == Mojeek ==
