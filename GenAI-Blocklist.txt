@@ -684,10 +684,8 @@ github.dev##.codicon-preferences-ai-results
 ! * Only filter if Copilot chat hasn't been setup yet. Otherwise, users may need button to toggle off AI features.
 github.dev###chat\.statusBarEntry[aria-label="Finish Setup"]
 ! "Toggle Chat" icon in header next to search bar
-! Pre-page load
-github.dev##.codicon-chat-sparkle
-! Post-page load
-github.dev##.agent-status-container
+! * Element DOM changes during page load. This rule blocks both versions.
+github.dev##.action-item:has(.action-label.codicon-chat-sparkle)
 
 ! =================
 ! == GitHub Docs ==
