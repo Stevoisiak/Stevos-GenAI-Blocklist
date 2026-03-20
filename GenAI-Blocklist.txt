@@ -880,6 +880,8 @@ drive.google.com##.oaTPh
 ! New > More > Google AI Studio
 ! * Use 'remove()' to fix keyboard navigation
 drive.google.com##[role="menuitem"]:has(img[src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_ai_studio_x16.png"]):remove()
+! Right click menu, New > More > Google AI Studio
+drive.google.com##.h-v:has([src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_ai_studio_x32.png"])
 
 ! -- Folder
 ! "Insights from Gemini"

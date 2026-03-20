@@ -42,13 +42,6 @@ deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-userna
 ! "Generative AI" reports in left sidebar
 admin.google.com###node-N19-47803731
 
-! ==================
-! == Google Drive ==
-! ==================
-! -- https://drive.google.com/drive/home (logged in)
-! New > More > Google AI Studio
-drive.google.com##.h-v:has([src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_ai_studio_x32.png"])
-
 ! ===================
 ! == Google Gemini ==
 ! ===================
