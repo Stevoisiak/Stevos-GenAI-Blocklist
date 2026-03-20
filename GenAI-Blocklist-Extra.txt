@@ -54,6 +54,14 @@ gemini.google.com##.initial-input-area-container
 gemini.google.com##.content-container > chat-window
 
 ! ===================
+! == Google Search ==
+! ===================
+! -- https://www.google.com/
+! Search autocomplete suggestion that uses AI mode
+! * Use remove() to prevent selection by keyboard shortcut. The item still takes up a slot with keyboards selection, but it cannot be selected. (IE: Need to hit arrow twice to get past it.)
+google.com##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
+
+! ===================
 ! == Google Slides ==
 ! ===================
 ! "Convert to video" in "File" menubar and right sidebar 
