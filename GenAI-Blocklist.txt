@@ -1185,6 +1185,12 @@ imgflip.com##.mm-toggle-ai
 imgflip.com###gen-qa > .gen-q:has-text("Do you have a wacky AI that can write memes for me?")
 imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
 
+! =====================
+! == IMHentai (NSFW) ==
+! =====================
+! Galleries tagged ai generated
+imhentai.xxx##.thumb[data-tags~="17861"]
+
 ! ======================
 ! == Insight Software ==
 ! ======================
