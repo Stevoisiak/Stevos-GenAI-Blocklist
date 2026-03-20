@@ -1131,16 +1131,6 @@ grok.com##div.flex.flex-col-reverse.items-center.justify-between.flex-1.w-full.\
 ! Prompt suggestion cards (DeepSearch, Create Image, Pick Personas, Voice Call)
 grok.com##div.flex.flex-row.flex-wrap.w-full.gap-2.\@sm\:gap-2.justify-center.items-center
 
-! ============
-! == Healio ==
-! ============
-! -- https://www.healio.com/
-! "Ask Healio AI" banner at top of page
-www.healio.com###healio-ai-banner
-www.healio.com##body:style(padding-top: 0px !important)
-! "Healio AI" in navbar
-www.healio.com##.ai-link
-
 ! ===========================
 ! == HD Porn Comics (NSFW) ==
 ! ===========================
@@ -1155,12 +1145,28 @@ hdporncomics.com##.type-post:is(.tag-ai-art, .tag-ai-generated)
 ! Tags
 hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics.com/tag/ai-art/"])
 hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics.com/artist/ai-generated/"])
- 
+
+! ============
+! == Healio ==
+! ============
+! -- https://www.healio.com/
+! "Ask Healio AI" banner at top of page
+www.healio.com###healio-ai-banner
+www.healio.com##body:style(padding-top: 0px !important)
+! "Healio AI" in navbar
+www.healio.com##.ai-link
+
 ! =========================
 ! == Hentai Haven (NSFW) ==
 ! =========================
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
+
+! ======================
+! == HentaiEra (NSFW) ==
+! ======================
+! Galleries tagged ai generated
+hentaiera.com##.thumb[data-tags~="17758"]
 
 ! =============
 ! == ImgFlip ==
