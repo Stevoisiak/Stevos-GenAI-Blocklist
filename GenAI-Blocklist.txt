@@ -99,7 +99,7 @@ health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-a
 ! ==========================
 ! == AnimeIDHentai (NSFW) ==
 ! ==========================
-! -- AI GF promo banner
+! AI GF promo banner
 animeidhentai.com###promo-topbar
 
 ! ======================
@@ -1167,6 +1167,14 @@ www.healio.com##.ai-link
 ! =========================
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
+
+! ======================
+! == Hentai.tv (NSFW) ==
+! ======================
+! AI GF promo banner
+hentai.tv###promo-topbar
+! AI Porn partner site in sidebar
+hentai.tv##.btn[href="https://aipenly.com/"]
 
 ! ======================
 ! == HentaiEra (NSFW) ==
