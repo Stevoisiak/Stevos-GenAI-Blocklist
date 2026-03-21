@@ -2,6 +2,8 @@
 
 Set of uBlock Origin filters intended to hide generative AI features on various websites.
 
+Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-brave-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-google-chrome-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-safari-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-android)).
+
 ## Examples of filtered content
 * Google's AI summaries
 * YouTube's Ask button, AI summaries, & "Inspiration" tab
