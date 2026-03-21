@@ -1196,6 +1196,13 @@ hentaiera.com##.thumb[data-tags~="17758"]
 ! AI Jerk Off button
 hentaigasm.com###guest-nav:has(> [href="https://s.zlinkp.com/d.php?z=5442922"])
 
+! =====================
+! == HQporner (NSFW) ==
+! =====================
+! "AI Jerk Off" and "AI Cum Slut" in navbar
+hqporner.com###nav li:has([href="https://a.adtng.com/get/10016658"])
+hqporner.com###nav li:has([href="https://s.zlink7.com/v1/d.php?z=5235600"])
+
 ! =============
 ! == ImgFlip ==
 ! =============
