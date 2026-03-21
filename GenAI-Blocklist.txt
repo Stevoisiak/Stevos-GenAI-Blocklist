@@ -1924,7 +1924,7 @@ webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 ! * Hiding a section without hiding the full blok2 leaves a blank space, but is needed if a blok2 has a non-ai section 
 thepornlist.net##.blok2:has([href="https://www.thepornlist.net/ai-porn-sites/"]):has(.blok2contentxl)
 thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"])
-thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"]) + [class="blok2contentmed"]
+thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"]) + .blok2contentmed
 
 ! ===============
 ! == The Gamer ==
