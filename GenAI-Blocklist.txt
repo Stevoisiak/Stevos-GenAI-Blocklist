@@ -67,6 +67,7 @@ photoshop.adobe.com##.genAICards
 ! ===================
 ! == AI Ad Servers ==
 ! ===================
+||campfirecroutondecorator.com^
 ||cdn.twinrdengine.com^
 ||playhubconnect.com^
 
@@ -209,7 +210,9 @@ cloud.boldbi.com###bold-ai
 ! Images with AI tags
 donmai.moe,donmai.us##.post-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 gelbooru.com##.thumbnail-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
-hypnohub.net,rule34.paheal.net,rule34.xxx,safebooru.org,tbib.org,xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
+hypnohub.net,rule34.paheal.net,rule34.xxx,rule34hentai.net,safebooru.org,tbib.org,xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-animated" i], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated" i], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
+! * Spaces are used both to replace underscores in tag names and separate tags.
+rule34.us##.thumbail-container > div:has(img:is([title^="ai,"], [title*=", ai,"], [title*="ai animation,"], [title*="ai art,"], [title*="ai assisted,"], [title*="ai-created,"], [title*="ai generated,"], [title*="ai generated video,"], [title*="ai generated video,"], [title*="ai video,"], [title*="ai voice acted,"]))
 
 ! - Galleries with "AI Generated" in title
 nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
@@ -1621,6 +1624,12 @@ www.nutraingredients.com##.ask-ia-widget
 ! AI Generated category in sidebar
 ohentai.org##.interlink[href="tagsearch.php?tag=AI Generated"]
 
+! =================
+! == OOXXX (NSFW ==
+! =================
+! AI porn
+ooxxx.com##.tag__item:has(> [href="https://candyai.gg/home2?oid=1&affid=223&source_id=ooxxx_tablink&creative_id=1"])
+
 ! ===========
 ! == OP.GG ==
 ! ===========
@@ -2322,6 +2331,14 @@ yandex.com##.Root-FuturisSearchOuter
 ! -- https://yep.com/
 ! "Chat" button in header
 yep.com##.css-1k0ztkl-button
+
+! =======================
+! == YesPornVip (NSFW) ==
+! =======================
+! AI Cuckold
+yesporn.vip##[href="https://www.ggptnetwork.com/lander/realistic?content_type=1&utm_source=yespornvip&utm_medium=headerlink&utm_campaign=AI+Cuckold"]
+! Undress AI
+yesporn.vip##.nav-link[href="https://undress.cc/?ref=yesporn"]
 
 ! ====================
 ! == YouPorn (NSFW) ==
