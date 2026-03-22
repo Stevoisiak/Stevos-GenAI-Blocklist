@@ -493,6 +493,12 @@ emojipedia.org##.Button_btn__p7Xgd[href="/ai-emoji-generator"]
 ! "AI Emoji Generator Stickers" section
 emojipedia.org##.flex.flex-col.gap-4:has(> .items-center > .Button_btn__p7Xgd[href="/ai-emoji-generator"])
 
+! ====================
+! == Eporner (NSFW) ==
+! ====================
+! AI Jerk Off
+www.eporner.com##.dropdown > li:has(> [href="/cams2/"])
+
 ! ==========
 ! == Etsy ==
 ! ==========
@@ -1656,6 +1662,12 @@ myapps.paychex.com##png-fab-help-chat-card
 ! "AI Jerk Off" near top of page
 www.porn.com##.nav-main__item:has(> [href="https://www.tckcandy.com/cmp/7XJHR8/2JL8K8/?source_id=porncom&sub1=tab_aijerkoff"])
 
+! ====================
+! == Pornhub (NSFW) ==
+! ====================
+! AI Cum Slut button
+www.pornhub.com##.uploadBtnContentSpicevids
+
 ! =============
 ! == Pictory ==
 ! =============
@@ -1737,6 +1749,12 @@ www.redgifs.com##.aTab:has-text("RedGIFs.ai")
 ! AI-Website Builder
 www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 
+! ====================
+! == RedTube (NSFW) ==
+! ====================
+! AI Jerk Off (desktop & mobile)
+www.redtube.com##.paid_tab_element:has(> [data-label2="AI JERK OFF"], [data-label2="Ai Girls"])
+
 ! ============
 ! == Replug ==
 ! ============
@@ -1791,6 +1809,12 @@ develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > span.text-\[var\(
 develop.sentry.dev,docs.sentry.io##.search_search-bar__XzLtg > .kapa-ai-class
 ! "Ask sentry about" search autocomplete suggestion
 develop.sentry.dev,docs.sentry.io##.search_sgs-ai__2z63Q
+
+! =====================
+! == SexyPorn (NSFW) ==
+! =====================
+! AI Jerk Off
+sxyprn.com##[aria-label="AI TAB"]
 
 ! =============
 ! == Shopify ==
@@ -1850,6 +1874,14 @@ www.singaporeair.com##chat-bot-button + .dwc--SiaHeader__WhiteSeparator
 ! -- https://sogou.com/web?query=test
 ! AI navbar tab
 sogou.com##.searchnav > li:has(> #sogou_aimode)
+
+! ======================
+! == SpankBang (NSFW) ==
+! ======================
+! AI Jerk Off
+spankbang.com##[href="https://deliver.ptgncdn.com/zZo4XEWxKAM12aZuqxkFfGE2d6HQVZhJLh6eC36EqYcCwzM9MKrBfcgJKvMO5kL4I2lBnrC8l"]
+! AI ad button
+spankbang.com##.ad_button:has-text("AI Porn is here")
 
 ! =============
 ! == Spotify ==
@@ -2031,6 +2063,14 @@ tube8.com,tube8.es,tube8.fr##.paidTab:has([data-label2="Ai Girls"])
 ! "Ask AI Concierge" sticky button in bottom right
 turbotax.intuit.com###aic-entry
 
+! =================
+! == TXXX (NSFW) ==
+! =================
+! Undress AI navbar
+txxx.com##[href="https://nudeai.fun/?referrer=txxx"]
+! AI Undress at bottom of page
+txxx.com##[href="https://facemix.app/?utm_medium=txxx&utm_campaign=tubecorp"]
+
 ! ==============================
 ! == Uncensored Hentai (NSFW) ==
 ! ==============================
@@ -2180,6 +2220,14 @@ x.com##.r-1phboty.r-2yi16.r-1qi8awa:has(path[d="M12.745 20.54l10.97-8.19c.539-.4
 ! * Separate urls for standalong "AI" category and "AI <something>" tags
 xhamster.com##:is(.letter-block, .search-result-block) > .items > .item > [data-role="tag-link"]:is([href="https://xhamster.com/categories/ai"], [href^="https://xhamster.com/tags/ai-"])
 
+! ==========================
+! == XMoviesForYou (NSFW) ==
+! ==========================
+! "Free AI Porn" in navbar
+xmoviesforyou.com##[href="https://www.cmonbae.com/?union_id=MTM1"]
+! "Free Undress AI" in navbar
+xmoviesforyou.com##[href="http://dpnode.top/?channel=xmoviesforyou"]
+
 ! =====================
 ! == XNXX.com (NSFW) ==
 ! =====================
@@ -2269,6 +2317,12 @@ yandex.com##.Root-FuturisSearchOuter
 ! "Chat" button in header
 yep.com##.css-1k0ztkl-button
 
+! ====================
+! == YouPorn (NSFW) ==
+! ====================
+! AI Cum Slut
+www.youporn.com##.upgradeButtonContainer:has([href="https://www.youporn.com/_xa/ads?zone_id=2496141&format=directLP"])
+
 ! =============
 ! == YouTube ==
 ! =============
@@ -2342,3 +2396,12 @@ studio.youtube.com###comment-smart-replies
 ! -- Video Details page
 ! "Brainstorm video ideas" in action menu (⋮)
 studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
+
+! =====================
+! == Misc Ads (NSFW) ==
+! =====================
+||cdn.twinrdengine.com/04bc553d2358916d4afb8d2150da5d76_360p.mp4
+||cdn.twinrdengine.com/8a86b514d939f13d82bf0576b3c577d3_360p.mp4
+||cdn.twinrdengine.com/aa0cd813d46098dc171827f88161984a_360p.mp4
+||cdn.twinrdengine.com/ba678b37402031335ca50089a109c065_360p.mp4
+||playhubconnect.com/bn/87a/8cb/e0e/87a8cbe0e6cad89681012331a4c1eed70ee7f21a.mp4
