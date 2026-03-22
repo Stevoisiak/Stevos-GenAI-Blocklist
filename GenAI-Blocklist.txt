@@ -64,6 +64,12 @@ photoshop.adobe.com##sp-action-button.quick-edit-button[label="Generate an image
 photoshop.adobe.com##[data-testid="quick-actions-title-gen-ai"]
 photoshop.adobe.com##.genAICards
 
+! ===================
+! == AI Ad Servers ==
+! ===================
+||cdn.twinrdengine.com^
+||playhubconnect.com^
+
 ! ============
 ! == Amazon ==
 ! ============
@@ -2396,9 +2402,3 @@ studio.youtube.com###comment-smart-replies
 ! -- Video Details page
 ! "Brainstorm video ideas" in action menu (⋮)
 studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
-
-! =====================
-! == Misc Ads (NSFW) ==
-! =====================
-||cdn.twinrdengine.com^
-||playhubconnect.com^
