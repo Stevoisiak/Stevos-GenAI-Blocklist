@@ -1237,6 +1237,13 @@ hentaifromhell.org##.textwidget > [href="https://undressaitool.ai/"] + br
 ! AI Jerk Off button
 hentaigasm.com###guest-nav:has(> [href="https://s.zlinkp.com/d.php?z=5442922"])
 
+! ==============
+! == HiNative ==
+! ==============
+! -- https://hinative.com/questions/27217998
+! Answers posted by AI
+hinative.com##.answer_parts_block:has(> .ai_answer)
+
 ! =====================
 ! == HQporner (NSFW) ==
 ! =====================
