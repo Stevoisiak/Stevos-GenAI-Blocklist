@@ -210,7 +210,7 @@ cloud.boldbi.com###bold-ai
 ! Images with AI tags
 donmai.moe,donmai.us##.post-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 gelbooru.com##.thumbnail-preview:has(img:is([title~="ai"], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated"], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
-hypnohub.net,rule34.paheal.net,rule34.xxx,rule34hentai.net,safebooru.org,tbib.org,xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-animated" i], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated" i], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
+booru.org,hypnohub.net,rule34.paheal.net,rule34.xxx,rule34hentai.net,safebooru.org,tbib.org,xbooru.com##.thumb:has(img:is([title~="ai"], [title~="ai-animated" i], [title~="ai-assisted"], [title~="ai-created"], [title~="ai-generated" i], [title~="ai_art"], [title~="ai_assisted"], [title~="ai_generated"], [title~="ai_voice"]))
 ! * Spaces are used both to replace underscores in tag names and separate tags.
 rule34.us##.thumbail-container > div:has(img:is([title^="ai,"], [title*=", ai,"], [title*="ai animation,"], [title*="ai art,"], [title*="ai assisted,"], [title*="ai-created,"], [title*="ai generated,"], [title*="ai generated video,"], [title*="ai generated video,"], [title*="ai video,"], [title*="ai voice acted,"]))
 
@@ -1212,6 +1212,15 @@ hentai.tv##.btn[href="https://aipenly.com/"]
 ! ======================
 ! Galleries tagged ai generated
 hentaiera.com##.thumb[data-tags~="17758"]
+
+! ===========================
+! == HentaiFromHell (NSFW) ==
+! ===========================
+! AI links in sidebar
+hentaifromhell.org##.textwidget > [href="https://crushon.ai/?&mist=1?utm_source=hentaifromhell&utm_medium=text&utm_campaign=ai_sex_chat"]
+hentaifromhell.org##.textwidget > [href="https://crushon.ai/?&mist=1?utm_source=hentaifromhell&utm_medium=text&utm_campaign=ai_sex_chat"] + br
+hentaifromhell.org##.textwidget > [href="https://undressaitool.ai/"]
+hentaifromhell.org##.textwidget > [href="https://undressaitool.ai/"] + br
 
 ! =======================
 ! == Hentaigasm (NSFW) ==
