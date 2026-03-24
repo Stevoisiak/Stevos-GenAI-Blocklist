@@ -118,6 +118,12 @@ health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-a
 ! AI GF promo banner
 animeidhentai.com###promo-topbar
 
+! =========================
+! == aShemaleTube (NSFW) ==
+! =========================
+! "AI Lover" in navbar
+www.ashemaletube.com##.navmenu > li:has(> [title="AI Lover"])
+
 ! ======================
 ! == BabesTube (NSFW) ==
 ! ======================
@@ -574,6 +580,12 @@ fandom.com##section.trfc161
 ! ====================
 ! "AI Jerk Off" in navbar
 www.fapnado.xxx##.gngames[href="https://tsyndicate.com/api/v1/direct/9456ec3abb18461b91f4de5e492b0979?"]
+
+! ========================
+! == Fetish Papa (NSFW) ==
+! ========================
+! "AI Jerk Off"
+www.fetishpapa.com##.navmenu > li:has(> [title^="AI JERK OFF"])
 
 ! =========================
 ! == Freeuse Porn (NSFW) ==
