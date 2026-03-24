@@ -170,7 +170,7 @@ old.reddit.com##body.subreddits-page > .content > #siteTable > .thing.subreddit:
 ! =============
 ! -- https://www.semrush.com/blog/google-tag-manager/
 ! "Semrush One" promo in sidebar that mentions AI
-www.semrush.com###vwo-ai-visibility-cta
+www.semrush.com##[data-test="toc-widget-custom"]
 
 ! ============
 ! == Square ==
