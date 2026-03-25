@@ -1948,6 +1948,13 @@ x.com##.css-175oi2r:has(> .r-kemksi.r-1ifxtd0 > aside[role="complementary"] > a[
 ! "Ask Grok" button - below posts from Grok
 x.com##.css-175oi2r.r-1mmae3n:has(> [data-testid="grok_post_atgrok_button"])
 
+! -- https://x.com/soraofficialapp/status/2036546752535470382
+! Tweet with "Made with AI" disclosure
+x.com##[data-testid="tweet"]:has(.css-175oi2r.r-9aw3ui.r-7xmw5f.r-knv0ih)
+css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-n6v787 r-1cwl3u0 r-16dba41 r-knv0ih
+! Tweet with "Create your own with Grok" promo under video
+x.com##[data-testid="tweet"]:has(.css-146c3p1.r-bcqeeo.r-1ttztb7.r-qvutc0.r-37j5jr.r-n6v787.r-1cwl3u0.r-16dba41)
+
 ! -- https://x.com/Newgrounds
 ! "Profile Summary" button
 ! * Does not appear on profiles with a yellow verfication badge
