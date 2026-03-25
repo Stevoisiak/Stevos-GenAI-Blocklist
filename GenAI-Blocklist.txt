@@ -2115,7 +2115,10 @@ studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 ! == Ad Servers (NSFW) ==
 ! =======================
 ||campfirecroutondecorator.com^
+||cdn.pornhaven.ai^
+||cdn.havenclick.com^
 ||cdn.twinrdengine.com^
+||hh-yin.pages.dev^
 ||playhubconnect.com^
 
 ! ==========================
@@ -2229,6 +2232,9 @@ hqporner.com###nav li:has([href="https://s.zlink7.com/v1/d.php?z=5235600"])
 ! =========================
 ! "AI Porn" link in header
 hentaihaven.xxx###menu-item-96519
+! AI Ads in sidebar
+hentaihaven.xxx##.widget_block:has(.novaads)
+hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text("AI Hentai"))
 
 ! ==========================
 ! == Hentai Stream (NSFW) ==
