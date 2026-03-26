@@ -2026,8 +2026,6 @@ yep.com##.css-1k0ztkl-button
 ! =============
 ! == YouTube ==
 ! =============
-! Note: 'www.' is excluded from some filters for mobile site compatability. (m.youtube.com)
-
 ! -- https://www.youtube.com/ (Homepage - logged in)
 ! "Your custom feed" category for video suggestions
 www.youtube.com##yt-chip-cloud-chip-renderer:has-text("Your custom feed")
