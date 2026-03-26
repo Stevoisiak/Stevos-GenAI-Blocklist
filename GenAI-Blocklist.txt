@@ -2006,13 +2006,9 @@ search.yahoo.co.jp##.AnswerAiNavigation__content
 ! ============
 ! == Yandex ==
 ! ============
-! -- https://yandex.com/search/?text=test (Search results)
+! -- https://yandex.com/search?text=test&promo=force_neuro (Search results)
 ! Navbar - yandex ai
 yandex.com##.HeaderNav-Tab[href$="&promo=force_neuro"]
-! AI Summary banner (May not be needed anymore?)
-yandex.com##li[data-fast-name="neuro_answer"]
-
-! -- https://yandex.com/search?text=test&promo=force_neuro
 ! AI Summary
 yandex.com##.Root-FuturisSearchOuter
 
