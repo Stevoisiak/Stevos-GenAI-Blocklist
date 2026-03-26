@@ -105,7 +105,7 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
 
 ## FAQ
-#### Q: Does this prevent AI content from being generated?
+#### Q: Does this prevent AI content from being generated in the background?
 Sometimes, but not always.
 
 These filters work by hiding the AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
