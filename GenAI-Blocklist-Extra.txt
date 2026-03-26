@@ -14,19 +14,6 @@ www.adobe.com###adbmsgCta
 ! "Adobe Virtual Asssistant" chatbox
 www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://cdn.prod.assistant.adobe.com/production/static/"])
 
-! =============
-! == ChatGPT ==
-! =============
-! -- https://chatgpt.com/ (Main page - logged-in)
-! Chat window
-chatgpt.com##main.min-h-0.flex-1[id="main"] > div.group\/thread[id="thread"] > div[role="presentation"]
-! Left sidebar - expanded (minus account settings)
-chatgpt.com##aside.pt-\(--sidebar-section-first-margin-top\)
-chatgpt.com##div.pb-\[calc\(var\(--sidebar-section-margin-top\)-var\(--sidebar-section-first-margin-top\)\)\]
-chatgpt.com##div.group\/sidebar-expando-section
-! Left sidebar - collapsed (minus account settings)
-chatgpt.com##div.mt-\(--sidebar-section-first-margin-top\)
-
 ! ================
 ! == DeviantArt ==
 ! ================
@@ -43,17 +30,6 @@ deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-userna
 admin.google.com###node-N19-47803731
 
 ! ===================
-! == Google Gemini ==
-! ===================
-! -- Main page
-! Header bar - Upgrade to Google AI Plus
-gemini.google.com##[data-test-id="bard-upsell-menu-button"]
-! Chat box (when initially loading page)
-gemini.google.com##.initial-input-area-container
-! Chat window
-gemini.google.com##.content-container > chat-window
-
-! ===================
 ! == Google Search ==
 ! ===================
 ! -- https://www.google.com/
@@ -68,42 +44,6 @@ www.google.com,www.google.com.hk,www.google.*##.G43f7e > [data-attrid="Autocompl
 ! * Can be used without AI, but heavily encourages using AI tools
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
-
-! ================================
-! == M365 Copilot/Microsoft 365 ==
-! ================================
-! There are a few non-AI items that we don't want to block. (Search, Settings, etc)
-! Unless stated otherwise, settings were tested on a Microsoft account with a corporate 365 subscription
-
-! -- https://m365.cloud.microsoft/ (Main chat page)
-! Chat box + prompt suggestions
-m365.cloud.microsoft###chat-input-wrapper
-m365.cloud.microsoft##.___g910dn0 > .___xtcqig0
-
-! Sidebar > "New Chat" & "Create" buttons
-m365.cloud.microsoft##.fui-NavDrawerBody > [data-testid="core-modules-section"] > button:is([value="d870f6cd-4aa5-4d42-9626-ab690c041429"], [value="83d3f491-b586-4266-8738-89776471bf21"])
-
-! Sidebar > "Agents" & "Chats" sections
-m365.cloud.microsoft##.fui-NavDrawerBody > .___wvxaoh0.f22iagw.f1vx9l62.fnknrz3.f5yzyt
-
-! -- https://m365.cloud.microsoft/search/ (Search)
-! Copilot suggestions about files
-m365.cloud.microsoft##.EdgeworthItemControl-module__document-column__copilot-prompts__BhZZG
-! "Open expanded view" sparkle icon. Appears next to some files.
-m365.cloud.microsoft##.EdgeworthItemControl-module__title-icon-button__UewmV
-
-! -- https://m365.cloud.microsoft/ (Main page - Account with no 365 subscription)
-! Sidebar - "Chat" & "Create" buttons
-m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > #chat
-m365.cloud.microsoft##div.fui-NavDrawerBody > div.___12uu7fi.f22iagw.f1vx9l62.f7e3wsx > .___1vgvawp > div > div > button[aria-roledescription="Menu item"][aria-label="Create"]
-
-! =======================
-! == Microsoft Copilot ==
-! =======================
-! Homepage > Prompt input + Suggestions
-www.copilot.com##div.relative.flex.w-full.flex-col-reverse.items-center.px-3.sm\:flex-col
-! Homepage > Sidebar, Various AI modes
-www.copilot.com##.pt-1.gap-0\.5.items-start.flex-col.flex.relative.pointer-events-auto.dark\:bg-sidebar-dark.bg-sidebar-light
 
 ! =====================
 ! == Microsoft Teams ==
