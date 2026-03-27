@@ -532,8 +532,8 @@ github.com##.copilotPreview__container
 ! "Copilot" section & separator in search bar auto-complete suggestions
 github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
-! Changelog posts containing "Copilot" in right sidebar
-github.com##.dashboard-changelog .TimelineItem:has-text(/copilot/i)
+! Changelog posts containing ai terms in right sidebar
+github.com##.dashboard-changelog .TimelineItem:has-text(/(copilot|gemini)/i)
 
 ! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
 ! * Requires enabling "New Dashboard Experience" in "Feature Preview"
