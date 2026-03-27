@@ -1194,6 +1194,13 @@ kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > hr
 kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > ._0_summarize_page
 kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > ._0_discuss_document
 
+! ============
+! == Kahoot ==
+! ============
+! -- https://create.kahoot.it/page/en/make
+! AI Assisted tools to get started
+discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
+
 ! ===================================
 ! == Kits AI/Hubspot Documentation ==
 ! ===================================
