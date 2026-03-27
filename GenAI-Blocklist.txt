@@ -1066,7 +1066,7 @@ docs.google.com###video-generation-promo
 ! ======================
 ! -- https://workspace.google.com/ (Promo page)
 ! Navbar - AI
-workspace.google.com##nav > div[class^="_headerNavGroup_"]:has(> [data-g-action="ai"])
+workspace.google.com##.TemplateHeader_headerNavGroup:has(> [data-g-action="ai"])
 ! "Premium AI built-in" section
 workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
 ! "Google Workspace includes" section with list of apps ("Gemini" & "NotebookLM")
