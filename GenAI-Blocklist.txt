@@ -979,6 +979,12 @@ www.google.com,www.google.com.hk,www.google.*##.o3PDvf.XBlWIe.VZ8ove.h373nd:has(
 ! AI generated overview of topic
 www.google.com,www.google.com.hk,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
 
+! -- https://www.google.com/search?q=computer+repair
+! Have AI check prices
+www.google.com,www.google.com.hk,www.google.*##[jsname="lHCI7d"]
+! * Blank space on desktop
+www.google.com,www.google.com.hk,www.google.*##[jsname="NoEzVd"]:has([jsname="lHCI7d"])
+
 ! -- https://www.google.com/search?q=Halo&sca_esv=38a1cb84e2b2add3
 ! Expandable topics in "What people are saying" section
 ! * .k1U36b.OMMx3d: "Generative AI is experimental" disclaimer
