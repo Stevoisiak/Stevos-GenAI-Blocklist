@@ -1024,6 +1024,20 @@ docs.google.com##.building-blocks-promo-container
 ! Table categories with AI fields
 docs.google.com###feedback-sentiment-plus-classification-building-block, #expense-classification-building-block, #ad-generation-building-block, #email-generation-building-block, #call-summary-building-block
 
+! =====================
+! == Google Shopping ==
+! =====================
+! -- https://www.google.com/search?q=shirt&udm=28
+! "Try it on" in left sidebar
+www.google.com##.NI7LRe.L7sh7c[href^="/shopping/tryon"]
+! "Try it on" in product photo
+www.google.com##.GS02Vb .H1EJdd [data-attrid="product_carousel_image"] .V3Siwf.t2x0ve
+! "Try-on" slide in product image gallery
+www.google.com##.GS02Vb .H1EJdd .Asw3Oe[jsname="GHLeGf"]:has(.gyP8Ib.b7GjXe.RiJqbb)
+! "What to know" & "Ask anything in AI Mode" section on product page + divider
+www.google.com##.GS02Vb .mLFOe > .imucI
+www.google.com##.GS02Vb .mLFOe > .imucI + .ozDyDd.iRPzcb
+
 ! ===================
 ! == Google Slides ==
 ! ===================
