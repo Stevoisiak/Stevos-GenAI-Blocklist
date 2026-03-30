@@ -2564,6 +2564,13 @@ txxx.com##[href="https://facemix.app/?utm_medium=txxx&utm_campaign=tubecorp"]
 ! AI Porn in navbar
 uncensoredhentai.xxx###menu-item-20697
 
+! =======================
+! == XAnimu.com (NSFW) ==
+! =======================
+! "Undress AI" and "AI Cumsluts" in navbar
+xanimu.com##.nav-item:has(> [href="https://www.cmonbae.com/?union_id=MzU%3D"])
+xanimu.com##.nav-item:has(> [href="https://s.happyleafmotion.com/v1/d.php?z=2264"])
+
 ! =====================
 ! == xHamster (NSFW) ==
 ! =====================
