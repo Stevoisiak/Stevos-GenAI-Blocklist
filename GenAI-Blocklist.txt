@@ -770,8 +770,16 @@ google.com##[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 ! == Google About ==
 ! ==================
 ! -- https://about.google/
-! Lyria 3 Pro section. (Yes, the ID is misleading)
+! AI promo
+about.google##[data-section-header="Bring your AI memories and chat history to Gemini"]
+! Lyria 3 Pro section (Yes, the ID is misleading)
 about.google###how-ai-can-help-improve-breast-cancer-detection
+! "Google AI" in footer
+about.google##.glue-footer__link[href^="https://ai.google/"]
+
+! -- https://about.google/products/
+! Gemini in Google Products list
+about.google##.product-filter__wrapper:has(> [href^="https://gemini.google.com/"])
 
 ! ======================
 ! == Google Analytics ==
