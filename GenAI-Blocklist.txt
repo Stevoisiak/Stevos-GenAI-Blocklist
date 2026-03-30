@@ -859,8 +859,11 @@ drive.google.com###viewer-sidekick-button
 ! == Google Flights ==
 ! ====================
 ! -- https://www.google.com/travel/flights
-! "Explore the best flight deals with AI"
+! "Discover the best flight deals with AI" below explore button
 www.google.com##.yVTUN:has(svg.fdpJhe)
+
+! "Explore the best flight deals with AI" in useful tools section
+www.google.com##.kfgtbc:has(.lHmueb:not(.NMm5M))
 
 ! ==================
 ! == Google Forms ==
