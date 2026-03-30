@@ -895,9 +895,9 @@ www.google.com##.kfgtbc:has([class="lHmueb"])
 ! ==================
 ! == Google Forms ==
 ! ==================
-! These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
-
 ! -- https://docs.google.com/forms/create
+! "Help me create a form" navbar button
+docs.google.com##[data-action-id="freebird-open-help-me-ask-from-icon"]
 ! Gemini popup on new form creation
 docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
