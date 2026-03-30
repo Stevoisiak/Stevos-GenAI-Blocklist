@@ -127,20 +127,6 @@ squareup.com###q-messenger-frame[title="Qualified Messenger"]
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
-! ======================
-! == Stripchat (NSFW) ==
-! ======================
-! * Not sure if these count as generative AI
-
-! -- https://stripchat.com/
-! "Magic Search" button in search bar
-stripchat.com##.CVSearchButton\#Yi
-! "Magic Search" Search bar suggestions
-stripchat.com##.CVSearchIntro\#EO
-stripchat.com##.CVSearchSuggestions\#O1
-! "Click to run Magic Search" search bar autocomplete suggestion
-stripchat.com##.CVSearchSpotlightItem\#_Z
-
 ! ================
 ! == TechCrunch ==
 ! ================

@@ -2471,6 +2471,19 @@ spankbang.com##[href="https://deliver.ptgncdn.com/zZo4XEWxKAM12aZuqxkFfGE2d6HQVZ
 ! AI ad button
 spankbang.com##.ad_button:has-text("AI Porn is here")
 
+! ======================
+! == Stripchat (NSFW) ==
+! ======================
+! * Not sure if Magic Search counts as generative AI
+! -- https://stripchat.com/
+! "Magic Search" button in search bar
+stripchat.com##.CVSearchButton\#Yi
+! "Magic Search" Search bar suggestions
+stripchat.com##.CVSearchIntro\#EO
+stripchat.com##.CVSearchSuggestions\#O1
+! "Click to run Magic Search" search bar autocomplete suggestion
+stripchat.com##.CVSearchSpotlightItem\#_Z
+
 ! ==================================
 ! == The Best Fetish Sites (NSFW) ==
 ! ==================================
