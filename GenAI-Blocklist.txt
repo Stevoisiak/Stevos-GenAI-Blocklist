@@ -867,7 +867,7 @@ drive.google.com###viewer-sidekick-button
 www.google.com##.yVTUN:has(svg.fdpJhe)
 
 ! "Explore the best flight deals with AI" in useful tools section
-www.google.com##.kfgtbc:has(.lHmueb:not(.NMm5M))
+www.google.com##.kfgtbc:has([class="lHmueb"])
 
 ! ==================
 ! == Google Forms ==
