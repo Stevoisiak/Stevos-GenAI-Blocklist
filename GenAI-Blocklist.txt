@@ -1217,8 +1217,11 @@ kagi.com##.nav-item-link[href="/summarizer"]
 kagi.com##.nav-item-link[href="/fastgpt"]
 
 ! -- https://kagi.com/search?q=test (Search results)
-! "Quick Answer"
+! "Quick Answer" button
 kagi.com##button.quick-answer-trigger-link
+! Quick Answer summary
+kagi.com##.qa-container-box._0_quick_answer_box
+
 ! Search Result > Action Menu > Separator + "Quick Summary" + "Contine in Assistant"
 kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > hr
 kagi.com##.__sri_more_menu > .k_ui_dropdown_data_list > .list_items > ._0_summarize_page
