@@ -1,6 +1,6 @@
 # Stevo's GenAI Blocklist
 
-Set of uBlock Origin filters intended to hide generative AI features on various websites.
+A filter list for uBlock Origin that hides specific website features that use or promote Generative AI.
 
 Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-brave-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-google-chrome-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-safari-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-android)).
 
