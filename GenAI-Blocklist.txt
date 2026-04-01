@@ -158,6 +158,16 @@ www.bing.com##.b_ans:has(> #copans_container)
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
 
+! -- https://www.bing.com/shop/
+! Copilot price drop notifications (top)
+www.bing.com##.slide:has(.gtxmd-cm.button.lkmd-cm:has-text("Try it on Copilot"))
+! Copilot suggestion cards
+www.bing.com##.conversation_starters
+! Udemy ad for AI skills
+www.bing.com##.editorial-promo-card:has(> [aria-label^="Advance your AI skills"])
+! Copilot price insignhts (bottom)
+www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text("Try it on Copilot")
+
 ! =============
 ! == Bold BI ==
 ! =============
