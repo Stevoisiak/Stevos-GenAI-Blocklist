@@ -64,6 +64,13 @@ photoshop.adobe.com##sp-action-button.quick-edit-button[label="Generate an image
 photoshop.adobe.com##[data-testid="quick-actions-title-gen-ai"]
 photoshop.adobe.com##.genAICards
 
+! ==================
+! == Alpha Coders ==
+! ==================
+! -- https://alphacoders.com/midjourney-wallpapers
+! Images with AI tags
+alphacoders.com##.item:has(.thumb-tag-masonry:is([href="https://alphacoders.com/ai-art-wallpapers"], [href="https://alphacoders.com/midjourney-wallpapers"]))
+
 ! ============
 ! == Amazon ==
 ! ============
