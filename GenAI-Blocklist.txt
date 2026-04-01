@@ -147,6 +147,8 @@ www.bing.com##a.cdxConv_slsboxl.cdxConvWithText
 www.bing.com##.cdxCopilotIconBg
 ! "Image creator" and "Video creator" buttons below search bar
 www.bing.com###aitools
+! AI tools search suggestions (mobile only)
+www.bing.com###sa_ai_block
 
 ! -- https://www.bing.com/search?q=You%20ever%20wonder%20why%20we%27re%20here%3F& (Search results)
 ! Copilot "Search" tab in navbar below search bar
