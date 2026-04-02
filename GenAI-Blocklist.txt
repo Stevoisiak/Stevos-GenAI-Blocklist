@@ -1968,7 +1968,7 @@ ups.com###WACContainer
 ! ============
 ! -- https://vercel.com/
 ! "Ask AI" button in header
-vercel.com##.right-section-module__J7WNxW__nonPrimaryContent > button[data-cdp-track*="\"header_ask_ai_clicked\""]
+vercel.com##button[type="submit"][data-cdp-track*="\"header_ask_ai_clicked\""]
 
 ! -- https://vercel.com/kb/bulletin/security-bulletin-cve-2025-55184-and-cve-2025-55183?inf_ver=2
 ! "Ask AI" button in header
