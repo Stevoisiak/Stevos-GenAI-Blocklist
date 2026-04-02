@@ -1,5 +1,5 @@
 ! Title: Stevo's GenAI Blocklist (Extra)
-! Expires: 1 day (update frequency)
+! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
 
 ! Blocks user accounts and subreddits that post AI generated content.
