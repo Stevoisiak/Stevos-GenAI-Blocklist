@@ -1303,6 +1303,12 @@ kagi.com##.nav-item-link[href="/fastgpt"]
 kagi.com##.nav > [href="/assistant"]
 kagi.com##.nav > [href="/summarizer"]
 kagi.com##div:has(> b > [href="/summarizer"])
+! * April 1st Ask Assistant
+kagi.com##td > br:has(+ b:has-text("Have a question? Ask Assistant"))
+kagi.com##td > b:has-text("Have a question? Ask Assistant")
+kagi.com##td > form[action="/assistant"]
+kagi.com##td > b:has-text("Sample questions:")
+kagi.com##td > b:has-text("Sample questions:") + ul
 
 ! -- https://kagi.com/search?q=test (Search results)
 ! "Quick Answer" button
