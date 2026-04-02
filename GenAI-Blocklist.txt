@@ -1296,12 +1296,10 @@ www.jimdo.com###companion
 ! ==========
 ! -- https://kagi.com/
 ! Menubar > Apps (Assistant, Summarize, FastGPT)
-kagi.com##.nav-item-link[href="/assistant"]
-kagi.com##.nav-item-link[href="/summarizer"]
-kagi.com##.nav-item-link[href="/fastgpt"]
+kagi.com##[href="/assistant"]
+kagi.com##[href="/summarizer"]
+kagi.com##[href="/fastgpt"]
 ! April Fools Day redesign
-kagi.com##.nav > [href="/assistant"]
-kagi.com##.nav > [href="/summarizer"]
 kagi.com##div:has(> b > [href="/summarizer"])
 ! * April 1st Ask Assistant
 kagi.com##td > br:has(+ b:has-text("Have a question? Ask Assistant"))
