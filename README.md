@@ -148,6 +148,7 @@ Commit messages use prefixes to indicate the type of change.
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
 * [Soul Over AI](https://github.com/xoundbyte/soul-over-ai): Index of AI-generated and AI-assisted music.
+* [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to show popup warnings for Steam games with an AI content disclosure.  
 
 ## Feedback
 
