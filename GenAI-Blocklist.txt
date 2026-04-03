@@ -1304,6 +1304,8 @@ www.jimdo.com###companion
 kagi.com##[href="/assistant"]
 kagi.com##[href="/summarizer"]
 kagi.com##[href="/fastgpt"]
+! Quick answer tip in search autocomplete
+kagi.com##.tip:has-text(Quick Answer)
 ! April Fools Day redesign
 kagi.com##div:has(> b > [href="/summarizer"])
 ! * April 1st Ask Assistant
