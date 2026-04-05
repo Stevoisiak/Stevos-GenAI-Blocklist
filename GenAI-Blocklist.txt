@@ -1035,9 +1035,7 @@ www.google.com,www.google.com.hk,www.google.*##promo-middle-slot:has-text("/\bAI
 www.google.com,www.google.com.hk,www.google.*##promo-middle-slot:has-text("Gemini")
 ! Footer - "Applying AI towards science and the environment"
 www.google.com,www.google.com.hk,www.google.*##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
-
-! -- https://www.google.com/ (Mobile only)
-! Search bar - AI button (magnifying glass icon)
+! Search bar - AI button (magnifying glass icon, mobile only)
 www.google.com,www.google.com.hk,www.google.*##.xOchs
 
 ! -- https://www.google.com/search?q=test
@@ -1061,8 +1059,13 @@ www.google.com,www.google.com.hk,www.google.*##[jsname="YrZdPb"]:not(:has(.Sbgr0
 www.google.com,www.google.com.hk,www.google.*##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
 
 ! -- https://www.google.com/search?q=Mario (mobile only)
-! AI generated overview
+! AI generated topic overview
 www.google.com,www.google.com.hk,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
+
+! -- https://www.google.com/search?q=gachiakuta+game (mobile only)
+! Loading placeholder for AI Generated topic info (in middle of search results)
+! * May not appear when reloading page multiple times in a row
+www.google.com,www.google.com.hk,www.google.*##[role="presentation"][data-md="50"]:has(.eaNXV[style*="animation-delay"])
 
 ! -- https://www.google.com/search?q=tie (mobile only)
 ! AI generated overview container
