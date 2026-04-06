@@ -746,6 +746,8 @@ gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 gitlab.com##.reviewer-grid:has-text(GitLab Duo)
 gitlab.com##.note-header-info:has-text(GitLab Duo):upward(3)
 gitlab.com##.system-note-message:has-text(@GitLabDuo):upward(5)
+gitlab.com##.diff-grid-comments:has-text(GitLab Duo)
+gitlab.com##.tooltip-inner:has-text(GitLab Duo)
 ||gitlab.com/uploads/-/system/user/avatar/21826781/duo-bot.png
 
 ! ===========
