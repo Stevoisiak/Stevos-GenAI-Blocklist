@@ -741,6 +741,13 @@ gitlab.com##[data-testid="whats-new-article-toggle"]:has-text("GitLab Duo"):upwa
 ! "View summarize" button
 gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 
+! -- https://gitlab.com/ (Project merge request pages)
+! GitLab Duo as reviewer and commenter on MRs
+gitlab.com##.reviewer-grid:has-text(GitLab Duo)
+gitlab.com##.note-header-info:has-text(GitLab Duo):upward(3)
+gitlab.com##.system-note-message:has-text(@GitLabDuo):upward(5)
+||gitlab.com/uploads/-/system/user/avatar/21826781/duo-bot.png
+
 ! ===========
 ! == Gmail ==
 ! ===========
