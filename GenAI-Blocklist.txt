@@ -1245,10 +1245,6 @@ insightsoftware.com##.dropdown-item[href="https://insightsoftware.com/insightsof
 ! Lineos AI in footer
 insightsoftware.com##.menu-item-object-custom:has(> [href="https://insightsoftware.com/insightsoftware-ai/"])
 
-! -- https://central.insightsoftware.com/ (Main page - logged in)
-! Virtual Assistant
-central.insightsoftware.com##iframe#forethought-chat
-
 ! ===============
 ! == Instagram ==
 ! ===============

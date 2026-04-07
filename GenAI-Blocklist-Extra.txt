@@ -45,6 +45,14 @@ www.google.com,www.google.com.hk,www.google.*##.G43f7e > [data-attrid="Autocompl
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
 
+! ======================
+! == Insight Software ==
+! ======================
+! -- https://central.insightsoftware.com/ (Main page - logged in)
+! "Ask Max" Virtual Assistant
+! * Possibly required to submit tickets to a human
+central.insightsoftware.com##iframe#forethought-chat
+
 ! =====================
 ! == Microsoft Teams ==
 ! =====================
