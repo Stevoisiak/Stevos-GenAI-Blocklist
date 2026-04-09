@@ -1,6 +1,6 @@
 # Stevo's GenAI Blocklist
 
-A filter list for [uBlock Origin](https://github.com/gorhill/uBlock) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use or promote Generative AI.
+A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use or promote Generative AI.
 
 Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-microsoft-edge-or-waterfox-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-brave-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-google-chrome-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-safari-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#for-firefox-android)).
 
