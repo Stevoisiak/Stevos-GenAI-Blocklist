@@ -109,25 +109,25 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 These filters were previously part of the main blocklist, but it was split off as a separate list you can toggle on and off.
 
 ## FAQ
-#### Q: Does this prevent AI content from being generated in the background?
+### Why are the filters not working on iOS/Chrome?
+The custom filter functionality in uBlock Origin Lite can be a bit inconsistent. ([Apparently it wasn't designed for large filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4106088427)). Temporarily switching filter mode in uBlock Origin Lite may help, but results may vary.
+
+### Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
+No. The list can be added, but it does not work for some unknown reason.
+
+### Will this work with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
+Yes. If you are using Google Chrome, you will need to enable "Allow User Scripts" in the settings.
+
+### Will this work with [Pi-hole](https://pi-hole.net/)?
+No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
+
+### Will this remove search results from sites that post AI generated content?
+No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
+
+### Does this prevent AI content from being generated in the background?
 Sometimes, but not always.
 
 These filters work by hiding the AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
-
-#### Q: Why are the filters not working on iOS/Chrome?
-The custom filter functionality in uBlock Origin Lite can be a bit inconsistent. ([Apparently it wasn't designed for large filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4106088427)). Temporarily switching filter mode in uBlock Origin Lite may help, but results may vary.
-
-#### Q: Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
-No. The list can be added, but it does not work for some unknown reason.
-
-#### Q: Will this work with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
-Yes. If you are using Google Chrome, you will need to enable "Allow User Scripts" in the settings.
-
-#### Q: Will this work with [Pi-hole](https://pi-hole.net/)?
-No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
-
-#### Q: Will this remove search results from sites that post AI generated content?
-No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
 
 ## Contributing guidelines
 
