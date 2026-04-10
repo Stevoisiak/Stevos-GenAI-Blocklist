@@ -359,36 +359,39 @@ www.dell.com##[data-test-id="virtual-assistant"]
 ! ================
 ! -- https://www.deviantart.com/ (Homepage)
 ! Header > "DreamUp AI Art"
-www.deviantart.com##.Sd_t0H
+! * Also matches several other Dreamup links ("Create with Dreamup" on tag page, sidebar promo, etc)
+! * URL can include tag names, so do a partial match
+www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
+! Dreamup in "Submit" menu
+www.deviantart.com##.reset-button[role="menuitem"]:has([src="https://st.deviantart.net/eclipse/popups/hover-component/2024/dreamup-2x.png"])
 ! AI Art tag
 www.deviantart.com##.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
 ! Left sidebar - DreamUp
 www.deviantart.com##.NtBF_m:has(> .PxZapP[href="https://www.deviantart.com/dreamup"])
 
 ! -- https://www.deviantart.com/tag/puzzle (Tag)
-! "Create Art" > "Create with DreamUp"
-! * URL can sometimes include tag name, so do a partial match
-www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
-! "Create Art" > "Create with Draw" > navbar buttons for Dreamup and Remove Background
+! "Create Art" > "Create a video"
+www.deviantart.com##.reset-button[label="Create a video"]
+
+! -- https://www.deviantart.com/studio/draw?new=1 (Create with Draw)
+!  Navbar buttons for Dreamup and Remove Background
 www.deviantart.com##.SE92mD[aria-label="DreamUp"]
-www.deviantart.com###backgroundIcon
-! "Create Art" > "Create with Draw" > Prompt box
+www.deviantart.com##.SE92mD#backgroundIcon
+! Prompt box
 www.deviantart.com##.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Hide image if "Created using AI tools" notice exists
 www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
-! Bottom promo banner, sometimes has a DreamUp ad
+! Bottom promo banner, sometimes has a DreamUp ad (Possibly removed?)
 ! * TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
-! DreamUp promo in right sidebar
-www.deviantart.com##a.reset-link.Qnm9x2
 ! Dreamup video ad in right sidebar
 www.deviantart.com##.afudd4:has(> [href="https://www.deviantart.com/dreamup"])
 
-! -- https://www.deviantart.com/shop (Shop)
+! -- https://www.deviantart.com/shop/sell (Shop)
 ! "DreamUp and earn big with AI" section
-www.deviantart.com##section.ail3hi
+www.deviantart.com##section.ail3hi:has([href="https://www.deviantart.com/dreamup"])
 
 ! ===============
 ! == Drinkmate ==
