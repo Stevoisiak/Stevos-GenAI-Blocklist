@@ -157,8 +157,6 @@ www.baidu.com##.se-main-tab-item[data-pd="csaitab"]
 ! -- https://www.bing.com/ (Homepage)
 ! "Copilot" tab in header on the left
 www.bing.com###codex
-! "Chat" button to the left of search bar (Possibly removed?)
-www.bing.com##a.cdxConv_slsboxl.cdxConvWithText
 ! "M365" button to the right of search bar
 www.bing.com##.cdxCopilotIconBg
 ! "Image creator" and "Video creator" buttons below search bar
