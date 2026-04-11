@@ -45,7 +45,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Click the green AdGuard icon in Chrome then click the gear icon.
 - Open the Filters tab, go to "Custom", and click the "extension settings" link.
 - Enable "Allow User Scripts".
-- Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
+- Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Under "Add custom filter", hit "Next" then "Add"
 
 Alternatively, you can use these filters with uBlock Origin Lite. However, some filters may not work, and custom filter lists cannot be auto-updated.
