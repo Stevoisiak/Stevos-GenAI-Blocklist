@@ -93,6 +93,13 @@ Alternatively, you can use these filters with uBlock Origin Lite. However, some 
 - Tap the filter box twice and select "_Paste_"
 - Tap the "_Add_" button
 
+### Brave Browser (iOS)
+
+* Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
+* Open Brave and tap *... > Shields and Privacy > Content Filtering > Add Filter by URL...*
+* Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+* Press *Add*.
+
 ### Opera
 
 Unfortunately, this filter list does not currently work in Opera.
