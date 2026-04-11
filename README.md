@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use or promote Generative AI.
 
-Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#brave-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#google-chrome-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#safari-ios), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#brave-browser-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/tree/main?tab=readme-ov-file#firefox-android)).
+Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#google-chrome-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#brave-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#safari-ios), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#brave-browser-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/tree/main?tab=readme-ov-file#firefox-android)).
 
 ## Examples of filtered content
 * Google's AI summaries
@@ -39,11 +39,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Click "_Apply Changes_"
 
-### Brave (Desktop)
-- Open _Settings > Shields > Content filtering_.
-- Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-- Click _Add_.
-
 ### Google Chrome (Desktop)
 
 - Install [AdGuard Adblocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
@@ -63,6 +58,11 @@ Alternatively, you can use these filters with uBlock Origin Lite. However, some 
 - At the bottom, click "_Import/Export_" to open the filter box ([screenshot](https://github.com/user-attachments/assets/fad4141f-1008-44ac-919f-1a5c58f322c2))
 - Right click the filter box and hit "_Paste_"
 - Click the "_Add_" button
+
+### Brave (Desktop)
+- Open _Settings > Shields > Content filtering_.
+- Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+- Click _Add_.
 
 ### Firefox (Android)
 
