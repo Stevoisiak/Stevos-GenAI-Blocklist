@@ -2524,7 +2524,7 @@ www.pornhub.com##.uploadBtnContentSpicevids
 ! == Porn Dude (NSFW) ==
 ! ======================
 ! AI site categories
-theporndude.com##.ai-erotic-story-generators-block-style, .ai-hentai-generator-sites-reviews-block-style, .ai-porn-generator-sites-reviews-block-style, .ai-porn-sites-block-style, .ai-sex-chat-sites-block-style, .ai-trans-porn-sites-reviews-block-style, .arab-ai-porn-sites-reviews-block-style, .asian-ai-porn-sites-reviews-block-style, .ebony-ai-porn-sites-reviews-block-style, .indian-ai-porn-sites-reviews-block-style, .latina-ai-porn-sites-reviews-block-style, .undress-ai-sites-block-style
+theporndude.com##.ai-erotic-story-generators-block-style, .ai-hentai-generator-sites-reviews-block-style, .ai-hentai-sites-reviews-block-style, .ai-porn-generator-sites-reviews-block-style, .ai-porn-sites-block-style, .ai-sex-chat-sites-block-style, .ai-trans-porn-sites-reviews-block-style, .arab-ai-porn-sites-reviews-block-style, .asian-ai-porn-sites-reviews-block-style, .ebony-ai-porn-sites-reviews-block-style, .indian-ai-porn-sites-reviews-block-style, .latina-ai-porn-sites-reviews-block-style, .undress-ai-sites-block-style
 ! Sites with AI categories
 theporndude.com##.category-item:has(> .ai-friendly-icon)
 
