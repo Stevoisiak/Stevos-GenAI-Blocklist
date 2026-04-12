@@ -2485,6 +2485,11 @@ hentaigasm.com###guest-nav:has(> [href="https://s.zlinkp.com/d.php?z=5442922"])
 hentairun.com,imhentai.xxx##[data-tags~="17861"]
 
 ! ======================
+! == Hentaivox (NSFW) ==
+! ======================
+hentaivox.com##.affil-in-content:has([data-value*="AI Porn Video"])
+
+! ======================
 ! == LoLHentai (NSFW) ==
 ! ======================
 ! "AI Sex Chat" in navbar
