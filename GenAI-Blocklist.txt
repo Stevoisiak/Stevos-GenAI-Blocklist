@@ -2384,6 +2384,12 @@ e-hentai.org,exhentai.org##.itg > tbody > tr:has(:is(.gt, gtl)[title="other:ai g
 ! AI Jerk Off
 www.eporner.com##.dropdown > li:has(> [href="/cams2/"])
 
+! ===================
+! == Erofus (NSFW) ==
+! ===================
+! AI Header links
+www.erofus.com##.header-link a:is([href="https://crushon.ai/?mist=1&utm_source=erofus&utm_medium=headerlink&utm_campaign=porn-ai-chat"], [href="https://nsfw.tools/collections/adult-games"], [href="https://www.cmonbae.com/?union_id=MTgz"])
+
 ! ====================
 ! == Fapnado (NSFW) ==
 ! ====================
