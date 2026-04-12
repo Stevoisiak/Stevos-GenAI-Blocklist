@@ -2501,6 +2501,14 @@ luscious.net##.site-banner:has([href*="genre_ids=63"])
 ! "AI Art" category under Manga/Hentai in navbar
 luscious.net##.desktop-module__submenu-item--njaEB:has([href$="/ai-art-63/"])
 
+! ===================
+! == Mult34 (NSFW) ==
+! ===================
+! AI Jerk Off in header nav
+mult34.com##.menu-item:has(> [href="https://dfhidbh.flowflirting.com/c/39a8baadcfd77?subsource=m34&sub2=ai_jerk_off&sub3=menu_link"])
+! AI promo in comic list
+mult34.com##.hentry[data-exclude="1"]:has([alt="Create and Fuck your AI Slut"])
+
 ! ====================
 ! == My Lust (NSFW) ==
 ! ====================
