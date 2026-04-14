@@ -113,9 +113,6 @@ There is an additional optional filterlist [`GenAI-Blocklist-Extra.txt`](https:/
 * Customer support chatbots that are must be used before you can contact human customer support.
 
 ## FAQ
-### Why are the filters not working on iOS?
-The custom filter functionality in uBlock Origin Lite can be a bit inconsistent. ([Apparently it wasn't designed for large filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-4106088427)). Temporarily switching filter mode in uBlock Origin Lite may help, but results may vary.
-
 ### Will this work with [Adblock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
 No. The list can be added, but it does not work for some unknown reason.
 
