@@ -87,12 +87,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 * Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 * Press *Add*.
 
-### Opera
-
-Unfortunately, this filter list does not currently work in Opera.
-
-Importing the filters had no effect when testing with both uBlock Origin and Opera's built in ad blocking. ([May be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
-
 ## Optional extra blocklist
 There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective blocks and may be more prone to accidentally blocking some non-AI content or content that may be required for site functionality. These include:
 * DeviantArt: Images from accounts that have posted AI images.
@@ -102,17 +96,24 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 * Customer support chatbots that are must be used before you can contact human customer support.
 
 ## FAQ
-### Will this work with [AdBlock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
+### Can I use these filters with [AdBlock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
 No. The list can be added, but it does not work for some unknown reason.
 
-### Will this work with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
+### Can I use these filters with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
 Yes. If you are using Google Chrome, you will need to enable "Allow User Scripts" in the settings.
 
-### Will this work with [Pi-hole](https://pi-hole.net/)?
+### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
+
+### Can I use these filters with [Opera](https://www.opera.com/)?
+No. The filter list can be imported, but it had no effect when tested with both the uBlock Origin extension for Opera and Opera's built in ad blocker. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### Will this remove search results from sites that post AI generated content?
 No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
+
+
+
+
 
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin or uBlock Origin Lite?
 uBlock Origin is not available for Google Chrome and iOS. While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
