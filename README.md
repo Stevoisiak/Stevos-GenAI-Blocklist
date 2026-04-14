@@ -41,7 +41,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 
 ### Google Chrome (Desktop)
 
-- Install [AdGuard Adblocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
+- Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
 - Click the green AdGuard icon in Chrome then click the gear icon.
 - Open the Filters tab, go to "Custom", and click the "extension settings" link.
 - Enable "Allow User Scripts".
