@@ -1500,18 +1500,6 @@ portal.azure.com##.ext-gallery-solutionFinder-smallBanner
 portal.azure.com##.___koxvwx0_fue3jg0
 
 ! =====================
-! == Microsoft Cloud ==
-! =====================
-! Use for web office apps, not including sharepoint and M365 Copilot.
-! -- https://excel.cloud.microsoft/
-! "Copilot in Excel" recomended template
-excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
-
-! -- https://word.cloud.microsoft/
-! "Copilot prompts for Word" recomended template
-word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
-
-! =====================
 ! == Microsoft Learn ==
 ! =====================
 ! -- https://learn.microsoft.com/en-us/
@@ -1527,6 +1515,20 @@ learn.microsoft.com##[data-id="ai-summary"]
 ! -- https://learn.microsoft.com/en-us/search/?terms=test (Search results)
 ! AI search summary
 learn.microsoft.com###search-answer
+
+! ==============================
+! == Microsoft Office (Cloud) ==
+! ==============================
+! Use for web office apps, not including sharepoint and M365 Copilot.
+! -- https://excel.cloud.microsoft/
+! "Copilot in Excel" recomended template
+excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
+
+! -- https://word.cloud.microsoft/
+! Prompt box
+word.cloud.microsoft##.___h6kil70[aria-label="copilot"]
+! "Copilot prompts for Word" recomended template
+word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
 
 ! ==============================
 ! == Microsoft Power Automate ==
