@@ -78,20 +78,18 @@ Alternatively, you can use these filters with uBlock Origin Lite. However, some 
 
 ### Safari (iOS)
 
-*Note: uBlock Origin Lite has several limitations compared to uBlock Origin. Some filters may not work, and custom filter lists cannot be auto-updated.*
-
-- Install [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698)
-- Open [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt)
-- Press the action menu button (⋯) and select "_Copy_" 
-- From your homescreen, open _Settings > Apps > Safari > Extensions > uBlock Origin Lite_
-- Enable "_Allow Extension_" ([screenshot](https://github.com/user-attachments/assets/942b6e12-f6ca-4eb3-8557-44c75590c7d6))
+- Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
+- From your homescreen, Open *Settings > Apps > Safari > Extensions*
+- Tap *AdGuard — Custom* and enable *Allow Extension*
   - (Optional) Enable "_Allow in Private Browsing_"
-- Under "_Permissions_", click "_All Websites_" and select "_Allow_"
-- Press the back arrow in the top left, then select "_Settings_"
-- Open the "_Custom filters_" tab
-- Scroll to the bottom and tap "_Import/Export_"
-- Tap the filter box twice and select "_Paste_"
-- Tap the "_Add_" button
+  - (Optional) Allow other AdGuard filters
+- Open the *AdGuard* app and go through initial setup
+- Tap the shield icon to open the Protection screen
+- Tap *Safari Protection > Filters > Custom* (Tap the text itself, not the on-off icon)
+- Tap *Add a filter*
+- Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+- Tap *Next > Add*.
+- Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave Browser (iOS)
 
