@@ -2059,6 +2059,11 @@ www.washingtonpost.com###radix-\:rn\:-trigger-ask-the-post-ai
 ! Comment summary
 www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
 
+! -- https://www.washingtonpost.com/search/?query=What+is+2%2B2%3F
+! AI Answer + disclaimer
+www.washingtonpost.com##.wpds-c-fixGjY-ihtVbxi-css
+www.washingtonpost.com###ask-the-post-ai-results-disclaimer
+
 ! ===========
 ! == WebMD ==
 ! ===========
