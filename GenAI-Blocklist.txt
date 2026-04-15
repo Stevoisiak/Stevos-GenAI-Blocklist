@@ -700,9 +700,13 @@ github.dev##.codicon-preferences-ai-results
 ! * Only filter if Copilot chat hasn't been setup yet. Otherwise, users may need button to toggle off AI features.
 github.dev###chat\.statusBarEntry[aria-label="Finish Setup"]
 ! Toggle Chat button in header next to search bar
-github.dev##.agent-status-badge-section
+github.dev##.agent-status-badge-section .action-container
 ! * Loading placeholder
 github.dev##.command-center .codicon-chat-sparkle
+! * All chat menu options other than "Learn how to hide AI Features"
+! * TODO: Fix keyboard menu navigation. (:remove doesn't work)
+! * TODO: Menu arrow is slightly off-center
+github.dev##.monaco-menu .actions-container:has([aria-label="Learn How to Hide AI Features"]) > .action-item:not(:has([aria-label="Learn How to Hide AI Features"]))
 
 ! =================
 ! == GitHub Docs ==
