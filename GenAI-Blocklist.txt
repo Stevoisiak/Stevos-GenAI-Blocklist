@@ -2047,6 +2047,18 @@ vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f
 vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
 vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 
+! =====================
+! == Washington Post ==
+! =====================
+! "Ask the Post AI" in navbar
+www.washingtonpost.com##[data-qa="product-nav-links-ul"] [href="https://www.washingtonpost.com/ask-the-post-ai/?itid=hp_top_nav_ask the post ai"]
+! * Mobile version
+www.washingtonpost.com###radix-\:rn\:-trigger-ask-the-post-ai
+
+! -- https://www.washingtonpost.com/opinions/2026/04/15/will-connecticut-crackdown-self-checkout-lanes/
+! Comment summary
+www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
+
 ! ===========
 ! == WebMD ==
 ! ===========
