@@ -1245,6 +1245,17 @@ www.healio.com##.ai-link
 ! Answers posted by AI
 hinative.com##.answer_parts_block:has(> .ai_answer)
 
+! ===========================
+! == How-To Geek/The Gamer ==
+! ===========================
+! -- https://www.thegamer.com/gaming-site-videogamer-removed-google/
+! AI summary button in left sidebar
+www.thegamer.com,www.howtogeek.com##.qa-action-list.sensa-features
+! AI Sparkle in left sidebar
+www.thegamer.com,www.howtogeek.com##.i-sensa
+! AI summary button in header on small page sizes
+www.thegamer.com,www.howtogeek.com##.action-bar-ai-feature
+
 ! =============
 ! == ImgFlip ==
 ! =============
@@ -1957,17 +1968,6 @@ webmail.strato.de##[aria-label="KI-Chat"]
 webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
-
-! ===============
-! == The Gamer ==
-! ===============
-! -- https://www.thegamer.com/gaming-site-videogamer-removed-google/
-! AI summary button in left sidebar
-www.thegamer.com##.qa-action-list.sensa-features
-! AI Sparkle in left sidebar
-www.thegamer.com##.i-sensa
-! AI summary button in header on small page sizes
-www.thegamer.com##.action-bar-ai-feature
 
 ! ====================
 ! == The Home Depot ==
