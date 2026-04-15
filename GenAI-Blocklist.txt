@@ -2059,6 +2059,10 @@ developer.vonage.com###kapa-widget-container
 ! Also works as #kapa-widget-root
 developer.vonage.com##.ai-icon-group
 
+! -- https://developer.vonage.com/en/blog/python-environment-variables-a-primer
+! "Copy for LLM" button
+developer.vonage.com##[data-testid="copy-llm-btn"]
+
 ! =====================
 ! == Washington Post ==
 ! =====================
