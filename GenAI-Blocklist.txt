@@ -2048,6 +2048,12 @@ trip.com##.StartModule_planAI__S_98b
 ! "Ask AI Concierge" sticky button in bottom right
 turbotax.intuit.com###aic-entry
 
+! ======================
+! == UnitedHealthCare ==
+! ======================
+! "Ask Avery" button in header
+member.uhc.com##[data-test-id="global-nav-ask-ai"]
+
 ! =========
 ! == UPS ==
 ! =========
