@@ -308,6 +308,10 @@ www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .MCgm0w.Z3nT2A.LQzFZw.V
 ! Sidebar, Elements > Generate
 www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .UfYDHQ > .YVd8lA > .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw)
 
+! -- https://www.canva.com/design?create&type=TAGcbLa0hys&category=tAEW8R8e5hc (Website builder)
+! Sidebar, Text > Magic Write
+www.canva.com##[role="tabpanel"] .BMOCzQ.EC2pjw.LuBWVA > .sGm5Vw.ID9zAA > .nJVq1A > .jv_R6g > .MCgm0w.Z3nT2A.LQzFZw.VgvqkQ._4_iekA._3oHQrw
+
 ! Sidebar,  Apps > "AI generation" category filter
 www.canva.com##[role="tabpanel"] [role="tablist"] div:has(> [id$="_-tab-ai-generation"])
 ! Sidebar, Apps > "AI generation" section
