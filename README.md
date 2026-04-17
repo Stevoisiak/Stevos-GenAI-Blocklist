@@ -93,7 +93,7 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 * Reddit: Posts from AI-focused subreddits.
 * X: Posts made by @Grok.
 * AI category section on news sites (Just the category, not posts covering AI).
-* Customer support chatbots that are must be used before you can contact human customer support.
+* Customer support chatbots that must be used before you can contact human customer support.
 
 ## FAQ
 ### Can I use these filters with [AdBlock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
