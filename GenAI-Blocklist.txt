@@ -123,6 +123,13 @@ www.android.com###remix-any-photo-right-in-your-messages:upward(1)
 www.android.com###create-your-own-unique-android-bot
 www.android.com###ai-on-android
 
+! ==============
+! == Backbone ==
+! ==============
+! -- https://help.backbone.com/hc/en-us/articles/18306138828311-Which-cases-are-compatible-with-the-Backbone-One-2nd-Gen
+! Floating "Ask a question" button
+help.backbone.com##iframe[src="https://decagon.ai/demo/backbone"]
+
 ! ===========
 ! == Baidu ==
 ! ===========
