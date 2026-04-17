@@ -117,9 +117,9 @@ uBlock Origin is not available for Google Chrome and iOS. While uBlock Origin Li
 Due to these limitations, AdGuard is recommended over uBlock Origin Lite.
 
 ### Does this prevent AI content from being generated in the background?
-Sometimes, but not always.
+Sometimes, but usually not.
 
-These filters work by hiding the AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
+These filters hide AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
 
 ### How many websites have filters for AI features?
 Over 200.
