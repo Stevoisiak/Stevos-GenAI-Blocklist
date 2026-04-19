@@ -2060,7 +2060,7 @@ time.com###scale-agent-overlay-container
 ! =============
 ! -- https://www.todoist.com/
 ! Ramble promo banner
-www.todoist.com##._bannerContainer_1mmc3_39:has(#ramble-banner)
+www.todoist.com##message-banner[data-banner-name="ramble-1vv4lt6"]
 
 ! -- https://app.todoist.com/app/upcoming
 ! Ramble button
