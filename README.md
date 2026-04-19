@@ -27,13 +27,13 @@ After:
 
 ## Installation
 ### Firefox, Microsoft Edge, or Waterfox (Desktop)
-- Install [uBlock Origin](https://ublockorigin.com/).
+- Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
 - Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Press "_Subscribe_" to import the filter list.
 
 If the above instructions didn't work, (possibly due to multiple adblockers being installed), you can try importing manually:
 
-- Install [uBlock Origin](https://ublockorigin.com/).
+- Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
 - Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
 - Select the "_Filter lists_" tab
 - Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
