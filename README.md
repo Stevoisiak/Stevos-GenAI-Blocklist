@@ -7,7 +7,7 @@ Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklis
 ## Examples of filtered content
 * Google's AI summaries
 * YouTube's Ask button, AI summaries, & "Inspiration" tab
-* Copilot buttons on GitHub, Microsoft 365, and Azure Portal
+* Copilot buttons on GitHub, Microsoft 365, Bing, Azure Portal
 * X/Twitter's Grok buttons
 * Amazon Rufus's product and review summaries
 * DeviantArt's DreamUp ads
