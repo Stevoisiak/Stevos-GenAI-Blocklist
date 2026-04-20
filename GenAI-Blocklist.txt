@@ -2510,7 +2510,7 @@ booru.org,hypnohub.net,rule34.paheal.net,rule34.xxx,rule34hentai.net,safebooru.o
 rule34.us##.thumbail-container > div:has(img:is([title^="ai,"], [title*=", ai,"], [title*="ai animation,"], [title*="ai art,"], [title*="ai assisted,"], [title*="ai-created,"], [title*="ai generated,"], [title*="ai generated video,"], [title*="ai generated video,"], [title*="ai video,"], [title*="ai voice acted,"]))
 
 ! - Galleries with "AI Generated" in title
-nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
+hentai.name,nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
 
 ! "AI Jerk off" Banner
 gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
