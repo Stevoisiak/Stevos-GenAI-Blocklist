@@ -96,22 +96,19 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 * Customer support chatbots that must be used before you can contact human customer support.
 
 ## FAQ
-### Can I use these filters with [AdBlock](https://getadblock.com/en/) or [Adblock Plus](https://adblockplus.org/)?
-No. The list can be added, but it does not work for some unknown reason.
-
-### Can I use these filters with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)?
-Yes. If you are using Google Chrome, you will need to enable "Allow User Scripts" in the settings.
+### Which adblockers will this filter list work with?
+These filters have been tested with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), and [Brave's](https://brave.com) integrated adblocker.
 
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
 
 ### Can I use these filters with [Opera](https://www.opera.com/)?
-No. The filter list can be imported, but it had no effect when tested with both the uBlock Origin extension for Opera and Opera's built in ad blocker. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
+No. Opera's built in adblocker doesn't allow importing filter lists from a custom URL, and the filters have no effect when imported into uBlock Origin's extension for Opera. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### Will this remove search results from sites that post AI generated content?
 No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
 
-### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin or uBlock Origin Lite?
+### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin?
 uBlock Origin is not available for Google Chrome and iOS. While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
 Due to these limitations, AdGuard is recommended over uBlock Origin Lite.

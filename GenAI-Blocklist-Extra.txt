@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: Stevo's GenAI Blocklist (Extra)
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Stevoisiak/Stevos-GenAI-Blocklist
