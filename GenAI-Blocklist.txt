@@ -1698,6 +1698,12 @@ developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,
 ! * Doesn't seem to be present on mintlify.com, but kept in list just in case
 developers.hubspot.com,developers.notion.com,docs.cdp.coinbase.com,docs.kits.ai,docs.lovable.dev,docs.perplexity.ai,www.mintlify.com##.chat-assistant-floating-input
 
+! =============
+! == Mixscan ==
+! =============
+! "Chat with" prompt box
+www.mixscan.me##div.fixed:has(h2.font-pixel)
+
 ! ============
 ! == Mojeek ==
 ! ============
