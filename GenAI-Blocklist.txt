@@ -2446,6 +2446,7 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ! =======================
 ! == Ad Servers (NSFW) ==
 ! =======================
+||a.magsrv.com
 ||ads.juicyads.me
 ||campfirecroutondecorator.com^
 ||cdn.pornhaven.ai^
