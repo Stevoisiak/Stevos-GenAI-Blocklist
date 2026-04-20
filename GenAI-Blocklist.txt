@@ -2446,16 +2446,21 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ! =======================
 ! == Ad Servers (NSFW) ==
 ! =======================
-||a.magsrv.com
-||ads.juicyads.me
+||a.happyleafmotion.com^
+||a.magsrv.com^
+||acquiredeceasedundress.com^
+||ads.juicyads.me^
 ||campfirecroutondecorator.com^
 ||cdn.pornhaven.ai^
 ||cdn.havenclick.com^
 ||cdn.storagexhd.com
 ||cdn.twinrdengine.com^
+||guidepaparazzisurface.com^
+||gukahdbam.com^
 ||hh-yin.pages.dev^
-||n2j9y0x0.bxcdn.net
+||n2j9y0x0.bxcdn.net^
 ||playhubconnect.com^
+||static-worker.ourdream.ai^
 
 ! =========================
 ! == AllPornComic (NSFW) ==
