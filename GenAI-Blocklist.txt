@@ -2491,6 +2491,11 @@ babestube.com##.item:has(> [href="https://z0000g.yvmads.com/api/direct/298767"])
 beeg.com##.sidebar__content__wrapper [type="button"]:has([fill-rule="evenodd"][d="M6 0C8.20917 0 10 1.79102 10 4V15.5C10 15.7764 9.77612 16 9.5 16C9.22388 16 9 15.7764 9 15.5V9H3V15.5C3 15.7764 2.77612 16 2.5 16C2.22388 16 2 15.7764 2 15.5V4C2 1.79102 3.79083 0 6 0ZM9 4C9 2.34326 7.65686 1 6 1C4.34314 1 3 2.34326 3 4V8H9V4Z"])
 ! AI GFs in header (resized to small page)
 beeg.com##.tw-flex.tw--mr-2 > [type="button"]:has([fill-rule="evenodd"][d="M6 0C8.20917 0 10 1.79102 10 4V15.5C10 15.7764 9.77612 16 9.5 16C9.22388 16 9 15.7764 9 15.5V9H3V15.5C3 15.7764 2.77612 16 2.5 16C2.22388 16 2 15.7764 2 15.5V4C2 1.79102 3.79083 0 6 0ZM9 4C9 2.34326 7.65686 1 6 1C4.34314 1 3 2.34326 3 4V8H9V4Z"])
+! Auto-complete search suggestions
+beeg.com##.x-search__content [href^="/AIGenerated"]
+beeg.com##.x-search__content [href="/AIGirl"]
+beeg.com##.x-search__content [href="/AIGuy"]
+beeg.com##.x-search__content [href="/GenerativeAI"]
 
 ! ===================
 ! == Boorus (NSFW) ==
