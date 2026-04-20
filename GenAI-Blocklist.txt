@@ -2446,6 +2446,7 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ! =======================
 ! == Ad Servers (NSFW) ==
 ! =======================
+||ads.juicyads.me
 ||campfirecroutondecorator.com^
 ||cdn.pornhaven.ai^
 ||cdn.havenclick.com^
@@ -2581,6 +2582,17 @@ hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics
 ! "AI Jerk Off" and "AI Cum Slut" in navbar
 hqporner.com###nav li:has([href="https://a.adtng.com/get/10016658"])
 hqporner.com###nav li:has([href="https://s.zlink7.com/v1/d.php?z=5235600"])
+
+! =========================
+! == Hentai Force (NSFW) ==
+! =========================
+! Undress AI
+hentaiforce.net##.hf-btn-special-wrapper:has(> [href="https://rr.rndomnm.com/690336accecc7071a1ff0961"])
+
+! =======================
+! == Hentai Fox (NSFW) ==
+! =======================
+hentaifox.com##.thumb[data-tags~="3298"]
 
 ! =========================
 ! == Hentai Haven (NSFW) ==
@@ -2790,6 +2802,12 @@ chan.sankakucomplex.com##.companion-carousel
 chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [data-auto_page~="ai-created"], [data-auto_page~="ai-upscaled"], [data-auto_page~="ai-voiced"])
 ! Sankaku subscription promo mentioning AI
 chan.sankakucomplex.com##.premium-carousel:has-text(" AI ")
+
+! =====================
+! == Scrolller (NSFW) ==
+! =====================
+! AI Jerk Off
+scrolller.com##.index-module__fNZuDa__container[href="https://trk.scrolller.com/b5fb9e68-dccb-4e9c-a514-9b514cfdaf7f"]
 
 ! ====================
 ! == SexyPix (NSFW) ==
