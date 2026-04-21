@@ -80,7 +80,7 @@ docs.google.com###content-library-rail-convert-to-video-element
 ! -- https://central.insightsoftware.com/ (Main page - logged in)
 ! "Ask Max" Virtual Assistant
 ! * Possibly required to submit tickets to a human
-central.insightsoftware.com##iframe#forethought-chat
+central.insightsoftware.com###forethought-chat
 
 ! =====================
 ! == Microsoft Teams ==
