@@ -2460,6 +2460,11 @@ www.zoom.com##.fdn-alert-banner--homepage-v2[href^="https://www.zoom.com/en/prod
 www.zoom.com##.hero__content:style(padding-top: 60px !important)
 
 ! -----------------------------------------------------------
+! ====================
+! == 69games (NSFW) ==
+! ====================
+! Navbar, AI Porn
+69games.xxx##li:has(> [href="/fuckyou/670"])
 
 ! ==================
 ! == 9vids (NSFW) ==
@@ -2473,6 +2478,7 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ! =======================
 ! == Ad Servers (NSFW) ==
 ! =======================
+||1000fapvids.com^
 ||a.happyleafmotion.com^
 ||a.magsrv.com^
 ||acquiredeceasedundress.com^
@@ -2482,11 +2488,14 @@ www.zoom.com##.hero__content:style(padding-top: 60px !important)
 ||cdn.havenclick.com^
 ||cdn.storagexhd.com
 ||cdn.twinrdengine.com^
+||core.dreamserve.dev^
 ||guidepaparazzisurface.com^
 ||gukahdbam.com^
 ||hh-yin.pages.dev^
 ||n2j9y0x0.bxcdn.net^
 ||playhubconnect.com^
+||porn4fap.com^
+||robbyporn.com^
 ||static-worker.ourdream.ai^
 
 ! =========================
@@ -2576,6 +2585,12 @@ www.eporner.com##.dropdown > li:has(> [href="/cams2/"])
 ! AI Header links
 www.erofus.com##.header-link a:is([href="https://crushon.ai/?mist=1&utm_source=erofus&utm_medium=headerlink&utm_campaign=porn-ai-chat"], [href="https://nsfw.tools/collections/adult-games"], [href="https://www.cmonbae.com/?union_id=MTgz"])
 
+! ===================
+! == Fapcat (NSFW) ==
+! ===================
+! AI Jerk Off
+www.fapcat.com##.nav-item:has(> [href="https://tsyndicate.com/api/v1/direct/3920e8e5f4914f70bca66b06829ede67"])
+
 ! ====================
 ! == Fapnado (NSFW) ==
 ! ====================
@@ -2595,6 +2610,12 @@ www.fetishpapa.com##.navmenu > li:has(> [title^="AI JERK OFF"])
 freeuseporn.com##.categories [href="https://a.logivanta42.com/2adfb4f8-4cfc-428e-84d3-c1149fc2126f?creative=ai_cum_sluts&spot=txt_button&adg=0"]
 ! "Free AI Sex" friend site
 freeuseporn.com##.friends [href="https://www.nsfwlover.com/"]
+
+! ====================
+! == GamCore (NSFW) ==
+! ====================
+! AI Jerk Off
+gamcore.com##li:has(> [href="/fuckyou/713"])
 
 ! ===========================
 ! == HD Porn Comics (NSFW) ==
@@ -2637,6 +2658,16 @@ hentaihaven.xxx###menu-item-96519
 ! AI Ads in sidebar
 hentaihaven.xxx##.widget_block:has(.novaads)
 hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text("AI Hentai"))
+
+! ========================
+! == Hentai Moon (NSFW) ==
+! ========================
+! Header navbar
+hentai-moon.com##.network li:has(> [href^="https://crushon.ai/"])
+hentai-moon.com##.network li:has(> [alt="AI Hentai"])
+hentai-moon.com##.network li:has(> [alt="Undress AI"])
+! Ad
+hentai-moon.com##.item:has(> [title*="your AI Slut"])
 
 ! =========================
 ! == Hentai Smile (NSFW) ==
@@ -2699,6 +2730,14 @@ hentairun.com,imhentai.xxx##[data-tags~="17861"]
 ! ======================
 hentaivox.com##.affil-in-content:has([data-value*="AI Porn Video"])
 
+! =====================
+! == Lacomics (NSFW) ==
+! =====================
+! AI Porn category
+lacomics.net##.cat-item-10302
+! Comic with AI category
+lacomics.net##.post.category-ai-porn
+
 ! ======================
 ! == LoLHentai (NSFW) ==
 ! ======================
@@ -2713,6 +2752,8 @@ www.lolhentai.net##.sponsor
 ! == Luscious (NSFW) ==
 ! =====================
 ! -- https://www.luscious.net/
+! Navbar AI Chat
+luscious.net##[class^="desktop-module__menu-item--"]:has(> [href^="https://www.gptgirlfriend.online/"])
 ! "AI Art" in navbar category menus
 luscious.net##[class^="desktop-module__submenu-item--"]:has(> [href$="&genre_ids=63&display=date_trending&page=1"])
 ! "Check out our new AI Art Library" banner
@@ -2735,6 +2776,15 @@ manhwaread.com##.menu-item:has(> [href="https://juicyads.in/tab.php?id=2101971"]
 mult34.com##.menu-item:has(> [href="https://dfhidbh.flowflirting.com/c/39a8baadcfd77?subsource=m34&sub2=ai_jerk_off&sub3=menu_link"])
 ! AI promo in comic list
 mult34.com##.hentry[data-exclude="1"]:has([alt="Create and Fuck your AI Slut"])
+
+! =====================
+! == Multporn (NSFW) ==
+! =====================
+! Categories bar
+! * AI Porn
+multporn.net###menu-22120-1
+! * Pictures > AI Images
+multporn.net###menu-22549-1
 
 ! ====================
 ! == My Lust (NSFW) ==
@@ -2874,6 +2924,12 @@ sxyprn.com##.live_search > .lsel_b:has(.hash_link[label="generated"i])
 sxyprn.com##.live_search > .lsel_b:has(.hash_link[label="aiporn"i])
 sxyprn.com##.live_search > .lsel_b:has-text(/(#ai|ai generated|ai-generated|aigenerated| ai )/i)
 
+! ===================
+! == Slushe (NSFW) ==
+! ===================
+! AI Ad
+slushe.com##.ads_container:has(> [href^="https://candyai.gg"])
+
 ! ======================
 ! == SpankBang (NSFW) ==
 ! ======================
@@ -2895,6 +2951,21 @@ stripchat.com##.CVSearchSuggestions\#O1
 ! "Click to run Magic Search" search bar autocomplete suggestion
 stripchat.com##.CVSearchSpotlightItem\#_Z
 
+! ======================
+! == SVSComics (NSFW) ==
+! ======================
+! -- https://svscomics.com/ai-porn-comics
+! Suggested category
+svscomics.com##.mainlinks > [href="/ai-porn-comics"]
+! Comics with AI Category
+svscomics.com##.post:has(img[alt*=" ai porn"i])
+! * Quotes in titles don't seem to be escaped correctly, so check this way too
+svscomics.com##.post:has(img[ai])
+
+! -- https://svscomics.com/categories.html
+! AI Category
+svscomics.com##.about:has(> [href="/ai-porn-comics"])
+
 ! ==================================
 ! == The Best Fetish Sites (NSFW) ==
 ! ==================================
@@ -2910,6 +2981,33 @@ thebestfetishsites.com##.homecatwrapper:has(> .homecategorytitle > [href="https:
 thepornlist.net##.blok2:has([href="https://www.thepornlist.net/ai-porn-sites/"]):has(.blok2contentxl)
 thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"])
 thepornlist.net##.blok2title:has([href="https://www.thepornlist.net/ai-sex-chat-sites/"]) + .blok2contentmed
+
+! =========================
+! == ThePornLinks (NSFW) ==
+! =========================
+! AI Jerk off navbar tab
+thepornlinks.com##.menu-item:has(> [href="https://tpornlinks.com/menu-dating"])
+! Scrolling categories
+! * Doesn't work for non-english languages
+thepornlinks.com##.catboxbox:has(> [href="https://thepornlinks.com/ai-porn-sites/"])
+thepornlinks.com##.catboxbox:has(> [href="https://thepornlinks.com/ai-sex-chat-sites/"])
+thepornlinks.com##.catboxbox:has(> [href="https://thepornlinks.com/nsfw-ai-generators/"])
+! AI site category
+thepornlinks.com##.CategoryGrid-item:has(.cat-icon-ai)
+
+! ===================================
+! == Top Cartoon Porn Sites (NSFW) ==
+! ===================================
+! Navbar
+topcartoonpornsites.com##.menu-item:has(> [href="https://topcartoonpornsites.com/ai-porn-sites/"])
+! Featured site
+topcartoonpornsites.com##.featured-block:has([src$="/pornify-ai.jpg"])
+topcartoonpornsites.com##.featured-block:has([src$="/kink.jpg"])
+topcartoonpornsites.com##.featured-block:has([src$="/couple-me.jpg"])
+! Top list
+topcartoonpornsites.com##[data-url="https://topcartoonpornsites.com/ai-porn-sites/"]
+! Ad for gptgirlfriend in footer
+topcartoonpornsites.com##img[src$="/gptgirlfriend.jpg"]
 
 ! ==================
 ! == Tube8 (NSFW) ==
@@ -3007,6 +3105,20 @@ www.xnxx.com###content > #content-thumbs > #tags > li:has(> a[href^="/search/ai-
 www.xvideos.com##.dyntop-cat:has(> [href="/c/AI-239"])
 ! Video with AI keyword
 www.xvideos.com##.thumb-block:has(.title > a:not([title*="kizuna ai" i]):matches-attr(title="/\bai\b/i"))
+
+! =======================
+! == XYZ Comics (NSFW) ==
+! =======================
+! AI Porn category
+xyzcomics.com##.sub_column:has([href="https://xyzcomics.com/category/ai-porn/"])
+
+! -- https://xyzcomics.com/category/ai-porn/
+! Comics with AI category
+xyzcomics.com##.post.category-ai-porn
+
+! -- https://xyzcomics.com/all-horny-categoriess/
+! AI Porn category
+xyzcomics.com##.ucg-card[href="https://xyzcomics.com/category/ai-porn/"]
 
 ! =======================
 ! == YesPornVip (NSFW) ==
