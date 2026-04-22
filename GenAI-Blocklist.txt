@@ -1880,8 +1880,6 @@ replug.io##.mantine-1fndqk8
 ! ===================
 ! == ScienceDirect ==
 ! ===================
-! "LeapSpace" floating promo
-www.sciencedirect.com###pendo-base
 ! -- https://www.sciencedirect.com/
 ! LeapSpace carousel item.
 ! * Checks for exactly 2 slides to avoid filtering if the layout changes in the future
