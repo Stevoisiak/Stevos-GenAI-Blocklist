@@ -2924,8 +2924,8 @@ tube8.com,tube8.es,tube8.fr##.paidTab:has([data-label2="Ai Girls"])
 ! Also includes other in-network sites
 
 ! -- https://www.tubegalore.com/
-! "AI chat" in header nav
-4tube.com,analgalore.com,asiangalore.com,assoass.com,bbwpornvideos.com,bigcockxxx.com,biporn.com,cartoonpornvideos.com,coqnu.com,dinotube.com,ebonygalore.com,el-ladies.com,forhertube.com,fucd.com,fullpornvideos.com,fuq.com,fux.com,fuqpremium.com,gaymaletube.com,gotporn.com,hentaigalore.com,homemadegalore.com,ixxx.com,javideos.com,latingalore.com,lesbianpornvideos.com,lobstertube.com,lupoporno.com,maturetube.com,melonstube.com,metaporn.com,modelgalore.com,newporno.com,pornhd.com,pornmd.com,porntv.com,porzo.com,qorno.com,sambaporno.com,shortporn.com,stocking-tease.com,tgtube.com,tiava.com,toroporno.com,tubebdsm.com,tubegalore.com,tubeporn.com,tubepornstars.com,vrxxx.com,xxxmilfs.com##.dropdown:has([rel="sponsored"][href^="https://www.ourdreamersai.com/"])
+! More > "AI chat" in header nav
+4tube.com,analgalore.com,asiangalore.com,assoass.com,bbwpornvideos.com,bigcockxxx.com,biporn.com,cartoonpornvideos.com,coqnu.com,dinotube.com,ebonygalore.com,el-ladies.com,forhertube.com,fucd.com,fullpornvideos.com,fuq.com,fux.com,fuqpremium.com,gaymaletube.com,gotporn.com,hentaigalore.com,homemadegalore.com,ixxx.com,javideos.com,latingalore.com,lesbianpornvideos.com,lobstertube.com,lupoporno.com,maturetube.com,melonstube.com,metaporn.com,modelgalore.com,newporno.com,pornhd.com,pornmd.com,porntv.com,porzo.com,qorno.com,sambaporno.com,shortporn.com,stocking-tease.com,tgtube.com,tiava.com,toroporno.com,tubebdsm.com,tubegalore.com,tubeporn.com,tubepornstars.com,vrxxx.com,xxxmilfs.com##.dropdown .group\/subnav:has([rel="sponsored"][href^="https://www.ourdreamersai.com/"])
 ! "AI Generated" in "Most Popular Categories"
 ! * Use partial match (*=) to account for alternate-language URLs and other AI categories
 ! * Category URLs either use '/c/ai-generated' or '/category/ai-generated"
