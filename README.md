@@ -12,7 +12,7 @@ Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklis
 * Amazon Rufus's product and review summaries
 * DeviantArt's DreamUp ads
 * Facebook's AI chat
-* Reddit Answers
+* Reddit Answers & recommended posts from AI subreddits 
 * Booru images tagged as AI generated
 
 ## Image comparison
@@ -90,7 +90,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 ## Optional extra blocklist
 There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective blocks and may be more prone to accidentally blocking some non-AI content or content that may be required for site functionality. These include:
 * DeviantArt: Images from accounts that have posted AI images.
-* Reddit: Posts from AI-focused subreddits.
+* Reddit: Content from AI-focused subreddits. (Main filter only hides post recommendations)
 * X: Posts made by @Grok.
 * AI category section on news sites (Just the category, not posts covering AI).
 * Customer support chatbots that must be used before you can contact human customer support.
