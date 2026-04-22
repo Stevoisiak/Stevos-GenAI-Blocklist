@@ -1882,6 +1882,9 @@ replug.io##.mantine-1fndqk8
 ! ===================
 ! "LeapSpace" floating promo
 www.sciencedirect.com###pendo-base
+! -- https://www.sciencedirect.com/science/article/pii/S0014579309010850
+! "Reading assistant" box
+www.sciencedirect.com###reading-assistant-container
 
 ! ===========
 ! == Scoot ==
