@@ -1320,6 +1320,13 @@ www.healio.com##.ai-link
 ! Answers posted by AI
 hinative.com##.answer_parts_block:has(> .ai_answer)
 
+! ================
+! == Home Depot ==
+! ================
+! -- https://www.homedepot.com/
+! "Magic Apron Assist" floating button
+www.homedepot.com###magic-apron-loader
+
 ! ===========================
 ! == How-To Geek/The Gamer ==
 ! ===========================
@@ -2064,13 +2071,6 @@ webmail.strato.de##[aria-label="KI-Chat"]
 webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
-
-! ====================
-! == The Home Depot ==
-! ====================
-! -- https://www.homedepot.com/
-! "Magic Apron Assist" floating button
-www.homedepot.com###magic-apron-loader
 
 ! ===================
 ! == The New Stack ==
