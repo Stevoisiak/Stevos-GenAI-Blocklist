@@ -1882,6 +1882,12 @@ replug.io##.mantine-1fndqk8
 ! ===================
 ! "LeapSpace" floating promo
 www.sciencedirect.com###pendo-base
+! -- https://www.sciencedirect.com/
+! LeapSpace carousel item.
+! * Checks for exactly 2 slides to avoid filtering if the layout changes in the future
+www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner)
+www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner) + #tabpanel-1:style(display: block !important;)
+www.sciencedirect.com###bannerCarouselContent .carousel-indicators:has(:last-child:nth-child(2)) > li:nth-child(1):has(>[aria-label="LeapSpace slide"])
 ! -- https://www.sciencedirect.com/science/article/pii/S0014579309010850
 ! "Reading assistant" box
 www.sciencedirect.com###reading-assistant-container
