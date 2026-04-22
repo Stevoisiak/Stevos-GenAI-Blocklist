@@ -2384,7 +2384,7 @@ www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:h
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
 
-! -- https://www.youtube.com/watch?v=Hlh_wxrPpkI (Video page)
+! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! "Ask Questions" in description
 youtube.com##yt-video-description-youchat-section-view-model
 ! AI Summary in description
@@ -2398,9 +2398,9 @@ m.youtube.com##.ytSpecButtonViewModelHost:has(> [aria-label="طرح سؤال"], 
 www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
 ! Fullscreen "Ask" button
 www.youtube.com##.ytp-fullscreen-quick-actions button[aria-label="Ask"]
-
-! AI dubbed audio languages (example: https://www.youtube.com/watch?v=e9Kwl1tdL8M)
+! AI auto-dubbed audio languages
 ! * Settings > Audio Track
+! * Auto-dubbed languages can still play as default, this just removes AI options from selection menu
 www.youtube.com##.ytp-menuitem-section-header
 www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 
