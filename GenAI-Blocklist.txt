@@ -1363,6 +1363,9 @@ imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
 insightsoftware.com##.dropdown-item[href="https://insightsoftware.com/insightsoftware-ai/"]
 ! Lineos AI in footer
 insightsoftware.com##.menu-item-object-custom:has(> [href="https://insightsoftware.com/insightsoftware-ai/"])
+! -- https://insightsoftware.com/blog/why-write-back-is-no-longer-optional-the-future-of-business-intelligence-analytics/
+! Summarize with AI
+insightsoftware.com##.ai-summarize-section
 
 ! ===============
 ! == Instagram ==
