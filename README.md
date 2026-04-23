@@ -19,11 +19,11 @@ Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklis
 
 Before:
 
-<img width="794" height="457" alt="image" src="https://github.com/user-attachments/assets/65f65ca9-7022-4455-99f2-4d1a44051a1d" />
+<img width="776" height="433" alt="google.com with AI buttons" src="https://github.com/user-attachments/assets/13ff160a-8666-4a23-9b95-01adb0bb9ff4" />
 
 After:
 
-<img width="791" height="456" alt="image" src="https://github.com/user-attachments/assets/0698522f-54ed-4653-9fcc-ca847406ba3e" />
+<img width="776" height="433" alt="google.com without AI buttons" src="https://github.com/user-attachments/assets/204bbc90-0a04-4fa7-94b7-b8e523c331be" />
 
 ## Installation
 ### Firefox, Microsoft Edge, or Waterfox (Desktop)
