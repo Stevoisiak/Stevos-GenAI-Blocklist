@@ -193,6 +193,19 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! -- Posts by Grok
 x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
 
+! =============
+! == YouTube ==
+! =============
+! Replace auto-dubbed videos with original audio
+! * Auto-dubbed audio may play briefly before the video page refreshes with original audio.
+!   The audio tracks option in the video settings may not be present after the refresh.
+!   This was put in the extra list because, unlike manually changing off of auto-dub, overriding
+!   with the filter does not change the default audio setting when clicking on other videos.
+youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
+youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+youtube.com##+js(rpnt, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================
