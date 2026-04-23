@@ -196,6 +196,7 @@ x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcp
 ! =============
 ! == YouTube ==
 ! =============
+-- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! Replace auto-dubbed videos with original audio
 ! * Auto-dubbed audio may play briefly before the video page refreshes with original audio.
 !   The audio tracks option in the video settings may not be present after the refresh.
