@@ -1141,21 +1141,19 @@ www.google.com,www.google.com.hk,www.google.*##.pHiOh[href="https://ai.google/so
 ! Search bar - AI button (magnifying glass icon, mobile only)
 www.google.com,www.google.com.hk,www.google.*##.xOchs
 
-! -- https://www.google.com/search?q=test
+! -- https://www.google.com/search?q=Why+are+we+here
 ! "AI Mode" tab in navbar
 www.google.com,www.google.com.hk,www.google.*##.olrp5b
 ! Main AI Overview
 www.google.com,www.google.com.hk,www.google.*##[data-attnms]
-! Web Guide
-! * Only applies if Web Guide is enabled in Google Labs
-www.google.com,www.google.com.hk,www.google.*##.oGdvd
-
-! -- https://www.google.com/search?q=Why+are+we+here
 ! Blank space for AI Overview at top of search results
 www.google.com,www.google.com.hk,www.google.*##.Kevs9.SLPe5b:has([data-attnms])
 www.google.com,www.google.com.hk,www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:empty
 ! "People also ask" options with AI overviews
 www.google.com,www.google.com.hk,www.google.*##[jsname="YrZdPb"]:not(:has(.Sbgr0))
+! Web Guide
+! * Only applies if Web Guide is enabled in Google Labs
+www.google.com,www.google.com.hk,www.google.*##.oGdvd
 
 ! -- https://www.google.com/search?q=Mario
 ! Expandable "Things to know" that have AI overviews
