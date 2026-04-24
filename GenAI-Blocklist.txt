@@ -2567,6 +2567,12 @@ gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"
 nhentai.net##.desktop > [href="//tsyndicate.com/api/v1/direct/e220320bd2e542b8a2ab7cd2c5a9df8c?"]
 rule34video.com##.button_fav.ai
 
+! ========================
+! == CartoonPorn (NSFW) ==
+! ========================
+! AI GF in navbar
+www.cartoonporn.com##.item:has(> [href="https://z0000g.yvmads.com/api/direct/298767"])
+
 ! =====================
 ! == E-Hentai (NSFW) ==
 ! =====================
@@ -2673,6 +2679,12 @@ hentai-moon.com##.network li:has(> [alt="AI Hentai"])
 hentai-moon.com##.network li:has(> [alt="Undress AI"])
 ! Ad
 hentai-moon.com##.item:has(> [title*="your AI Slut"])
+
+! =======================
+! == Hentai Pro (NSFW) ==
+! =======================
+! AI Porn in navbar
+hentai.pro##.nav__item[href="https://aipenly.com/"]
 
 ! =========================
 ! == Hentai Smile (NSFW) ==
