@@ -98,6 +98,8 @@ www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###sac-autocomplete-results-container [role="row"]:has(> .s-suggestion-nile-desktop-container)
 
 ! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
+! Rufus button that appears when highlighting text
+www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###rufus-ask-rufus-tooltip
 ! "Ask Rufus" suggestions below product image
 www.amazon.ae,www.amazon.ca,www.amazon.cn,www.amazon.co.jp,www.amazon.co.uk,www.amazon.co.za,www.amazon.com,www.amazon.com.au,www.amazon.com.be,www.amazon.com.br,www.amazon.com.mx,www.amazon.com.tr,www.amazon.de,www.amazon.eg,www.amazon.es,www.amazon.fr,www.amazon.ie,www.amazon.in,www.amazon.it,www.amazon.nl,www.amazon.pl,www.amazon.sa,www.amazon.se,www.amazon.sg###nile-inline_feature_div
 ! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
