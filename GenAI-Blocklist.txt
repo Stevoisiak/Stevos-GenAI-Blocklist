@@ -2463,6 +2463,28 @@ www.zoom.com##.fdn-alert-banner--homepage-v2[href^="https://www.zoom.com/en/prod
 www.zoom.com##.hero__content:style(padding-top: 60px !important)
 
 ! -----------------------------------------------------------
+! =======================
+! == 3DPornDude (NSFW) ==
+! =======================
+! Header
+3dporndude.com##.header-inner > [href="https://a.aicandy.link/eb905be0-c17b-4d97-8394-d7d38d80c9ae?via=3dporn"]
+3dporndude.com##.header-inner > [href="https://aiundress.cc/?utm_source=dpd"]
+! Navbar
+3dporndude.com##.nav-link[href="https://tsyndicate.com/api/v1/direct/3bb49fc775dc462b9ccc042348eb48d6?"]
+3dporndude.com##.nav-link[href="https://musebox.ai/?ref=a_3d"]
+3dporndude.com##.nav-link[href="https://affect3dstore.com"]
+! Tags (ads)
+3dporndude.com###list_tags_top_tags .swiper-slide:has(> [href="https://a.aicandy.link/eb905be0-c17b-4d97-8394-d7d38d80c9ae?via=3dporn"])
+3dporndude.com###list_tags_top_tags .swiper-slide:has(> [href="https://www.cmonbae.com/?union_id=NDY%3D"])
+
+! ===================
+! == 4kPorn (NSFW) ==
+! ===================
+! Header
+4kporn.xxx##li:has(> [href="https://craft.social/?utm_source=toplink&utm_campaign=4k"])
+! Navbar
+4kporn.xxx##li:has(> .ads > [href="https://s.zlink0.com/v1/d.php?z=4110518"])
+
 ! ====================
 ! == 69games (NSFW) ==
 ! ====================
@@ -2519,6 +2541,16 @@ allporncomic.com##.genres__collapse .col-6.col-sm-4.col-md-2:has(> [href="https:
 ! AI GF promo banner
 animeidhentai.com###promo-topbar
 
+! ===================
+! == AnySex (NSFW) ==
+! ===================
+! Sidebar > AI Sex Pics
+anysex.com##li:has(> [href="https://anysex.com/photos/categories/ai/"])
+
+! -- https://anysex.com/videos/
+! AI sex chat
+anysex.com##li:has(> [href^="https://rtb-6.anysex.com/bid?spot_id[]=171"])
+
 ! =========================
 ! == aShemaleTube (NSFW) ==
 ! =========================
@@ -2571,6 +2603,12 @@ rule34video.com##.button_fav.ai
 ! AI GF in navbar
 www.cartoonporn.com##.item:has(> [href="https://z0000g.yvmads.com/api/direct/298767"])
 
+! ====================
+! == DrTuber (NSFW) ==
+! ====================
+! AI Girlfriend
+www.drtuber.com##.header_premium_bar[href^="https://go.xliiirdr.com/ls"]
+
 ! =====================
 ! == E-Hentai (NSFW) ==
 ! =====================
@@ -2593,6 +2631,13 @@ www.eporner.com##.dropdown > li:has(> [href="/cams2/"])
 ! ===================
 ! AI Header links
 www.erofus.com##.header-link a:is([href="https://crushon.ai/?mist=1&utm_source=erofus&utm_medium=headerlink&utm_campaign=porn-ai-chat"], [href="https://nsfw.tools/collections/adult-games"], [href="https://www.cmonbae.com/?union_id=MTgz"])
+
+! ==================
+! == EroMe (NSFW) ==
+! ==================
+! Navbar
+www.erome.com##.sp:has(> [href="https://www.erome.com/o/menu-3"])
+www.erome.com##.sp:has(> [href="https://www.erome.com/o/menu-4"])
 
 ! ===================
 ! == Fapcat (NSFW) ==
@@ -2640,6 +2685,13 @@ hdporncomics.com##.type-post:is(.tag-ai-art, .tag-ai-generated)
 ! Tags
 hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics.com/tag/ai-art/"])
 hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics.com/artist/ai-generated/"])
+
+! =====================
+! == HDPorn92 (NSFW) ==
+! =====================
+! Navbar
+hdporn92.com###menu-item-200272
+hdporn92.com###menu-item-202508
 
 ! =====================
 ! == HQporner (NSFW) ==
@@ -2839,6 +2891,12 @@ www.porn.com##.nav-main__item:has(> [href="https://www.tckcandy.com/cmp/7XJHR8/2
 ! "AI Jerkoff" in navbar
 www.porndig.com##.main_menu_item:has(.icon-ic_16_ai_stars)
 
+! =====================
+! == PornHits (NSFW) ==
+! =====================
+! AI Jerk Off
+www.pornhits.com##.sites__item--hl[href^="https://rtr2perf5.com/37f77684-ae10-45df-9af0-40b738f664dc"]
+
 ! ====================
 ! == Pornhub (NSFW) ==
 ! ====================
@@ -2858,6 +2916,12 @@ pornone.com##.inline-block.vrazka:has-text("AI Porn")
 theporndude.com##.category-container:is([class^="ai-"], [class*=" ai-"], [class*="-ai-"])
 ! Sites with AI categories
 theporndude.com##.category-item:has(> .ai-friendly-icon)
+
+! ========================
+! == Reddit Tube (NSFW) ==
+! ========================
+! Navbar
+www.reddvideo.tube##.nav-item:has(> [href="https://www.gptgirlfriend.online/"])
 
 ! ====================
 ! == RedGIFs (NSFW) ==
@@ -3076,6 +3140,38 @@ txxx.com##[href="https://facemix.app/?utm_medium=txxx&utm_campaign=tubecorp"]
 ! AI Porn in navbar
 uncensoredhentai.xxx###menu-item-20697
 
+! ===================
+! == VePorn (NSFW) ==
+! ===================
+! Navbar
+veporn.com##.menu-item:has(> [href="https://aipenly.com/"])
+veporn.com##.menu-item:has(> [href="https://undress.xxx/"])
+
+! =================
+! == VXXX (NSFW) ==
+! =================
+! Header, Undress AI
+vxxx.com##.nav-item[href="https://nudeai.fun/?referrer=vxxx"]
+! Header, blue AI Porn button
+vxxx.com##.ai
+
+! ======================
+! == WatchPorn (NSFW) ==
+! ======================
+! Header
+watchporn.to##.header__top-txt:has(> [href="https://www.ourdreamersai.com/78G5886/3QQG7/?uid=11&source_id=wptop"])
+! Header sites
+watchporn.to##.header__top-list-item[href="https://www.seduced.com/tour?ref=66e6f99640a4057eb1f207b2&src=wptop"]
+! Top bar
+watchporn.to##.header__bottom-item[href="https://rr.rndomnm.com/69d38776efcaca3709a4e6b7"]
+watchporn.to##.header__bottom-item[href="https://s.happyleafmotion.com/v1/d.php?z=3974"]
+
+! ======================
+! == WhoresHub (NSFW) ==
+! ======================
+! Categories > AI
+www.whoreshub.com##.thumb:has([href="https://www.whoreshub.com/categories/ai/"])
+
 ! =======================
 ! == XAnimu.com (NSFW) ==
 ! =======================
@@ -3101,6 +3197,14 @@ xgroovy.com##[href^="https://rtb-6.xgroovy.com/bid?spot_id[]=162"]
 ! * Use two classes to cover tags by letter & tag search. 
 ! * Separate urls for standalong "AI" category and "AI <something>" tags
 xhamster.com##:is(.letter-block, .search-result-block) > .items > .item > [data-role="tag-link"]:is([href="https://xhamster.com/categories/ai"], [href^="https://xhamster.com/tags/ai-"])
+
+! =======================
+! == XMegaDrive (NSFW) ==
+! =======================
+! Header ad
+www.xmegadrive.com###premium-swipey-bar:has(> [href="https://s.happyleafmotion.com/v1/d.php?z=3908"])
+! Navbar
+www.xmegadrive.com##li:has(> [href="https://s.happyleafmotion.com/v1/d.php?z=2588"])
 
 ! ==========================
 ! == XMoviesForYou (NSFW) ==
