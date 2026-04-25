@@ -623,6 +623,13 @@ fandom.com##section.trfc161
 ! AI chatbot
 www.g2.com###g2-ai-chat-application
 
+! ===============
+! == Gigasheet ==
+! ===============
+! -- https://www.gigasheet.com/sample-data/clean-web-adblock-filters
+! Sheet Assistant
+app.gigasheet.com##.ag-side-button:has(#sheetAssistant)
+
 ! ===========================
 ! == GitBook Documentation ==
 ! ===========================
