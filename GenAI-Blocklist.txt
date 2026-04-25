@@ -2434,6 +2434,10 @@ studio.youtube.com##ytcp-creator-chat-trigger
 !   by asking to "Talk with a human", so the rule is commented out below.
 ! studio.youtube.com##.ytcpSamChatHost
 
+! -- Dashboard tab
+! "Catch me up on this video"
+studio.youtube.com##ytcp-creator-chat-entrypoint-button
+
 ! -- Content tab
 ! Inspiration tab
 studio.youtube.com###inspiration-tab
