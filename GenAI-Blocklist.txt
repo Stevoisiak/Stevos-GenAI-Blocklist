@@ -2845,6 +2845,12 @@ www.porndig.com##.main_menu_item:has(.icon-ic_16_ai_stars)
 ! AI Cum Slut button
 www.pornhub.com##.uploadBtnContentSpicevids
 
+! ====================
+! == PornOne (NSFW) ==
+! ====================
+! Navbar
+pornone.com##.inline-block.vrazka:has-text("AI Porn")
+
 ! ======================
 ! == Porn Dude (NSFW) ==
 ! ======================
