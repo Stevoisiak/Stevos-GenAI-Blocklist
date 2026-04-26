@@ -1780,6 +1780,19 @@ www.newegg.com##.ek-sales-content
 ! Floating AI chat button
 www.nutraingredients.com##.ask-ia-widget
 
+! ============
+! == NxCode ==
+! ============
+! -- https://www.nxcode.io/resources/news/claude-sonnet-4-6-vs-gpt-5-4-coding-comparison-2026
+! "Before you go..." modal
+www.nxcode.io##[role="dialog"][aria-label="Before you go..."]
+! In-article promos for NxCode
+www.nxcode.io##.mb-8.flex:has(> [href^="https://studio.nxcode.io"])
+www.nxcode.io###inline-article-cta
+www.nxcode.io##.fixed.right-8:has(> [aria-label="Start Free"])
+www.nxcode.io##.mt-16.pt-8.border-t.border-gray-200:has([aria-label="Start Free"])
+www.nxcode.io##.mt-16.pt-8.border-t.border-gray-200:has([placeholder="Describe your app idea..."])
+
 ! ===========
 ! == OP.GG ==
 ! ===========
