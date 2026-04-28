@@ -124,6 +124,13 @@ These filters hide AI elements. In some cases this may stop the generation. For 
 ### How many websites have filters for AI features?
 Over 200.
 
+### Why do some filters show an error "*Invalid filter: Filter requires trusted source*"?
+A small number of filters, (5 at the time of writing), use features that require trusted origin filters. Trusted filters are disabled by default in uBlock Origin for security reasons as they allow directly executing code on webpages.
+
+This list uses trust permission to replace elements such as "Search or ask a question" text or sparkly "AI" search icons. It's also used in a by a filter in [the Extra list](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt) that disables YouTube auto-dubbing.
+
+To be clear, ***you do not need to mark this list as trusted to use these AI filters***. However, if you do want to mark the list as coming from a trusted source, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes). 
+
 ## Contributing guidelines
 
 If you want to [report an issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues) or submit a pull request for an item that isn't being blocked, please include the URL where the unblocked item appears and a screenshot of the page showing the unblocked item.
