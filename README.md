@@ -125,11 +125,11 @@ These filters hide AI elements. In some cases this may stop the generation. For 
 Over 200.
 
 ### Why do some filters show an error "*Invalid filter: Filter requires trusted source*"?
-A small number of filters, (5 at the time of writing), use features that require trusted origin filters. Trusted filters are disabled by default in uBlock Origin for security reasons as they allow directly executing code on webpages.
+A small number of filters, (5 at the time of writing), use features that require trusted origin filters. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
 
-This list uses trust permission to replace elements such as "Search or ask a question" text or sparkly "AI" search icons. It's also used in a by a filter in [the Extra list](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt) that disables YouTube auto-dubbing.
+This list uses trust permission to change "Search or ask a question" text into "Search" on GitHub Docs, remove the "[AI sparkle](https://design.google/library/ai-sparkle-icon-research-pozos-schmidt)" from Gmail's search icon, and disable YouTube auto-dubbing in the [the Extra list](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt).
 
-To be clear, ***you do not need to mark this list as trusted to use these AI filters***. However, if you do want to mark the list as coming from a trusted source, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes). 
+To be clear, ***you do not need to mark this list as trusted to use a majority of these AI filters***. However, if you do want to enable the filters requiring trust, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
 
 ## Contributing guidelines
 
