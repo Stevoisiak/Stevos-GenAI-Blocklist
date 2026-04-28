@@ -1099,8 +1099,14 @@ labs.google.com##.SzpS3d:has([href="/search/experiment/34"]):has([aria-checked="
 ! == Google Maps ==
 ! =================
 ! -- https://www.google.com/maps/
-! Ask Maps button in sidebar
-google.com##[jsaction="navigationrail.askMaps"]
+! Modal window for Ask Maps. May only appear once per user.
+www.google.com##[role="dialog"][aria-label="Ask anything about anywhere"]
+! "Ask Maps" button at top by location categories
+www.google.com##.KNfEk.Rqu0ae.aUjao:has(.F5iire)
+! "Ask Maps" button in expandable sidebar
+www.google.com##.AJqepd:has([jsaction="settings.askGemini"])
+! "Ask Maps" button in fixed sidebar
+www.google.com##[jsaction="navigationrail.askMaps"]
 
 ! =================
 ! == Google Meet ==
