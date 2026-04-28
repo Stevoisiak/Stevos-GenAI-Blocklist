@@ -946,6 +946,8 @@ blog.google##uni-search-ai-summary
 ! -- https://blog.google/products-and-platforms/products/search/search-live-global-expansion/
 ! "Read AI-generated summary"
 blog.google##[data-component="uni-ai-generated-summary"]
+! "Listen to article"
+blog.google##.audio-player-tts__container:has(.audio-player-tts__disclaimer--icon)
 
 ! =================
 ! == Google Chat ==
