@@ -2420,6 +2420,15 @@ yep.com##.css-1k0ztkl-button
 www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:has(.ytChipShapeStartIconPadding)
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
+! Ask YouTube (Test for premium users, https://www.youtube.com/new)
+! * Ask YouTube button in search bar
+www.youtube.com##.ytSearchboxComponentInputBox > [client-ve-type]
+! * Focus search bar, Ask YouTube button
+www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButton[client-ve-type]
+! * Focus search bar, Ask YouTube search suggestions
+www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
+! * Remove "or ask a question" from search bar placeholder
+www.youtube.com##+js(trusted-set-attr, .ytSearchboxComponentInput[placeholder="Search or ask a question"], placeholder, Search)
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! "Ask Questions" in description
@@ -2448,6 +2457,8 @@ www.youtube.com##yt-live-chat-banner-manager:has(yt-live-chat-banner-chat-summar
 ! -- Search results
 ! Video summary infocard (https://www.youtube.com/results?search_query=New+Frame+Plus+The+best+game+animation+of+2020)
 www.youtube.com##ytd-expandable-metadata-renderer[has-video-summary]
+! "Ask YouTube" in video types at top of search results (Test for premium users, https://www.youtube.com/new)
+www.youtube.com##[chip-style="STYLE_AI_MODE_CHIP"]
 
 ! ====================
 ! == YouTube Studio ==
