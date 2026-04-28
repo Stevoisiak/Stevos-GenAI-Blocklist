@@ -1151,6 +1151,9 @@ www.google.com,www.google.com.hk,www.google.*##.xOchs
 ! -- https://www.google.com/search?q=Why+are+we+here
 ! "AI Mode" tab in navbar
 www.google.com,www.google.com.hk,www.google.*##[role="listitem"]:has(.olrp5b)
+! * Fix conflict with laylavish's AI blocklist.
+!   Without this, a small blank space can get added to the top of search results.
+www.google.com#@#div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
 ! Main AI Overview
 www.google.com,www.google.com.hk,www.google.*##[data-attnms]
 ! Blank space for AI Overview at top of search results
