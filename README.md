@@ -129,7 +129,7 @@ A small number of filters, (5 at the time of writing), use features that require
 
 This list uses trust permission to change "Search or ask a question" text into "Search" on GitHub Docs, remove the "[AI sparkle](https://design.google/library/ai-sparkle-icon-research-pozos-schmidt)" from Gmail's search icon, and disable YouTube auto-dubbing in the [the Extra list](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt).
 
-To be clear, ***you do not need to mark this list as trusted to use a majority of these AI filters***. However, if you do want to enable the filters requiring trust, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
+To be clear, ***you do not need to mark this list as trusted to use a majority of these AI filters***. However, if you do want to enable the filters requiring trust, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes). Alternatively, if you use AdGuard there will be a "trusted" checkbox you can enable when importing the filter list.
 
 ## Contributing guidelines
 
