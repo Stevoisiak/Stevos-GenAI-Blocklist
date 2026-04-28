@@ -2089,6 +2089,13 @@ beta.stackoverflow.com##.wmx7.w100.mb24
 ! "AI Assist" button in left sidebar
 beta.stackoverflow.com##.s-navigation > li:has(> [href="/ai-assist"])
 
+! ===============
+! == Startpage ==
+! ===============
+! Expandable sidebar, Products, "Vanish: Private AI"
+! * TODO: Leaves blank space. Need to change spacing on prior element in list. (Different between desktop and mobile sites)
+www.startpage.com##.products-section > [href^="https://vanish.startpage.com/"]
+
 ! ============
 ! == Stripe ==
 ! ============
