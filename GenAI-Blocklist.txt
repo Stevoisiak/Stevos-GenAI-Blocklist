@@ -938,6 +938,8 @@ blog.google##.uni-main-menu__item:has(.uni-main-menu__submenu-item[aria-labelled
 blog.google##section:has(> [aria-label="Gemini 3.1 Pro"])
 ! Section on "AI Impact Summit 2026"
 blog.google##section[data-analytics-module*="\"section_header\": \"AI Impact Summit 2026\""]
+! Remove sparkle from search icon
+blog.google##+js(trusted-set-attr, [icon-id="uni-search-spark"], icon-id, mi-search)
 
 ! -- https://blog.google/search/?query=Why+am+I+here
 ! AI summary in search
