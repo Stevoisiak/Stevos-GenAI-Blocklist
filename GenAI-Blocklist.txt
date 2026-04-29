@@ -2924,6 +2924,12 @@ mylust.com##.item:has(> [data-id="307"])
 ! AI generated galleries
 nhentai.xxx##.gallery_item[data-tags~="718"]
 
+! ======================
+! == NudeVista (NSFW) ==
+! ======================
+! Videos tagged AI
+www.nudevista.com##[itemprop="subjectOf"]:has([href="/?t=ai&s=t"])
+
 ! ====================
 ! == OHentai (NSFW) ==
 ! ====================
@@ -3087,12 +3093,12 @@ spankbang.com##.ad_button:has-text("AI Porn is here")
 ! * Not sure if Magic Search counts as generative AI
 ! -- https://stripchat.com/
 ! "Magic Search" button in search bar
-stripchat.com##.CVSearchButton\#Yi
+cliphunter.com,stripchat.com##.CVSearchButton\#Yi
 ! "Magic Search" Search bar suggestions
-stripchat.com##.CVSearchIntro\#EO
-stripchat.com##.CVSearchSuggestions\#O1
+cliphunter.com,stripchat.com##.CVSearchIntro\#EO
+cliphunter.com,stripchat.com##.CVSearchSuggestions\#O1
 ! "Click to run Magic Search" search bar autocomplete suggestion
-stripchat.com##.CVSearchSpotlightItem\#_Z
+cliphunter.com,stripchat.com##.CVSearchSpotlightItem\#_Z
 
 ! ======================
 ! == SVSComics (NSFW) ==
@@ -3205,6 +3211,12 @@ uncensoredhentai.xxx###menu-item-20697
 veporn.com##.menu-item:has(> [href="https://aipenly.com/"])
 veporn.com##.menu-item:has(> [href="https://undress.xxx/"])
 
+! =========================
+! == VideoSection (NSFW) ==
+! =========================
+! Videos tagged AI
+videosection.com##.video-item:has(.video-item__info-list > :is([href$="%20ai"], [href*="/ai%20"], [href$="/ai"])):not(:has([href*="kizuna"]))
+
 ! =================
 ! == VXXX (NSFW) ==
 ! =================
@@ -3212,6 +3224,12 @@ veporn.com##.menu-item:has(> [href="https://undress.xxx/"])
 vxxx.com##.nav-item[href="https://nudeai.fun/?referrer=vxxx"]
 ! Header, blue AI Porn button
 vxxx.com##.ai
+
+! ======================
+! == Wank Tank (NSFW) ==
+! ======================
+! Videos tagged AI
+wanktank.co##.thumb:has(> a:not([title*="kizuna ai" i]):matches-attr(title="/\bai\b/i"))
 
 ! ======================
 ! == WatchPorn (NSFW) ==
