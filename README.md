@@ -99,17 +99,17 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 ### Which adblockers will this filter list work with?
 These filters have been tested with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), and [Brave's](https://brave.com) integrated adblocker.
 
-### Why are AI buttons still showing up on Google?
-If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads). 
+### Will this remove sites that post AI generated content from search results?
+No. If you want to block AI sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
+
+### Why are AI Overviews still showing up on Google?
+If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
 
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
 
 ### Can I use these filters with [Opera](https://www.opera.com/)?
-No. Opera's built in adblocker doesn't allow importing filter lists from a custom URL, and the filters have no effect when imported into uBlock Origin's extension for Opera. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
-
-### Will this remove search results from sites that post AI generated content?
-No. If you want to block sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
+No. Opera's built in adblocker doesn't allow importing custom filter lists via URL, and the filters have no effect when imported into uBlock Origin's extension for Opera. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### Why is AdGuard recommended for Google Chrome and iOS instead of uBlock Origin?
 uBlock Origin is not available for Google Chrome and iOS.
