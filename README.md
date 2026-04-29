@@ -128,11 +128,16 @@ Over 200.
 A small number of filters, (6 at the time of writing), use features that require trusted origin filters. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
 
 This list requires trust to:
-* Remove automatic audio dubbing on YouTube videos if they were directly loaded from a URL.
 * Replace "Search or ask a question" text on GitHub Docs and YouTube.
 * Remove the "[AI sparkle](https://design.google/library/ai-sparkle-icon-research-pozos-schmidt)" from search icons on Gmail and Google's blog.
+* Remove automatic audio dubbing on YouTube videos if they were directly loaded from a URL. (in Extra filters, [see below FAQ entry](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/edit/main/README.md#why-do-youtube-videos-still-sometimes-play-ai-dubbed-audio-tracks)).
 
 To be clear, ***you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you want to use the filters listed above, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes). Alternatively, if you use AdGuard there will be a "trusted" checkbox you can enable when importing the filter list.
+
+### Why do YouTube videos still sometimes play AI dubbed audio tracks?
+The YouTube AI automatic dubbing filter does not work when opening a YouTube video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
+
+The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/edit/main/README.md#why-do-some-filters-show-an-error-invalid-filter-filter-requires-trusted-source)), and causes a visible page refresh whenever a video is loaded directly via URL. 
 
 ## Contributing guidelines
 
