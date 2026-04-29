@@ -193,6 +193,15 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! -- Posts by Grok
 x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
 
+! =============
+! == YouTube ==
+! =============
+! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
+! Trusted filter to disable auto-dubbed audio when video is loaded directly from URL.
+! * Causes a visible page reload when any video is loaded from a URL. Auto-dubbed audio will breifly play before refresh. 
+! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
+youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================

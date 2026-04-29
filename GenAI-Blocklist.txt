@@ -2458,15 +2458,12 @@ www.youtube.com##.ytp-fullscreen-quick-actions button[aria-label="Ask"]
 
 ! Auto-dubbed audio languages
 ! * Switch to non-dubbed audio language automatically. Removes audio-track submenu from settings if
-!   only one non-AI audio option exists. Does not work when loading videos directly from a URL. 
+!   only one non-AI audio option exists. Does not work when loading videos directly from a URL.
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
 youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 youtube.com##+js(json-edit-fetch-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
-! * Trusted filter to switch language if video loaded directly from URL.
-!   Auto-dubbed audio will breifly play before the page is refreshed with original audio.
-youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
-! * Backup to remove auto-dubbed audio options from settings menu when video loaded from URL and trusted filters are disabled.
+! * Backup to remove auto-dub menu options from settings menu when video loaded from URL and trusted filters are disabled.
 !   This will not prevent the auto-dubbed audio from playing as the default selection 
 www.youtube.com##.ytp-menuitem-section-header
 www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
