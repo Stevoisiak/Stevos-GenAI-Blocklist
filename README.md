@@ -6,7 +6,7 @@ Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklis
 
 ## Examples of filtered content
 * Google's AI Overviews
-* YouTube's [automatic dubbing](https://support.google.com/youtube/answer/15569972), Ask button, and video summaries
+* YouTube's Ask button, video summaries, and Inspiration tab
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
 * X/Twitter's Grok buttons
 * Amazon Rufus's product and review summaries
