@@ -1004,6 +1004,9 @@ docs.google.com##.apps-menuitem:has([aria-label="Audio buttons f5"],[aria-label=
 docs.google.com##.apps-menuitem:has([aria-label="Audio f6"], [aria-label="Audio New f6"])
 ! "Tools" > "Gemini" in menubar
 docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
+! "Write with Gemini" footer popup
+docs.google.com##.WithHideTransition.kixWizBarkickWrapper
+docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingContainer
 
 ! ==================
 ! == Google Drive ==
