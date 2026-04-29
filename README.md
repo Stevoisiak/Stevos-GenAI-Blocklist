@@ -106,7 +106,7 @@ No. If you want to block AI sites from search engines, try [laylavish's Huge AI 
 No. Pi-hole and uBlock Origin work differently. uBlock Origin allows filtering individual elements on pages, while Pi-hole blocks entire domains.
 
 ### Can I use these filters with [Opera](https://www.opera.com/)?
-No. Opera's built in adblocker doesn't allow importing custom filter lists via URL, and the filters have no effect when imported into uBlock Origin's extension for Opera. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
+No. Opera's built-in adblocker doesn't allow importing custom filter lists via URL, and the filters have no effect when imported into uBlock Origin's extension for Opera. ([This may be an issue with Opera](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64))
 
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "[Show acceptable ads](https://help.adblockplus.org/adblock-plus-help-center/what-are-acceptable-ads)" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
