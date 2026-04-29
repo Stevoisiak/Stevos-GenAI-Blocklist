@@ -5,14 +5,14 @@ A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-o
 Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#google-chrome-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#brave-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#safari-ios), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#brave-browser-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/tree/main?tab=readme-ov-file#firefox-android)).
 
 ## Examples of filtered content
-* Google's AI summaries
-* YouTube's Ask button, AI summaries, & "Inspiration" tab
+* Google's AI Overviews
+* YouTube's [automatic dubbing](https://support.google.com/youtube/answer/15569972), Ask button, and video summaries
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
 * X/Twitter's Grok buttons
 * Amazon Rufus's product and review summaries
 * DeviantArt's DreamUp ads
 * Facebook's AI chat
-* Reddit Answers & recommended posts from AI subreddits 
+* Reddit Answers and recommended posts from AI subreddits 
 * Booru images tagged as AI generated
 
 ## Image comparison
