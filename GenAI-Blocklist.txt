@@ -656,16 +656,17 @@ github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionList
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 ! Changelog posts containing ai terms in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has-text(/(Claude|Copilot|Gemini|GPT-)/)
-
 ! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
 ! * Requires enabling "New Dashboard Experience" in "Feature Preview"
 github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
-
 ! Copilot menu option
 ! * Requires enabling "Command Palette" in "Feature Preview"
 ! * Use :remove() to fix arrow key navigation.
 github.com##command-palette-item[data-item-title="Copilot"]
 github.com##command-palette-item[data-item-title="Copilot"]:remove()
+! Feature Preview > Organization Custom Instructions
+! * Only applies if feature is already disabled
+github.com##[id$="-tab-copilot_chat_custom_instructions"]:has(.octicon-eye-closed)
 
 ! -- https://github.com/settings/copilot/features (Copilot features in account settings)
 ! Promo banner for GitHub Copilot (Doesn't appear for all users)
