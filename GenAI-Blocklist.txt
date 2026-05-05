@@ -2100,13 +2100,6 @@ stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###nav-askstack
 
-! -- https://beta.stackoverflow.com/ (Beta homepage)
-! "AI Assist" text prompt
-beta.stackoverflow.com##.d-flex.g8.mb12
-beta.stackoverflow.com##.w100.bg-white.mb24
-! "AI Assist" button in left sidebar
-beta.stackoverflow.com##.s-navigation > li:has(> [href="/ai-assist"])
-
 ! ===============
 ! == Startpage ==
 ! ===============
