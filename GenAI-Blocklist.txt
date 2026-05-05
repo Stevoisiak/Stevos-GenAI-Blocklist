@@ -1300,6 +1300,8 @@ docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbar
 docs.google.com###docs-banner-container:has-text("Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more")
 ! Popup promo for video generation in top right
 docs.google.com###video-generation-promo
+! Header promo for AI upsell
+docs.google.com##.javascriptMaterialdesignGm3WizBannerBannerContent[aria-label="Upgrade to unlock higher video generation limits and premium AI capabilities."]
 
 ! ======================
 ! == Google Workspace ==
