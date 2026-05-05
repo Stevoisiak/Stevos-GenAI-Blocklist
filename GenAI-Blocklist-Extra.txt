@@ -71,6 +71,11 @@ design.google##[data-testid="search-bar"]:has(> [name="ai"])
 ! Search autocomplete suggestion that uses AI mode
 ! * Use remove() to prevent selection by keyboard shortcut. The item still takes up a slot with keyboards selection, but it cannot be selected. (IE: Need to hit arrow twice to get past it.)
 www.google.com,www.google.com.hk,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
+! Promo text - Link to AI on Teacher Appreciation Day 2026
+! * "Discover ways to celebrate your teachers"
+! * Filter has not been tested on other layouts. Unclear if non-ai links get filtered, hence why this is in extra file.
+! ** When changing language to spanish, there was no promo text. Unclear if it's present on other languages and if filter could cause grammar issues.
+www.google.com,www.google.*##promo-middle-slot > .hob1Ic > a.m5Qfy[jsaction="UEmoBd"][role="link"][rel="nofollow"]
 
 ! ===================
 ! == Google Slides ==
