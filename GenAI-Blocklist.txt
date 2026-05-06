@@ -90,8 +90,10 @@ alphacoders.com##.item:has(.thumb-tag-masonry:is([href="https://alphacoders.com/
 ! * Use wildcard domain for country-specific sites
 
 ! -- https://www.amazon.com/ (homepage)
-! "Rufus" button in top navbar
+! "Rufus" button in navbar
 www.amazon.*###nav-rufus-disco
+! Health AI in navbar
+www.amazon.*##.nav-li:has([data-csa-c-content-id="nav_cs_health_ai"])
 ! AI questions in autocomplete search suggestions
 www.amazon.*###sac-autocomplete-results-container [role="row"]:has(> .s-suggestion-nile-desktop-container)
 
