@@ -1216,8 +1216,6 @@ www.google.com,www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 ! ===================
 ! * These filters may only apply to accounts with a Google AI AI Plus/Pro/Ultra subscription
 ! -- https://docs.google.com/spreadsheets/create
-! "Ask gemini to analyze spreadsheet data" popup promo that can appear when loading a document
-docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog:has-text("Gemini")
 ! "Gemini" menu in menubar
 ! * TODO: Still selectable with keyboard using arrow key navigation
 docs.google.com###docs-gemini-menu
