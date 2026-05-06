@@ -1562,6 +1562,8 @@ www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href="https://www.microso
 www.microsoft.com,cloud.microsoft##.c-list > li:has(> [href$="/education/ai-in-education"])
 
 ! -- https://www.microsoft.com/en-us
+! Copilot in header nav
+www.microsoft.com##.uhf-nav-link[href="https://copilot.microsoft.com/"]
 ! Promotional banner for Copilot at top of page
 www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> .c-uhfh-alert > div > .c-paragraph > img[alt="Copilot logo"])
 ! Carousel that contains an AI promo.
