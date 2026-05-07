@@ -1551,6 +1551,13 @@ www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-i
 ! Ask Mailchimp Assistant
 mailchimp.com##.genAIAssistChatbotModule
 
+! =================
+! == Mathrubhumi ==
+! =================
+! -- https://english.mathrubhumi.com/news/india/suvendu-adhikari-aide-murder-bike-recovered-west-bengal-u8r914aj
+! Article summary
+mathrubhumi.com##.summary-wrapper
+
 ! ==============
 ! == Medscape ==
 ! ==============
