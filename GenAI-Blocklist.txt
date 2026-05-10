@@ -2537,6 +2537,7 @@ www.youtube.com##.ytp-fullscreen-quick-actions button[aria-label="Ask"]
 ! Auto-dubbed audio languages
 ! * Switch to non-dubbed audio language automatically. Removes audio-track submenu from settings if
 !   only one non-AI audio option exists. Does not work when loading videos directly from a URL.
+! * Targets response from 'https://www.youtube.com/youtubei/v1/get_watch'
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 youtube.com##+js(json-edit, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed])
 youtube.com##+js(json-edit-xhr-response, ..adaptiveFormats.*[?.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
