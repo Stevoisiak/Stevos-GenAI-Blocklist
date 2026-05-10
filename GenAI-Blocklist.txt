@@ -2200,6 +2200,15 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! ============
+! == Target ==
+! ============
+! -- https://www.target.com/p/greenpan-rio-advanced-8-ceramic-nonstick-fry-pan/-/A-95024971
+! AI shopping assistant
+www.target.com##.sc-35985976-1
+! Review summary
+www.target.com##div:has(> [data-test="review-summary-title"])
+
 ! ===================
 ! == The New Stack ==
 ! ===================
