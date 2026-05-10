@@ -2368,6 +2368,17 @@ www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
 www.washingtonpost.com##.wpds-c-fixGjY-ihtVbxi-css
 www.washingtonpost.com###ask-the-post-ai-results-disclaimer
 
+! =============
+! == Wayfair ==
+! =============
+! "Inspiration" in navbar
+www.wayfair.com##._1y4lots0:has(> [href="https://www.wayfair.com/discover"])
+
+! -- https://www.wayfair.com/outdoor/pdp/furmax-29-barrel-charcoal-grill-fuax1293.html
+! Review summary
+! * Filtering on [data-node-id^="BlockBuilderReviewSummary"] results in delayed filtering
+www.wayfair.com##._6o3atz1bd[data-hb-id="BoxV3"]:has(> [data-hb-id="Text"]._6o3atz13e._6o3atzvr._6o3atzhp._6o3atzbl._6o3atz18y)
+
 ! ===========
 ! == WebMD ==
 ! ===========
