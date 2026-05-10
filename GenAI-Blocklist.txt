@@ -2866,10 +2866,13 @@ hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text("AI Hentai"))
 ! ========================
 ! == Hentai Moon (NSFW) ==
 ! ========================
-! Header navbar
-hentai-moon.com##.network li:has(> [href^="https://crushon.ai/"])
-hentai-moon.com##.network li:has(> [alt="AI Hentai"])
-hentai-moon.com##.network li:has(> [alt="Undress AI"])
+! Header
+hentai-moon.com##li:has(> [href^="https://crushon.ai/"])
+hentai-moon.com##li:has(> [alt="AI Hentai"])
+hentai-moon.com##li:has(> [alt="Undress AI"])
+hentai-moon.com##li:has(> [href^="https://www.ggptnetwork.com/"])
+! Navbar
+hentai-moon.com##li:has(> [href^="https://secrets.ai/"])
 ! Ad
 hentai-moon.com##.item:has(> [title*="your AI Slut"])
 
@@ -3026,6 +3029,12 @@ ohentai.org##.interlink[href="tagsearch.php?tag=AI Generated"]
 ! ==================
 ! AI porn
 ooxxx.com##.tag__item:has(> [href="https://candyai.gg/home2?oid=1&affid=223&source_id=ooxxx_tablink&creative_id=1"])
+
+! ====================
+! == PorCore (NSFW) ==
+! ====================
+! Navbar
+porcore.com##li:has(> [href="https://s.zline0.com/v1/d.php?z=5363388"])
 
 ! =====================
 ! == Porn.com (NSFW) ==
