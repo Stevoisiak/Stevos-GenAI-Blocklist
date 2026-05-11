@@ -1195,10 +1195,13 @@ www.google.com,www.google.*##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics)
 ! * Desktop
 www.google.com,www.google.*##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '.k1zIA.kKvsb > a[href*="&udm=50"]')
 ! * Mobile
 www.google.com,www.google.*###hplogoo a[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#hplogoo a[href*="&udm=50"]')
 ! * Mobile search results page
 www.google.com,www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
 ! Promo text below search bar mentioning AI
 www.google.com,www.google.*##promo-middle-slot:has-text("/\bAI\b/")
 www.google.com,www.google.*##promo-middle-slot:has-text("Gemini")
@@ -2286,6 +2289,7 @@ www.target.com##div:has(> [data-test="review-summary-title"])
 thenewstack.io###tns-search-overview
 thenewstack.io##.search-disclaimer
 thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
+thenewstack.io#%#//scriptlet('remove-attr', 'placeholder', '.search-input[placeholder="This is AI-powered search. Type a prompt."]')
 
 ! ============
 ! == TikTok ==
