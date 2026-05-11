@@ -1201,6 +1201,8 @@ www.google.com,www.google.*##promo-middle-slot:has-text("Gemini")
 www.google.com,www.google.*##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 ! Search bar - AI button (magnifying glass icon, mobile only)
 www.google.com,www.google.*##.xOchs
+! Autocomplete suggestions for AI mode (mobile only)
+www.google.com,www.google.*##.CKtgbd[role="listbox"] > .sbct:has(.cuyMBe:has-text(AI Mode))
 
 ! -- https://www.google.com/search?q=Why+are+we+here
 ! "AI Mode" tab in navbar
@@ -1225,9 +1227,7 @@ www.google.com,www.google.*##.oGdvd
 ! -- https://www.google.com/search?q=Mario
 ! Expandable "Things to know" that have AI overviews
 www.google.com,www.google.*##[jscontroller="Elkdbc"]
-
-! -- https://www.google.com/search?q=Mario (mobile only)
-! AI generated topic overview
+! AI generated topic overview (mobile only)
 www.google.com,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
 
 ! -- https://www.google.com/search?q=gachiakuta+game (mobile only)
