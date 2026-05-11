@@ -852,6 +852,7 @@ docs.github.com##[data-component="ActionList.Divider"]:has(+[data-testid="ai-aut
 ! * If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
 !   and the search bar text is in English, change the placeholder text to "Search"
 docs.github.com##+js(trusted-set-attr, input[placeholder="Search or ask Copilot"], placeholder, Search)
+docs.github.com#%#//scriptlet('trusted-set-attr', 'input[placeholder="Search or ask Copilot"]', 'placeholder', 'Search')
 ! * Otherwise, remove the placeholder text
 docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Copilot"]:remove-attr(placeholder)
 ! AI Disclaimer below search results
@@ -978,6 +979,7 @@ blog.google##section:has(> [aria-label="Gemini 3.1 Pro"])
 blog.google##section[data-analytics-module*="\"section_header\": \"AI Impact Summit 2026\""]
 ! Remove sparkle from search icon
 blog.google##+js(trusted-set-attr, [icon-id="uni-search-spark"], icon-id, mi-search)
+blog.google#%#//scriptlet('trusted-set-attr', '[icon-id="uni-search-spark"]', 'icon-id', 'mi-search')
 
 ! -- https://blog.google/search/?query=Why+am+I+here
 ! AI summary in search
