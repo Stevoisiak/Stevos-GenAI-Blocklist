@@ -1022,6 +1022,7 @@ developers.google.com##devsite-key-takeaways-panel
 developers.google.com##.devsite-concierge-ai-panel--menu-item
 ! Remove AI sparkle from searh icon
 developers.google.com##+js(trusted-set-attr, .devsite-search-ai-image [d^="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925"], d, "M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z")
+developers.google.com#%#//scriptlet('trusted-set-attr', '.devsite-search-ai-image [d^="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925"]', 'd', 'M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z')
 
 ! -- https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure (Search results)
 ! "AI Powered" results
@@ -1901,6 +1902,10 @@ www.nike.com##+js(trusted-set-attr, #nav-search-icon path, d, "M13.962 16.296a6.
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke, currentColor)
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke-width, 1.5)
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, fill, )
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'd', 'M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853')
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke', 'currentColor')
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke-width', '1.5')
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'fill', '')
 
 ! ===============
 ! == Nordstrom ==
@@ -2288,10 +2293,8 @@ thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a pro
 ! * Prevents videos from appearing when swiping or when loading a creators channel page
 ! * AI videos can play if loaded directly from the URL
 ! * Created with assistance from paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1t9pvef/comment/ol4f58p/)
-! (uBlock Origin)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType, , propsToMatch, /item_list)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
-! (AdGuard)
 www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].moderationAigcLabelType')
 www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType')
 
