@@ -893,6 +893,8 @@ mail.google.com##.Zmxtcf.e5IPTd
 ! Remove sparkle from search icon (AI Plus, requires trusted filter list)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg, viewBox, 0 0 24 24)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z")
+mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg', 'viewBox', '0 0 24 24')
+mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg > path', 'd', 'M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z')
 
 ! -- Composing an email
 ! "Help me write" icon next to "Send" button
@@ -2644,6 +2646,7 @@ www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButt
 www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
 ! * Remove "or ask a question" from search bar placeholder
 www.youtube.com##+js(trusted-set-attr, .ytSearchboxComponentInput[placeholder="Search or ask a question"], placeholder, Search)
+www.youtube.com#%#//scriptlet('trusted-set-attr', '.ytSearchboxComponentInput[placeholder="Search or ask a question"]', 'placeholder', 'Search')
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! "Ask Questions" in description
