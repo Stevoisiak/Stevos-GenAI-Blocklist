@@ -2290,6 +2290,8 @@ thenewstack.io###tns-search-overview
 thenewstack.io##.search-disclaimer
 thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
 thenewstack.io#%#//scriptlet('remove-attr', 'placeholder', '.search-input[placeholder="This is AI-powered search. Type a prompt."]')
+! Remove AI sparkles from search icon
+thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 
 ! ============
 ! == TikTok ==
