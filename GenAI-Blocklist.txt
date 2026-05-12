@@ -1421,6 +1421,13 @@ www.thegamer.com,www.howtogeek.com##.i-sensa
 ! AI summary button in header on small page sizes
 www.thegamer.com,www.howtogeek.com##.action-bar-ai-feature
 
+! ==========
+! == IMDB ==
+! ==========
+! -- https://www.imdb.com/title/tt0083987/
+! Review summary (requires login)
+www.imdb.com##[data-testid="ai-review-summary"]
+
 ! =============
 ! == ImgFlip ==
 ! =============
