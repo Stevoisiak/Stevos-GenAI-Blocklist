@@ -2387,9 +2387,11 @@ ups.com###WACContainer
 ! ===========
 ! == Vanta ==
 ! ===========
+! -- https://app.vanta.com/c/vantasandbox/
 ! Vanta agent in header
-! * This rule was made on account with agent disabled. Untested on account with it enabled.
-app.vanta.com##.sc-hwdzOV.gtCrLk
+app.vanta.com##.sc-hwdzOV:has(> [data-testid="global-vanta-ai-button"])
+! Vanta agent in sidebar
+app.vanta.com###vanta-agent
 
 ! ============
 ! == Vercel ==
