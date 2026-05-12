@@ -738,8 +738,6 @@ github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footer
 ! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13 (Pull request)
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
-! "Code with agent mode" under "Development" section in sidebar
-github.com##.DevelopmentSection-module__developmentSectionContainer__fplqG
 
 ! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files (Viewing changed files of a pull request)
 ! "Ask Copilot" button next to "Review" button
