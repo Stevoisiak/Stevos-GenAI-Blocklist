@@ -86,6 +86,13 @@ docs.google.com###content-library-rail-convert-to-video-element
 ! * Possibly required to submit tickets to a human
 central.insightsoftware.com###forethought-chat
 
+! ===========
+! == Lowes ==
+! ===========
+! Floating Mylow button in bottom right
+! * Needed to contact human customer support. 
+www.lowes.com##.sc-coJMku.ChatInviteButton
+
 ! =====================
 ! == Microsoft Teams ==
 ! =====================

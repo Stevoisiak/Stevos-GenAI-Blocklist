@@ -1599,6 +1599,18 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! ===========
+! == Lowes ==
+! ===========
+! Mylow button in header
+www.lowes.com##.nav-diy-icons:has(> [data-linkid="mylow"])
+! Mylow button in footer
+www.lowes.com##li:has(> [data-linkid="Mylow"])
+! There's a floating Mylow button in the bottom right, but it's needed for customer support conversations
+
+! -- https://www.lowes.com/pd/Toro-21-in-Reycler-Briggs-and-Stratton-140cc-Gas-Self-Propelled-RWD-Lawn-Mower/5014791851
+www.lowes.com##.review-ai-summary
+
 ! ===============
 ! == Mailchimp ==
 ! ===============
