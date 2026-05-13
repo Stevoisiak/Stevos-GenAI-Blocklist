@@ -729,6 +729,10 @@ github.com##.prc-ActionList-ActionListItem-So4vC:has(> [data-tab-item="agents"])
 !   To prevent this, users would need to change their GitHub account settings.
 github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
 
+! -- https://github.com/gorhill/uBlock/blob/master/src/js/resources/json-edit.js
+! Copilot button in symbols panel
+github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-menu"])
+
 ! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new (New issue page)
 ! "Write with Copilot" below issue description
 ! * Doesn't always appear. May be limited to issues from repository owner?
