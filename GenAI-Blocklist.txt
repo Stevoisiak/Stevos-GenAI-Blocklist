@@ -1636,6 +1636,14 @@ www.lowes.com##li:has(> [data-linkid="Mylow"])
 ! -- https://www.lowes.com/pd/Toro-21-in-Reycler-Briggs-and-Stratton-140cc-Gas-Self-Propelled-RWD-Lawn-Mower/5014791851
 www.lowes.com##.review-ai-summary
 
+! =================
+! == Ludwig.guru ==
+! =================
+! -- https://ludwig.guru/s/low+priority
+! Buttons in header
+ludwig.guru###i-ask-pdf
+ludwig.guru###i-rewrite
+
 ! ===============
 ! == Mailchimp ==
 ! ===============
