@@ -504,7 +504,11 @@ www.deviantart.com##div.VS2KXS.KQfkEY
 ! "Create your own AI art" promo in description
 www.deviantart.com##.v4LjTE.A3cqZ_:has([href^="https://www.deviantart.com/dreamup"])
 ! Dreamup video ad in right sidebar
+! * First one may no longer be in use?
 www.deviantart.com##.afudd4:has(> [href="https://www.deviantart.com/dreamup"])
+www.deviantart.com##.v-video:has([href="https://www.deviantart.com/dreamup"])
+! Dreamup promo in sidebar
+www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
 
 ! -- https://www.deviantart.com/shop/sell (Shop)
 ! "DreamUp and earn big with AI" section
