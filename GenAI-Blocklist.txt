@@ -501,6 +501,8 @@ www.deviantart.com##.usPswk:has-text(Created using AI tools):upward(3) > .ymztWQ
 ! Bottom promo banner, sometimes has a DreamUp ad (Possibly removed?)
 ! * TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
+! "Create your own AI art" promo in description
+www.deviantart.com##.v4LjTE.A3cqZ_:has([href^="https://www.deviantart.com/dreamup"])
 ! Dreamup video ad in right sidebar
 www.deviantart.com##.afudd4:has(> [href="https://www.deviantart.com/dreamup"])
 
