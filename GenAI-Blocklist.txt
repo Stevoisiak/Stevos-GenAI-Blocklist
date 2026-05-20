@@ -672,7 +672,7 @@ www.facebook.com##.x6nl9eh.x1a5l9x9.x7vuprf.x1mg3h75.xy58vm5.x1jkynmp.x180xd5n.x
 ! -- https://m.facebook.com/bookmarks/ (Mobile menu)
 ! "Also From Meta" > "Meta AI" button
 ! * TODO: Leaves a blank space, requires editing height of parent container
-m.facebook.com##.m.nb[data-type="container"]:has([role="button"][aria-label="Meta AI"])
+facebook.com##.m.nb[data-type="container"]:has([role="button"][aria-label="Meta AI"])
 
 ! ============
 ! == Fandom ==
