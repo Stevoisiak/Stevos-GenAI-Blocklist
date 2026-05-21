@@ -1971,7 +1971,9 @@ www.mixscan.me##div.fixed:has(h2.font-pixel)
 ! == Mojeek ==
 ! ============
 ! -- https://www.mojeek.com/search?q=test
-! "Summarize these results"
+! Summary tab in navbar
+www.mojeek.com##.opts-bar li:has(> [href$="&fmt=summary"])
+! "Summarize these results" in sidebar
 www.mojeek.com##.llm-btn
 
 ! =========
