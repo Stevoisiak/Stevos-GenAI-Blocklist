@@ -157,6 +157,19 @@ www.android.com###remix-any-photo-right-in-your-messages:upward(1)
 www.android.com###create-your-own-unique-android-bot
 www.android.com###ai-on-android
 
+! ====================
+! == Automate Excel ==
+! ====================
+! -- https://www.automateexcel.com/how-to/remove-undo-table-formatting/
+! AI Formula Generator in header
+www.automateexcel.com##li:has(> [href="/formula-generator-ai-bot/"])
+! AI Forumula Generator below article
+www.automateexcel.com##[data-section-name="AI Formula Generator Input CTA"]
+! Sidebar with AI tools
+www.automateexcel.com###right-column
+! Footer AI section
+www.automateexcel.com##nav:has([href="/formula-generator-ai-bot/"]):has([href="/online-vba-code-generator/"])
+
 ! ==============
 ! == AutoZone ==
 ! ==============
