@@ -2780,11 +2780,11 @@ search.yahoo.com##.scout-tab
 ! =================
 ! -- https://www.yahoo.co.jp/ (Homepage)
 ! Header - AI suggested topic
-www.yahoo.co.jp##.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt:has(svg[aria-label="AIアシスタント"])
+www.yahoo.co.jp##.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt[href^="https://search.yahoo.co.jp/aichat?"]
 ! AI Chat button to the right of search bar
-www.yahoo.co.jp###aichat
+www.yahoo.co.jp###agenti
 ! AI Assistant tab above search bar
-www.yahoo.co.jp##.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
+www.yahoo.co.jp##li:has(> [href^="https://search.yahoo.co.jp/aichat?"])
 
 ! -- https://search.yahoo.co.jp/search?p=Why+are+we+here (Search results)
 ! AI Assistant button in header to the right of search bar
