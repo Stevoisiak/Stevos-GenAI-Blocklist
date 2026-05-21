@@ -47,7 +47,8 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Enable "Allow User Scripts".
 - Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 - Under "Add custom filter", hit "Next".
-- Check the "Trusted" box then hit "Add".
+- (_Recommended_) Check the "Trusted" box.
+- Click "Add".
 
 ### Brave (Desktop)
 - Open _Settings > Shields > Content filtering_.
@@ -134,10 +135,10 @@ This list requires trust to:
 * Remove the "[AI sparkle](https://design.google/library/ai-sparkle-icon-research-pozos-schmidt)" from search icons.
 * Remove automatic audio dubbing on YouTube videos if they were directly loaded from a URL. (in Extra filters, [see below FAQ entry](#why-do-youtube-videos-still-sometimes-play-ai-dubbed-audio-tracks)).
 
-To be clear, ***if you use uBlock Origin, you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you want to use the filters listed above, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes). Alternatively, if you use AdGuard there will be a "trusted" checkbox you can enable when importing the filter list.
+To be clear, ***if you use uBlock Origin, you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you want to use the filters listed above, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes).
 
-### Why are trusted filters required in AdGuard but not uBlock Origin?
-Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (YouTube autodubbing, TikTok videos with AI, etc). In uBlock Origin, trusted filters are only needed for scriptlets that start with `trusted-`. However, in AdGuard trusted filters [are required for all scriptlets](https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3522#issuecomment-4441812031). This also means these filters do not work on AdGuard for iOS, since it doesn't have an option for trusted filters.
+### Why are trusted filters recommended in AdGuard but not uBlock Origin?
+Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (YouTube autodubbing, TikTok videos with AI, etc). In uBlock Origin, trusted filters are only needed for scriptlets that start with `trusted-`. However, in AdGuard trusted filters [are required for all scriptlets](https://github.com/AdguardTeam/AdguardBrowserExtension/issues/3522#issuecomment-4441812031). (This means these filters do not work on AdGuard for iOS, since it doesn't have an option for trusted filters.) Also, it's easier to enable trusted filters in AdGuard compared to uBlock Origin. 
 
 ### Why do YouTube videos still sometimes play AI dubbed audio tracks?
 The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
