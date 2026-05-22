@@ -186,6 +186,13 @@ old.reddit.com##body.subreddits-page > .content > #siteTable > .thing.subreddit:
 ! "Semrush One" promo in sidebar that mentions AI
 www.semrush.com##[data-test="toc-widget-custom"]
 
+! ===============
+! == SmartBear ==
+! ===============
+! -- https://support.smartbear.com/alertsite/docs/monitors/api/endpoint/jsonpath.html
+! Floating chatbot
+support.smartbear.com###embedded-messaging
+
 ! ============
 ! == Square ==
 ! ============
