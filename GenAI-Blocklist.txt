@@ -1762,6 +1762,15 @@ www.lowes.com##.review-ai-summary
 ludwig.guru###i-ask-pdf
 ludwig.guru###i-rewrite
 
+! ===========
+! == Macys ==
+! ===========
+! -- https://www.macys.com/shop/product/clinique-jumbo-dramatically-different-moisturizing-face-lotion-6.7-oz.?ID=1856616
+! Ask Macy's in header
+www.macys.com##.convo-commerce-wrapper:has(> #ask-ai-gecx-button)
+! Review summary
+www.macys.com##.generated-summary-main-container
+
 ! ===============
 ! == Mailchimp ==
 ! ===============
