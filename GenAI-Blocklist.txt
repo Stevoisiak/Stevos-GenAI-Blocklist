@@ -782,10 +782,10 @@ github.com##command-palette-item[data-item-title="Copilot"]:remove()
 ! * Only applies if feature is already disabled
 github.com##[id$="-tab-copilot_chat_custom_instructions"]:has(.octicon-eye-closed)
 ! Trending repositories for AI tools
-! * FIXME: Leaves separator line if spot 1 is hidden but not spot 2
 ! * FIXME: Blank padding left when hiding spot 1. (Element .mt-1.mb-1)
-! * 1st spot
+! * 1st spot (+ separator)
 github.com###feed-item-0 .mt-1.mb-1 > .tmp-px-3:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))
+github.com###feed-item-0 .mt-1.mb-1 > .tmp-px-3:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"])) + div > #feed-item-0 .tmp-mb-3.mt-2
 ! * 2nd spot
 github.com###feed-item-0 #feed-item-0:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))
 
