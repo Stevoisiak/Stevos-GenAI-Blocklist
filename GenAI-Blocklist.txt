@@ -173,6 +173,12 @@ www.automateexcel.com###right-column
 ! Footer AI section
 www.automateexcel.com##nav:has([href="/formula-generator-ai-bot/"]):has([href="/online-vba-code-generator/"])
 
+! ================
+! == Autonocion ==
+! ================
+! Floating chat button
+www.autonocion.com###an-box-btn
+
 ! ==============
 ! == AutoZone ==
 ! ==============
