@@ -815,10 +815,8 @@ github.com##[data-testid="copilot-menu-items"]:remove()
 ! "Agents" tab in repository navbar (while on repository you own)
 github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> [data-tab-item="agents"])
 github.com##.prc-ActionList-ActionListItem-So4vC:has(> [data-tab-item="agents"])
-! "Regenerate commit message" refresh icon when committing changes
-! * This doesn't block GitHub from using Copilot (AI) to generate the initial commit message.
-!   To prevent this, users would need to change their GitHub account settings.
-github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
+! Copilot generated commit messages
+||api.individual.githubcopilot.com/agents/github-commit-message-generation$xhr,domain=github.com
 
 ! -- https://github.com/gorhill/uBlock/blob/master/src/js/resources/json-edit.js
 ! Copilot button in symbols panel
