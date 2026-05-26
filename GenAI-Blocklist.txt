@@ -2695,12 +2695,20 @@ www.washingtonpost.com##[id$="-trigger-ask-the-post-ai"]
 www.washingtonpost.com##form#search-form [role="label"]:style(font-size:0 !important;)
 www.washingtonpost.com##form#search-form [role="label"]::before:style(content:"Search"; font-size:16px;)
 
+! -- https://www.washingtonpost.com/world/2026/05/26/us-renews-strikes-iran-citing-threats-posed-american-troops/
+! Summary button in article header
+www.washingtonpost.com##[data-testid="ai-overview-btn"]
+! Ask the Post AI
+www.washingtonpost.com##[data-testid="subscribe-promo-button"][href="https://www.washingtonpost.com/ask-the-post-ai/"]
+! Dive deeper button
+www.washingtonpost.com##.wpds-c-kSOqLF-ijwAmXJ-css
+! Comment summary
+www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
+
 ! -- https://www.washingtonpost.com/opinions/2026/04/15/will-connecticut-crackdown-self-checkout-lanes/
 ! Replace "Ask a question or search" text in search bar
 www.washingtonpost.com##form > [aria-label="Washington Post site search"] [role="label"]:style(font-size:0 !important;)
 www.washingtonpost.com##form > [aria-label="Washington Post site search"] [role="label"]::before:style(content:"Search"; font-size:16px;)
-! Comment summary
-www.washingtonpost.com##.wpds-c-bHXelH-igoXVOL-css
 
 ! -- https://www.washingtonpost.com/search/?query=What+is+2%2B2%3F
 ! AI Answer + disclaimer
