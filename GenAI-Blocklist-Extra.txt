@@ -59,6 +59,12 @@ github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"']:h
 ! Break Copilot chat
 ||api.individual.githubcopilot.com/github/chat/$xhr,domain=github.com
 
+! =================
+! == GitHub Docs ==
+! =================
+! AI Disclaimer below search results
+docs.github.com##.SearchOverlay_footer__45kw_
+
 ! ============
 ! == GitLab ==
 ! ============

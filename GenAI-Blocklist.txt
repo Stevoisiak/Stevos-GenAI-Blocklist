@@ -946,8 +946,6 @@ docs.github.com##[data-component="ActionList.Divider"]:has(+[data-testid="ai-aut
 docs.github.com#%#//scriptlet('trusted-set-attr', 'input[placeholder="Search or ask Copilot"]', 'placeholder', 'Search')
 ! * Otherwise, remove the placeholder text
 docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Copilot"]:remove-attr(placeholder)
-! AI Disclaimer below search results
-docs.github.com##.SearchOverlay_footer__45kw_
 
 ! ============
 ! == GitLab ==
