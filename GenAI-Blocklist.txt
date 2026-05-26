@@ -210,7 +210,10 @@ www.baidu.com##area[href^="//chat.baidu.com/"]:remove()
 ! -- https://www.baidu.com/s?wd=Test (Search results)
 ! "Wenxin" tab in navbar below search bar
 www.baidu.com##.s-tab-csaitab
+! AI+ logo
+www.baidu.com##[data-module="ai_title"]
 ! AI summary + Question suggestions
+! * Possibly removed?
 www.baidu.com##div.cosc-card-content-border > div.cosc-card-content:has(> div[data-module="header"] > div.cosd-search-header-primary > div.cosd-search-header-brand-area > div.cosd-search-header-brand-ai)
 www.baidu.com##div.dqa-aiAsk-wrap_5W1GG
 ! "Ask Wenxin" button in right sidebar
