@@ -26,13 +26,6 @@
 ! AI promo
 1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
 
-! =================
-! == ACS Courier ==
-! =================
-! -- https://www.acscourier.net/
-! AI Chat assistant
-www.acscourier.net###rasaWebchatPro
-
 ! ===========
 ! == Adobe ==
 ! ===========
