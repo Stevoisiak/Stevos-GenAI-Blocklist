@@ -261,13 +261,17 @@ www.bing.com###b-scopeListItem-copilotsearch
 ! "Copilot" tab in navbar below search bar
 www.bing.com###b-scopeListItem-conv
 ! "Copilot Search" summary box at top of search
-www.bing.com##.b_ans:has(> #copans_container)
+www.bing.com##.b_ans
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
 ! AI generated summary
 ! * Might not be needed anymore?
 www.bing.com###b_wpt_container_ml
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
+
+! -- https://www.bing.com/search?q=what%20is%20mario%27s%20last%20name%20in%20the%20movie%20super%20mario%20odyssey
+! Network filter
+||www.bing.com/qna/fetchCodexQnA$xhr,domain=www.bing.com
 
 ! -- https://www.bing.com/shop/
 ! Copilot price drop notifications (top)
