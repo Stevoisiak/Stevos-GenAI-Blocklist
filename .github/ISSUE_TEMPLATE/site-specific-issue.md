@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-<!-- Include the website name in the issue report title -->
-
 #### Website URL:
 <!-- URL for where the issue occurs. -->
 
