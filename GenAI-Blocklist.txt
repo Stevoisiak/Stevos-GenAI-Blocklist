@@ -2207,6 +2207,13 @@ docs.posit.co###kapa-widget-container
 ! "Ask AI" in navbar
 docs.posit.co##.nav-item:has(#custom-ask-ai-button)
 
+! ==============
+! == ProQuest ==
+! ==============
+! -- https://www.proquest.com/docview/3278796875/2B68B1B1A3E34B29PQ/10?accountid=14677&sourcetype=Scholarly%20Journals# (Requires login)
+! Research Assistant panel AI feature
+www.proquest.com###ra-panel-wrapper
+
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================
