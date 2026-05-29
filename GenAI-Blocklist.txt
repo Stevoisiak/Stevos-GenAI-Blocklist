@@ -1827,8 +1827,23 @@ www.messenger.com##div[role="gridcell"] > div > a[role="link"][href="/t/15602550
 ! -- General
 ! App Launcher - Copilot
 cloud.microsoft,microsoft.com,make.powerautomate.com,officeapps.live.com,sharepoint.com###O365_AppTile_Microsoft365Tile:upward(1)
-! Header > Copilot buttons (desktop & mobile)
+! Header nav - Copilot (desktop & mobile)
 www.microsoft.com,cloud.microsoft##:is(#shellmenu_2, #shellmenu_2-mo)[href="https://copilot.microsoft.com/"]
+
+! -- https://www.microsoft.com/en-us (general)
+! - Header nav
+! Copilot tab
+www.microsoft.com##.uhf-nav-link[href="https://copilot.microsoft.com/"]
+! "All Microsoft" menu options
+! * Microsoft AI
+www.microsoft.com,www.xbox.com##.uhf-dropdown-link[href="https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"]
+support.microsoft.com##.js-subm-uhf-nav-link[href="https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"]
+! * Support for AI marketplace apps
+www.xbox.com##.uhf-dropdown-link[href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"]
+www.microsoft.com,support.microsoft.com##.js-subm-uhf-nav-link[href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"]
+! * Copilot tab
+support.microsoft.com##.js-subm-uhf-nav-link[href="https://copilot.microsoft.com/"]
+
 ! Footer
 cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href*="/microsoft-copilot/"])
 cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot"])
@@ -1837,30 +1852,29 @@ cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/ai?ic
 cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
 cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/education/ai-in-education"])
 
-! -- https://www.microsoft.com/en-us
-! Copilot in header nav
-www.microsoft.com##.uhf-nav-link[href="https://copilot.microsoft.com/"]
-! Promotional banner for Copilot at top of page
+! "Store Assistant" chat box pinned to bottom right
+www.microsoft.com,www.xbox.com##.copilot-container
+
+!  -- https://www.microsoft.com/en-us (page specific)
+! Promotional banner for Copilot at top of page (no longer in use?)
 www.microsoft.com,cloud.microsoft###headerUniversalHeader > #epb:has(> .c-uhfh-alert > div > .c-paragraph > img[alt="Copilot logo"])
-! Carousel that contains an AI promo.
+! Carousel that contains an AI promo. (no longer in use?)
 ! * data-oc='ocf19c': "The apps you know go further with Copilot"
 ! * data-oc='ocaeae': "Meet the computer you can talk to"
 www.microsoft.com##reimagine-carousel:has(reimagine-hero-featured-slider-item:is([data-oc="ocf19c"], [data-oc="ocaeae"]))
-! "Store Assistant" chat box pinned to bottom right
-www.microsoft.com,www.xbox.com##.copilot-container
 ! "How can we help" question prompt on top of page
 www.microsoft.com##.chatonpage
 www.microsoft.com##.msstore-chatonpage
 ! "For business" section > Promo cards
-! * Only applies to US English site
+! * US English site
 www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Learn more about Microsoft 365 Copilot"])
 www.microsoft.com##reimagine-layout-column:has(reimagine-button[title="Explore AI solutions"])
-! Non-US languages (https://www.microsoft.com/zh-hk/)
+! * Non-US languages (https://www.microsoft.com/zh-hk/)
 www.microsoft.com##.col:has(> [data-bi-assetid^="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Copilot-COMMR-0625"])
 www.microsoft.com##.col:has(> [data-bi-assetid^="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Azure-AI-Bloom"])
 ! "Get to know AI and Copilot" section
 www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-oc22b6)
-! Carousel - "Protecting biodiversity with AI" card
+! Carousel at bottom of page - "Protecting biodiversity with AI" card (no longer in use?)
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
 ! -- https://www.microsoft.com/en-us/edge/
