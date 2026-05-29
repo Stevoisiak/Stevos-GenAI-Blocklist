@@ -697,6 +697,14 @@ www.ecosia.org##.omnibox-search-form__ai-chat
 www.ecosia.org##[data-test-id="search-navigation-item-chat"]
 www.ecosia.org##.search-navigation__divider:has(+ [data-test-id="search-navigation-item-chat"])
 
+! ==============
+! == Elsevier ==
+! ==============
+! "Reading Assistant" floating icon
+! * Uses global filter as button is present on hundreds of child sites.
+!   See https://www.elsevier.com/products/journals
+##.js--show.gen-ai
+
 ! ================
 ! == Emojipedia ==
 ! ================
