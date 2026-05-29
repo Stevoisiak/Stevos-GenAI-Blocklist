@@ -3196,6 +3196,12 @@ beeg.com##.x-search__content [href="/AIGirl"]
 beeg.com##.x-search__content [href="/AIGuy"]
 beeg.com##.x-search__content [href="/GenerativeAI"]
 
+! =======================
+! == BDSMX Tube (NSFW) ==
+! =======================
+! AI Undress tag
+bdsmx.tube##.tag__item:has(> [href^="https://facemix.app/"])
+
 ! ===================
 ! == Boorus (NSFW) ==
 ! ===================
@@ -3468,6 +3474,12 @@ luscious.net##.desktop-module__submenu-item--njaEB:has([href$="/ai-art-63/"])
 ! AI Jerk Off
 manhwaread.com##.menu-item:has(> [href="https://juicyads.in/tab.php?id=2101971"])
 
+! ==================
+! == MrGay (NSFW) ==
+! ==================
+! AI Jerk off in nav
+mrgay.com##[href^="https://lp3.joi.com/teddy?afid=1000020659&subafid=%5BCAMPAIGN_ID%5D_mrgay.com"]
+
 ! ===================
 ! == Mult34 (NSFW) ==
 ! ===================
@@ -3607,6 +3619,12 @@ rule34.xxx###content > .image-list > span:has( > .thumb > a > img:is([title~="ai
 ! Notice that AI videos should be uploaded elsewhere
 rule34video.com##.emger[href="https://rule34gen.com"]
 
+! ==========================
+! == Rule 34 World (NSFW) ==
+! ==========================
+! Enable AI filter
+www.rule34.world##+js(set-local-storage-item, ui_filterAi, true)
+
 ! =======================
 ! == rule34.lol (NSFW) ==
 ! =======================
@@ -3716,6 +3734,10 @@ svscomics.com##.about:has(> [href="/ai-porn-comics"])
 ! AI site categories
 thebestfetishsites.com##.homecatwrapper:has(> .homecategorytitle > [href="https://thebestfetishsites.com/ai-porn-sites/"])
 thebestfetishsites.com##.homecatwrapper:has(> .homecategorytitle > [href="https://thebestfetishsites.com/ai-sex-chat-sites/"])
+
+! -- https://thebestfetishsites.com/top-hentai-porn-sites/
+! Search categories
+thebestfetishsites.com##.internalcatwrapper[href^="https://thebestfetishsites.com/ai-"]
 
 ! ==========================
 ! == The Porn List (NSFW) ==
@@ -3847,8 +3869,9 @@ www.whoreshub.com##.thumb:has([href="https://www.whoreshub.com/categories/ai/"])
 ! == XAnimu.com (NSFW) ==
 ! =======================
 ! "Undress AI" and "AI Cumsluts" in navbar
-xanimu.com##.nav-item:has(> [href="https://www.cmonbae.com/?union_id=MzU%3D"])
-xanimu.com##.nav-item:has(> [href="https://s.happyleafmotion.com/v1/d.php?z=2264"])
+xanimu.com##[title="Create AI Slut"]
+xanimu.com##[title="Undress AI"]
+xanimu.com##[title="AI JERK OFF"]
 
 !=====================
 ! == xGroovy (NSFW) ==
