@@ -2586,7 +2586,7 @@ thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 ! ==================
 ! -- https://www.thermofisher.com/antibody/product/SETDB1-Antibody-clone-5H6A12-Monoclonal/MA5-15722
 ! AI assistant bot for ThermoFisher store
-www.thermofisher.com##chat-bot-agent
+www.thermofisher.com##.ask-ai-widget-container
 
 ! ============
 ! == TikTok ==
