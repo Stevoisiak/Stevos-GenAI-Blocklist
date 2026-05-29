@@ -1935,20 +1935,27 @@ learn.microsoft.com###search-answer
 ! ==========================
 ! Use for web office apps, not including sharepoint and M365 Copilot.
 
-! Floating Copilot button in bottom right 
+! Floating Copilot button in bottom right (After opening document)
 officeapps.live.com###CopilotDABContainer
 
 ! -- https://word.cloud.microsoft/ (Microsoft Office)
-! "Copilot prompts for Word" recomended template
-word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
-! Document - Prompt box
+! "Try Copilot" suggestions (logged out)
+word.cloud.microsoft##[role="region"][aria-label="Try Copilot"]
+! "What would you like to create today" prompt box (logged in)
 word.cloud.microsoft##.___h6kil70[aria-label="copilot"]
-! Document - Navbar buttons (Home tab) for Copilot
+! Recommended template for "Copilot prompts for Word"
+! * English (No longer used?)
+word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
+! * Other languages (https://word.cloud.microsoft/es-ES/)
+word.cloud.microsoft##.f10pi13n.fly5x3f.f1gl81tg.f22iagw.f1vx9l62.fnkimw8.f70vs8p.f1jh79k8.tile:has(> [aria-label*="Copilot"])
+! -- With document open
+! Navbar buttons (Home tab) for Copilot
 usc-onenote.officeapps.live.com,usc-word-edit.officeapps.live.com###CopilotChat-group:upward(2)
 
 ! -- https://excel.cloud.microsoft/
-! "Copilot in Excel" recomended template
+! "Copilot in Excel" recomended template (No longer used?)
 excel.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Excel null modern"])
+! -- With document opened
 ! Copilot navbar button
 usc-excel.officeapps.live.com###Copilot-group:upward(2)
 
