@@ -927,8 +927,14 @@ github.blog##.Button[href^="https://github.com/features/copilot"]
 ! ================
 ! Web version of VS Code used for editing files on GitHub
 
-! Block user authentication for Copilot
+! Part of user authentication for Copilot. Affects login status shown via Copilot icon in bottom status bar.
 ||api.github.com/copilot_internal/$xhr,domain=github.dev
+! Unsure. Returns list of AI chat models.
+! Initially thoought this would break sidebar chat.
+||main.vscode-cdn.net/extensions/chat.json$xhr,domain=github.dev
+! Not sure what this does ¯\_(ツ)_/¯
+! It gets called when codespace page is opened. Copilot Chat is still listed in extensions list.
+||marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/$xhr,domain=github.dev
 
 ! Source Control > Changes > Message bar - "Generate Commit Message" sparkle icon
 ! * Leaves behind an an invisible box which shows "click" mouse cursor when hovered. Clicking just focuses text box though.
