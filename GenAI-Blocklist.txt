@@ -802,6 +802,8 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! == GitHub ==
 ! ============
 ! -- https://github.com/ (Homepage - logged in)
+! Break messages sent in Copilot Chat
+||api.individual.githubcopilot.com/$xhr,domain=github.com
 ! "Chat with Copilot" icon in header next to search bar
 github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > [type="button"][href="/copilot"])
 ! "Copilot" button in left hamburger menu (≡)
