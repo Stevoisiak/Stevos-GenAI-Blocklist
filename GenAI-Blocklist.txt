@@ -103,6 +103,9 @@ www.amazon.*##body.rufus-docked-left:remove-class(rufus-docked-left)
 www.amazon.*##body.rufus-docked-right:remove-class(rufus-docked-right)
 www.amazon.*##body:is(.rufus-docked-left, .rufus-docked-right):remove-attr(style)
 www.amazon.*##body:style(padding-left: 0px !important; padding-right: 0px !important;)
+! * AdGuard compatibility
+! * FIXME: Removing 'style' attribute isn't working on AdGuard. This can cause a white bar to appear the top of the page if Rufus is open and docked.
+www.amazon.*#%#//scriptlet('remove-class', 'rufus-docked-left|rufus-docked-right')
 
 ! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
 ! Rufus button that appears when highlighting text
