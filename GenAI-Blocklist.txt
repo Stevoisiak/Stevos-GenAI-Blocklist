@@ -1883,7 +1883,8 @@ www.microsoft.com##[data-bi-id="Button-Cta-SplitScreen-LearnWithCopilot"]
 
 ! -- https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
 ! "Ask Microsoft" chat window in bottom right
-www.microsoft.com##.uca-assistant-drawer-button, .uca-assistant-drawer-panel
+azure.microsoft.com,www.microsoft.com##.uca-assistant-drawer-button
+azure.microsoft.com,www.microsoft.com##.uca-assistant-drawer-panel
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
 ! "Ask Microsoft" chat box that appears after a delay
