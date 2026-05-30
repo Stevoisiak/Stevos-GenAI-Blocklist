@@ -3363,6 +3363,12 @@ hdporncomics.com##.type-post:is(.tag-ai-art, .tag-ai-generated)
 hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics.com/tag/ai-art/"])
 hdporncomics.com##.hover\:shadow-xl.bg-gray-900:has(a[href="https://hdporncomics.com/artist/ai-generated/"])
 
+! ====================
+! == H-Flash (NSFW) ==
+! ====================
+! AI Cum Sluts
+h-flash.com##a[href^="https://a.logivanta42.com/"]
+
 ! =====================
 ! == HDPorn92 (NSFW) ==
 ! =====================
