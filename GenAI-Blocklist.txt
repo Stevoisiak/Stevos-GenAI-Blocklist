@@ -1221,6 +1221,8 @@ docs.google.com##.inlineFabBubbleContainerRefineButtonContainer
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
 drive.google.com###WWNEkf
+! "AI Overview search" sources icon in search bar
+drive.google.com##.p5rLxe.HBDJjb
 ! "Summarize this file" in selection bar above files after selecting a file (Also matches "Catch me up")
 drive.google.com##.SMHH7
 ! "Summarize this folder/file" in file "More actions" menu (⋮)
