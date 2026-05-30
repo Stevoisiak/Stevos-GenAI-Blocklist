@@ -362,6 +362,9 @@ www.thebricks.com##.Modal_container__jm1jX
 ! "Ask the Chatbot" button below search bar
 www.britannica.com##.category-link-CHATBOT
 
+! -- https://www.britannica.com/chatbot
+||www.britannica.com/chat-api/$xhr,domain=www.britannica.com
+
 ! ==============
 ! == Bunnings ==
 ! ==============
@@ -372,12 +375,11 @@ www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 ! ======================
 ! == Business Insider ==
 ! ======================
+! "Your briefing" content & search summaries 
+||www.businessinsider.com/ajax/$xhr,domain=www.businessinsider.com
+
 ! "Your Briefing" button
 www.businessinsider.com##.catch-me-up-quickly
-
-! -- https://www.businessinsider.com/answers#test
-! Search summary
-||www.businessinsider.com/ajax/stream-ai-search$xhr,domain=www.businessinsider.com
 
 ! -- https://www.businessinsider.com/aging-retirement-vibe-coding-ai-lovable-chatgpt-claude-security-cameras-2026-3
 www.businessinsider.com##.ai-summary-questions
@@ -400,6 +402,9 @@ www.buzzfeed.com##.arcade_contentWrapper__3tHoG:has([clip-path="url(#clip0_850_8
 dictionary.cambridge.org##.hdib:has(> [href$="/assistant"])
 ! "AI Assistant" in left sidebar menu (☰)
 dictionary.cambridge.org##.lb-cm.hlh21:has(> [href$="/assistant"])
+
+! -- https://dictionary.cambridge.org/assistant
+||dictionary.cambridge.org/api/assistant/$xhr,domain=dictionary.cambridge.org
 
 ! ===========
 ! == Canva ==
