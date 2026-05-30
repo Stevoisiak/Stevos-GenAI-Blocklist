@@ -56,8 +56,6 @@ github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"']:h
 ! Prompt suggestions under chatbox in home feed?
 ! * Seemingly still works when this is blocked, but the suggestions recieved from this endpoint match the prompt suggestions
 ||github.com/github-copilot/chat/$xhr,1p
-! Break Copilot chat
-||api.individual.githubcopilot.com/github/chat/$xhr,domain=github.com
 
 ! =================
 ! == GitHub Docs ==

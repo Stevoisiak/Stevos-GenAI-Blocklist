@@ -806,7 +806,8 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! == GitHub ==
 ! ============
 ! -- https://github.com/ (Homepage - logged in)
-! Break messages sent in Copilot Chat
+! Copilot network requests
+! * Prevents Copilot generated commit messages 
 ||api.individual.githubcopilot.com/$xhr,domain=github.com
 ! "Chat with Copilot" icon in header next to search bar
 github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > [type="button"][href="/copilot"])
@@ -857,8 +858,6 @@ github.com##[data-testid="copilot-menu-items"]:remove()
 ! "Agents" tab in repository navbar (while on repository you own)
 github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> [data-tab-item="agents"])
 github.com##.prc-ActionList-ActionListItem-So4vC:has(> [data-tab-item="agents"])
-! Copilot generated commit messages
-||api.individual.githubcopilot.com/agents/github-commit-message-generation$xhr,domain=github.com
 
 ! -- https://github.com/gorhill/uBlock/blob/master/src/js/resources/json-edit.js
 ! Copilot button in symbols panel
