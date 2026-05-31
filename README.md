@@ -13,7 +13,6 @@ Available for PC/Linux ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), 
 * DeviantArt's DreamUp ads
 * Facebook's AI chat
 * TikTok videos tagged as AI generated
-* Images tagged as AI generated in Pixiv search results
 * X/Twitter's Grok buttons
 
 ## Image comparison
