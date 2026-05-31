@@ -2267,12 +2267,6 @@ www.pixiv.net##+js(json-edit-fetch-response, ..data.*[?.aiType==2], propsToMatch
 ! * AdGuard compatability
 www.pixiv.net#%#//scriptlet('json-prune-fetch-response', '$..data.*[?aiType==2]', 'propsToMatch', '/ajax/search/')
 
-! Filter AI results out of search (trusted filter)
-! * Doesn't reduce the number of results per-page
-! * Does not work in all scenarios. (Ex: When logged out, it won't work when loading a search via direct URL)
-! * Does not work in AdGuard
-||www.pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
-
 ! -- https://www.pixiv.net/en/artworks/140381030 (Image page)
 ! Hide image if Pixiv assigned an AI-generated label
 www.pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
