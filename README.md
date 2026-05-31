@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and the [AdGuard Browser Extension](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI or content labeled as AI generated.
 
-Available for PC/Linux ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
+Available for PC/Linux ([Firefox](#firefox-edge-desktop), [Edge](#firefox-edge-desktop), [Chrome](#chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-edge-desktop), [Edge](#firefox-edge-desktop), [Chrome](#chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-ios), [Brave](#brave-ios)).
 
 ## Examples of filtered content
 * Google's AI Overviews
@@ -26,7 +26,7 @@ After:
 <img width="687" height="359" alt="Google homepage without AI" src="https://github.com/user-attachments/assets/e9c84390-6702-4d9e-9e01-c18f4893c5fe" />
 
 ## Installation
-### Firefox, Microsoft Edge, or Waterfox (Desktop)
+### <a name="firefox-edge-desktop"/>Firefox, Microsoft Edge, or Waterfox (Desktop)
 1. Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
 2. Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 3. Press "_Subscribe_" to import the filter list.
@@ -39,7 +39,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 4. Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 5. Click "_Apply Changes_"
 
-### Google Chrome (Desktop)
+### <a name="chrome-desktop"/>Google Chrome (Desktop)
 1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
 2. Click the green AdGuard icon in Chrome then click the gear icon.
 3. Open the Filters tab, go to "Custom", and click the "extension settings" link.
@@ -78,7 +78,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 8. Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 9. Tap "_Apply Changes_"
 
-### Safari (iOS/iPadOS)
+### <a name="safari-ios"/>Safari (iOS/iPadOS)
 1. Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
 2. From your home screen, open *Settings → Apps → Safari → Extensions*
 3. Tap each "AdGuard" extension and enable *Allow Extension*.
@@ -92,7 +92,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 10. Tap *Next → Add*.
 11. Change the toggle for custom filters from "Disabled" to "Enabled"
 
-### Brave Browser (iOS/iPadOS)
+### <a name="brave-ios"/>Brave Browser (iOS/iPadOS)
 1. Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
 2. Open Brave and tap *... → Shields and Privacy → Content Filtering → Add Filter by URL...*
 3. Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
