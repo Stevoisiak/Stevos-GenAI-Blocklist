@@ -2224,8 +2224,8 @@ www.onboardmeetings.com###q-messenger-frame
 ! =================
 ! == OneCompiler ==
 ! =================
-! AI button in header
-onecompiler.com##[data-slot="tooltip-trigger"]:has(> .lucide-sparkles)
+! AI button in header & AI Agent tab in new editor
+onecompiler.com##button:has(> .lucide-sparkles)
 
 ! ===========
 ! == OP.GG ==
