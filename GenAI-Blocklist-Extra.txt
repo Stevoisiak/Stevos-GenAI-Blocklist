@@ -203,6 +203,16 @@ learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-direc
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! ===========
+! == Pixiv ==
+! ===========
+! -- https://www.pixiv.net/search?q=scenery&s_mode=tag&type=artwork
+! Hide AI generated images in search results (does not require login)
+! * Unsure if this filter may break things. Leaving in extra until it can be fully tested.
+www.pixiv.net##+js(json-edit-fetch-response, ..data.*[?.aiType==2], propsToMatch, /ajax/search/)
+! * AdGuard compatability
+www.pixiv.net#%#//scriptlet('json-prune-fetch-response', '$..data.*[?aiType==2]', 'propsToMatch', '/ajax/search/')
+
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================

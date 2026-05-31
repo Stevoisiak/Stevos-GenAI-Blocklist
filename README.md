@@ -101,6 +101,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 ## Optional extra blocklist
 There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective or experimental blocks. They may be more prone to accidentally blocking non-AI content or content required for site functionality. These include:
 * Reddit: Content from AI-focused subreddits. (Main filter only hides post recommendations)
+* Pixiv: An experimental filter that hides AI generated images in search results.
 * X: Posts made by @Grok.
 * AI category section on news sites (Just the category, not posts covering AI).
 * Customer support chatbots that must be used before you can contact human customer support.
