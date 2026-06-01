@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and the [AdGuard Browser Extension](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI or content labeled as AI generated.
 
-Available for PC/Linux ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
+Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
 
 ## Examples of filtered content
 * Google's AI Overviews
@@ -26,7 +26,7 @@ After:
 <img width="687" height="359" alt="Google homepage without AI" src="https://github.com/user-attachments/assets/e9c84390-6702-4d9e-9e01-c18f4893c5fe" />
 
 ## Installation
-### Firefox, Microsoft Edge, or Waterfox (Desktop)
+### Firefox or Microsoft Edge
 1. Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
 2. Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
 3. Press "_Subscribe_" to import the filter list.
