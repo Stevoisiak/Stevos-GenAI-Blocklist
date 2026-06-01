@@ -582,8 +582,10 @@ design.dev##.sponsor-banner--coderabbit
 ! == DeviantArt ==
 ! ================
 ! -- https://www.deviantart.com/ (Homepage)
-! Header > "DreamUp AI Art"
+! Header - "DreamUp AI Art"
 www.deviantart.com##.reset-link[href="https://www.deviantart.com/dreamup"]
+! Header - "Create a video"
+www.deviantart.com##.reset-link[href="https://www.deviantart.com/studio/video"]
 ! Navbar > ... menu options
 ! * Also matches "Create Art" Dreamup option on tag pages
 www.deviantart.com##[role="menuitem"][href^="https://www.deviantart.com/dreamup"]
