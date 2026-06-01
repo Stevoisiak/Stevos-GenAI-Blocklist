@@ -619,7 +619,7 @@ www.deviantart.com###backgroundIcon
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Hide image if "Created using AI tools" notice exists
-www.deviantart.com##.iT0l0J:has-text(Created using AI tools):upward(3) .Vt6yGh.bk5QfX.w1sMko
+www.deviantart.com##.iT0l0J:has-text(Created using AI tools):upward(3) .Vt6yGh.w1sMko
 ! Bottom promo banner, sometimes has a DreamUp ad (Possibly removed?)
 ! * TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
