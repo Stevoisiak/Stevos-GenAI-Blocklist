@@ -672,6 +672,13 @@ www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 ! ================
 ! == DuckDuckGo ==
 ! ================
+! Set "Duck.ai" to "On"
+duckduckgo.com##+js(set-cookie, bg, -1)
+! Set "Search Assist" to "Never"
+duckduckgo.com##+js(set-cookie, be, 0)
+! Set "Hide AI-Generated Images" to "On"
+duckduckgo.com##+js(set-cookie, bj, 1)
+
 ! -- https://duckduckgo.com/ (Homepage)
 ! Search box - AI mode toggle
 duckduckgo.com##.ai-searchbox_modeSelectorWrapper__yKK7S
