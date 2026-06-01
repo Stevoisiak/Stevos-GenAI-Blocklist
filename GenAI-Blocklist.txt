@@ -586,7 +586,8 @@ design.dev##.sponsor-banner--coderabbit
 
 ! Block images on initial page load
 ! * Checks for currentPageData to avoid filtering on deviation pages.
-! * Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
+!   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
+! * Requires Javascript to be enabled
 ! ** uBlock Origin
 www.deviantart.com##+js(json-edit, $[?$.currentPageData]['@@entities'].deviation.*[?.isAiGenerated==true][*])
 ! ** AdGuard
@@ -616,9 +617,9 @@ www.deviantart.com##.reset-button[role="menuitem"]:has([src="https://st.devianta
 ! AI Art tag
 www.deviantart.com##.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
 ! Image previews for users who post AI images.
-! * Curated based on users posting to the AI tag with AI tools disclaimer on deviations.
+! * Curated based on images with AI tools disclaimer, posted to AI tag, or with AI watermark.
 !   Only confirmed AI users are allowed, no assuming based on art style.
-deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-username="/^(achooandchaos|adnkhan|akiraruki|amibahama|anitoonmaster|antoraassets|arianaboss|astrify|azuredrops-ai|bhoff666|bleedingbeauty2002|cafferequiem|character-alex|cyberwaifu69|dante-127|darkeracolyte|dissunder|dontgiveup123|dreampixelia|entropy-ai|ergunata|exclusiveadoptables|feylunia|forgotteddy|furfactoryai|genaibooru|ghostalleycat|greatobserverph|gwynbleiddarts|hentaipresident|kaolumbia|kaoriai0w0|kimberlyai|leiconsy|luvus-7|miraandroid|missgrowth|mollyoconner|mstorm1285|muyumichan|myuxx|neonthedevi|nomore0f|onizukasaiart|pixel-yo|poetatojizz|rainbowfoxyai|realitynoir|ringobataazu|sharinel|simpleelaand|solacewinter|solasistem|the-elven-gamer|thedreadmerchant|themysteryk|tiddydreamsai|toreqi|twisteddarknet|verdetto|yangol44|yellowbeeart|ziggydreamborn|zorg-lub)$/i"))
+deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-username="/^(1204chinghowonghank|achooandchaos|adnkhan|akiraruki|amibahama|anitoonmaster|antoraassets|arianaboss|astrify|azuredrops-ai|bhoff666|bleedingbeauty2002|cafferequiem|character-alex|cyberwaifu69|dante-127|darkeracolyte|dissunder|dontgiveup123|dreampixelia|entropy-ai|ergunata|exclusiveadoptables|feylunia|forgotteddy|furfactoryai|genaibooru|ghostalleycat|greatobserverph|gwynbleiddarts|hentaipresident|jasonkeiyukui|kaolumbia|kaoriai0w0|kimberlyai|leiconsy|luvus-7|miraandroid|missgrowth|mollyoconner|mstorm1285|muyumichan|myuxx|neonthedevi|nomore0f|onizukasaiart|pixel-yo|planefighter|poetatojizz|rainbowfoxyai|realitynoir|ringobataazu|sharinel|simpleelaand|soapvenommactavish23|solacewinter|solasistem|tavozraider|the-elven-gamer|thedreadmerchant|themysteryk|tiddydreamsai|toreqi|twisteddarknet|verdetto|wxsshipper|yangol44|yellowbeeart|zackisaacsanchez2k4|ziggydreamborn|zorg-lub)$/i"))
 
 ! -- https://www.deviantart.com/tag/puzzle (Tag)
 ! "Create Art" > Create with DreamUp & Create a video
