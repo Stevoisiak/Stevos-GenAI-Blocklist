@@ -583,7 +583,8 @@ design.dev##.sponsor-banner--coderabbit
 ! ================
 ! -- https://www.deviantart.com/ (Homepage)
 ! Header - "DreamUp AI Art"
-www.deviantart.com##.reset-link[href="https://www.deviantart.com/dreamup"]
+! * Partial match for sidebar promos on deviation pages
+www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
 ! Header - "Create a video"
 www.deviantart.com##.reset-link[href="https://www.deviantart.com/studio/video"]
 ! Navbar > ... menu options
@@ -627,8 +628,6 @@ www.deviantart.com##div.VS2KXS.KQfkEY
 www.deviantart.com##.v4LjTE.A3cqZ_:has([href^="https://www.deviantart.com/dreamup"])
 ! Dreamup video ad in right sidebar
 ||video.wixstatic.com/video/5e821a_$media,domain=www.deviantart.com
-! Dreamup promo in sidebar
-www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
 
 ! -- https://www.deviantart.com/shop/sell (Shop)
 ! "DreamUp and earn big with AI" section
