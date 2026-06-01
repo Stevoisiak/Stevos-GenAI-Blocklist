@@ -581,6 +581,24 @@ design.dev##.sponsor-banner--coderabbit
 ! ================
 ! == DeviantArt ==
 ! ================
+! Block images that have "Created using AI tools" disclaimer
+! * Filter has a slight delay before it takes affect
+! * Filter is experimental. May be moved to main filters after enough testing.
+
+! Block images on initial page load
+! * Checks for currentPageData to avoid filtering on deviation pages.
+! * Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
+! ** uBlock Origin
+www.deviantart.com##+js(json-edit, $[?$.currentPageData]['@@entities'].deviation.*[?.isAiGenerated==true][*])
+! ** AdGuard
+www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
+
+! Block images loaded when scrolling page, homepage sections, and related images.
+! ** uBlock Origin
+www.deviantart.com##+js(json-edit, ..deviations.*[?.isAiGenerated==true])
+! ** AdGuard
+www.deviantart.com##+js(json-prune, $..deviations.*[?.isAiGenerated==true])
+
 ! -- https://www.deviantart.com/ (Homepage)
 ! Header - "DreamUp AI Art"
 ! * Partial match for sidebar promos on deviation pages
@@ -591,7 +609,6 @@ www.deviantart.com##.reset-link[href="https://www.deviantart.com/studio/video"]
 ! * Also matches "Create Art" Dreamup option on tag pages
 www.deviantart.com##[role="menuitem"][href^="https://www.deviantart.com/dreamup"]
 www.deviantart.com##[role="menuitem"][href="https://www.deviantart.com/studio/video"]
-
 ! Left sidebar items - Dreamup & Video Generator
 www.deviantart.com##.nu6Rw3.xODI7E:has(> [href="https://www.deviantart.com/dreamup"])
 www.deviantart.com##.nu6Rw3.xODI7E:has(> [href="https://www.deviantart.com/studio/video"])
@@ -599,7 +616,6 @@ www.deviantart.com##.nu6Rw3.xODI7E:has(> [href="https://www.deviantart.com/studi
 www.deviantart.com##.reset-button[role="menuitem"]:has([src="https://st.deviantart.net/eclipse/popups/hover-component/2024/dreamup-2x.png"])
 ! AI Art tag
 www.deviantart.com##.reset-link.ds-card.pU_pB9.L4TOyE[href="https://www.deviantart.com/tag/ai"]
-
 ! Image previews for users who post AI images.
 ! * Curated based on users posting to the AI tag with AI tools disclaimer on deviations.
 !   Only confirmed AI users are allowed, no assuming based on art style.

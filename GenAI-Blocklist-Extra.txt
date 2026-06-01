@@ -31,27 +31,6 @@ arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 
-! ================
-! == DeviantArt ==
-! ================
-! Block images that have "Created using AI tools" disclaimer
-! * Filter has a slight delay before it takes affect
-! * Filter is experimental. May be moved to main filters after enough testing.
-
-! Block images on initial page load
-! * Checks for currentPageData to avoid filtering on deviation pages.
-! * Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
-! ** uBlock Origin
-www.deviantart.com##+js(json-edit, $[?$.currentPageData]['@@entities'].deviation.*[?.isAiGenerated==true][*])
-! ** AdGuard
-www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
-
-! Block images loaded when scrolling page, homepage sections, and related images.
-! ** uBlock Origin
-www.deviantart.com##+js(json-edit, ..deviations.*[?.isAiGenerated==true])
-! ** AdGuard
-www.deviantart.com##+js(json-prune, $..deviations.*[?.isAiGenerated==true])
-
 ! ==================
 ! == Fox Business ==
 ! ==================
