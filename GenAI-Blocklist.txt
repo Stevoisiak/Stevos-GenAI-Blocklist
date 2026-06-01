@@ -281,6 +281,10 @@ www.bing.com##.b_ans.b_top:has(> .cht_container)
 ! "Copilot Search" logo on non-ai search result
 www.bing.com##.b_ans .copans_ttl
 
+! -- https://www.bing.com/images
+! "Create" chip below search bar
+www.bing.com###imgcrtr_key
+
 ! -- https://www.bing.com/shop/
 ! Copilot price drop notifications (top)
 www.bing.com##.slide:has(.gtxmd-cm.button.lkmd-cm:has-text(Try it on Copilot))
