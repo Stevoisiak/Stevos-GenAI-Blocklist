@@ -583,7 +583,6 @@ design.dev##.sponsor-banner--coderabbit
 ! ================
 ! Block images that have "Created using AI tools" disclaimer
 ! * Filter has a slight delay before it takes affect
-! * Filter is experimental. May be moved to main filters after enough testing.
 
 ! Block images on initial page load
 ! * Checks for currentPageData to avoid filtering on deviation pages.
