@@ -267,11 +267,15 @@ www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/cre
 www.bing.com###b-scopeListItem-copilotsearch
 ! "Copilot" tab in navbar below search bar
 www.bing.com###b-scopeListItem-conv
-! "Copilot Search" summary box at top of search
+! "Copilot Search" summary
 www.bing.com##.b_ans:has(.with_ai)
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
+
+! -- https://www.bing.com/search?q=best+companies
+! "Copilot Search" summary (again)
+www.bing.com##.b_ans.b_top:has(> .cht_container)
 
 ! -- https://www.bing.com/search?q=gregorian+calendar+2026
 ! "Copilot Search" logo on non-ai search result
