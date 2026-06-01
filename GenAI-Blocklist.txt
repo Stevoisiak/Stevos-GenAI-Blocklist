@@ -607,7 +607,6 @@ deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-userna
 ! -- https://www.deviantart.com/tag/puzzle (Tag)
 ! "Create Art" > Create with DreamUp & Create a video
 ! * Dreamup link includes tag name, so do a partial match
-www.deviantart.com##[role="menuitem"][href^="https://www.deviantart.com/dreamup"]
 www.deviantart.com##.reset-button[label="Create a video"]
 ! Sparkle icon for "Create Art" button
 www.deviantart.com##.DTw2tY.AvdBMS.NvE3Tw:has(> svg)
