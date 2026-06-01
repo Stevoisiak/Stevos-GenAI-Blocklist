@@ -1080,6 +1080,15 @@ gitlab.com##[data-testid="whats-new-article-toggle"]:has-text(GitLab Duo):upward
 ! "View summarize" button
 gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 
+! ============
+! == Glyphy ==
+! ============
+! Name Generator (header nav & colored list)
+! * Match end of URL to support Spanish site
+glyphy.io##li:has(> [href$="/name-generator"])
+! Name Generator (section)
+glyphy.io##section[class^="NameGenerators_container__"]
+
 ! ===========
 ! == Gmail ==
 ! ===========
