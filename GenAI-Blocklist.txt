@@ -5428,6 +5428,9 @@ multporn.net###menu-22549-1
 ! ====================
 ! == My Lust (NSFW) ==
 ! ====================
+! Sidebar - AI Porn Pics
+mylust.com##li:has(> [href="https://mylust.com/albums/categories/ai/"])
+
 ! -- https://mylust.com/categories/
 ! "AI Generated" category
 mylust.com##.item:has(> [data-id="307"])
