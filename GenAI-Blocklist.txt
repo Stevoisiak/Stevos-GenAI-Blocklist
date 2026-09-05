@@ -4965,6 +4965,12 @@ zoom.us##.next-step-wrapper
 
 ! -----------------------------------------------------------
 ! =======================
+! == 01tube.com (NSFW) ==
+! =======================
+! Navbar - AI porn
+01tube.com###tags-scroll > .tag__item:has(> [href^="https://b.chioclick.com"])
+
+! =======================
 ! == 3DPornDude (NSFW) ==
 ! =======================
 ! Header
