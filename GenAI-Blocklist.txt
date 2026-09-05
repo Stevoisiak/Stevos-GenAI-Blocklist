@@ -5154,8 +5154,17 @@ www.fapcat.com##.nav-item:has(> [href="https://tsyndicate.com/api/v1/direct/3920
 ! ====================
 ! == Fapnado (NSFW) ==
 ! ====================
-! "AI Jerk Off" in navbar
-www.fapnado.xxx##.gngames[href="https://tsyndicate.com/api/v1/direct/9456ec3abb18461b91f4de5e492b0979?"]
+! -- https://www.fapnado.xxx/videos/313079/indian-village-couple-homemade-sex-filmed-in-night-time/
+! Header banner - AI Porn ad
+www.fapnado.xxx###hqbTopbar
+! Navbar - Sites - AI Girlfriend
+www.fapnado.xxx##.nav-link2[rel^="sponsored"]
+! Navbar - AI Jerk Off
+www.fapnado.xxx##.nav-play-sex-games
+! AI Girlfriend video overlay button
+www.fapnado.xxx##.fluid_video_wrapper .text_link_holder
+! Related videos - AI ad
+www.fapnado.xxx###list_videos_related_videos_items > .item:not(.relateditem):has(> [title*="AI"])
 
 ! ========================
 ! == Fetish Papa (NSFW) ==
