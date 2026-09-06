@@ -1339,6 +1339,15 @@ firstpost.com###ia-search
 www.foodnetwork.com##.reviewsSummary
 
 ! ============
+! == Forbes ==
+! ============
+! -- https://www.forbes.com/sites/jonmarkman/2026/09/03/googles-gemini-38-flash-brings-frontier-level-work-to-its-cheap-tier/
+! Article voiceover
+www.forbes.com##.jwGQ_
+! Article summary
+www.forbes.com##.genAiSummary
+
+! ============
 ! == Ful.io ==
 ! ============
 ! -- https://ful.io/blog/top-5-json-viewer-chrome-extensions-you-need-to-check-out
