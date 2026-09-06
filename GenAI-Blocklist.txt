@@ -4393,6 +4393,14 @@ vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f
 vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
 vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 
+! =============
+! == Virtusa ==
+! =============
+! -- https://www.virtusa.com/
+! Search Summary
+||prod.agenticweb-marketing.com/gemini-ai/generate-summary$xhr,domain=www.virtusa.com
+www.virtusa.com##[class*="__aiCard"]
+
 ! ================
 ! == VirusTotal ==
 ! ================
